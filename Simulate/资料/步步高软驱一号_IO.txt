@@ -1,4 +1,4 @@
-//����������2020/05/28 ��������Ϣ�ɵ�Ļ�����ݵ��Ե�������ȷ����Ϣ��ȷ�ԣ������ڲο�
+//最后更新日期2020/05/28 ，以下信息由弹幕流根据调试得来，不确定信息正确性，仅用于参考
 /**********************/
 
 /*
@@ -43,35 +43,35 @@ ADD(0x4025)=4F
 */
 
 
-4400-5FFF	ӳ��8400-9FFF(0xFEҳ)
+4400-5FFF	映射8400-9FFF(0xFE页)
 
 6000-7FFF	8KB_RAM		6264
 
 
 0x8000-0xBFFF
-	00-FDҳ���û�
-	FEҳ������ϵͳ
-	FFҳ����ǰӦ�ó���
+	00-FD页：用户
+	FE页：操作系统
+	FF页：当前应用程序
 
-0xC000-0xFEFFΪӦ�ó���0x8000-0xBFFF��FFҳ��
+0xC000-0xFEFF为应用程序（0x8000-0xBFFF的FF页）
 
 
 
-FF00-FF3F	��Ϸ��������
+FF00-FF3F	游戏卡控制器
 {
-	FF00	KebBoardLEDPort	//���̵�	λ2��NUM��0����λ1��CAPS��0��
+	FF00	KebBoardLEDPort	//键盘灯	位2：NUM灯0亮，位1：CAPS灯0亮
 
 	FF01	VideoCtrlPort
-			;λ0		0��2���Դ�ģʽ 1��4���Դ�ģʽ
-			;λ1		0��H����ģʽ��1��V����ģʽ
-			;λ2		MMC3��ʱ������
-			;λ3		0��C000-FFFFΪBIOS_ROM;	1:C000-FFFFΪRAM(�г�RAM��FF01H��ʧЧ)
+			;位0		0：2块显存模式 1：4块显存模式
+			;位1		0：H镜像模式，1：V镜像模式
+			;位2		MMC3计时器开关
+			;位3		0：C000-FFFF为BIOS_ROM;	1:C000-FFFF为RAM(切成RAM后FF01H将失效)
 
-			;λ4-7	(CHR:0000-1FFF)ҳ�Ÿ�4λ
+			;位4-7	(CHR:0000-1FFF)页号高4位
 		
-	FF02	IntCountPortL	//IRQ������
-	FF03	VideoDataPort	(CHR:0000-1FFF)ҳ��
-	FF04	DRAMPagePort89AB	(PRO:0x8000-BFFF)ҳ�ŵ�8λ
+	FF02	IntCountPortL	//IRQ计数器
+	FF03	VideoDataPort	(CHR:0000-1FFF)页号
+	FF04	DRAMPagePort89AB	(PRO:0x8000-BFFF)页号低8位
 
 	FF05-FF07
 	FF08-FF0B
@@ -89,50 +89,50 @@ FF00-FF3F	��Ϸ��������
 	FF30-FF3F
 }
 
-FF40	���ڿ�����оƬ378-37F - LPT1
+FF40	并口控制器芯片378-37F - LPT1
 {
-	���ݶ˿ڣ�FF40��
-	���ƶ˿ڣ�FF50����0����ߵ�ƽ��1����͵�ƽ
-	״̬�˿ڣ�FF48��
+	数据端口（FF40）
+	控制端口（FF50）置0输出高电平，1输出低电平
+	状态端口（FF48）
 
 
-	дFF40�˿ڣ�д���пڵ��������ߣ�
-	��FF40�˿ڣ�δ֪��
-	дFF48�˿ڣ�δ֪��
-	��FF48�˿ڣ������пڵ��������ߣ�
+	写FF40端口（写并行口的数据总线）
+	读FF40端口（未知）
+	写FF48端口（未知）
+	读FF48端口（读并行口的数据总线）
 }
 
-PCLINK����ͨѶ
-��������4λ��д��FF40
+PCLINK并口通讯
+数据右移4位并写到FF40
 
-8282:       48  PHA		�Ĵ���A��ջ
-8283:    09 10  ORA #$10	�Ĵ���A��0x10
-8285: 8D 40 FF  STA $FF40	�Ĵ���Aд��FF40
-8288: AD 48 FF  LDA $FF48	��FF48��A
-828B:    30 FB  BMI $8288H	��ֵ���֧��Ծ��$8288
-828D:       68  PLA		��ջ���Ĵ���A
-828E:       4A  LSR A		�Ĵ���A����1λ
-828F:       4A  LSR A		�Ĵ���A����1λ
-8290:       4A  LSR A		�Ĵ���A����1λ
-8291:       4A  LSR A		�Ĵ���A����1λ
-8292: 8D 40 FF  STA $FF40	�Ĵ���Aд��FF40
-8295: AD 48 FF  LDA $FF48	��FF48��A
-8298:    10 FB  BPL $8295H	��ֵ���֧��Ծ��$8295
-829A:       60  RTS		����
-void fun1(unsigned char A)	//����һ��4bit
+8282:       48  PHA		寄存器A进栈
+8283:    09 10  ORA #$10	寄存器A或0x10
+8285: 8D 40 FF  STA $FF40	寄存器A写到FF40
+8288: AD 48 FF  LDA $FF48	读FF48到A
+828B:    30 FB  BMI $8288H	负值则分支跳跃到$8288
+828D:       68  PLA		出栈到寄存器A
+828E:       4A  LSR A		寄存器A右移1位
+828F:       4A  LSR A		寄存器A右移1位
+8290:       4A  LSR A		寄存器A右移1位
+8291:       4A  LSR A		寄存器A右移1位
+8292: 8D 40 FF  STA $FF40	寄存器A写到FF40
+8295: AD 48 FF  LDA $FF48	读FF48到A
+8298:    10 FB  BPL $8295H	正值则分支跳跃到$8295
+829A:       60  RTS		返回
+void fun1(unsigned char A)	//发送一个4bit
 {
 	unsigned char PA=A;
 
 	A=A&0x10;
-	IO_WR( 0xFF40,A );	//ͨѶ��ʼ��
+	IO_WR( 0xFF40,A );	//通讯初始化
 	do{
-		A=IO_RD(0xFF48);	//�ȴ���Ӧ
+		A=IO_RD(0xFF48);	//等待回应
 	while( A>0x80 );
 
 	A=PA;
-	IO_WR( 0xFF40,A>>4 );	//�ͳ���4λ
+	IO_WR( 0xFF40,A>>4 );	//送出高4位
 	do{
-		A=IO_RD(0xFF48);	//�ȴ����ݱ���ȡ
+		A=IO_RD(0xFF48);	//等待数据被读取
 	while( A<0x80 );
 }
 
@@ -149,23 +149,23 @@ void fun1(unsigned char A)	//����һ��4bit
 82A9: 8D 40 FF  STA $FF40
 82AC: AD 48 FF  LDA $FF48
 82AF:    30 FB  BMI $82ACH
-82B1: CE 40 FF  DEC $FF40	//��ʮ��λ���
+82B1: CE 40 FF  DEC $FF40	//清十进位旗号
 82B4:       4A  LSR A
 82B5:       4A  LSR A
-82B6:       4A  LSR A		//����������������4λ
-82B7:    85 F9  STA $F9		//���浽ADD 0XF9
+82B6:       4A  LSR A		//将读到的数据右移4位
+82B7:    85 F9  STA $F9		//保存到ADD 0XF9
 82B9: AD 48 FF  LDA $FF48
 82BC:    10 FB  BPL $82B9H
 82BE:       0A  ASL A
 82BF:    29 F0  AND #$F0
-82C1:    05 F9  ORA $F9		//��ADD 0XF9����ϳ�һ���ֽ�
+82C1:    05 F9  ORA $F9		//和ADD 0XF9做与合成一个字节
 82C3:       60  RTS
-void fun2()	//����һ��4bit
+void fun2()	//接收一个4bit
 {
 	unsigned char A;
-	IO_WR( 0xFF40,0x10 );	//ͨѶ��ʼ��
+	IO_WR( 0xFF40,0x10 );	//通讯初始化
 	do{
-		A=IO_RD(0xFF48);	//�ȴ���Ӧ
+		A=IO_RD(0xFF48);	//等待回应
 	while( A>0x80 );
 
 	//?? A=IO_RD(0xFF40)>>1;
@@ -184,20 +184,20 @@ void fun2()	//����һ��4bit
 
 8639:    A9 0F  LDA #$0F
 863B: 8D 40 FF  STA $FF40
-863E:    A9 00  LDA #$00	���ص�DOS
+863E:    A9 00  LDA #$00	返回到DOS
 8640:    A0 00  LDY #$00
 8642: 4C 0C 58  JMP 580C
 
-//ͨ������²⣬
-	//ÿ��дFF40�˿�ʱ��FF48�˿ڵ�λ7���ᱻ��0
-	//ÿ�ζ�FF40�˿�ʱ��FF48�˿ڵ�λ7���ᱻ��1
+//通过程序猜测，
+	//每次写FF40端口时，FF48端口的位7将会被置0
+	//每次读FF40端口时，FF48端口的位7将会被置1
 
 
-FF80-FFBF	����������оƬGM82C765B/WD37C65C
+FF80-FFBF	软驱控制器芯片GM82C765B/WD37C65C
 {
 	FF80-FF87 FDD_3F0H
 	FF88-FF8F FDD_3F1H
-	FF90-FF97 FDD_3F2H (DOR_PORT)����ѡ��
+	FF90-FF97 FDD_3F2H (DOR_PORT)软驱选择
 	FF98-FF9F FDD_3F3H
 	FFA0-FFA7 FDD_3F4H (STATUS_PORT)
 	FFA8-FFAF FDD_3F5H (DATA_PORT)
@@ -205,7 +205,7 @@ FF80-FFBF	����������оƬGM82C765B/WD37C65C
 	FFB8-FFBF FDD_3F7H (RD:DIR;WR:DCR)
 }
 
-FFC0-FFFF	xxоƬ
+FFC0-FFFF	xx芯片
 {
 	FFC0-FFC7 ()
 	FFC8-FFCF ()
