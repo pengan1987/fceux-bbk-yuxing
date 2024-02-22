@@ -1,0 +1,2510 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+110                     BITMAP                  "bmp110.bmp"
+
+
+163                     BITMAP                  "bmp163.bmp"
+
+
+164                     BITMAP                  "bmp164.bmp"
+
+
+165                     BITMAP                  "bmp165.bmp"
+
+
+166                     BITMAP                  "bmp166.bmp"
+
+
+167                     BITMAP                  "bmp167.bmp"
+
+
+168                     BITMAP                  "bmp168.bmp"
+
+
+169                     BITMAP                  "bmp169.bmp"
+
+
+170                     BITMAP                  "bmp170.bmp"
+
+
+171                     BITMAP                  "bmp171.bmp"
+
+
+172                     BITMAP                  "bmp172.bmp"
+
+
+173                     BITMAP                  "bmp173.bmp"
+
+
+174                     BITMAP                  "bmp174.bmp"
+
+
+175                     BITMAP                  "bmp175.bmp"
+
+
+176                     BITMAP                  "bmp176.bmp"
+
+
+177                     BITMAP                  "bmp177.bmp"
+
+
+178                     BITMAP                  "bmp178.bmp"
+
+
+179                     BITMAP                  "bmp179.bmp"
+
+
+180                     BITMAP                  "bmp180.bmp"
+
+
+181                     BITMAP                  "bmp181.bmp"
+
+
+182                     BITMAP                  "bmp182.bmp"
+
+
+184                     BITMAP                  "bmp184.bmp"
+
+
+205                     BITMAP                  "bmp205.bmp"
+
+
+208                     BITMAP                  "bmp208.bmp"
+
+
+209                     BITMAP                  "bmp209.bmp"
+
+
+210                     BITMAP                  "bmp210.bmp"
+
+
+211                     BITMAP                  "bmp211.bmp"
+
+
+212                     BITMAP                  "bmp212.bmp"
+
+
+213                     BITMAP                  "bmp213.bmp"
+
+
+214                     BITMAP                  "bmp214.bmp"
+
+
+215                     BITMAP                  "bmp215.bmp"
+
+
+216                     BITMAP                  "bmp216.bmp"
+
+
+217                     BITMAP                  "bmp217.bmp"
+
+
+218                     BITMAP                  "bmp218.bmp"
+
+
+219                     BITMAP                  "bmp219.bmp"
+
+
+220                     BITMAP                  "bmp220.bmp"
+
+
+221                     BITMAP                  "bmp221.bmp"
+
+
+222                     BITMAP                  "bmp222.bmp"
+
+
+223                     BITMAP                  "bmp223.bmp"
+
+
+224                     BITMAP                  "bmp224.bmp"
+
+
+225                     BITMAP                  "bmp225.bmp"
+
+
+226                     BITMAP                  "bmp226.bmp"
+
+
+227                     BITMAP                  "bmp227.bmp"
+
+
+228                     BITMAP                  "bmp228.bmp"
+
+
+229                     BITMAP                  "bmp229.bmp"
+
+
+230                     BITMAP                  "bmp230.bmp"
+
+
+231                     BITMAP                  "bmp231.bmp"
+
+
+232                     BITMAP                  "bmp232.bmp"
+
+
+233                     BITMAP                  "bmp233.bmp"
+
+
+234                     BITMAP                  "bmp234.bmp"
+
+
+235                     BITMAP                  "bmp235.bmp"
+
+
+236                     BITMAP                  "bmp236.bmp"
+
+
+237                     BITMAP                  "bmp237.bmp"
+
+
+238                     BITMAP                  "bmp238.bmp"
+
+
+239                     BITMAP                  "bmp239.bmp"
+
+
+240                     BITMAP                  "bmp240.bmp"
+
+
+241                     BITMAP                  "bmp241.bmp"
+
+
+242                     BITMAP                  "bmp242.bmp"
+
+
+243                     BITMAP                  "bmp243.bmp"
+
+
+244                     BITMAP                  "bmp244.bmp"
+
+
+245                     BITMAP                  "bmp245.bmp"
+
+
+246                     BITMAP                  "bmp246.bmp"
+
+
+247                     BITMAP                  "bmp247.bmp"
+
+
+248                     BITMAP                  "bmp248.bmp"
+
+
+249                     BITMAP                  "bmp249.bmp"
+
+
+250                     BITMAP                  "bmp250.bmp"
+
+
+251                     BITMAP                  "bmp251.bmp"
+
+
+252                     BITMAP                  "bmp252.bmp"
+
+
+253                     BITMAP                  "bmp253.bmp"
+
+
+254                     BITMAP                  "bmp254.bmp"
+
+
+255                     BITMAP                  "bmp255.bmp"
+
+
+256                     BITMAP                  "bmp256.bmp"
+
+
+257                     BITMAP                  "bmp257.bmp"
+
+
+258                     BITMAP                  "bmp258.bmp"
+
+
+259                     BITMAP                  "bmp259.bmp"
+
+
+260                     BITMAP                  "bmp260.bmp"
+
+
+261                     BITMAP                  "bmp261.bmp"
+
+
+262                     BITMAP                  "bmp262.bmp"
+
+
+263                     BITMAP                  "bmp263.bmp"
+
+
+264                     BITMAP                  "bmp264.bmp"
+
+
+265                     BITMAP                  "bmp265.bmp"
+
+
+266                     BITMAP                  "bmp266.bmp"
+
+
+267                     BITMAP                  "bmp267.bmp"
+
+
+268                     BITMAP                  "bmp268.bmp"
+
+
+269                     BITMAP                  "bmp269.bmp"
+
+
+270                     BITMAP                  "bmp270.bmp"
+
+
+271                     BITMAP                  "bmp271.bmp"
+
+
+272                     BITMAP                  "bmp272.bmp"
+
+
+273                     BITMAP                  "bmp273.bmp"
+
+
+274                     BITMAP                  "bmp274.bmp"
+
+
+275                     BITMAP                  "bmp275.bmp"
+
+
+276                     BITMAP                  "bmp276.bmp"
+
+
+277                     BITMAP                  "bmp277.bmp"
+
+
+278                     BITMAP                  "bmp278.bmp"
+
+
+279                     BITMAP                  "bmp279.bmp"
+
+
+280                     BITMAP                  "bmp280.bmp"
+
+
+281                     BITMAP                  "bmp281.bmp"
+
+
+282                     BITMAP                  "bmp282.bmp"
+
+
+283                     BITMAP                  "bmp283.bmp"
+
+
+284                     BITMAP                  "bmp284.bmp"
+
+
+285                     BITMAP                  "bmp285.bmp"
+
+
+286                     BITMAP                  "bmp286.bmp"
+
+
+287                     BITMAP                  "bmp287.bmp"
+
+
+288                     BITMAP                  "bmp288.bmp"
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+CHEATCONTEXTMENUS MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "作弊开关(&C)",                    117
+        MENUITEM "刺探作弊值(&V)",                   118
+        MENUITEM "用十六进制编辑器修改此处(&G)",            119
+        MENUITEM "删除所选作弊(&D)",                  40410
+    END
+END
+
+DEBUGCONTEXTMENUS MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "断点开关(&T)",                    132
+    END
+END
+
+FCEUCONTEXTMENUS MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM " ",                           40592
+        MENUITEM " ",                           40295
+        MENUITEM " ",                           40296
+        MENUITEM "查看评论和字幕(&V)",                 40311
+        MENUITEM SEPARATOR
+        MENUITEM " ",                           40324
+        MENUITEM "退至上次自动保存进度(&-)",              40307
+        MENUITEM SEPARATOR
+        MENUITEM "帮助(&H)",                      40281
+        MENUITEM SEPARATOR
+        MENUITEM "界面设置(&U)",                    40418
+    END
+    POPUP ""
+    BEGIN
+        MENUITEM " ",                           40282
+        MENUITEM " ",                           40303
+        MENUITEM "重播电影(&R)",                    40356
+        MENUITEM SEPARATOR
+        MENUITEM " ",                           40597
+        MENUITEM "撤消载入进度[&]]",                  40316
+        MENUITEM "退至上次自动保存进度[&-]",              40307
+        MENUITEM " ",                           40305
+        MENUITEM SEPARATOR
+        MENUITEM " ",                           40298
+        MENUITEM SEPARATOR
+        MENUITEM "界面设置(&U)",                    40418
+    END
+    POPUP ""
+    BEGIN
+        MENUITEM " ",                           40286
+        MENUITEM "重玩(&R)",                      40328
+        MENUITEM SEPARATOR
+        MENUITEM "帮助(&H)",                      40287
+        MENUITEM SEPARATOR
+        MENUITEM "界面设置(&U)",                    40418
+    END
+    POPUP ""
+    BEGIN
+        MENUITEM " ",                           40335
+        MENUITEM " ",                           40593
+        MENUITEM " ",                           40594
+        MENUITEM "查看评论和字幕(&V)",                 40311
+        MENUITEM "备份(&M)",                      40320
+        MENUITEM "保存电影到(&A)...",                40358
+        MENUITEM SEPARATOR
+        MENUITEM " ",                           40324
+        MENUITEM "撤消载入进度[&]]",                  40316
+        MENUITEM "退至上次自动保存进度[&-]",              40307
+        MENUITEM SEPARATOR
+        MENUITEM "载入完整进度电影模式(&F)",              40409
+        MENUITEM SEPARATOR
+        MENUITEM "帮助(&H)",                      40281
+        MENUITEM SEPARATOR
+        MENUITEM "界面设置(&U)",                    40418
+    END
+END
+
+FCEUMENU MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM " ",                           100
+        MENUITEM " ",                           101
+        MENUITEM "重玩(&R)",                      102
+        MENUITEM SEPARATOR
+        POPUP "进度[&`]"
+        BEGIN
+            MENUITEM " ",                           40343
+            MENUITEM " ",                           40344
+            MENUITEM " ",                           111
+            MENUITEM " ",                           110
+            MENUITEM SEPARATOR
+            MENUITEM " ",                           40347
+            MENUITEM " ",                           40348
+            MENUITEM " ",                           40350
+        END
+        POPUP "电影(&M)"
+        BEGIN
+            MENUITEM "重播(&R)",                      40354
+            MENUITEM " ",                           141
+            MENUITEM " ",                           142
+            MENUITEM " ",                           143
+            MENUITEM " ",                           40274
+            MENUITEM SEPARATOR
+            MENUITEM " ",                           40331
+        END
+        POPUP "A&VI/WAV"
+        BEGIN
+            MENUITEM " ",                           151
+            MENUITEM " ",                           152
+            MENUITEM "录制 &WAV...",                  40120
+            MENUITEM "停止 W&AV",                     40121
+            MENUITEM SEPARATOR
+            MENUITEM "录制 HUD(&E)",                  40440
+            MENUITEM "禁止电影消息(&M)",                  40405
+        END
+        POPUP "&Lua"
+        BEGIN
+            MENUITEM "重开(&R)",                      40352
+            MENUITEM "新建 Lua 脚本窗口(&N)...",          40229
+            MENUITEM "关闭全部脚本窗口(&C)",                40230
+        END
+        MENUITEM " ",                           40272
+        MENUITEM "保存截图到(&A)...",                40411
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&x)\tAlt+F4",              153
+    END
+    POPUP "游戏(&N)"
+    BEGIN
+        MENUITEM " ",                           200
+        MENUITEM " ",                           201
+        MENUITEM SEPARATOR
+        MENUITEM " ",                           202
+        MENUITEM " ",                           203
+        MENUITEM " ",                           204
+        MENUITEM SEPARATOR
+        POPUP "模拟速度(&E)"
+        BEGIN
+            MENUITEM " ",                           40265
+            MENUITEM " ",                           40266
+            MENUITEM SEPARATOR
+            MENUITEM " ",                           40263
+            MENUITEM " ",                           40270
+            MENUITEM " ",                           40268
+            MENUITEM " ",                           40269
+            MENUITEM "自定义(&C)...",                  40577
+            MENUITEM SEPARATOR
+            MENUITEM "帧进延迟(&D)...",                 40574
+            MENUITEM "帧进速度(&F)...",                 40576
+        END
+    END
+    POPUP "配置(&C)"
+    BEGIN
+        MENUITEM "隐藏菜单(&H)",                    300
+        POPUP "启用(&E)"
+        BEGIN
+            MENUITEM "后台运行(&R)",                    301
+            MENUITEM "后台输入(&I)",                    302
+            MENUITEM "自动保存进度(&A)",                  304
+            MENUITEM " ",                           40239
+            MENUITEM "备份进度(&B)",                    40401
+            MENUITEM "压缩进度(&C)",                    40402
+            MENUITEM "金手指(&G)",                     310
+            MENUITEM "续玩(&p)",                      40579
+        END
+        POPUP "显示(&D)"
+        BEGIN
+            POPUP "显示按键(&I)"
+            BEGIN
+                MENUITEM "关[&0]",                       40250
+                MENUITEM "一个玩家(&1)\t◆◇◇◇",              40251
+                MENUITEM "二个玩家(&2)\t◆◇◆◇",              40252
+                MENUITEM "四个玩家(&4)\t◆◆◆◆",              40253
+                MENUITEM SEPARATOR
+                MENUITEM "旧式显示(&O)",                    40406
+            END
+            MENUITEM " ",                           40237
+            MENUITEM " ",                           40254
+            MENUITEM " ",                           40436
+            MENUITEM " ",                           40437
+            MENUITEM " ",                           40565
+            MENUITEM SEPARATOR
+            MENUITEM " ",                           40147
+            MENUITEM " ",                           40148
+        END
+        MENUITEM SEPARATOR
+        POPUP "区域(&o)"
+        BEGIN
+            MENUITEM "&NTSC",                       330
+            MENUITEM "&PAL",                        331
+            MENUITEM "&Dendy",                      332
+        END
+        POPUP "&PPU"
+        BEGIN
+            MENUITEM "旧(&O)",                       40366
+            MENUITEM "新(&N)",                       40365
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "目录(&r)",                      320
+        MENUITEM "界面(&G)",                      327
+        MENUITEM "输入(&I)",                      321
+        MENUITEM "网络游戏(&N)",                    40040
+        MENUITEM "调色板(&l)",                     40041
+        MENUITEM "声音(&S)",                      40042
+        MENUITEM "计时(&T)",                      40043
+        MENUITEM "视频(&V)",                      40044
+        MENUITEM "电影选项(&M)",                    40322
+        MENUITEM "快捷键(&k)",                     40045
+        MENUITEM SEPARATOR
+        MENUITEM "保存配置文件(&F)",                  40367
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM " ",                           40048
+        MENUITEM " ",                           40376
+        MENUITEM " ",                           40377
+        MENUITEM " ",                           40081
+        MENUITEM " ",                           40524
+        MENUITEM "转换 &FCM 电影...",               40150
+        MENUITEM SEPARATOR
+        POPUP "连发花样(&P)"
+        BEGIN
+            MENUITEM "一开一关(&1)\t●○",                40050
+            MENUITEM "一开二关(&2)\t●○○",               40051
+            MENUITEM "一开三关(&3)\t●○○○",              40052
+            MENUITEM "一开四关(&4)\t●○○○○",             40053
+            MENUITEM "一开五关(&5)\t●○○○○○",            40054
+            MENUITEM "二开一关[&6]\t●●○",               40055
+            MENUITEM "二开二关[&7]\t●●○○",              40056
+            MENUITEM "二开三关[&8]\t●●○○○",             40057
+            MENUITEM "二开四关[&9]\t●●○○○○",            40058
+            MENUITEM "三开一关[&0]\t●●●○",              40059
+            MENUITEM "三开二关[&-]\t●●●○○",             40060
+            MENUITEM "三开三关[&=]\t●●●○○○",            40061
+            MENUITEM "四开一关[&\\]\t●●●●○",            40062
+            MENUITEM "四开二关[&`]\t●●●●○○",            40063
+            MENUITEM "五开一关[&']\t●●●●●○",            40064
+        END
+        POPUP "连发延迟(&O)"
+        BEGIN
+            MENUITEM "&0 帧\t■■■■■■",                40065
+            MENUITEM "&1 帧\t□■■■■■",                40066
+            MENUITEM "&2 帧\t□□■■■■",                40067
+            MENUITEM "&3 帧\t□□□■■■",                40068
+            MENUITEM "&4 帧\t□□□□■■",                40069
+            MENUITEM "&5 帧\t□□□□□■",                40070
+        END
+        MENUITEM "A、B 混交(&A)",                  40071
+        MENUITEM SEPARATOR
+        MENUITEM "文本钩(&T)",                     40158
+    END
+    POPUP "调试(&D)"
+    BEGIN
+        MENUITEM " ",                           40080
+        MENUITEM " ",                           40074
+        MENUITEM " ",                           40075
+        MENUITEM " ",                           40076
+        MENUITEM " ",                           40077
+        MENUITEM " ",                           40078
+        MENUITEM "金手指解析/加密器(&G)",               40079
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "帮助(&H)",                      40140
+        MENUITEM "信息记录(&M)",                    40047
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)",                      40046
+    END
+END
+
+LUAWINDOW_MENU MENU
+BEGIN
+    POPUP "平台(&C)"
+    BEGIN
+        MENUITEM "字体(&F)...",                   1255
+        MENUITEM "清除(&C)",                      1254
+    END
+END
+
+MEMVIEWMENU MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "保存 ROM(&S)",                  100
+        MENUITEM "保存 ROM 到(&A)...",             101
+        MENUITEM "载入 *.TBL 文件(&L)...",          102
+        MENUITEM "卸除 *.TBL 文件(&U)...",          103
+        POPUP "将...转储到文件(&D)"
+        BEGIN
+            MENUITEM "&RAM",                        104
+            MENUITEM "&PPU 内存",                     105
+            MENUITEM "&6502 64K",                   40590
+        END
+        MENUITEM "转到地址(&G)...\tCtrl+A",         40219
+        MENUITEM SEPARATOR
+        MENUITEM "关闭(&C)\tAlt+F4",              40217
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              200
+        MENUITEM SEPARATOR
+        MENUITEM "复制(&C)",                      201
+        MENUITEM "粘贴[&V]",                      202
+        MENUITEM SEPARATOR
+        MENUITEM "查找(&F)...",                   203
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "&NES 内存",                     300
+        MENUITEM "&PPU 内存",                     301
+        MENUITEM "&ROM 文件",                     302
+    END
+    POPUP "高亮(&i)"
+    BEGIN
+        MENUITEM "高亮活跃块(&H)",                   40588
+        MENUITEM "渐变周期(&S)...",                 40587
+        MENUITEM "暂停时淡出(&F)",                   40586
+    END
+    POPUP "书签(&B)"
+    BEGIN
+        MENUITEM "移除全部书签(&R)",                  400
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "十六进制编辑器帮助(&H)",               40258
+    END
+END
+
+MEMWATCHMENU MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)...\tCtrl+N",           40103
+        MENUITEM "打开(&O)...\tCtrl+O",           40104
+        MENUITEM "保存(&S)\tCtrl+S",              40105
+        MENUITEM "保存到(&A)...\tCtrl+Shift+S",    40106
+        MENUITEM "重开(&R)",                      40117
+        MENUITEM SEPARATOR
+        MENUITEM "关闭(&C)\tAlt+F4",              40108
+    END
+    POPUP "选项(&O)"
+    BEGIN
+        MENUITEM "随模拟器启动(&L)",                  40109
+        MENUITEM "自动载入上次文件(&F)",                40114
+        MENUITEM SEPARATOR
+        MENUITEM "叠成一列(&C)",                    40314
+        MENUITEM SEPARATOR
+        MENUITEM "黏住主窗口(&B)",                   40361
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "内存监视器帮助(&M)",                 40113
+    END
+END
+
+RAMWATCH_MENU MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建列表(&N)\tCtrl+N",            40374
+        MENUITEM "打开(&O)...\tCtrl+O",           40372
+        MENUITEM "保存(&S)\tCtrl+S",              40370
+        MENUITEM "保存到(&v)...\tCtrl+Shift+S",    40371
+        MENUITEM "附加文件(&A)...",                 40373
+        MENUITEM "重开(&R)",                      40375
+        MENUITEM SEPARATOR
+        MENUITEM "自动载入(&l)",                    40368
+        MENUITEM "保存窗口位置(&P)",                  40369
+        MENUITEM SEPARATOR
+        MENUITEM "关闭(&C)\tAlt+F4",              2
+    END
+    POPUP "监视(&W)"
+    BEGIN
+        MENUITEM "新建(&N)\tN",                   1208
+        MENUITEM "编辑(&E)\tE",                   1239
+        MENUITEM "移除(&R)\tR",                   1240
+        MENUITEM "拷贝[&A]\tA",                   1241
+        MENUITEM "分栏(&S)\tS",                   1259
+        MENUITEM SEPARATOR
+        MENUITEM "上移(&U)\tU",                   1243
+        MENUITEM "下移(&D)\tD",                   1244
+    END
+END
+
+TASEDITORCONTEXTMENUS MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "设置标记(&M)",                    40560
+        MENUITEM "移除标记(&R)",                    40561
+        MENUITEM SEPARATOR
+        MENUITEM "全不选(&e)",                     40537
+        MENUITEM "选择标记中间(&b)\tCtrl+A",          40458
+        MENUITEM SEPARATOR
+        MENUITEM "撤消安全容量(&U)",                  40571
+        MENUITEM SEPARATOR
+        MENUITEM "清除(&C)\tDel",                 40447
+        MENUITEM "删除(&D)\tCtrl+Del",            40205
+        MENUITEM "克隆(&o)\tCtrl+Ins",            40463
+        MENUITEM "插入(&I)\tCtrl+Shift+Ins",      40204
+        MENUITEM "插...帧(&F)\tIns",              40425
+        MENUITEM SEPARATOR
+        MENUITEM "修剪(&T)",                      40200
+    END
+END
+
+TASEDITORMENU MENUEX
+BEGIN
+    POPUP "文件(&F)",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "新建(&N)...",                   40525,MFT_STRING,MFS_ENABLED
+        MENUITEM "打开(&O)...",                   40181,MFT_STRING,MFS_ENABLED
+        MENUITEM "保存(&S)\tCtrl+S",              40172,MFT_STRING,MFS_ENABLED
+        MENUITEM "保存到(&A)...",                  40182,MFT_STRING,MFS_ENABLED
+        MENUITEM "紧密保存(&C)...",                 40484,MFT_STRING,MFS_ENABLED
+        MENUITEM "重开(&R)",                      40117,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "导入(&I)...",                   40178,MFT_STRING,MFS_ENABLED
+        MENUITEM "导出 FM2 文件(&E)...",            40183,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "关闭[&X]\tAlt+F4",              40517,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "编辑(&E)",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "撤消[&Z]\tCtrl+Z",              40468,MFT_STRING,MFS_ENABLED
+        MENUITEM "重做[&Y]\tCtrl+Y",              40469,MFT_STRING,MFS_ENABLED
+        MENUITEM "撤消选区[&Q]\tCtrl+Q",            40481,MFT_STRING,MFS_ENABLED
+        MENUITEM "重做选区[&W]\tCtrl+W",            40482,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "全不选(&e)",                     40536,MFT_STRING,MFS_ENABLED
+        MENUITEM "全选(&S)",                      40214,MFT_STRING,MFS_ENABLED
+        MENUITEM "选择标记中间[&A]\tCtrl+A",          40457,MFT_STRING,MFS_ENABLED
+        MENUITEM "重选剪贴板[&B]\tCtrl+B",           40483,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "复制(&C)\tCtrl+C",              40521,MFT_STRING,MFS_ENABLED
+        MENUITEM "粘贴[&V]\tCtrl+V",              40520,MFT_STRING,MFS_ENABLED
+        MENUITEM "贴入(&P)\tCtrl+Shift+V",        40495,MFT_STRING,MFS_ENABLED
+        MENUITEM "剪切[&X]\tCtrl+X",              40522,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "清除(&l)\tDel",                 40450,MFT_STRING,MFS_ENABLED
+        MENUITEM "删除(&D)\tCtrl+Del",            40169,MFT_STRING,MFS_ENABLED
+        MENUITEM "克隆(&o)\tCtrl+Ins",            40460,MFT_STRING,MFS_ENABLED
+        MENUITEM "插帧(&I)\tCtrl+Shift+Ins",      40451,MFT_STRING,MFS_ENABLED
+        MENUITEM "插...帧(&F)\tIns",              40452,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "修剪(&T)",                      40177,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "查看(&V)",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "查找注释(&F)...\tCtrl+F",         40515,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "显示分支截图(&S)",                  40489,MFT_STRING,MFS_ENABLED
+        MENUITEM "显示分支描述(&D)",                  40508,MFT_STRING,MFS_ENABLED
+        MENUITEM "色移更改(&H)",                    40488,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "跟随撤消上下文(&U)",                 40472,MFT_STRING,MFS_ENABLED
+        MENUITEM "跟随注释上下文(&N)",                 40507,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "配置(&C)",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "保存选项(&P)...",                 40581,MFT_STRING,MFS_ENABLED
+        MENUITEM "最大撤消次数(&U)...",               40470,MFT_STRING,MFS_ENABLED
+        MENUITEM "安全容量(&G)...",                 40432,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "启用安全容量(&E)",                  40573,MFT_STRING,MFS_ENABLED
+        MENUITEM "连发花样跳过延迟(&A)",                40568,MFT_STRING,MFS_ENABLED
+        MENUITEM "自动根据延迟调整输入(&L)",              40567,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "拖拽输入(&D)",                    40539,MFT_STRING,MFS_ENABLED
+        MENUITEM "合并连续录制/绘制(&C)",               40492,MFT_STRING,MFS_ENABLED
+        MENUITEM "录制单个手柄皆用 &1P 按键",             40491,MFT_STRING,MFS_ENABLED
+        MENUITEM "卷帘内用按键定义输入(&I)",              40509,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "输入绑定标记(&B)",                  40454,MFT_STRING,MFS_ENABLED
+        MENUITEM "清空新标记注释(&N)",                 40510,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "使用旧式分支控制方案(&O)",              40474,MFT_STRING,MFS_ENABLED
+        MENUITEM "分支恢复整个电影(&M)",                40473,MFT_STRING,MFS_ENABLED
+        MENUITEM "分支截图显示 &HUD",                 40475,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "电影末尾自动暂停(&t)",                40559,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "帮助(&H)",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "TAS 编辑器帮助(&H)",               40564,MFT_STRING,MFS_ENABLED
+        MENUITEM "气泡帮助(&T)",                    40527,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "关于(&A)",                      40485,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "连发(&P)",                         65535,MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM " ",                           40534,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ADDBP DIALOGEX 66, 83, 196, 130
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "添加断点"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    RTEXT           "地址(&A):",-1,14,5,33,10
+    CTEXT           "-",65534,82,5,8,8
+    EDITTEXT        200,52,4,30,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        201,87,4,30,12,ES_UPPERCASE | ES_WANTRETURN
+    CONTROL         "读(&R)",102,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,25,35,12
+    CONTROL         "写(&W)",103,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,49,25,35,12
+    CONTROL         "执行(&E)",104,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,86,25,40,12
+    DEFPUSHBUTTON   "确定(&O)",1,99,113,42,14
+    PUSHBUTTON      "取消(&C)",2,147,114,42,13
+    GROUPBOX        "内存",108,9,39,174,24,WS_TABSTOP
+    CONTROL         "CPU(&M)",105,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,49,38,10
+    CONTROL         "&PPU",106,"Button",BS_AUTORADIOBUTTON,77,49,28,10
+    CONTROL         "精灵(&S)",107,"Button",BS_AUTORADIOBUTTON,138,49,40,10
+    LTEXT           "条件(&d):",65533,7,74,32,8
+    EDITTEXT        202,43,72,136,14,ES_AUTOHSCROLL
+    LTEXT           "名称(&N):",65532,7,92,32,8
+    EDITTEXT        203,43,89,136,14,ES_AUTOHSCROLL
+    CONTROL         "回避(&F)",109,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,144,6,40,12
+    GROUPBOX        "",112,3,18,185,50,WS_TABSTOP
+END
+
+ARCHIVECHOOSERDIALOG DIALOGEX 0, 0, 439, 292
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "从档案选择文件"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,327,271,50,14
+    PUSHBUTTON      "取消(&C)",2,382,271,50,14
+    LISTBOX         1130,7,7,425,256,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+END
+
+ASSEMBLER DIALOGEX 0, 0, 202, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "行内汇编器"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    EDITTEXT        101,27,9,167,12,ES_READONLY
+    COMBOBOX        100,15,25,180,54,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "提交(&A)",201,159,114,36,14
+    LTEXT           "P&C:",-1,15,10,12,10
+    LTEXT           "补丁(&P):",-1,15,41,34,9
+    PUSHBUTTON      "保存(&S)...",202,109,114,44,14
+    PUSHBUTTON      "撤消(&U)",203,15,114,35,14
+    DEFPUSHBUTTON   "定义(&D)",300,55,114,34,14,NOT WS_VISIBLE
+    LISTBOX         102,15,50,180,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+END
+
+CDLOGGER DIALOGEX 0, 0, 307, 254
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "代码数据记录器"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "载入(&L)...",104,7,122,54,14
+    PUSHBUTTON      "保存(&S)",107,245,105,54,14
+    GROUPBOX        "代码/数据记录状态",-1,3,5,300,195,BS_CENTER
+    DEFPUSHBUTTON   "开始(&t)",105,127,105,50,14
+    GROUPBOX        "地址标签记录器",65534,3,201,300,49,BS_CENTER
+    PUSHBUTTON      "载入(&o)...",111,7,231,54,14,WS_DISABLED
+    PUSHBUTTON      "开始(&a)",112,127,231,50,14,WS_DISABLED
+    PUSHBUTTON      "保存(&v)...",113,245,231,54,14,WS_DISABLED
+    LTEXT           "4067 - 29.5%",100,34,27,72,11
+    GROUPBOX        "PRG 记作代码",65533,25,16,84,27
+    GROUPBOX        "PRG 记作数据",65532,113,16,84,27
+    LTEXT           "7092 - 37.2%",101,122,27,71,9
+    GROUPBOX        "PRG 未记录",65531,201,16,79,27
+    LTEXT           "6072 - 32.7%",102,210,27,66,8
+    LTEXT           "这就是代码数据记录器！请按〖开始〗按钮！",65530,67,78,172,11
+    PUSHBUTTON      "重设记录(&R)",103,7,105,54,14
+    PUSHBUTTON      "另存为(&e)...",106,245,122,54,14
+    PUSHBUTTON      "保存脱壳数据(&D)...",108,196,155,90,14
+    PUSHBUTTON      "保存未用数据(&U)...",109,196,172,90,14
+    LTEXT           "4067 - 29.5%",110,34,56,72,11
+    GROUPBOX        "CHR 已渲染",1283,25,45,84,27
+    GROUPBOX        "CHR 记作数据",1284,113,45,84,27
+    LTEXT           "7092 - 37.2%",114,122,56,71,9
+    GROUPBOX        "CHR 未记录",1285,201,45,79,27
+    LTEXT           "6072 - 32.7%",115,210,56,66,9
+    LTEXT           "CDL 文件:",1286,12,92,36,11
+    LTEXT           "",40582,55,92,240,11,SS_PATHELLIPSIS
+    CONTROL         "载入 ROM 时自动续记(&m)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,179,153,11
+    CONTROL         "关闭 ROM 时保存记录(&i)",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,153,143,11
+    CONTROL         "打开时自动载入记录(&w)",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,166,154,11
+    GROUPBOX        "创建 ROM",65529,183,142,116,52
+    GROUPBOX        "记录流程选项",65528,8,142,171,52
+END
+
+CHEATCONSOLE DIALOGEX 0, 0, 379, 189
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "搜索作弊"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "",201,5,2,129,182,WS_TABSTOP
+    LISTBOX         101,11,11,118,98,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "搜索作弊",202,140,2,233,182,WS_TABSTOP
+    RTEXT           "名字(&N):",-1,12,114,32,10
+    EDITTEXT        104,45,112,80,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    RTEXT           "地址(&e):",-1,12,127,32,10
+    EDITTEXT        102,45,125,25,12,ES_UPPERCASE | ES_WANTRETURN
+    RTEXT           "值(&V):",-1,84,127,24,10
+    EDITTEXT        103,109,125,16,12,ES_UPPERCASE | ES_WANTRETURN
+    RTEXT           "对比(&C):",-1,76,140,32,10
+    EDITTEXT        111,109,138,16,12,ES_UPPERCASE | ES_WANTRETURN
+    DEFPUSHBUTTON   "添加(&A)",301,11,152,36,14
+    PUSHBUTTON      "删除(&D)",302,52,152,36,14
+    PUSHBUTTON      "更新(&U)",303,93,152,36,14
+    PUSHBUTTON      "重设(&R)",304,146,12,55,15
+    PUSHBUTTON      "已知值(&K):",305,146,31,55,15
+    LTEXT           "0&x",-1,205,34,9,8
+    EDITTEXT        105,215,32,18,12,ES_UPPERCASE
+    GROUPBOX        "前值对比",204,145,49,113,115
+    PUSHBUTTON      "＝[&=]",306,151,62,45,15,WS_GROUP
+    PUSHBUTTON      "≠[&!]",307,151,87,45,15
+    CONTROL         "值(&B):",401,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,90,33,10
+    EDITTEXT        108,234,89,18,12,ES_UPPERCASE | ES_WANTRETURN
+    PUSHBUTTON      "＞[&>]",308,151,114,45,15
+    CONTROL         "值(&y):",402,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,117,33,10
+    EDITTEXT        109,234,116,18,12,ES_UPPERCASE | ES_WANTRETURN
+    PUSHBUTTON      "＜[&<]",309,151,141,45,15
+    CONTROL         "值(&:):",403,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,144,33,10
+    EDITTEXT        110,234,143,18,12,ES_UPPERCASE | ES_WANTRETURN
+    GROUPBOX        "可用值列表(&P)",203,263,8,105,156,WS_TABSTOP
+    LISTBOX         106,268,18,85,142,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | WS_TABSTOP
+    SCROLLBAR       107,354,18,10,142,SBS_VERT
+    CONTROL         "活跃时暂停(&s)",1203,"Button",BS_AUTOCHECKBOX,147,169,157,10
+    PUSHBUTTON      "从 C&HT 文件添加...",311,23,167,93,14
+END
+
+DEBUGGER DIALOGEX 54, 74, 547, 345
+STYLE DS_SETFONT | DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "6502 调试器"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    EDITTEXT        300,18,5,316,326,ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | WS_HSCROLL
+    SCROLLBAR       301,334,5,11,326,SBS_VERT
+    GROUPBOX        "状态标签",401,433,140,103,35,WS_TABSTOP
+    CONTROL         "N",200,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,439,149,18,12
+    CONTROL         "V",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,464,149,18,12
+    CONTROL         "U",202,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,488,149,18,12
+    CONTROL         "B",203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,512,149,18,12
+    CONTROL         "D",204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,439,161,18,12
+    CONTROL         "I",205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,464,161,18,12
+    CONTROL         "Z",206,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,488,161,18,12
+    CONTROL         "C",207,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,512,161,18,12
+    GROUPBOX        "断点",402,433,2,103,138,WS_TABSTOP
+    LISTBOX         302,437,11,95,96,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+    PUSHBUTTON      "添加",101,437,109,30,15
+    PUSHBUTTON      "删除",102,470,109,30,15,WS_DISABLED
+    PUSHBUTTON      "编辑",103,502,109,30,15,WS_DISABLED
+    PUSHBUTTON      "运行",104,350,5,38,14
+    PUSHBUTTON      "单步进入",105,391,5,38,14
+    PUSHBUTTON      "单步退出",106,350,21,38,14
+    PUSHBUTTON      "单步执行",107,391,21,38,14
+    LTEXT           "A:",-1,350,92,10,8
+    LTEXT           "X:",65534,377,92,10,8
+    LTEXT           "Y:",65533,405,92,10,8
+    LTEXT           "PC:",65532,350,74,13,8
+    EDITTEXT        304,358,90,15,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        305,386,90,15,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        306,414,90,15,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        307,362,72,25,12,ES_UPPERCASE | ES_WANTRETURN
+    GROUPBOX        "栈",403,349,104,80,71,WS_TABSTOP
+    EDITTEXT        308,353,113,72,58,ES_MULTILINE | ES_UPPERCASE | ES_NOHIDESEL | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "搜寻 PC",108,391,71,38,14
+    PUSHBUTTON      "搜至:",109,350,54,38,14
+    EDITTEXT        309,391,55,38,12,ES_UPPERCASE | ES_WANTRETURN
+    LTEXT           "PPU:",65531,353,179,17,10
+    LTEXT           "精灵:",65530,353,191,20,10
+    LTEXT           "扫描线:",-1,353,203,30,8
+    LTEXT           "像素:",-1,353,216,20,8
+    EDITTEXT        310,372,179,25,12,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        311,375,191,15,12,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        501,384,203,14,12,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        504,375,216,14,10,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    GROUPBOX        "",405,349,174,51,53,WS_TABSTOP
+    EDITTEXT        503,443,179,47,10,ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        505,492,179,54,10,ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        506,442,204,47,10,ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        507,490,204,55,10,ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    CONTROL         "",502,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,4,333,537,11
+    CONTROL         "中断于坏控制码",110,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,439,126,90,10
+    CONTROL         "符号调试",208,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,470,260,62,10
+    PUSHBUTTON      "重新载入符号",111,470,284,62,14
+    GROUPBOX        "地址书签",45535,349,228,113,87
+    LISTBOX         701,353,238,74,74,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        312,430,238,28,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加",112,429,255,30,14
+    PUSHBUTTON      "删除",113,429,271,30,14
+    PUSHBUTTON      "ROM 打补丁",602,470,299,62,14
+    PUSHBUTTON      "默认窗口大小",1191,349,317,53,14
+    PUSHBUTTON      "运行行",114,350,37,38,14
+    PUSHBUTTON      "128 行",115,391,37,38,14
+    CONTROL         "载入 .DEB 文件",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,470,317,70,13
+    CONTROL         "自动运行",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,422,317,47,13
+    LTEXT           "CPU 周期:",-1,403,179,36,8
+    PUSHBUTTON      "重新计数",116,467,229,68,14
+    CONTROL         "超出",117,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,191,28,10
+    EDITTEXT        313,434,190,53,12,ES_UPPERCASE | ES_NOHIDESEL | ES_WANTRETURN | ES_NUMBER
+    LTEXT           "指令:",-1,403,204,36,8
+    CONTROL         "超出",119,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,216,28,10
+    EDITTEXT        314,434,215,53,12,ES_UPPERCASE | ES_NOHIDESEL | ES_WANTRETURN | ES_NUMBER
+    GROUPBOX        "",-1,466,241,70,74
+    CONTROL         "显示 ROM 偏转",209,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,470,248,63,10
+    PUSHBUTTON      "命名",118,429,287,30,14
+    LTEXT           "则中断",44444,490,218,25,8
+    LTEXT           "则中断",23232,490,191,25,8
+    EDITTEXT        303,4,5,14,326,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    CONTROL         "寄存器名",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,470,272,65,10
+END
+
+DIRCONFIG DIALOGEX 63, 7, 305, 255
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "目录"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,175,230,56,14
+    PUSHBUTTON      "取消(&C)",800,239,230,56,14
+    LTEXT           "基本目录(&D)",-1,10,10,47,8
+    EDITTEXT        113,71,9,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&1]...",213,239,8,56,14
+    LTEXT           "&ROM",-1,10,28,19,8
+    EDITTEXT        100,71,27,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&2]...",200,239,26,56,14
+    LTEXT           "电池存档(&B)",-1,10,46,45,8
+    EDITTEXT        101,71,45,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&3]...",201,239,44,56,14
+    LTEXT           "进度(&S)",-1,10,64,41,9
+    EDITTEXT        102,71,63,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&4]...",202,239,62,56,14
+    LTEXT           "磁碟机 BIOS(&F)",-1,10,82,56,8
+    EDITTEXT        103,71,81,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&5]...",203,239,80,56,14
+    LTEXT           "截图(&h)",-1,10,100,40,8
+    EDITTEXT        104,71,99,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&6]...",204,239,98,56,14
+    LTEXT           "作弊(&t)",-1,10,118,31,8
+    EDITTEXT        105,71,117,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&7]...",205,239,116,56,14
+    LTEXT           "电影(&M)",-1,10,136,34,8
+    EDITTEXT        106,71,135,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&8]...",206,239,134,56,14
+    LTEXT           "内存监视(&W)",-1,10,154,52,9
+    EDITTEXT        107,71,153,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&9]...",207,239,152,56,14
+    LTEXT           "按键预设(&I)",-1,10,172,50,8
+    EDITTEXT        110,71,171,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&0]...",210,239,170,56,14
+    LTEXT           "&Lua 脚本",-1,10,190,35,8
+    EDITTEXT        111,71,189,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&-]...",211,239,188,56,14
+    LTEXT           "A&VI 视频输出",-1,10,208,34,8
+    EDITTEXT        112,71,207,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览[&=]...",212,239,206,56,14
+END
+
+DWBDIALOG DIALOG 33, 99, 250, 40
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "DWB!"
+FONT 9, "SimSun"
+BEGIN
+    LTEXT           "Ｉ　ｌｏｖｅ　ｙｏｕ，　ＭＭ．",100,7,9,237,8
+    PUSHBUTTON      "清除",200,140,22,50,14
+    PUSHBUTTON      "关闭",1,194,22,50,14
+END
+
+DWBDIALOGSIMPLE DIALOGEX 33, 99, 250, 20
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "DWBS!"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    CTEXT           "请按键，或按 Esc 禁用。",65429,5,6,239,8
+END
+
+FKBDIALOG DIALOG 13, 72, 402, 194
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "学习机键盘配置"
+FONT 9, "SimSun"
+BEGIN
+    DEFPUSHBUTTON   "关闭[&`]",1,320,170,56,14
+    LTEXT           "在玩游戏时可按下 Scroll Lock 开启学习机键盘哦。",65503,18,6,370,12
+    GROUPBOX        "",65502,11,22,380,133,WS_GROUP
+    PUSHBUTTON      "F1",300,22,43,32,12
+    PUSHBUTTON      "&1",308,30,59,16,12
+    PUSHBUTTON      "F2",301,60,43,32,12
+    PUSHBUTTON      "F3",302,98,43,32,12
+    PUSHBUTTON      "F4",303,136,43,32,12
+    PUSHBUTTON      "F5",304,174,43,32,12
+    PUSHBUTTON      "F6",305,212,43,32,12
+    PUSHBUTTON      "F7",306,250,43,32,12
+    PUSHBUTTON      "F8",307,288,43,32,12
+    PUSHBUTTON      "&2",309,49,59,16,12
+    PUSHBUTTON      "&3",310,68,59,16,12
+    PUSHBUTTON      "&4",311,87,59,16,12
+    PUSHBUTTON      "&5",312,106,59,16,12
+    PUSHBUTTON      "&6",313,125,59,16,12
+    PUSHBUTTON      "&7",314,144,59,16,12
+    PUSHBUTTON      "&8",315,163,59,16,12
+    PUSHBUTTON      "&9",316,182,59,16,12
+    PUSHBUTTON      "&0",317,201,59,16,12
+    PUSHBUTTON      "&-",318,220,59,16,12
+    PUSHBUTTON      "&^",319,239,59,16,12
+    PUSHBUTTON      "&\\",320,258,59,16,12
+    PUSHBUTTON      "STP",321,277,59,18,12
+    PUSHBUTTON      "ESC",322,20,75,18,12
+    PUSHBUTTON      "&Q",323,41,75,16,12
+    PUSHBUTTON      "&W",324,60,75,16,12
+    PUSHBUTTON      "&E",325,79,75,16,12
+    PUSHBUTTON      "&R",326,98,75,16,12
+    PUSHBUTTON      "&T",327,117,75,16,12
+    PUSHBUTTON      "&Y",328,136,75,16,12
+    PUSHBUTTON      "&U",329,155,75,16,12
+    PUSHBUTTON      "&I",330,174,75,16,12
+    PUSHBUTTON      "&O",331,193,75,16,12
+    PUSHBUTTON      "&P",332,212,75,16,12
+    PUSHBUTTON      "&@",333,231,75,16,12
+    PUSHBUTTON      "&[",334,250,75,16,12
+    PUSHBUTTON      "RETURN",335,272,75,32,12
+    PUSHBUTTON      "CTR",336,23,91,18,12
+    PUSHBUTTON      "&A",337,45,91,16,12
+    PUSHBUTTON      "&S",338,64,91,16,12
+    PUSHBUTTON      "&D",339,83,91,16,12
+    PUSHBUTTON      "&F",340,102,91,16,12
+    PUSHBUTTON      "&G",341,121,91,16,12
+    PUSHBUTTON      "&H",342,140,91,16,12
+    PUSHBUTTON      "&J",343,159,91,16,12
+    PUSHBUTTON      "&K",344,178,91,16,12
+    PUSHBUTTON      "&L",345,197,91,16,12
+    PUSHBUTTON      "&;",346,216,91,16,12
+    PUSHBUTTON      "&:",347,235,91,16,12
+    PUSHBUTTON      "&]",348,254,91,16,12
+    PUSHBUTTON      "KANA",349,273,91,22,12
+    PUSHBUTTON      "&Z",351,55,107,16,12
+    PUSHBUTTON      "&X",352,74,107,16,12
+    PUSHBUTTON      "&C",353,93,107,16,12
+    PUSHBUTTON      "&V",354,112,107,16,12
+    PUSHBUTTON      "&B",355,131,107,16,12
+    PUSHBUTTON      "&N",356,150,107,16,12
+    PUSHBUTTON      "&M",357,169,107,16,12
+    PUSHBUTTON      "&,",358,188,107,16,12
+    PUSHBUTTON      "&.",359,207,107,16,12
+    PUSHBUTTON      "&/",360,226,107,16,12
+    PUSHBUTTON      "",361,245,107,16,12
+    PUSHBUTTON      "SHIFT",350,19,107,32,12
+    PUSHBUTTON      "SHIFT",362,265,107,32,12
+    PUSHBUTTON      "GRPH",363,67,123,22,12
+    PUSHBUTTON      " SPACE& ",364,93,123,149,12
+    PUSHBUTTON      "CLR",365,314,67,18,12
+    PUSHBUTTON      "INS",366,334,67,18,12
+    PUSHBUTTON      "DEL",367,354,67,18,12
+    PUSHBUTTON      "↑",368,327,83,32,12
+    PUSHBUTTON      "←",369,310,99,32,12
+    PUSHBUTTON      "→",370,346,99,32,12
+    PUSHBUTTON      "↓",371,327,115,32,12
+END
+
+GAMEPADDIALOG DIALOGEX 4, 109, 243, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "手柄设置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,173,196,56,14
+    GROUPBOX        "",100,4,8,232,82,WS_GROUP
+    PUSHBUTTON      "↑",304,35,27,24,12
+    PUSHBUTTON      "←",306,9,45,25,12
+    PUSHBUTTON      "→",307,60,45,24,12
+    PUSHBUTTON      "↓",305,35,64,24,12
+    PUSHBUTTON      "选择",302,91,44,26,13
+    PUSHBUTTON      "开始",303,126,44,26,13
+    PUSHBUTTON      "B",301,169,44,16,13
+    PUSHBUTTON      "A",300,195,44,16,13
+    PUSHBUTTON      "连发 B",309,154,28,32,13
+    PUSHBUTTON      "连发 A",308,195,28,32,13
+    GROUPBOX        "",101,4,101,232,82,WS_GROUP
+    PUSHBUTTON      "↑",314,35,120,24,12
+    PUSHBUTTON      "←",316,9,138,25,12
+    PUSHBUTTON      "→",317,60,138,24,12
+    PUSHBUTTON      "↓",315,35,157,24,12
+    PUSHBUTTON      "选择",312,91,138,26,13
+    PUSHBUTTON      "开始",313,126,138,26,13
+    PUSHBUTTON      "B",311,169,138,16,13
+    PUSHBUTTON      "A",310,195,138,16,13
+    PUSHBUTTON      "连发 B",319,154,122,32,13
+    PUSHBUTTON      "连发 A",318,195,122,32,13
+END
+
+GGCONV DIALOGEX 84, 67, 186, 146
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "金手指解析/加密器"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "金手指(&G)",-1,107,5,69,42
+    EDITTEXT        1000,115,22,53,14,ES_AUTOHSCROLL
+    GROUPBOX        "地址/比较/值",65534,9,5,91,75
+    LTEXT           "地址(&A):",65533,18,24,35,8
+    EDITTEXT        1001,50,21,36,14,ES_AUTOHSCROLL
+    LTEXT           "对比(&C):",65532,18,41,37,8
+    EDITTEXT        1002,64,38,22,14,ES_AUTOHSCROLL
+    LTEXT           "值(&V):",65531,18,58,32,8
+    EDITTEXT        1003,64,56,22,14,ES_AUTOHSCROLL
+    GROUPBOX        "可能被影响的 ROM 文件地址(&P)",65530,8,83,169,58
+    LISTBOX         1004,67,95,54,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加到作弊列表(&L)",1005,106,58,75,14,WS_DISABLED
+END
+
+GUICONFIG DIALOGEX 16, 123, 124, 152
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "界面设置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,33,130,60,14
+    CONTROL         "启动时询问要打开的文件(&O)",102,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,8,113,12
+    CONTROL         "载入游戏后自动隐藏菜单(&h)",104,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,23,113,12
+    CONTROL         "退出前确认(&A)",110,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,38,76,12
+    CONTROL         "载入游戏后禁用屏幕保护(&D)",111,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,53,113,12
+    CONTROL         "启用右键菜单(&E)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,68,77,12
+    CONTROL         "双击切换全屏(&S)",1261,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,83,168,12
+    CONTROL         "禁用主题 (需重启程序)(&P)",1257,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,98,113,12
+    CONTROL         "单实例模式(&I)",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,113,78,12
+END
+
+IDD_RECORDINP DIALOGEX 0, 0, 266, 87
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "录制按键"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,161,67,50,14
+    GROUPBOX        "",65501,3,0,261,60
+    RTEXT           "文件(&F):",65500,5,11,37,10,SS_CENTERIMAGE | NOT WS_GROUP,WS_EX_RIGHT
+    EDITTEXT        200,45,10,189,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "取消(&C)",2,215,67,50,14
+    PUSHBUTTON      "&...",201,239,10,18,14
+    RTEXT           "从(&R):",65498,15,27,27,8,0,WS_EX_RIGHT
+    COMBOBOX        301,45,25,189,154,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "作者(&A):",65502,7,43,35,10,SS_CENTERIMAGE | NOT WS_GROUP,WS_EX_RIGHT
+    EDITTEXT        1180,45,41,189,14,ES_AUTOHSCROLL
+    LTEXT           "开始",44444,239,27,18,8
+END
+
+IDD_REPLAYINP DIALOGEX 0, 0, 300, 218
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "播放电影"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,193,200,50,14
+    GROUPBOX        "",65497,3,0,293,193
+    RTEXT           "文件(&F):",65498,8,11,32,10,SS_CENTERIMAGE | NOT WS_GROUP
+    COMBOBOX        200,42,10,250,128,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "取消(&C)",2,247,200,50,14
+    RTEXT           "长度:",64397,10,67,59,8
+    RTEXT           "帧数:",65496,10,79,59,8
+    RTEXT           "重录:",65495,10,91,59,8
+    LTEXT           "次",33333,141,91,12,8
+    RTEXT           "使用 ROM:",65493,10,115,59,8
+    RTEXT           "ROM 效验值:",65492,10,127,59,8
+    RTEXT           "从:",65491,10,103,59,8
+    LTEXT           "开始",22222,203,103,59,8
+    RTEXT           "模拟器:",65490,10,151,59,8
+    RTEXT           "当前 ROM 效验值:",65489,5,139,64,8
+    CONTROL         "止于第(&P)",1002,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,49,47,10
+    LTEXT           "帧",56565,107,50,12,8
+    EDITTEXT        1003,68,48,35,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "参数",-1,13,25,278,40
+    PUSHBUTTON      "元数据(&M)...",1132,233,71,56,14
+    EDITTEXT        307,76,151,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        308,76,139,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        305,76,127,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        304,76,115,187,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        306,76,103,123,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "只读模式打开(&R)",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,36,71,10
+    EDITTEXT        302,76,91,59,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        301,76,79,59,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        300,76,67,59,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "PAL 模式:",65494,10,163,59,8
+    EDITTEXT        309,76,163,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "新 PPU:",65499,10,175,59,8
+    EDITTEXT        310,76,175,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_REPLAY_METADATA DIALOGEX 0, 0, 325, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "电影元数据"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",2,268,229,50,14
+    CONTROL         "",1130,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,311,214
+END
+
+INPUTCONFIG DIALOGEX 122, 105, 349, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "输入设置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "1 号端口(&P):",102,20,31,152,50
+    COMBOBOX        104,27,57,71,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "配置[&4]",106,109,43,56,14
+    GROUPBOX        "2 号端口(&o):",103,176,31,152,50
+    COMBOBOX        105,183,57,71,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "配置[&5]",107,265,41,56,14
+    GROUPBOX        "NES 式输入端口",108,10,8,328,78
+    GROUPBOX        "FC 扩展端口(&E):",109,176,93,162,50
+    COMBOBOX        110,183,122,84,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "配置[&6]",111,275,105,56,14
+    CONTROL         "",65487,"Static",SS_BLACKFRAME,27,41,71,12
+    CONTROL         "",65486,"Static",SS_BLACKFRAME,183,41,71,12
+    CONTROL         "",65485,"Static",SS_BLACKFRAME,183,106,84,12
+    CTEXT           "",200,30,42,65,10
+    CTEXT           "",201,186,42,65,10
+    CTEXT           "",202,186,107,78,10
+    PUSHBUTTON      "按住[&`]",112,19,157,45,13
+    LTEXT           "未定义",115,71,159,87,8
+    PUSHBUTTON      "松开[&\\]",114,19,172,45,13
+    LTEXT           "未定义",116,71,174,87,8
+    DEFPUSHBUTTON   "关闭[&X]",1,282,177,56,14
+    GROUPBOX        "按键预设",113,10,93,162,52
+    CONTROL         "允许同时按下←→/↑↓(&A)",1117,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,183,157,107,10
+    PUSHBUTTON      "设置[&1]",1119,34,101,37,14
+    PUSHBUTTON      "设置[&2]",1120,34,115,37,14
+    PUSHBUTTON      "设置[&3]",1121,34,129,37,14
+    PUSHBUTTON      "导入[&7]",1122,84,101,37,14
+    PUSHBUTTON      "导入[&8]",1123,84,115,37,14
+    PUSHBUTTON      "导入[&9]",1124,84,129,37,14
+    PUSHBUTTON      "导出[&0]",1125,123,101,37,14
+    PUSHBUTTON      "导出[&-]",1126,123,115,37,14
+    PUSHBUTTON      "导出[&=]",1127,123,129,37,14
+    GROUPBOX        "挂键",118,10,146,162,44
+    GROUPBOX        "模拟",119,176,146,162,25
+    CTEXT           "1",-1,18,106,8,8
+    CTEXT           "2",-1,18,119,8,8
+    CTEXT           "3",-1,18,132,8,8
+    CONTROL         "添加四分插 (能插四个手柄)(&f)",401,"Button",BS_AUTOCHECKBOX,18,18,142,12
+    CONTROL         "2 号端口以麦克风开始(&M)",407,"Button",BS_AUTOCHECKBOX,174,18,142,12
+END
+
+MAHJONGDIALOG DIALOG 65510, 106, 340, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "麻将"
+FONT 9, "SimSun"
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,277,91,56,14
+    GROUPBOX        "",321,8,8,324,73,WS_GROUP
+    PUSHBUTTON      "&A",300,14,42,16,12
+    PUSHBUTTON      "&B",301,36,42,16,12
+    PUSHBUTTON      "&C",302,58,42,16,12
+    PUSHBUTTON      "&D",303,80,42,16,12
+    PUSHBUTTON      "&E",304,102,42,16,12
+    PUSHBUTTON      "&F",305,124,42,16,12
+    PUSHBUTTON      "&G",306,146,42,16,12
+    PUSHBUTTON      "&H",307,168,42,16,12
+    PUSHBUTTON      "&I",308,190,42,16,12
+    PUSHBUTTON      "&J",309,212,42,16,12
+    PUSHBUTTON      "&K",310,234,42,16,12
+    PUSHBUTTON      "&L",311,256,42,16,12
+    PUSHBUTTON      "&M",312,278,42,16,12
+    PUSHBUTTON      " ",313,302,40,20,15
+    PUSHBUTTON      "&SEL",314,122,58,18,12
+    PUSHBUTTON      "S&T",315,146,58,16,12
+    PUSHBUTTON      " ",316,168,58,16,12
+    PUSHBUTTON      " ",317,190,58,16,12
+    PUSHBUTTON      " ",318,212,58,16,12
+    PUSHBUTTON      " ",319,234,58,16,12
+    PUSHBUTTON      " ",320,256,58,16,12
+END
+
+MAPINPUT DIALOGEX 0, 0, 318, 294
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "快捷键"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,265,274,50,14
+    PUSHBUTTON      "取消(&C)",800,209,274,50,14
+    CONTROL         "List2",1003,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,308,243
+    PUSHBUTTON      "全部默认(&D)",200,7,274,75,14
+    RTEXT           "分类(&F):",65484,6,255,34,12,SS_CENTERIMAGE | NOT WS_GROUP
+    COMBOBOX        300,43,255,268,193,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+MEMVIEWFIND DIALOGEX 0, 0, 282, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "查找"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    LTEXT           "查找内容(&W):",-1,7,9,50,8
+    EDITTEXT        1000,60,7,150,14,ES_AUTOHSCROLL
+    GROUPBOX        "类型",-1,83,29,187,45
+    CONTROL         "十六进制(&H)",1001,"Button",BS_AUTORADIOBUTTON | WS_GROUP,93,43,60,10
+    CONTROL         "文本 (使用当前载入表)(&T)",1002,"Button",BS_AUTORADIOBUTTON,93,56,172,10
+    GROUPBOX        "方向",-1,9,29,65,44
+    CONTROL         "上(&U)",1003,"Button",BS_AUTORADIOBUTTON | WS_GROUP,18,43,35,10
+    CONTROL         "下(&D)",1004,"Button",BS_AUTORADIOBUTTON,18,56,35,10
+    DEFPUSHBUTTON   "查找下一个(&F)",1005,216,7,58,14
+END
+
+MEMWATCH DIALOGEX 0, 0, 261, 270
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "内存监视器"
+MENU MEMWATCHMENU
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",-1,3,0,126,200
+    GROUPBOX        "",-1,131,0,128,200
+    EDITTEXT        1001,6,17,30,14
+    EDITTEXT        1000,41,17,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1004,6,32,30,14
+    EDITTEXT        1003,41,32,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1007,6,47,30,14
+    EDITTEXT        1006,41,47,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1010,6,62,30,14
+    EDITTEXT        1009,41,62,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1013,6,77,30,14
+    EDITTEXT        1012,41,77,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1016,6,92,30,14
+    EDITTEXT        1015,41,92,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1019,6,107,30,14
+    EDITTEXT        1018,41,107,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1022,6,122,30,14
+    EDITTEXT        1021,41,122,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1025,6,137,30,14
+    EDITTEXT        1024,41,137,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1028,6,152,30,14
+    EDITTEXT        1027,41,152,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1031,6,167,30,14
+    EDITTEXT        1030,41,167,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1034,6,182,30,14
+    EDITTEXT        1033,41,182,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1037,135,17,30,14
+    EDITTEXT        1036,171,17,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1040,135,32,30,14
+    EDITTEXT        1039,171,32,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1043,135,47,30,14
+    EDITTEXT        1042,171,47,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1046,135,62,30,14
+    EDITTEXT        1045,171,62,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1049,135,77,30,14
+    EDITTEXT        1048,171,77,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1052,135,92,30,14
+    EDITTEXT        1051,171,92,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1055,135,107,30,14
+    EDITTEXT        1054,171,107,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1058,135,122,30,14
+    EDITTEXT        1057,171,122,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1061,135,137,30,14
+    EDITTEXT        1060,171,137,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1064,135,152,30,14
+    EDITTEXT        1063,171,152,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1067,135,167,30,14
+    EDITTEXT        1066,171,167,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1070,135,182,30,14
+    EDITTEXT        1069,171,182,55,14,ES_AUTOHSCROLL
+    LTEXT           "名称",65428,41,7,20,8
+    LTEXT           "地址",65427,6,7,26,8
+    LTEXT           "值",65426,101,7,19,8
+    LTEXT           "名称",65425,171,7,20,8
+    LTEXT           "地址",65424,135,7,26,8
+    LTEXT           "值",65423,231,7,19,8
+    LTEXT           " ",1193,89,225,26,8
+    GROUPBOX        "内存变换检查",-1,0,202,129,57,BS_CENTER
+    LTEXT           "地址",-1,6,213,26,8
+    LTEXT           "次数",-1,90,213,20,8
+    LTEXT           "公式",-1,47,213,26,8
+    LTEXT           " ",1188,7,225,24,8
+    PUSHBUTTON      "R",1184,115,225,11,13
+    LTEXT           "重设",-1,112,213,16,8
+    COMBOBOX        1142,37,223,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1189,7,241,24,8
+    COMBOBOX        1143,37,241,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1194,89,241,25,8
+    PUSHBUTTON      "R",1185,115,241,11,13
+    LTEXT           " ",1195,217,225,26,8
+    LTEXT           "地址",-1,133,213,26,8
+    LTEXT           "公式",-1,173,213,26,8
+    LTEXT           " ",1190,135,225,24,8
+    PUSHBUTTON      "R",1186,242,225,11,13
+    LTEXT           "重设",-1,239,213,16,8
+    COMBOBOX        1144,165,223,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1191,135,241,24,8
+    COMBOBOX        1145,165,241,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1196,217,241,28,8
+    PUSHBUTTON      "R",1187,242,241,11,13
+    GROUPBOX        "内存变换检查",-1,131,202,129,57,BS_CENTER
+    LTEXT           "次数",-1,217,213,20,8
+    PUSHBUTTON      "<",1133,1,259,11,10
+END
+
+MESSAGELOG DIALOGEX 33, 38, 197, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "信息记录"
+FONT 8, "Fixedsys", 0, 0, 0x0
+BEGIN
+    EDITTEXT        100,1,1,194,208,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "清除(&C)",40569,94,211,47,14
+    PUSHBUTTON      "关闭[&X]",40570,146,211,47,14
+END
+
+MOVIEOPTIONS DIALOGEX 65520, 76, 120, 186
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "电影选项"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1192,36,165,49,14,BS_CENTER
+    CONTROL         "播完之后暂停(&P)",1193,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,22,75,10
+    CONTROL         "电影包含进度(&B)",1194,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,50,75,10
+    CONTROL         "显示字幕(&D)",1196,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,64,62,10
+    CONTROL         "电影字幕压入 A&VI 视频",1197,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,78,98,10
+    CONTROL         "自动备份电影(&A)",1198,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,92,76,10
+    CONTROL         "载入完整进度电影(&L):",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,106,93,10
+    LTEXT           "录制时载入进度不立即修",-1,16,120,91,8
+    LTEXT           "剪，直到有按键输入帧再",-1,16,130,91,8
+    LTEXT           "修剪。",-1,16,140,36,8
+    CONTROL         "播完之后关闭(&C)",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,36,75,10
+    CONTROL         "始终建议只读播放(&R)",1201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,8,91,10
+    LTEXT           "(类似 VBA-rr 和 SNES9x)",-1,16,150,93,8
+END
+
+NAMEBOOKMARKDLG DIALOGEX 0, 0, 186, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "命名书签"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    LTEXT           "书签名",-1,68,14,58,8
+    EDITTEXT        1000,7,28,172,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定(&O)",1,67,52,50,14
+END
+
+NETMOO DIALOGEX 44, 59, 365, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "网络游戏"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    EDITTEXT        102,10,137,347,12,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_OEMCONVERT | ES_WANTRETURN
+    EDITTEXT        101,10,8,347,130,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    RTEXT           "远程主机:",65481,13,167,44,8
+    EDITTEXT        200,60,165,90,12
+    EDITTEXT        201,151,165,27,12
+    GROUPBOX        "设置",100,10,154,347,47,WS_GROUP
+    DEFPUSHBUTTON   "连接",250,296,163,56,14
+    EDITTEXT        203,282,182,70,12,ES_AUTOHSCROLL
+    RTEXT           "本地玩家数:",65480,187,167,46,8
+    RTEXT           "昵称:",65479,238,184,40,8
+    COMBOBOX        204,238,165,28,51,CBS_DROPDOWNLIST | WS_TABSTOP
+    RTEXT           "游戏密码:",65478,127,184,39,8
+    EDITTEXT        205,169,182,67,12
+    RTEXT           "密码:",65477,19,184,37,8
+    EDITTEXT        206,60,182,67,12,ES_PASSWORD
+END
+
+NEWINPUT DIALOGEX 0, 0, 186, 36
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置按键"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    CTEXT           "请按键。",100,4,5,177,11
+    PUSHBUTTON      "清除",200,95,18,50,14
+    PUSHBUTTON      "确定",201,40,18,50,14
+END
+
+NTVIEW DIALOGEX 44, 38, 355, 417
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "命名表"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "命名表",101,2,0,351,335,WS_TABSTOP
+    LTEXT           "块 ID:",103,237,364,93,10
+    RTEXT           "刷新速度(&R): 快",-1,171,341,62,10
+    CONTROL         "",201,"msctls_trackbar32",WS_TABSTOP,234,341,106,11
+    LTEXT           "慢",65534,341,341,10,10
+    RTEXT           "显示第(&D)",65533,3,341,37,10
+    LTEXT           "条扫描线",55555,69,341,35,10
+    EDITTEXT        102,42,339,24,12
+    LTEXT           "X/Y:",104,238,375,75,8
+    CONTROL         "纵向(&V)",1002,"Button",BS_AUTORADIOBUTTON,15,381,39,10
+    CONTROL         "四分屏(&F)",1003,"Button",BS_AUTORADIOBUTTON,15,395,55,10
+    CONTROL         "单屏 (&0 号表)",1004,"Button",BS_AUTORADIOBUTTON,113,362,90,10
+    CONTROL         "单屏 (&1 号表)",1005,"Button",BS_AUTORADIOBUTTON,113,374,90,10
+    CONTROL         "单屏 (&2 号表)",1006,"Button",BS_AUTORADIOBUTTON,113,386,90,10
+    CONTROL         "单屏 (&3 号表)",1007,"Button",BS_AUTORADIOBUTTON,113,398,90,10
+    GROUPBOX        "当前映射",65532,7,354,214,58
+    CONTROL         "显示卷轴线(&L)",1008,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,105,340,62,10
+    CONTROL         "横向(&H)",1001,"Button",BS_AUTORADIOBUTTON,15,367,47,10
+    GROUPBOX        "属性",65531,227,354,122,58
+    LTEXT           "PPU 地址:",105,237,387,75,8
+    LTEXT           "映射:",106,237,398,75,8
+END
+
+PALCONFIG DIALOGEX 16, 81, 228, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "调色板设置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,162,192,56,14
+    GROUPBOX        "NES 调色板",302,10,8,102,81,WS_GROUP
+    DEFPUSHBUTTON   "载入调色板(&L)...",200,18,40,72,14
+    CONTROL         "启用(&E)",100,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,22,87,12
+    CTEXT           "色调(&T)",65463,123,34,85,8
+    CONTROL         "",500,"msctls_trackbar32",WS_TABSTOP,121,44,91,11
+    GROUPBOX        "模拟 NTSC 颜色",101,115,8,103,81,WS_GROUP
+    CTEXT           "饱和(&H)",64395,124,59,85,8
+    CONTROL         "",501,"msctls_trackbar32",WS_TABSTOP,121,69,91,11
+    CONTROL         "强制灰度(&G)",102,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,58,85,12
+    CONTROL         "使用自定义调色板(&U)",104,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,22,88,12
+    GROUPBOX        "模拟 PAL 颜色",-1,10,89,208,61,WS_DISABLED
+    LTEXT           "色调(&a):",1294,83,100,58,8,WS_DISABLED
+    CONTROL         "",1291,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,78,110,70,15
+    PUSHBUTTON      "重设(&R)",201,161,132,50,14,WS_DISABLED
+    LTEXT           "锯齿(&N):",1296,16,100,46,8,WS_DISABLED
+    CONTROL         "",1295,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,11,110,68,15
+    LTEXT           "犀利(&S):",1298,161,99,50,8,WS_DISABLED
+    CONTROL         "",1297,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,156,109,61,15
+    LTEXT           "〖模拟 NTSC 颜色〗会替代内置调色板；\n个别游戏会同时替代内部调色板和 NTSC 调色板；\n〖自定义调色板〗会替代上述所有调色板；\n选择 PAL 滤镜时，〖PAL 模拟〗会覆盖其他选择。",-1,10,156,208,33
+    LTEXT           "饱和(&C): ",1300,16,126,55,8,WS_DISABLED
+    CONTROL         "",1299,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,11,134,67,15
+    LTEXT           "亮度(&B): ",1302,83,125,61,8,WS_DISABLED
+    CONTROL         "",1301,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,78,133,70,15
+    CONTROL         "互换非凸显字位(&D)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,73,83,10
+END
+
+POWERPADDIALOG DIALOG 30, 123, 131, 119
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "能量手套设置"
+FONT 9, "SimSun"
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,34,95,56,14
+    GROUPBOX        "",312,8,10,114,74,WS_GROUP
+    PUSHBUTTON      "&1",300,21,23,16,12
+    PUSHBUTTON      "&2",301,43,23,16,12
+    PUSHBUTTON      "&3",302,70,23,16,12
+    PUSHBUTTON      "&4",303,91,23,16,12
+    PUSHBUTTON      "&5",304,21,41,16,12
+    PUSHBUTTON      "&6",305,43,41,16,12
+    PUSHBUTTON      "&7",306,70,41,16,12
+    PUSHBUTTON      "&8",307,91,41,16,12
+    PUSHBUTTON      "&9",308,21,59,16,12
+    PUSHBUTTON      "1&0",309,43,59,16,12
+    PUSHBUTTON      "11[&-]",310,63,59,25,12
+    PUSHBUTTON      "12[&=]",311,89,59,24,12
+END
+
+PPUVIEW DIALOGEX 44, 38, 355, 291
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "PPU 查看器"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "模块表",101,2,1,351,222,WS_TABSTOP
+    LTEXT           "块:",103,6,186,50,9
+    LTEXT           "块:",104,177,186,50,9
+    RTEXT           "刷新速度(&R):  快",-1,157,197,70,9
+    CONTROL         "",201,"msctls_trackbar32",WS_TABSTOP,227,197,106,11
+    LTEXT           "慢",-1,338,197,9,10
+    GROUPBOX        "调色板",105,2,225,351,62,WS_TABSTOP
+    LTEXT           "显示第(&D)",-1,6,197,38,9
+    EDITTEXT        102,46,195,27,12
+    LTEXT           "条扫描线",-1,77,197,33,9
+    CONTROL         "遮罩未用图形 (需启动代码/数据记录器)(&M)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,209,169,10
+    CONTROL         "相反遮罩(&I)",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,177,209,61,10
+    CONTROL         "精灵 8x16 模式(&S)",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,271,209,78,10
+END
+
+QUIZKINGDIALOG DIALOG 30, 123, 160, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "抢答器"
+FONT 9, "SimSun"
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,54,56,56,14
+    GROUPBOX        "抢答器",312,8,7,144,39,WS_GROUP
+    PUSHBUTTON      "&1",300,16,23,16,12
+    PUSHBUTTON      "&2",301,38,23,16,12
+    PUSHBUTTON      "&3",302,60,23,16,12
+    PUSHBUTTON      "&4",303,82,23,16,12
+    PUSHBUTTON      "&5",304,104,23,16,12
+    PUSHBUTTON      "&6",305,126,23,16,12
+END
+
+ROMPATCHER DIALOGEX 84, 67, 304, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "ROM 数据编辑器"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    EDITTEXT        105,7,47,282,12,ES_READONLY
+    PUSHBUTTON      "提交(&A)",110,185,92,54,14
+    PUSHBUTTON      "保存 ROM 文件(&S)...",111,4,114,81,14,WS_DISABLED
+    EDITTEXT        109,7,93,172,13,ES_AUTOHSCROLL
+    GROUPBOX        "当前数据位于偏转",104,3,36,292,43
+    GROUPBOX        "偏转",100,4,4,291,27
+    EDITTEXT        102,83,12,47,14,ES_AUTOHSCROLL
+    CONTROL         ".&NES 文件地址",101,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,14,71,10
+    PUSHBUTTON      "编辑此偏转(&E)",103,135,12,65,14
+    LTEXT           "已反编译: ",106,7,63,45,12
+    EDITTEXT        107,56,62,234,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "补丁数据:",108,3,81,292,30
+END
+
+SOUNDCONFIG DIALOGEX 8, 95, 334, 282
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "声音设置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,280,260,44,14
+    GROUPBOX        "输出格式",302,10,9,131,93,WS_GROUP
+    CONTROL         "启用声音(&e)",126,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,22,117,12
+    CONTROL         "强制 &8 位声音",122,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,38,117,11
+    LTEXT           "采样(&R):",65461,15,81,33,8
+    COMBOBOX        200,50,78,53,46,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "赫兹",65460,108,81,17,8
+    GROUPBOX        "缓冲",127,150,9,131,93,WS_GROUP
+    CONTROL         "使用全局焦点(&G)",124,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,157,22,100,12
+    CTEXT           "声音缓冲池(&L)",65459,162,48,107,8
+    CONTROL         "",128,"msctls_trackbar32",WS_TABSTOP,162,70,107,13
+    GROUPBOX        "主(&M)",125,19,142,44,93,WS_GROUP
+    CONTROL         "",500,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,27,150,28,83
+    LTEXT           "15 毫秒",65458,160,87,28,8
+    LTEXT           "200 毫秒",65457,241,87,34,8
+    CTEXT           "▁▂▃▄▅▆▇█",65456,178,60,72,9
+    LTEXT           "音质(&Q):",65455,15,55,33,8
+    COMBOBOX        129,50,54,67,46,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "帧进静音(&F)",130,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,110,87,11
+    CONTROL         "快进静音(&T)",1179,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,111,55,10
+    GROUPBOX        "Ｉ　ｌｏｖｅ　ｙｏｕ，　ＭＭ．",131,70,142,44,93,WS_GROUP
+    CONTROL         "",501,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,78,150,28,83
+    GROUPBOX        "Ｉ　ｌｏｖｅ　ｙｏｕ，　ＭＭ．",132,121,142,44,93,WS_GROUP
+    CONTROL         "",502,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,129,150,28,83
+    GROUPBOX        "Ｉ　ｌｏｖｅ　ｙｏｕ，　ＭＭ．",133,170,142,44,93,WS_GROUP
+    CONTROL         "",503,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,178,150,28,83
+    GROUPBOX        "Ｉ　ｌｏｖｅ　ｙｏｕ，　ＭＭ．",134,221,142,44,93,WS_GROUP
+    CONTROL         "",504,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,229,150,28,83
+    GROUPBOX        "Ｉ　ｌｏｖｅ　ｙｏｕ，　ＭＭ．",135,271,142,44,93,WS_GROUP
+    CONTROL         "",505,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,279,150,28,83
+    GROUPBOX        "音量控制",1204,10,127,314,127
+    PUSHBUTTON      "默认(&d)",1133,19,238,56,13
+    LTEXT           "",1201,76,133,38,8
+    LTEXT           "",1202,170,133,144,8
+    CONTROL         "互换占空比(&S)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,110,74,10
+END
+
+SUBORKBDIALOG DIALOGEX 13, 72, 478, 171
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "学习机键盘配置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭",1,405,151,56,14
+    LTEXT           "在玩游戏时可按下 Scroll Lock 开启学习机键盘哦。",-1,18,6,370,12
+    GROUPBOX        "",-1,9,22,461,123,WS_GROUP
+    PUSHBUTTON      "Esc",300,20,37,16,12
+    PUSHBUTTON      "F1",301,58,37,16,12
+    PUSHBUTTON      "F2",302,78,37,16,12
+    PUSHBUTTON      "F3",303,98,37,16,12
+    PUSHBUTTON      "F4",304,118,37,16,12
+    PUSHBUTTON      "F5",305,143,37,16,12
+    PUSHBUTTON      "F6",306,163,37,16,12
+    PUSHBUTTON      "F7",307,183,37,16,12
+    PUSHBUTTON      "F8",308,203,37,16,12
+    PUSHBUTTON      "F9",309,229,37,16,12
+    PUSHBUTTON      "F10",310,249,37,16,12
+    PUSHBUTTON      "F11",311,268,37,16,12
+    PUSHBUTTON      "F12",312,288,37,16,12
+    PUSHBUTTON      "Pause",313,310,37,24,12
+    PUSHBUTTON      "&`",314,20,60,16,12
+    PUSHBUTTON      "&1",315,39,60,16,12
+    PUSHBUTTON      "&2",316,58,60,16,12
+    PUSHBUTTON      "&3",317,77,60,16,12
+    PUSHBUTTON      "&4",318,96,60,16,12
+    PUSHBUTTON      "&5",319,115,60,16,12
+    PUSHBUTTON      "&6",320,134,60,16,12
+    PUSHBUTTON      "&7",321,153,60,16,12
+    PUSHBUTTON      "&8",322,172,60,16,12
+    PUSHBUTTON      "&9",323,191,60,16,12
+    PUSHBUTTON      "&0",324,210,60,16,12
+    PUSHBUTTON      "&-",325,229,60,16,12
+    PUSHBUTTON      "&=",326,248,60,16,12
+    PUSHBUTTON      "BS",327,286,60,16,12
+    PUSHBUTTON      "Ins",328,316,60,20,12
+    PUSHBUTTON      "Home",329,336,60,20,12
+    PUSHBUTTON      "NL",330,385,60,16,12
+    PUSHBUTTON      "/",331,405,60,16,12
+    PUSHBUTTON      "*",332,425,60,16,12
+    PUSHBUTTON      "-",333,444,60,16,12
+    PUSHBUTTON      "PUp",334,356,60,20,12
+    PUSHBUTTON      "TAB",335,20,76,24,12
+    PUSHBUTTON      "&Q",336,47,76,16,12
+    PUSHBUTTON      "&W",337,66,76,16,12
+    PUSHBUTTON      "&E",338,85,76,16,12
+    PUSHBUTTON      "&R",339,104,76,16,12
+    PUSHBUTTON      "&T",340,123,76,16,12
+    PUSHBUTTON      "&Y",341,142,76,16,12
+    PUSHBUTTON      "&U",342,161,76,16,12
+    PUSHBUTTON      "&I",343,180,76,16,12
+    PUSHBUTTON      "&O",344,199,76,16,12
+    PUSHBUTTON      "&P",345,218,76,16,12
+    PUSHBUTTON      "&[",346,237,76,16,12
+    PUSHBUTTON      "&]",347,256,76,16,12
+    PUSHBUTTON      "Enter",348,274,76,28,29
+    PUSHBUTTON      "Del",349,316,76,20,12
+    PUSHBUTTON      "End",350,336,76,20,12
+    PUSHBUTTON      "PDn",351,356,76,20,12
+    PUSHBUTTON      "7",352,385,76,16,12
+    PUSHBUTTON      "8",353,405,76,16,12
+    PUSHBUTTON      "9",354,425,76,16,12
+    PUSHBUTTON      "+",355,444,76,16,28
+    PUSHBUTTON      "CL",356,20,92,27,12
+    PUSHBUTTON      "&A",357,52,92,16,12
+    PUSHBUTTON      "&S",358,71,92,16,12
+    PUSHBUTTON      "&D",359,90,92,16,12
+    PUSHBUTTON      "&F",360,109,92,16,12
+    PUSHBUTTON      "&G",361,128,92,16,12
+    PUSHBUTTON      "&H",362,147,92,16,12
+    PUSHBUTTON      "&J",363,166,92,16,12
+    PUSHBUTTON      "&K",364,185,92,16,12
+    PUSHBUTTON      "&L",365,204,92,16,12
+    PUSHBUTTON      "&;",366,223,92,16,12
+    PUSHBUTTON      "&'",367,242,92,16,12
+    PUSHBUTTON      "4",368,385,92,16,12
+    PUSHBUTTON      "5",369,405,92,16,12
+    PUSHBUTTON      "6",370,425,92,16,12
+    PUSHBUTTON      "SHIFT",371,20,108,37,12
+    PUSHBUTTON      "&Z",372,62,108,16,12
+    PUSHBUTTON      "&X",373,81,108,16,12
+    PUSHBUTTON      "&C",374,100,108,16,12
+    PUSHBUTTON      "&V",375,119,108,16,12
+    PUSHBUTTON      "&B",376,138,108,16,12
+    PUSHBUTTON      "&N",377,157,108,16,12
+    PUSHBUTTON      "&M",378,176,108,16,12
+    PUSHBUTTON      "&,",379,195,108,16,12
+    PUSHBUTTON      "&.",380,214,108,16,12
+    PUSHBUTTON      "&/",381,233,108,16,12
+    PUSHBUTTON      "&\\",382,267,60,16,12
+    PUSHBUTTON      "↑",383,337,108,16,12
+    PUSHBUTTON      "1",384,385,107,16,12
+    PUSHBUTTON      "2",385,405,107,16,12
+    PUSHBUTTON      "3",386,425,107,16,12
+    PUSHBUTTON      "CTRL",387,20,123,28,12
+    PUSHBUTTON      "ALT",388,66,123,27,12
+    PUSHBUTTON      " SPACE& ",389,96,123,130,12
+    PUSHBUTTON      "←",390,318,123,16,12
+    PUSHBUTTON      "↓",391,337,123,16,12
+    PUSHBUTTON      "→",392,357,123,16,12
+    PUSHBUTTON      "0",393,386,123,35,12
+    PUSHBUTTON      ".",394,425,123,16,12
+    PUSHBUTTON      "SHIFT",395,254,108,48,12
+    PUSHBUTTON      "ALT",396,229,123,29,12
+    PUSHBUTTON      "CTRL",397,274,123,28,12
+    PUSHBUTTON      "Break",398,334,37,24,12
+    PUSHBUTTON      "Reset",399,358,37,24,12
+    PUSHBUTTON      "",400,444,107,16,28
+END
+
+TASEDITOR DIALOGEX 0, 0, 326, 348
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "TAS 编辑器"
+MENU TASEDITORMENU
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    CONTROL         "",1144,"Button",BS_OWNERDRAW,200,36,116,12
+    CONTROL         "&B",1152,"Button",BS_OWNERDRAW,207,167,104,10
+    CONTROL         "",1130,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER,5,13,187,316
+    GROUPBOX        "播放",1275,197,0,123,62,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        "记录",1276,197,63,123,46,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        "粘合",1277,197,110,123,30,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        "Lua",1278,197,141,123,26,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        "书签(B)",1264,197,168,123,102,BS_CENTER | WS_DISABLED,WS_EX_RIGHT
+    GROUPBOX        "历史",1279,197,271,123,53,BS_CENTER,WS_EX_RIGHT
+    PUSHBUTTON      "<<",1135,199,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      "<",1133,223,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      "||",1137,247,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      ">",1134,271,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      ">>",1136,295,9,23,14,NOT WS_TABSTOP
+    CONTROL         "",1262,"msctls_progress32",PBS_SMOOTH | WS_BORDER,201,39,115,6
+    CONTROL         "跟随光标(&c)",1263,"Button",BS_AUTOCHECKBOX,203,25,56,12
+    CONTROL         "自动恢复上次位置(&l)",1261,"Button",BS_AUTOCHECKBOX,203,48,109,12
+    CONTROL         "",1150,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOSCROLL | LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | NOT WS_VISIBLE | WS_BORDER,202,177,113,89
+    CONTROL         "",1149,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | WS_BORDER,202,280,113,40
+    CONTROL         "全部(&A)",1139,"Button",BS_AUTORADIOBUTTON,278,71,39,10
+    CONTROL         "&1P",1140,"Button",BS_AUTORADIOBUTTON,203,83,25,10
+    CONTROL         "&2P",1141,"Button",BS_AUTORADIOBUTTON,232,83,25,10
+    CONTROL         "&3P",1142,"Button",BS_AUTORADIOBUTTON,262,83,24,10
+    CONTROL         "&4P",1143,"Button",BS_AUTORADIOBUTTON,291,83,24,10
+    CONTROL         "重叠(&u)",1203,"Button",BS_AUTO3STATE,203,96,55,10
+    PUSHBUTTON      "<<",1145,197,328,13,14,NOT WS_TABSTOP
+    PUSHBUTTON      "相同注释(&S)",1146,210,328,49,14,NOT WS_TABSTOP
+    PUSHBUTTON      "继续查找(&o)",1148,259,328,49,14,NOT WS_TABSTOP
+    PUSHBUTTON      ">>",1151,308,328,13,14,NOT WS_TABSTOP
+    EDITTEXT        1154,65,0,127,13,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    RTEXT           "",1270,3,2,60,10,SS_NOTIFY,WS_EX_RIGHT
+    EDITTEXT        1147,65,329,127,13,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    RTEXT           "",1271,3,331,60,10,SS_NOTIFY,WS_EX_RIGHT
+    CONTROL         "",1265,"Static",SS_OWNERDRAW | SS_NOTIFY | SS_REALSIZEIMAGE | NOT WS_VISIBLE,202,177,113,89
+    CONTROL         "快速搜寻(&T)",1266,"Button",BS_AUTOCHECKBOX,262,25,54,12
+    LTEXT           "",1267,203,118,114,10,SS_NOTIFY
+    LTEXT           "",1268,203,128,114,10,SS_NOTIFY
+    CONTROL         "录制(&R)",1204,"Button",BS_AUTO3STATE,203,71,72,10
+    PUSHBUTTON      "运行函数(&n)",1156,202,150,54,14,WS_DISABLED | NOT WS_TABSTOP
+    CONTROL         "自动函数(&f)",1205,"Button",BS_AUTOCHECKBOX,261,152,55,10
+    CONTROL         "连发花样(&e)",1206,"Button",BS_AUTOCHECKBOX,262,96,53,10
+END
+
+TEXTHOOKER DIALOGEX 0, 0, 421, 327
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "文本钩"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "选择窗口",1,3,0,178,175,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        102,194,13,216,94,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    GROUPBOX        "钩住文本",103,188,0,229,131,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "载入表",104,3,183,56,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "清除选区",105,64,183,56,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "暂停",106,64,204,56,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "喀嚓",107,124,183,57,34,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "清除缓存",108,198,111,60,14,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        111,5,263,115,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "保存选区",112,130,263,52,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "保存表",113,3,204,56,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "载入选区",114,130,282,52,14,0,WS_EX_NOPARENTNOTIFY
+    GROUPBOX        "译文",115,188,140,229,117,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        116,194,153,216,95,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Excite.co.jp",117,271,111,60,14,0,WS_EX_NOPARENTNOTIFY
+    LTEXT           "扫描线:",118,5,224,50,8,0,WS_EX_NOPARENTNOTIFY
+    LTEXT           "每 x 帧更新:",119,68,224,79,8,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        120,5,234,52,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    EDITTEXT        121,68,234,52,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "修剪",122,341,111,60,14
+    COMBOBOX        109,5,283,115,100,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "日本語:",-1,5,297,47,9
+    EDITTEXT        131,5,306,115,14,ES_AUTOHSCROLL
+    LTEXT           "English:",-1,130,297,47,9
+    EDITTEXT        132,130,306,115,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加定义",133,253,306,60,14
+    CONTROL         "选择窗口",341,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,275,80,9
+    CONTROL         "文字替换",342,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,288,80,9
+    LTEXT           "(半) 濁点位置:",-1,324,300,92,8
+    CONTROL         "上边",343,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,311,37,10
+    CONTROL         "右边",344,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,363,311,33,10
+    LTEXT           "新选区名:",-1,5,254,68,8
+END
+
+TIMINGCONFIG DIALOGEX 23, 157, 98, 131
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "计时设置"
+FONT 9, "Simsun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭[&X]",1,36,108,56,14
+    CONTROL         "静音时不限速(&D)",101,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,4,83,12
+    CONTROL         "线程高优先级(&S)",105,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,16,82,12
+    CONTROL         "超频 (仅旧 PPU)(&O)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,29,85,10
+    LTEXT           "后呈现扫描线数(&P):",-1,7,43,74,8
+    EDITTEXT        1147,8,54,84,14,ES_AUTOHSCROLL
+    CONTROL         "&7 位采样不超频",1293,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,96,84,10
+    LTEXT           "垂直空白扫描线数(&V):",-1,7,71,80,8
+    EDITTEXT        1148,7,81,84,14,ES_AUTOHSCROLL
+END
+
+TRACER DIALOGEX 0, 0, 317, 181
+STYLE DS_SETFONT | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "追踪记录器"
+FONT 9, "SimSun", 400, 0, 0x0
+BEGIN
+    EDITTEXT        100,3,3,300,44,ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | WS_HSCROLL
+    SCROLLBAR       101,303,3,11,44,SBS_VERT
+    CONTROL         "保留最后(&L)",103,"Button",BS_AUTORADIOBUTTON | BS_LEFT,9,53,54,10
+    COMBOBOX        105,66,52,52,13,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "行记录",106,122,54,27,10
+    DEFPUSHBUTTON   "开始记录(&S)",102,178,51,49,15,BS_CENTER | BS_VCENTER
+    CONTROL         "记录到文件(&F)",104,"Button",BS_AUTORADIOBUTTON | BS_LEFT,9,70,62,10
+    PUSHBUTTON      "浏览(&B)...",112,76,68,48,14,BS_CENTER | BS_VCENTER
+    CONTROL         "记录时自动更新窗口(&u)",116,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,145,70,110,10
+    GROUPBOX        "记录选项",109,3,85,311,65
+    CONTROL         "记录寄存器状态(&g)",110,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,95,99,10
+    CONTROL         "记录处理器状态标签(&P)",111,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,95,96,10
+    CONTROL         "记录到反编译左侧(&d)",118,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,211,95,100,10
+    CONTROL         "记录帧数(&m)",119,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,109,98,10
+    CONTROL         "记录周期数(&C)",120,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,109,94,10
+    CONTROL         "记录指令数(&I)",121,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,211,109,98,10
+    CONTROL         "记录模拟器消息(&e)",124,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,123,97,10
+    CONTROL         "记录断点撞击(&h)",125,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,123,91,10
+    CONTROL         "符号追踪(&y)",123,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,137,96,10
+    CONTROL         "用栈指针对齐代码 (网状虚拟图)(&o)",117,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,137,196,10
+    GROUPBOX        "【代码/数据记录器】附加协作记录选项",113,3,151,311,26
+    CONTROL         "只记录新分配代码(&n)",114,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,162,102,10
+    CONTROL         "只记录访问新分配数据的代码(&w)",115,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,112,162,171,10
+END
+
+VIDEOCONFIG DIALOGEX 65520, 76, 511, 170
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "视频设置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "全屏设置",65453,5,3,171,141,WS_GROUP
+    CONTROL         "全屏 (Alt+Enter 或双击)(&F)",101,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,15,157,12
+    CONTROL         "载入游戏后全屏(&E)",102,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,29,154,12
+    RTEXT           "同步方式(&y):",65452,11,108,48,9
+    COMBOBOX        105,69,106,95,50,CBS_DROPDOWNLIST | WS_TABSTOP
+    LTEXT           "模式(&M):",13,11,67,32,9
+    EDITTEXT        200,46,65,27,13,ES_RIGHT
+    LTEXT           "×",12,76,67,8,9
+    EDITTEXT        201,86,65,27,13,ES_RIGHT
+    LTEXT           "&@",11,118,67,4,9
+    COMBOBOX        202,126,65,28,12,CBS_DROPDOWNLIST | WS_TABSTOP
+    LTEXT           "bpp",10,157,67,14,9
+    RTEXT           "特殊效果(&S):",65444,11,90,48,9
+    COMBOBOX        304,69,88,95,46,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "窗口设置",65441,182,3,164,141,WS_GROUP
+    LTEXT           "尺寸倍数(&z):",65440,190,22,50,8
+    CTEXT           "X:",65439,253,10,26,8
+    CTEXT           "Y:",65438,304,10,26,8
+    EDITTEXT        400,244,20,44,12,ES_AUTOHSCROLL
+    EDITTEXT        401,295,20,44,12,ES_AUTOHSCROLL
+    CONTROL         "强制按整数倍(&i)",402,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,50,136,12
+    CONTROL         "强制修正比例(&r)",403,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,64,136,12
+    RTEXT           "特殊效果(&p):",65429,188,90,48,9
+    COMBOBOX        406,246,88,93,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "同步方式(&n):",65437,188,108,48,9
+    COMBOBOX        104,246,106,93,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "绘制区域",65494,351,50,154,65,WS_GROUP
+    LTEXT           "首行:",65436,367,68,40,9
+    LTEXT           "尾行:",65435,367,84,40,9
+    CTEXT           "NTSC",65434,413,57,27,8
+    CTEXT           "PAL/Dendy",65433,462,57,37,8
+    EDITTEXT        500,414,66,27,12,ES_RIGHT
+    EDITTEXT        501,414,83,27,12,ES_RIGHT
+    EDITTEXT        502,465,66,27,12,ES_RIGHT
+    EDITTEXT        503,465,83,27,12,ES_RIGHT
+    CONTROL         "切掉左右两侧 (&8 像素)",106,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,98,140,12
+    DEFPUSHBUTTON   "关闭[&X]",1281,449,150,56,14
+    CONTROL         "每条扫描线精灵允许超过 8 只(&A)",600,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,128,138,11
+    GROUPBOX        "模拟",65430,351,117,154,27,WS_GROUP
+    CONTROL         "最适(&B)",107,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,14,39,12
+    CONTROL         "隐藏鼠标指针(&H)",103,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,44,87,12
+    GROUPBOX        "比例",65495,351,3,154,45,WS_GROUP
+    CONTROL         "背景色(&G)",108,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,14,47,12
+    CONTROL         "电视比例(&T):",109,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,30,58,12
+    GROUPBOX        "调整窗口大小时",65431,188,38,152,43,WS_GROUP
+    CONTROL         "方形像素(&q)",110,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,448,14,55,12
+    EDITTEXT        404,420,30,36,12,ES_AUTOHSCROLL
+    EDITTEXT        405,466,30,36,12,ES_AUTOHSCROLL
+    CTEXT           "/",65442,457,31,8,8
+    RTEXT           "&DirectDraw:",65454,11,126,48,10
+    COMBOBOX        111,69,124,95,50,CBS_DROPDOWNLIST | WS_TABSTOP
+    RTEXT           "Dire&ctDraw:",65455,188,126,48,10
+    COMBOBOX        112,246,124,93,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+154 DIALOGEX 0, 0, 287, 292
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " RAM 搜索"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    CONTROL         "",1205,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,9,9,214,151,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "搜索(&S)",1206,226,9,52,15
+    PUSHBUTTON      "添加作弊(&A)",1207,226,124,52,15,WS_DISABLED
+    PUSHBUTTON      "监视(&W)",1208,226,108,52,15
+    PUSHBUTTON      "重设(&R)",1209,226,25,52,15
+    PUSHBUTTON      "排除(&E)",1210,226,92,52,15
+    GROUPBOX        "比较选项",-1,10,166,102,120,0,WS_EX_TRANSPARENT
+    CONTROL         "＜[&<]",1211,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,14,178,95,11
+    CONTROL         "＞[&>]",1212,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,191,95,11
+    CONTROL         "≤[&[]",1213,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,204,95,11
+    CONTROL         "≥[&]]",1214,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,217,95,11
+    CONTROL         "＝[&=]",1215,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,230,95,11
+    CONTROL         "≠[&`]",1216,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,243,95,11
+    CONTROL         "增减(&D):",1217,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,256,52,11
+    CONTROL         "模余(&M)",1218,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,269,40,10
+    EDITTEXT        1219,69,255,38,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        1220,60,268,38,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "与...比较",-1,118,166,153,60,0,WS_EX_TRANSPARENT
+    CONTROL         "前值(&P)",1221,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,121,176,67,10
+    CONTROL         "指定值(&V):",1222,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,188,67,10
+    CONTROL         "指定地址(&f):",1223,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,200,67,10
+    CONTROL         "变换次数(&N):",1224,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,212,76,10
+    EDITTEXT        1225,203,187,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        1226,203,199,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        1227,203,211,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "数据类型/显示",-1,196,228,75,45,0,WS_EX_TRANSPARENT
+    CONTROL         "带正负号[&-]",1228,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,200,238,67,9
+    CONTROL         "不带正负号[&\\]",1229,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,200,249,67,9
+    CONTROL         "十六进制(&x)",1230,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,200,260,67,9
+    CONTROL         "自动搜索(&z)",1231,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,275,57,11
+    GROUPBOX        "数据大小",-1,117,228,73,58,0,WS_EX_TRANSPARENT
+    CONTROL         "&1 字节",1232,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,121,238,61,11
+    CONTROL         "&2 字节",1233,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,249,61,11
+    CONTROL         "&4 字节",1234,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,260,61,11
+    CONTROL         "检查整齐(&l)",1235,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,273,65,10
+    PUSHBUTTON      "清除\n变换次数(&C)",1236,226,41,52,21,BS_TOP | BS_MULTILINE
+    PUSHBUTTON      "撤消(&U)",1237,226,63,52,15,WS_DISABLED
+    LTEXT           "是",-1,100,270,8,8
+    CONTROL         "搜索 R&OM",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,80,54,11
+    PUSHBUTTON      "十六进制\n编辑器(&H)",1238,226,140,52,21,BS_TOP | BS_MULTILINE
+END
+
+155 DIALOGEX 0, 0, 269, 298
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " RAM 监视"
+MENU RAMWATCH_MENU
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    CONTROL         "",1238,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,9,9,210,279,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "编辑(&E)",1239,226,66,34,14
+    PUSHBUTTON      "移除(&R)",1240,226,83,34,14
+    PUSHBUTTON      "新建(&N)",1208,226,100,34,14
+    PUSHBUTTON      "拷贝(&D)",1241,226,117,34,14
+    PUSHBUTTON      "添加(&A)",1207,223,168,42,16,WS_DISABLED
+    GROUPBOX        "监视",-1,222,11,42,145
+    CONTROL         "",1242,"msctls_updown32",WS_TABSTOP,232,23,19,36
+    PUSHBUTTON      "分栏(&S)",1259,225,137,36,14
+END
+
+156 DIALOGEX 0, 0, 128, 93
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑监视"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    RTEXT           "地址(&A):",1223,9,7,35,10
+    EDITTEXT        1226,46,5,65,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    RTEXT           "注释(&N):",1245,7,19,37,10
+    EDITTEXT        1247,46,17,65,12,ES_AUTOHSCROLL
+    GROUPBOX        "数据类型",-1,5,32,69,42,0,WS_EX_TRANSPARENT
+    CONTROL         "带正负号[&-]",1228,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,9,42,57,9
+    CONTROL         "不带正负号[&\\]",1229,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,9,52,63,9
+    CONTROL         "十六进制(&H)",1230,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,9,62,58,9
+    GROUPBOX        "数据大小",-1,79,32,43,42,0,WS_EX_TRANSPARENT
+    CONTROL         "&1 字节",1232,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,83,42,37,9
+    CONTROL         "&2 字节",1233,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,83,52,37,9
+    CONTROL         "&4 字节",1234,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,83,62,38,9
+    DEFPUSHBUTTON   "确定(&O)",1,19,75,50,14
+    PUSHBUTTON      "取消(&C)",2,73,75,50,14
+END
+
+157 DIALOG 0, 0, 186, 36
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "输入提示"
+FONT 9, "SimSun"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,100,20,50,14
+    PUSHBUTTON      "取消",2,37,20,50,14
+    EDITTEXT        1247,3,4,180,14,ES_AUTOHSCROLL
+END
+
+159 DIALOGEX 0, 0, 270, 150
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Lua 脚本"
+MENU LUAWINDOW_MENU
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    LTEXT           "脚本文件(&F):",-1,7,7,60,8
+    EDITTEXT        1251,7,16,256,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览(&B)...",1248,7,31,48,16
+    PUSHBUTTON      "编辑(&E)",1253,58,31,46,16
+    PUSHBUTTON      "停止(&S)",1250,160,31,50,16
+    PUSHBUTTON      "运行(&R)",1249,213,31,50,16
+    LTEXT           "输出平台(&O):",-1,7,70,56,8
+    EDITTEXT        1252,7,80,256,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "参数(&A):",-1,7,52,40,8
+    EDITTEXT        1256,47,50,216,14,ES_AUTOHSCROLL
+END
+
+195 DIALOGEX 0, 0, 74, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "紧密保存"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "保存(&S)",1,0,168,34,14
+    PUSHBUTTON      "取消(&C)",2,38,168,34,14
+    CONTROL         "二进制按键(&I)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,8,63,10
+    CONTROL         "标记(&M)",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,22,42,10
+    CONTROL         "书签(&B)",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,36,43,10
+    CONTROL         "历史(&H)",1207,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,50,41,10
+    CONTROL         "卷帘(&P)",1209,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,64,41,10
+    CONTROL         "选区(&l)",1208,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,78,43,10
+    GROUPBOX        "安全容量",-1,4,93,64,72
+    CONTROL         "全帧(&F)",1138,"Button",BS_AUTORADIOBUTTON,8,105,40,10
+    CONTROL         "每 16 帧(&E)",1139,"Button",BS_AUTORADIOBUTTON,8,119,55,10
+    CONTROL         "标记帧(&r)",1140,"Button",BS_AUTORADIOBUTTON,8,133,52,10
+    CONTROL         "无(&D)",1141,"Button",BS_AUTORADIOBUTTON,8,147,34,10
+END
+
+196 DIALOGEX 0, 0, 192, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "导出 FM2 文件"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "导出(&E)",1,8,30,50,14
+    PUSHBUTTON      "取消(&C)",2,136,30,50,14
+    CONTROL         "一个玩家(&1)",1269,"Button",BS_AUTORADIOBUTTON | WS_GROUP,8,4,58,10
+    CONTROL         "二个玩家(&2)",1270,"Button",BS_AUTORADIOBUTTON,68,4,58,10
+    CONTROL         "四个玩家[&4]",1271,"Button",BS_AUTORADIOBUTTON,128,4,63,10
+    CONTROL         "将标记注释转换成电影字幕(&M)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,16,121,10
+END
+
+198 DIALOGEX 0, 0, 228, 49
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "查找注释"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "查找下一个(&F)",1,167,6,58,14
+    PUSHBUTTON      "取消(&C)",2,168,24,57,14
+    EDITTEXT        1147,6,7,160,12,ES_AUTOHSCROLL
+    CONTROL         "大小写对应(&M)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,32,64,10
+    GROUPBOX        "方向",-1,82,21,83,26,BS_CENTER
+    CONTROL         "上(&U)",1138,"Button",BS_AUTORADIOBUTTON | WS_GROUP,90,32,31,10
+    CONTROL         "下(&D)",1273,"Button",BS_AUTORADIOBUTTON,125,32,32,10
+END
+
+199 DIALOGEX 0, 0, 238, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 TAS 编辑器"
+FONT 9, "KaiTi", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",2,94,55,50,14
+    ICON            201,-1,11,11,20,20
+    CTEXT           "競速編輯器",1280,43,8,83,28
+    CTEXT           "版本 1.01",-1,43,38,83,8
+    LTEXT           "AnS 制作",-1,138,12,52,8
+    LTEXT           "鸣谢 TASEdit 作者",-1,138,25,92,9,SS_NOPREFIX
+    LTEXT           "zeromus 和 adelikat",-1,138,35,96,9,SS_NOPREFIX
+END
+
+202 DIALOGEX 0, 0, 152, 100
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建工程"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,7,80,50,14
+    PUSHBUTTON      "取消(&C)",2,98,80,50,14
+    CONTROL         "复制当前按键(&I)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,76,14,76,10
+    CONTROL         "一个玩家(&1)",1269,"Button",BS_AUTORADIOBUTTON,11,14,56,10
+    CONTROL         "二个玩家(&2)",1270,"Button",BS_AUTORADIOBUTTON,11,27,56,10
+    CONTROL         "四个玩家[&4]",1271,"Button",BS_AUTORADIOBUTTON,11,40,56,10
+    CONTROL         "复制当前标记(&M)",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,76,27,76,10
+    GROUPBOX        "按键类型",-1,5,3,66,52,BS_CENTER
+    LTEXT           "作者(&A):",-1,8,63,33,8
+    EDITTEXT        1180,43,61,104,13,ES_AUTOHSCROLL
+END
+
+289 DIALOGEX 0, 0, 180, 200
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "工程保存选项"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,69,180,50,14
+    PUSHBUTTON      "取消(&C)",2,125,180,50,14
+    CONTROL         "二进制按键(&I)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,17,63,10
+    CONTROL         "标记(&M)",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,31,44,10
+    CONTROL         "书签(&B)",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,45,41,10
+    CONTROL         "历史(&H)",1207,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,59,40,10
+    CONTROL         "卷帘(&P)",1209,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,73,40,10
+    CONTROL         "选区(&l)",1208,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,87,40,10
+    GROUPBOX        "文件内容",-1,94,4,80,172
+    GROUPBOX        "安全容量",-1,101,101,65,69
+    CONTROL         "全帧(&F)",1138,"Button",BS_AUTORADIOBUTTON,107,112,56,10
+    CONTROL         "每 16 帧(&E)",1139,"Button",BS_AUTORADIOBUTTON,107,126,55,10
+    CONTROL         "标记帧(&r)",1140,"Button",BS_AUTORADIOBUTTON,107,140,50,10
+    CONTROL         "无(&D)",1141,"Button",BS_AUTORADIOBUTTON,107,154,44,10
+    CONTROL         "自动保存(&A)",1282,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,17,56,10
+    CONTROL         "缄默(&S)",1283,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,45,42,10
+    LTEXT           "每(&v)",-1,14,31,21,8
+    EDITTEXT        1147,36,29,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "分钟",-1,64,31,18,8
+    GROUPBOX        "设置",-1,6,4,80,172
+END
+
+290 DIALOGEX 0, 0, 245, 83
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "符号调试命名"
+FONT 9, "SimSun", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定(&O)",1,132,62,50,14
+    PUSHBUTTON      "取消(&C)",2,189,62,50,14
+    LTEXT           "文件(&F):",-1,6,7,32,9
+    EDITTEXT        1150,42,6,197,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "地址(&A):",-1,6,26,32,10
+    EDITTEXT        1148,42,24,33,13,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "名字(&N):",-1,78,26,32,10
+    EDITTEXT        1149,112,24,127,13,ES_AUTOHSCROLL
+    LTEXT           "说明(&m):",-1,6,45,32,10
+    EDITTEXT        1151,42,43,197,13,ES_AUTOHSCROLL
+END
+
+291 DIALOGEX 4, 109, 243, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "手柄设置"
+FONT 9, "SimSun", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "关闭",1,177,97,56,14
+    GROUPBOX        "",100,4,8,232,82,WS_GROUP
+    PUSHBUTTON      "↑",304,35,36,24,12
+    PUSHBUTTON      "←",306,9,54,25,12
+    PUSHBUTTON      "→",307,60,54,24,12
+    PUSHBUTTON      "↓",305,35,73,24,12
+    PUSHBUTTON      "选择",302,91,54,26,12
+    PUSHBUTTON      "开始",303,126,54,26,12
+    PUSHBUTTON      "Y",301,164,53,16,12
+    PUSHBUTTON      "B",300,181,66,16,12
+    PUSHBUTTON      "A",308,199,53,16,12
+    PUSHBUTTON      "X",309,181,40,16,12
+    PUSHBUTTON      "L",310,10,19,32,12
+    PUSHBUTTON      "R",311,198,19,32,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+108 ACCELERATORS
+BEGIN
+    "A",            40455,                  VIRTKEY, CONTROL, NOINVERT
+    "B",            40199,                  VIRTKEY, CONTROL, NOINVERT
+    "C",            40138,                  VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      40197,                  VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        40542,                  VIRTKEY, CONTROL, NOINVERT
+    VK_END,         40551,                  VIRTKEY, CONTROL, NOINVERT
+    "F",            40429,                  VIRTKEY, CONTROL, NOINVERT
+    VK_HOME,        40550,                  VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      40433,                  VIRTKEY, CONTROL, NOINVERT
+    VK_LEFT,        40543,                  VIRTKEY, CONTROL, NOINVERT
+    VK_NEXT,        40503,                  VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       40502,                  VIRTKEY, CONTROL, NOINVERT
+    "Q",            40478,                  VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       40544,                  VIRTKEY, CONTROL, NOINVERT
+    "S",            40134,                  VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      40461,                  VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "V",            40196,                  VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_UP,          40541,                  VIRTKEY, CONTROL, NOINVERT
+    "V",            40195,                  VIRTKEY, CONTROL, NOINVERT
+    "W",            40132,                  VIRTKEY, CONTROL, NOINVERT
+    "X",            40184,                  VIRTKEY, CONTROL, NOINVERT
+    "Y",            40466,                  VIRTKEY, CONTROL, NOINVERT
+    "Z",            40465,                  VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      40443,                  VIRTKEY, NOINVERT
+    VK_END,         40546,                  VIRTKEY, NOINVERT
+    VK_HOME,        40545,                  VIRTKEY, NOINVERT
+    VK_INSERT,      40442,                  VIRTKEY, NOINVERT
+    VK_NEXT,        40548,                  VIRTKEY, NOINVERT
+    VK_PRIOR,       40547,                  VIRTKEY, NOINVERT
+    VK_DOWN,        40555,                  VIRTKEY, SHIFT, NOINVERT
+    VK_END,         40553,                  VIRTKEY, SHIFT, NOINVERT
+    VK_HOME,        40552,                  VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        40556,                  VIRTKEY, SHIFT, NOINVERT
+    VK_NEXT,        40505,                  VIRTKEY, SHIFT, NOINVERT
+    VK_PRIOR,       40504,                  VIRTKEY, SHIFT, NOINVERT
+    VK_RIGHT,       40557,                  VIRTKEY, SHIFT, NOINVERT
+    VK_UP,          40554,                  VIRTKEY, SHIFT, NOINVERT
+END
+
+158 ACCELERATORS
+BEGIN
+    "N",            40374,                  VIRTKEY, CONTROL
+    "O",            40372,                  VIRTKEY, CONTROL
+    "S",            40370,                  VIRTKEY, CONTROL
+    "S",            40371,                  VIRTKEY, SHIFT, CONTROL
+    "A",            1241,                   VIRTKEY 
+    "E",            1239,                   VIRTKEY 
+    "D",            1244,                   VIRTKEY 
+    "U",            1243,                   VIRTKEY 
+    "N",            1208,                   VIRTKEY 
+    "R",            1240,                   VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+197                     ICON                    "ico197.ico"
+
+
+ICON_1                  ICON                    "icon_1.ico"
+
+
+ICON_2                  ICON                    "icon_2.ico"
+
+
+201                     ICON                    "ico201.ico"
+
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1 RT_MANIFEST 
+BEGIN
+    0x613c, 0x7373, 0x6d65, 0x6c62, 0x2079, 0x6d78, 0x6e6c, 0x3d73, 0x7522, 
+    0x6e72, 0x733a, 0x6863, 0x6d65, 0x7361, 0x6d2d, 0x6369, 0x6f72, 0x6f73, 
+    0x7466, 0x632d, 0x6d6f, 0x613a, 0x6d73, 0x762e, 0x2231, 0x6d20, 0x6e61, 
+    0x6669, 0x7365, 0x5674, 0x7265, 0x6973, 0x6e6f, 0x223d, 0x2e31, 0x2230, 
+    0x3c3e, 0x6564, 0x6570, 0x646e, 0x6e65, 0x7963, 0x3c3e, 0x6564, 0x6570, 
+    0x646e, 0x6e65, 0x4174, 0x7373, 0x6d65, 0x6c62, 0x3e79, 0x613c, 0x7373, 
+    0x6d65, 0x6c62, 0x4979, 0x6564, 0x746e, 0x7469, 0x2079, 0x7270, 0x636f, 
+    0x7365, 0x6f73, 0x4172, 0x6372, 0x6968, 0x6574, 0x7463, 0x7275, 0x3d65, 
+    0x5822, 0x3638, 0x2022, 0x616e, 0x656d, 0x223d, 0x694d, 0x7263, 0x736f, 
+    0x666f, 0x2e74, 0x6957, 0x646e, 0x776f, 0x2e73, 0x6f43, 0x6d6d, 0x6e6f, 
+    0x432d, 0x6e6f, 0x7274, 0x6c6f, 0x2273, 0x6c20, 0x6e61, 0x7567, 0x6761, 
+    0x3d65, 0x2a22, 0x2022, 0x7974, 0x6570, 0x223d, 0x4957, 0x334e, 0x2232, 
+    0x7620, 0x7265, 0x6973, 0x6e6f, 0x223d, 0x2e36, 0x2e30, 0x2e30, 0x2230, 
+    0x7020, 0x6275, 0x696c, 0x4b63, 0x7965, 0x6f54, 0x656b, 0x3d6e, 0x3622, 
+    0x3935, 0x4235, 0x3436, 0x3431, 0x4334, 0x4643, 0x4431, 0x2246, 0x3c3e, 
+    0x612f, 0x7373, 0x6d65, 0x6c62, 0x4979, 0x6564, 0x746e, 0x7469, 0x3e79, 
+    0x2f3c, 0x6564, 0x6570, 0x646e, 0x6e65, 0x4174, 0x7373, 0x6d65, 0x6c62, 
+    0x3e79, 0x2f3c, 0x6564, 0x6570, 0x646e, 0x6e65, 0x7963, 0x3c3e, 0x612f, 
+    0x7373, 0x6d65, 0x6c62, 0x3e79
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

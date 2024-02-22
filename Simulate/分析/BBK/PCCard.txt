@@ -1,0 +1,58 @@
+新增加 5800  0D 调用
+DOS 命令提示符的当前路径基址为8032:  00:A32E: 9D 32 80  STA $8032,X 
+
+微机通迅卡开机流程:
+4340 读写,数据/命令IO
+4348 读写,状态IO,上次写什么数据,下次就要读出什么数据,否则无限读取.
+
+检测微机通迅卡状态
+ROM:CDF7 20 87 C2 JSR     ACardStatus_C287
+
+从微机通迅卡读取BBGDOS.SYS到$7C00,修改59A4 JSR的地址为 JSR $7C00
+ROM:CE94 A9 02    LDA     #2
+ROM:CE96 20 46 D1 JSR     ACardWriteByte_D146
+ROM:CE99 20 1B D2 JSR     ACardReadData_D21B
+ROM:CE9C A9 00    LDA     #0
+ROM:CE9E 8D A5 59 STA     loc_59A4+1
+ROM:CEA1 A9 7C    LDA     #$7C ; '|'
+ROM:CEA3 8D A6 59 STA     loc_59A4+2      ; 59A4 JSR XXXX
+
+->ROM:D251          ACardReadFile_D251
+ROM:D28F 20 46 D1 JSR     ACardWriteByte_D146
+
+命令 01
+写入即将读取的文件信息,读取文件数据
+读取指定文件名的内容: 02 内存(文件名所在)页号 03 04 文件名所在地址 低高  05~0F DOS8.3文件名
+
+4340 主机向模拟器写入命令:
+1: 读取文件,下次读取进入 B: 读取文件数据流程
+2: 读取BBGDOS.SYS到$7C00,下次读取进入 B: 读取文件数据流程
+
+4340 主机向模拟器读取命令:
+0: 读/写 文件结束,随后再读取#E字节数据的返回值到($FE),Y Y=0~#E,然后有对 Y=#B,($FE),Y 的读取,作用目前不明
+8: 设置内存页  下一次读取为要设置的内存页号
+A: 获取当前内存页 下一次写入内存页号
+B: 读取文件数据 下一次读取2字节(先高位后低位)文件长度数据,再读取2字节(先高位后低位,($FE))写入地址, 再读取文件数据,直到读完. 下一次读取1字节为0结束
+15: 写文件数据 下一次读取2字节(先高位后低位)文件长度数据,再读取2字节(先高位后低位,($FE))读入地址, 再读取文件数据,直到读完. 下一次读取1字节为0结束
+
+命令 02
+从微机通迅卡读取BBGDOS.SYS到$7C00,修改59A4 JSR的地址为 JSR $7C00
+
+	struct FileInfo
+	{
+		BYTE FILECMD;
+		BYTE CURDRIVE;// CURDRIVE = 1; File driver.
+		BYTE HPAGE;//HPAGE = 2; byte of file buffer page.
+		WORD HBUF;//HBUF = 3; word of file buffer or filename.
+		WORD BYTES;//BYTES = 5; word of read / write length.
+		DWORD CURP;//CURP = 7; Dword of file point.
+		BYTE STATUS;//STATUS = 11 0xB; byte
+		BYTE HANDLE;//HANDLE = 12 0xC; word of File handle. BYTE OR WORD ?
+		DWORD dwLength;// 13 0xD; file length.
+		FILE *f;
+		DWORD dwReadRemain;
+		char chBuf[512];
+	};
+0003 cmd 0016 buff 01 03 00 19 7C 43 4F 4E 46 49 47 20 20 53 59 53 
+0004 ret 0029 buff 01 03 00 19 7C 43 4F 4E 46 49 47 20 20 FF FE 10 00 12 13 14 15 16 17 18 19 1A 00 1C 1D 
+0005 cmd 0016 buff 02 03 E1 E4 B2 80 00 17 18 19 1A 00 1C 1D 59 53 

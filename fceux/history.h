@@ -1,0 +1,6 @@
+class HISTORY
+{
+public:
+	HISTORY();
+};
+

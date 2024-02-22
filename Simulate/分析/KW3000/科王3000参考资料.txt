@@ -1,0 +1,368 @@
+Doctor PC Jr File Format (.PCJ)                      Revision 1.1-------------------------------                      -------------
+Written by JDC <yoshi@parodius.com>.
+Provided by Bondman.
+Original documentation written by Bung.
+Special thanks to VividX.
+Some errors corrected by Chris Covell.
+
+
+  +---------+------+------------------------------------------------------+
+  |  Offset | Size | Content(s)                                           |
+  |HEX  DEC | (DEC)|                                                      |
+  +---------+------+------------------------------------------------------+
+  |$00    0 |    8 | 'FC GAMES'                                           |
+  |$08    8 |    1 | PRG-ROM page count   *8k  (size-200-Trainer*200)/8   |
+  |$09    9 |    1 | CHR-ROM page count   *8k                             |
+  |         |      |                                                      |
+  |$0A   10 |    1 | Trainer PRG-ROM Address                              |
+  |         |      |   * Upper 8-bit portion of the 16-bit PRG-ROM        |
+  |         |      |     address to load the trainer into. Valid values   |
+  |         |      |     are $60-$7F ($6000-$7F00 in PRG-ROM).            |
+  |         |      |                                                      |
+  |$0B   11 |    2 | Initial RESET Vector                                 |
+  |         |      |   * 16-bit vector to start executing code at.   <====|
+  |         |      |                                                      |
+  |$0D   13 |    1 | 512-byte Trainer page count (maximum $10 (8K)).      |
+  |         |      |                                                      |
+  |$0E   14 |    1 | Mapper Type & Mirroring                              | $42FE,$42FF
+  |         |      | (NOTE: Applies to "Old Game" Mode carts __ONLY__)    |
+  |         |      |         D7-D5: Mapper Type Definition (see below)    |
+  |         |      |            D4: Mirroring                             |
+  |         |      |                0 = Vertical   垂直镜像               |
+  |         |      |                1 = Horizontal 水平镜像               |
+  |         |      |            D3: 0 =1scA, 1 = 1scB  ?                  |
+  |         |      |         D2-D0: Unused                                |
+  |         |      |                                                      |
+  |$0F   15 |    1 | Trainer Enable/Disable                               |
+  |         |      |      D7: 0 = Disabled (use standard RESET vector)    |
+  |         |      |          1 = Enabled (use vector @ bytes 11-12) >====|
+  |         |      |      D6: 0 = Offset $0E Write TO $42FF               |
+  |         |      |      D6: 1 = Offset $0E Write TO $42FE               |
+  |         |      |      D5-D1: Unused.                                  |
+  |         |      |      D0: 1 = jsr $7003                               |
+  |         |      |                                                      |
+  |$10   16 |    1 | Store at $4180   bit7=1/0                            |
+  |         |      |                                                      |
+  |$11   17 |    1 | Game Mode Control #2                                 | $4181
+  |         |      |      D7: MMC2 Specification                          |
+  |         |      |          0 = MMC2 not used                           |
+  |         |      |          1 = Specifies MMC2a/b (Punch Out) cart      | JR4047,2247
+  |         |      |      D6: 0 =                                         |
+  |         |      |      D6: 1 =                                         | JR24POK,JREC_CE
+  |         |      |   D5-D4: Cart Type                                   |
+  |         |      |         00 = "Old Game" Mode                         |
+  |         |      |         01 = "New Game" Mode                         |
+  |         |      |         10 = MMC1                                    |
+  |         |      |         11 = MMC3                                    |
+  |         |      |   D3-D2: "New Game" Mode PRG-ROM page size           |
+  |         |      |         00 = 8K                                      |
+  |         |      |         01 = 16K                                     |
+  |         |      |         10 = 32K                                     |
+  |         |      |   D1-D0: "New Game" Mode CHR-ROM page size           |
+  |         |      |         00 = 1K                                      |
+  |         |      |         01 = 2K                                      |
+  |         |      |         10 = 4K                                      |
+  |         |      |         11 = 8K                                      |
+  |         |      |                                                      |
+  |$12   18 |    1 | CHR-ROM/RAM Type, Mirroring, IRQ Control             | $4182
+  |         |      | (NOTE: These apply to "New Game" Mode carts only)    |
+  |         |      |      D7: Character Type                              |
+  |         |      |          0 = CHR-ROM is ROM                          |
+  |         |      |          1 = CHR-ROM is actually RAM                 |
+  |         |      |   D6-D4: Mirroring Select                            |
+  |         |      |        000 = Name Table #0 fixed                     | 
+  |         |      |        001 = Name Table #1 fixed                     |
+  |         |      |        010 = Vertical               垂直镜像         | FC6035,FC5033
+  |         |      |        011 = Horizontal             水平镜像         |
+  |         |      |        100 = Name Table #0/1 selectable              |
+  |         |      |  MMC3  101 = Horizontal/Vertical selectable          |
+  |         |      |  MMC1  110 = NT #0/1 and H/V selectable eor #$02=41A4|
+  |         |      |        111 = CHR TO NT ?  mapper19                   | JR3106
+  |         |      |   D3-D2: VRAM Layout                                 |
+  |         |      |         00 = Single screen                           |
+  |         |      |         01 = Two-screen VRAM layout                  | JR1058
+  |         |      |         10 = Four-screen VRAM layout                 |
+  |         |      |         11 = ?                                       |
+  |         |      |   D1-D0: IRQ & Counters                              |
+  |         |      |         00 = No counter used                         |
+  |         |      |         01 = PPU line counter                        |
+  |         |      |         10 = CPU clock counter (up)                  | JR3106
+  |         |      |         11 = CPU clock counter (down)                |
+  |         |      |                                                      |
+  |$13   19 |    1 | Address-line Masks (A18-A15 address lines)           | $4183
+  |         |      |   D7-D4: PRG-ROM mask   $41B5=40,PRG 8Mbit           |[(D7-D4)+1]*32k/$4181分段模式 值减1 得bank编号
+  |         |      |   D3-D0: CHR-ROM mask                                |
+  |         |      |       0000 = 256Kbit      32k                        |
+  |         |      |        ..                 64k                        |
+  |         |      |       1111 = 4Mbit                                   |
+  |         |      |   $41B5=40,PRG 8Mbit                                 |
+  |$14   20 |    1 | Store at $4184          Parallel / Printer port      |
+  |$15   21 |    1 | Store at $4185          Parallel / Printer port      |
+  |$16   22 |    1 | Store at $4186          Parallel / Printer port      |
+  |$17   23 |    1 | Store at $4187          *                            |
+  |$18   24 |    1 | Store at $4188          * disk main status register  |R:FDCStatus
+  |$19   25 |    1 | Store at $4189          * disk data register         |RW:读/写数据(一个扇区)  写命令(寻道)
+  |$1a   26 |    1 | Store at $418a          * disk                       |
+  |$1b   27 |    1 | Store at $418b          FDCCtrlPortO                 |W:FDCCtrlPortO
+  |$1c   28 |    1 | Store at $418c          * disk                       |
+  |$1d   29 |    1 | Store at $418d          * disk                       |
+  |$1e   30 |    1 | Store at $418e          ?? Disk, Keyboard Input Port |R:FDCStatus
+  |$1f   31 |    1 | Store at $418f          *  FDD IRQ control register  |RW:
+  |         |      |                                                      |
+  |$20   32 |    1 | Store at $4190 (PC Jr register) --+                  | mapto80
+  |$21   33 |    1 | Store at $4191 (PC Jr register)   +- PRG-ROM Control | maptoa0
+  |$22   34 |    1 | Store at $4192 (PC Jr register)   |                  | maptoc0
+  |$23   35 |    1 | Store at $4193 (PC Jr register) --+                  | maptoe0
+  |         |      |                                                      |
+  |$24   36 |    1 | Store at $4194 (PC Jr register) --+                  |NT0
+  |$25   37 |    1 | Store at $4195 (PC Jr register)   +- PPU Control     |NT1
+  |$26   38 |    1 | Store at $4196 (PC Jr register)   |                  |NT2
+  |$27   39 |    1 | Store at $4197 (PC Jr register) --+                  |NT3
+  |         |      |                                                      |
+  |$28   40 |    1 | Store at $4198 (PC Jr register) --+                  |CHR bank at $0000
+  |$29   41 |    1 | Store at $4199 (PC Jr register)   |                  |
+  |$2A   42 |    1 | Store at $419A (PC Jr register)   |                  |CHR bank at $0800
+  |$2B   43 |    1 | Store at $419B (PC Jr register)   +- CHR-ROM Control |
+  |$2C   44 |    1 | Store at $419C (PC Jr register)   |                  |CHR bank at $1000
+  |$2D   45 |    1 | Store at $419D (PC Jr register)   |                  |
+  |$2E   46 |    1 | Store at $419E (PC Jr register)   |                  |CHR bank at $1800
+  |$2F   47 |    1 | Store at $419F (PC Jr register) --+                  |
+  |         |      |                                                      |
+  |$30   48 |    4 | Store at $41A0 --+         line counter              | 
+  |$31   49 |    4 | Store at $41A1   |         clock counter Low         |
+  |$32   50 |    4 | Store at $41A2   |- IRQ    clock counter High        |
+  |$33   51 |    4 | Store at $41A3 --+         Enable/Disable 1/0        |
+  |         |      |                                                      |
+  |$34   52 |    4 | Store at $41A4 --+  0/1 = Vertical/Horizontal        |
+  |         |      |                                                      |
+  |$35?  53?|    1 | !=0 : $41B4=80   SRAM   Read/Write                   | 
+  |         |      | ==0 : $41B4=00   SRAM   no                           |
+  |         |      |                                                      |
+  |$36?  54?|    1 | Store at $41A6                                       |
+  |$37?  55?|    1 | $41A7  =0  内存页面只读                              |
+  |         |      | $41A7  =FF 内存页面可写                              |
+  +---------+------+------------------------------------------------------+
+  |$38   56 |    1 | Store at $41A8           *                           |
+  |$39   57 |    1 | Store at $41A9           *                           |
+  |$3A   58 |    1 | Store at $41AA           *                           |
+  |$3B   59 |    1 | Store at $41AB           *                           |开机读时不返回 0x10 位则进入VCD模式, 否则进入软盘驱动
+  |$3E   62 |    1 | Store at $41AE           *  CDROM data register      |读数据/写命令
+  |$3F   63 |    1 | Store at $41AF           *                           |光驱状态
+  |$43   67 |    1 | Store at $41B3           *                           |
+  |$44   68 |    1 | Store at $41B4           YT??PPPP                    | mapto $6000-$7fff
+  |         |      |                 Y:Read-Write/NO  T:ROM/SRAM          |
+  |$45   69 |    1 | Store at $41B5           1M PRG Addr                 |BIT5(0x20): 0:必须切到 $C000 16K $4192 上次设置的值 1:切到$E000到写入值
+  |$47   71 |    1 | Store at $41B7           SRAM BANK                   |4 * 8K RAM
+  |$48   72 |    1 | Store at $41B8           *                           |
+  |$49   73 |    1 | Store at $41B9           *                           |
+  |$4A   74 |    1 | Store at $41BA           *                           |
+  +---------+------+------------------------------------------------------+
+  |$200 512-|      | Trainer pages (in linear order)                      |
+  |   ...   |      |                                                      |
+  | ...-... |      | PRG-ROM pages (valid sizes: 8K-512K)                 |
+  |   ...   |      |                                                      |
+  | ...-... |      | CHR-ROM pages (valid sizes: 8K-512K)                 |
+  +---------+------+------------------------------------------------------+
+
+$41B4
+7  bit  0
+---- ----
+ERbB BBBB
+|||| ||||
+||++-++++- The ROM bank number to select at CPU $6000 - $7FFF
+|+------- RAM / ROM Select Bit
+|         0 = PRG RAM bank see $41B7
+|         1 = PRG ROM
++-------- RAM Enable Bit
+          0 = PRG RAM Disabled
+          1 = PRG RAM Enabled
+
+PC Jr. Notes
+------------
+  Registers $41A0: IRQ line counter (val eor #$ff)
+            $41A1: Low byte of CPU clock counter
+            $41A2: High byte of CPU clock counter
+            $41A3: Counter Enable/Disable (Enable: Bit #0 = 1)
+
+  Registers $41A4: Nametable control	mapper68
+		7654 3210
+		   |   ||
+		   |   ++- Mirroring
+		   |       0: vertical (0101); 1: horizontal (0011);
+		   |       2: 1-screen (0000); 3: 1-screen (1111)
+		   +------ Chip select for PPU $2000-$2FFF (nametables):
+		           0 for CIRAM or 1 for CHR ROM
+		vertical	垂直镜像
+		horizontal	水平镜像
+
+Mapper Type Definitions
+映射器类型定义
+-----------------------
+  Bits D7-D5 of byte 14($0E) in the .PCJ header specifies what mapper to use
+  when "Old Game" Mode is selected. There are eight (8) mappers available
+  when using the "Old Game" Mode.
+
+  D4 bit is Mirroring Definitions.
+
+  Most of these mappers do corrispond with iNES mappers, but do not match
+  the specifications exactly. I'm sure conversion to an iNES format is
+  easily possible...
+
+    +-------+-------------+---------------------------------------------+
+    | D7-D5 | Closest     | Description                                 |
+    |       | iNES Mapper |                                             |
+    +-------+-------------+---------------------------------------------+
+    |   000 | #2 (UNROM)  | PRG-ROM Page Size:  16K                     |
+    |       |             | PRG-ROM Page Count: 8 (maximum)             | JR1026
+    |       | 00 OR 10    | PRG-ROM Wiring:     Last 16K page at $C000  | JR1025
+    |       |             | CHR-RAM Page Size:  8K                      |
+    |       |             | CHR-RAM Page Count: Not swappable           |
+    |       |             +---------------------------------------------+
+    |       |             | PRG-ROM Swapping:  D2-D0 in $8000-FFFF      |
+    |       |             | PRG-ROM Swap Addr: $8000-BFFF               |
+    +-------+-------------+---------------------------------------------+
+    |   001 | #8: FFE     | PRG-ROM Page Size:  16K                     | JR1045
+    |       |     F3xxx   | PRG-ROM Page Count: 8 (maximum)             |
+    |       |             | PRG-ROM Wiring:     Last 16K page at $C000  | JR1047
+    |       | 20 OR 30    | CHR-ROM Page Size:  8K                      |
+    |       |             | CHR-ROM Page Count: 4 (maximum)             |
+    |       |             +---------------------------------------------+
+    |       |             | PRG-ROM Swapping:  D4-D2 in $8000-FFFF      |
+    |       |             | PRG-ROM Swap Addr: $8000-BFFF               |
+    |       |             | CHR-ROM Swapping:  D1-D0 in $8000-FFFF      |
+    +-------+-------------+---------------------------------------------+
+    |   010 | #2 (UNROM)  | PRG-ROM Page Size:  16K                     |
+    |       |             | PRG-ROM Page Count: 16 (maximum)            |
+    |       | 40 OR 50    | PRG-ROM Wiring:     Last 16K page at $C000  |
+    |       |             | CHR-RAM Page Size:  8K                      |
+    |       |             | CHR-RAM Page Count: Not swappable           |
+    |       |             +---------------------------------------------+
+    |       |             | PRG-ROM Swapping:  D3-D0 in $8000-FFFF      |
+    |       |             | PRG-ROM Swap Addr: $8000-BFFF               |
+    +-------+-------------+---------------------------------------------+
+    |   011 |             | PRG-ROM Page Size:  16K                     | FC3088
+    |       |     6       | PRG-ROM Page Count: 16 (maximum)            |
+    |       |             | PRG-ROM Wiring:     Last 16K page at $8000  |
+    |       |    *OR*     | CHR-ROM Page Size:  8K                      |
+    |       |             | CHR-ROM Page Count: 4 (maximum)             |
+    |       |     7       +---------------------------------------------+
+    |       |             | PRG-ROM Swapping:  D3-D0 in $8000-FFFF      |
+    |       |             | PRG-ROM Swap Addr: $C000-FFFF               |
+    |       |             | CHR-ROM Swapping:  D5-D4 in $8000-FFFF      |
+    +-------+-------------+---------------------------------------------+
+    |   100 | #xx: GNROM  | PRG-ROM Page Size:  32K                     | FC1042
+    |       |             | PRG-ROM Page Count: 4 (maximum)             |
+    |       |   8 *OR* 9  | PRG-ROM Wiring:     None                    | FC3052
+    |       |             | CHR-ROM Page Size:  8K                      | FC5030
+    |       | #11: Color  | CHR-ROM Page Count: 4 (maximum)             |
+    |       |      Dreams +---------------------------------------------+
+    |       | (Note: CD   | PRG-ROM Swapping:  D5-D4 in $8000-FFFF      |
+    |       |Games can use| PRG-ROM Swap Addr: $8000-FFFF               |
+    |       |up to 16 CHR | CHR-ROM Swapping:  D1-D0 in $8000-FFFF      |
+    |       | pages!!)    |                                             |
+    +-------+-------------+---------------------------------------------+
+    |   101 | #3: CNROM   | PRG-ROM Page Size:  32K                     | JR1021
+    |       |             | PRG-ROM Page Count: Not swappable           | JR1022
+    |       | A0 OR B0    | PRG-ROM Wiring:     32K page at $8000       |
+    |       |             | CHR-ROM Page Size:  8K                      |
+    |       |             | CHR-ROM Page Count: 4 (maximum)             |
+    |       |             +---------------------------------------------+
+    |       |             | CHR-ROM Swapping:  D1-D0 in $8000-FFFF      |
+    +-------+-------------+---------------------------------------------+
+    |   110 | #3: CNROM   | PRG-ROM Page Size:  32K                     | JR1018
+    |       |             | PRG-ROM Page Count: Not swappable           | JR1017
+    |       | C0 OR D0    | PRG-ROM Wiring:     32K page at $8000       |
+    |       |             | CHR-ROM Page Size:  8K                      |
+    |       |             | CHR-ROM Page Count: 2 (maximum)             |
+    |       |             +---------------------------------------------+
+    |       |             | CHR-ROM Swapping:  D0 in $8000-FFFF         |
+    +-------+-------------+---------------------------------------------+
+    |   111 | #0: None    | PRG-ROM Page Size:  32K                     | JR1011
+    |       |             | PRG-ROM Page Count: Not swappable           | JR1012
+    |       | F0 OR E0    | PRG-ROM Wiring:     32K page at $8000       |
+    |       |             | CHR-ROM Page Size:  8K                      |
+    |       |             | CHR-ROM Page Count: Not swappable           |
+    +-------+-------------+---------------------------------------------+
+
+
+Header Examples
+---------------
+  These are taken directly from Bung. Bleh.
+  (Bleh indeed; I cleaned them up a bit. -CMC.)
+
+(old game mode, ppu feedback='V', program 8K + CG 8K rom)
+00: 46 43 20 47 41 4D 45 53-01 01 00 00 00 00 F0 00  FC GAMES........
+10: 00 00 50 00 00 00 00 00-00 00 00 00 00 00 00 00  ..P.............
+20: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+30: 00 00 00 00 00 01 00 00-00 00 00 00 00 00 00 00  ................
+40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+70: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+
+
+(old game mode, ppu feedback='V', 16k bank in 8000h--bfffh, program 128K
+ROM + CG 8K RAM)
+00: 46 43 20 47 41 4D 45 53-10 00 00 00 00 00 10 00  FC GAMES........
+10: 00 00 50 00 00 00 00 00-00 00 00 00 00 00 00 00  ..P.............
+20: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+30: 00 00 00 00 00 01 00 00-00 00 00 00 00 00 00 00  ................
+40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+70: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+
+
+(128K+128K MMC1)
+00: 46 43 20 47 41 4D 45 53-10 10 00 00 00 00 00 00  FC GAMES........
+10: 00 20 60 33 00 00 00 00-00 00 00 00 00 00 00 00  .`3.............
+20: FF 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+30: 00 00 00 00 00 01 00 00-00 00 00 00 00 00 00 00  ................
+40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+70: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+
+
+(128K+128K MMC3)
+00: 46 43 20 47 41 4D 45 53-10 10 00 00 00 00 00 00  FC GAMES........
+10: 00 30 50 33 00 00 00 00-00 00 00 00 00 00 00 00  .0P3............
+20: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+30: 00 00 00 00 00 01 00 00-00 00 00 00 00 00 00 00  ................
+40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+70: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+
+
+(Punch Out 128K+128K RD387-1)
+00: 46 43 20 47 41 4D 45 53-10 10 00 00 00 00 00 00  FC GAMES........
+10: 00 92 50 33 00 00 00 00-00 00 00 00 00 00 00 00  ..P3............
+20: 00 0D 0E 0F 00 00 00 00-00 00 00 00 00 00 00 00  ................
+30: 00 00 00 00 00 01 00 00-00 00 00 00 00 00 00 00  ................
+40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+70: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+
+
+(Super Mario 3 : 256K+128K MMC3)
+00: 46 43 20 47 41 4D 45 53-20 10 00 00 00 00 00 00  FC GAMES........
+10: 00 30 50 73 00 00 00 00-00 00 00 00 00 00 00 00  .0Ps............
+20: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+30: 00 00 00 00 00 01 00 00-00 00 00 00 00 00 00 00  ................
+40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+70: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+
+
+(After Burner 128K+256K Sunsoft-4)
+00: 46 43 20 47 41 4D 45 53-10 20 70 00 00 01 00 00  FC GAMES.p.....
+10: 00 15 64 37 00 00 00 00-00 00 00 00 00 00 00 00  ..d7............
+20: 00 00 07 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+30: 00 00 00 00 00 01 00 00-00 00 00 00 00 00 00 00  ................
+40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+70: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................

@@ -1,0 +1,171 @@
+#
+# memory and port map for DrPCJr system
+#
+
+Basic memory layout:
+
+  Startup mode (whatever it's called):
+
+    $6000 - $7fff: SRAM frame (when $4180 & 0x80)
+    $6000 - $dfff: CPU DRAM page frame (see $4190 and $4191)
+    $e000 - $efff: BIOS ROM swappable page frame
+    $f000 - $ffff: BIOS ROM possibly fixed page frame (starts on last page)
+
+  Old game mode, mapper option 7 (I have no games that use other options):
+
+    $6000 - $7fff: Unknown (SRAM?)
+    $8000 - $ffff: CPU DRAM $0000 - $7fff, not paged.
+
+  New game mode (preliminary, assuming no paging):
+
+    $6000 - $7fff: Unknown (SRAM?)
+    $8000 - $dfff: CPU DRAM $2000 - $5fff.
+    $e000 - $ffff: CPU DRAM $0000 - $1fff.
+
+Ports:
+
+    $4180: ?W: s????xxx: BIOS ROM bankswitch register. Load page xxx to the
+page frame at $e000. Also, s might be an enable for SRAM at $6000-$7fff.
+
+    $4181: ?W: P?mmppcc: Game Mode Control. P=1 enables MMC2 CHR-ROM switch, values of mm select game mode (00=old game, 01=new game, 10=MMC1, 11=MMC3), values of pp select PRG page size (00=8k, 01=16k, 10=32k, 11=invalid), values of cc select CHR page size (1 << cc KBytes). (same as Bung's doc)
+    $4182: ?W: Rfffvvii: New game mode PPU Config. (same as Bung's doc)
+    $4183: ?W: PPPPCCCC: PRG and CHR high address line masks (same as Bung's doc)
+
+    $4188: R?: ????????: disk main status register.
+    $4189: RW: xxxxxxxx: disk data register.
+
+    $418e: R?: d?????kk: unknown, d is for disk, k is for keyboard (only kb input port).
+    $148e: ?W: ??????kk: unknown, k is for keyboard (only kb output port).
+
+    $418f: R?: ????xxxx: IRQ status register, each x is one IRQ source?
+    $418f: ?W: ???????x: IRQ control register?
+
+    $4190: ?W: ????xxxx: Map 32k DRAM bank to 0x6000-dfff for reading.
+    $4191: ?W: ????xxxx: Map 32k DRAM bank to 0x6000-dfff for writing.
+
+    $4198: ?W: ??xxxxxx: Map 8k DRAM bank to PPU 0x0000.
+
+    $42ff: ?W: mmmm????: "Old game mode byte" Also used for new game and DOS?
+
+ROM breakdown by bank:
+
+    Bank 0: System test code, application bootstrap routines.
+    Bank 1: CDROM driver?
+    Bank 2: unknown.
+    Bank 3: Empty.
+    Bank 4: Graphics data and PPU initialization.
+    Bank 5: DOS code/data (loaded at $9000-$9fff?).
+    Bank 6: DOS code/data (loaded at $a000-$afff?).
+    Bank 7: System initialization, disk driver, utility routines.
+
+Major identified routines:
+
+    $f000: JSR to routine in specific bank. 3-byte address is stored inline after JSR instruction (your disassembler is likely to choke on this one).
+    $f07f: Disk driver error return
+    $f170: Draws the BIOS screen
+    $f2d9: Send byte to FDC.
+    $f2f9: Read byte from FDC.
+    $f425: Load 512 bytes of data from FDC to memory.
+    $f440: Compare 512 bytes of data from FDC to memory.
+    $f464: Write 512 bytes of data from memory to FDC.
+    $f47f: Load 512 bytes of data from FDC to PPU.
+    $f49c: Compare 512 bytes of data from FDC to PPU.
+    $f4bd: Write 512 bytes of data from PPU to FDC.
+    $f7aa: Set PPU control 2 to 0x1e (enable display)
+    $f7b0: Set PPU control 2 to 0x00 (disable display)
+    $f7b6: Wait for VBL
+    $f93c: Draw Y bytes of text from ($42), takes position in $40, $41 (what form?).
+    $f9c1: Save S register for nonlocal return (disk driver error handler?)
+    $feff: DOS code relocator.
+
+    $00:e095: Short system test entry point?
+    $00:e0a8: Full system test entry point?
+    $00:e225: CPU 512k DRAM test routine.
+    $00:e2f4: PPU 512k DRAM test routine.
+    $00:e3f8: CPU 8k SRAM test routine.
+    $00:ebb1: "FC GAMES" bootstrap code (runs at $0400).
+    $00:ebfe: DOS bootstrap relocator.
+    $00:ec1a: DOS bootstrap code (runs at $0600).
+    $00:ec45: Keyboard test routine.
+    $00:edf9: Disk drive test routine.
+
+    $04:e800: PPU initialization.
+    $04:e89f: Loads IBM ASCII character set to PPU patern table $0000.
+
+Identified RAM locations (specific to the BIOS before loading any apps):
+
+  ZPage:
+
+    $00: word: Unknown, incremented by $fa77
+
+    $0f: byte: Unknown, used by the routine at $f000.
+
+    $10: word: At some point, the ROM checksum.
+    $12: word: Unknown, incremented by $fa7e
+
+    $30: word: Unknown, incremented by $fa98
+
+    $38: word: User IRQ/BRK hook.
+    $3a: word: Used by the routine at $f000 as procpointer storage.
+    $3e: word: Used by the routine at $f000 as data pointer storage.
+
+    $40: byte: parameter to unknown PPU function $f93c
+    $41: byte: parameter to unknown PPU function $f93c
+    $42: word: parameter to unknown PPU function $f93c
+    $42: byte: parameter to unknown PPU function $f93c
+    $43: byte: parameter to unknown PPU function $f93c
+
+    $46: word: Unknown, incremented by $00:e46a
+
+    $50: word: User NMI hook.
+
+    $66: byte: disk size (0=1440k, 1=1600k, 2=1680k).
+
+    $69: byte: unknown (loaded based on disk size)
+    $6a: byte: unknown (loaded based on disk size)
+    $6b: byte: unknown (loaded based on disk size)
+
+    $7d: byte: Something to do with the controllers.
+
+    $83: 7 bytes: FDC return status.
+    $83: byte: Disk Status Register 0
+    $84: byte: Disk Status Register 1
+    $85: byte: Disk Status Register 2
+    $86: byte: Current Track
+    $87: byte: Current Head
+    $88: byte: Current Sector
+    $89: byte: Current Sector Size
+
+    $8b: byte: Something to do with the controllers.
+    $8c: byte: Something to do with the controllers.
+    $8d: byte: Something to do with the controllers.
+
+    $a8: byte: unknown
+
+    $b0: byte: Unknown.
+
+    $b1: byte: Unknown, used by the routine at $f000.
+    $b1: byte: Used as a temporary by a PPU routine at $f96f.
+
+    $b5: byte: User IRQ hook enable (0 = disabled, anything else = enabled);
+    $b6: byte: User NMI hook enable (0 = disabled, anything else = enabled);
+
+    $b8: byte: Saved S register for $f07f and $f9c1.
+
+    $b9: byte: X? scroll value.
+    $ba: byte: Y? scroll value.
+
+    $bb: byte: Local copy of the $4180 bankswitch register.
+
+    $be: byte: FDC IRQ error byte (look at the IRQ handler, you'll see).
+
+    $c4: byte: Something to do with the controllers.
+    $c5: byte: Something to do with the controllers.
+
+  Normal RAM:
+
+    $0200: 256 bytes: Sprite table.
+
+#
+# EOF
+#

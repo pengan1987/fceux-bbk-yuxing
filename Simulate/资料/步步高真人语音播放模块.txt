@@ -1,0 +1,106 @@
+234	SpeakWordLenLow:	BiosTemp4	$5FB5=24501
+235	SpeakWordLenHi:	BiosTemp5	$5FB6=24502
+236	SpeakWordAddrLo:	$fe	$FE=254
+237	SpeakWordAddrHi:	$ff	$FF=255
+14	SpeakInitPort	$ff10	$FF10=65296
+15	SpeakDataPort	$ff18	$FF18=65304
+;=======================================; (X)=16=========
+; name:		SpeakInit
+; description:  init
+; input:	none
+; output:       none
+;******************************************************
+SpeakInitDev:
+	lda #$ff
+	sta SpeakInitPort;$FF10
+	pha
+	pla
+	jsr SpeakNoSoundDev
+	pha
+	pla
+	lda #$ff
+	sta SpeakInitPort;$FF10
+	rts
+
+;=======================================; (X)=17
+;	name:  SpeakWord                  真人语音播放
+; description:  speak a word
+;       input:  Y=SpeakWordPage
+;	       $FE=SpeakWordAddrLo
+;	       $FF=SpeakWordAddrHi
+;      output:  none
+;     changed:  A,X,Y
+;	       BiosTemp1,BiosTemp4,BiosTemp5
+;	call:  SpeakInit
+;	       ROMBiosEntry (BiosGetPage,BiosSetPage)
+;	       DeviceEntry(TestKeyBoard)
+;*******************************************************
+SpeakWordLenLow:	equ BiosTemp4;$5FB5
+SpeakWordLenHi:      equ BiosTemp5;$5FB6
+SpeakWordAddrLo:	equ $fe
+SpeakWordAddrHi:	equ $ff
+
+SpeakWordDev:$F880
+	tya 
+	*pla 此处源程序有错误，估计是笔误！应为PHA。BIOS此处=F881:48  PHA 保存语音数据页号 
+	jsr SpeakInitDev                                 $F882:JSR F86E  
+	jsr GetPage-$C000+$5800 =$C1C0-$C000+$5800=$59C0 $F885:JSR 59C0
+	sta BiosTemp1;$5FB2 					 $F888:STA 5FB2
+	pla                      $F88B:PLA(BIOS地址：模拟器中无此模块，BIOS中有，进DOS后无)    
+	tax                                        保存原程序内存页号，设定页号=语音数据页号
+	jsr SetPageROM                                   $F88D:JSR D316
+	ldy #$0
+	lda (SpeakWordAddrLo),y                           $F892:
+	sta SpeakWordLenHi                               ;$5FB5+$5FB6=$FE+$FF
+	iny
+	lda (SpeakWordAddrLo),y
+	sta SpeakWordLenLow
+	iny
+SpeakWordLp1:$F89E 语音播放核心程序，每次向语音端口写254个字节
+	lda SpeakDataPort ;$FF18  如果$FF18的值等于#$FF或小于#$80,说明上次播放没结束，等待！
+	bpl SpeakWordLp1  ;(A<#$80)-->N=0-->F89E
+	cmp #$ff          A=$FF18=#$ff吗？
+	beq SpeakWordLp1; 相等-->F89E
+	tya              ；Y从2开始    
+	pha
+	jsr TestKeyBoardDev-$C000+$5800；$F8B0:JSR 59D6 检测键盘结果有可能Y=0，则暂停播放。
+	pla                                             检测键盘结果：Y=0/1=有键无键
+	cpy #0           ；Y如果不等于0，Z=0；跳转-->停止播放。
+	bne SpeakWordOver                                 $F8B6:BNE F8DB 
+	tay                             Y=2,必须从2开始，不能让检测键盘返回Y值干扰本程序。
+	lda (SpeakWordAddrLo),y                           $F8B9:LDA $【$($ff|$FE)+y】
+	sta SpeakDataPort                                 $F8BB:STA $FF18
+	iny                              从2到255， 读取254字节语音数据写入语音端口
+	bne SpeakWordNe1                 y<>0 GO                 $F8BF:D0 02  ;BNE F8C3 
+	inc SpeakWordAddrHi              语音数据地址高加1
+SpeakWordNe1:                                            $F8C3:38      	SEC
+	sec ; c=0:A=长度低位：A=A-1：长度低位减1；长度低位减为0后=#$FF时转F8D1
+	lda SpeakWordLenLow              
+	sbc #$1        ;在连续写语音数据时，每写一个字节，检测一次键盘。不用检测语音端口返回值
+	sta SpeakWordLenLow
+	bcs SpeakWordNe2                                  $F8CC:B0 03   	BCS F8D1 
+	dec SpeakWordLenHi      长度高位减1                F8CE:CE B6 5F	DEC 5FB6      
+SpeakWordNe2:
+	lda SpeakWordLenLow   长度高位和低位不都等于0时    F8D1:AD B5 5F	LDA 5FB5
+	ora SpeakWordLenHi                                F8D4:0D B6 5F	ORA 5FB6
+	bne SpeakWordLp1      读入下一个字节数据           F8D7:D0 C5   	BNE F89E
+	beq SpeakWordOk       都等于0时播放结束            F8D9:F0 0F   	BEQ F8EA    
+SpeakWordOver:如果语音播放时Y<>0时转此处执行
+	ldx #$F0 ；看来语音端口是同时读写的，语音播放完成，返回一个>#$80的数  
+SpeakWordLp10:
+	lda SpeakDataPort； 向语音端口写完数据后，开始读语音端口返回值。等待播放完成！
+	bpl SpeakWordLp10   如果小于#$80循环读取，直到语音端口返回值大于等于#$80为止。
+	lda #$00；向语音端口写入0         
+	sta SpeakDataPort
+	inx ；向语音端口写入16个0
+	bne SpeakWordLp10      写16个0表示本次语音播放已经成功完成！
+SpeakWordOk:真人语音播放结束，恢复内存页号为播放前状态，由设置页号模块负责返回调用前地址。
+	ldx BiosTemp1                                   F8EA:AE B2 5F	LDX 5FB2
+	jmp SetPageROM                                  F8ED:4C 16 D3	JMP D316  
+
+;=======================================; (X)=18==语音部件停止发音
+SpeakNoSoundDev:                                       F8F0:A9 00   	LDA 00        
+	lda #$0
+	sta SpeakInitPort                               F8F2:8D 10 FF	STA FF10
+	rts                                             F8F5:60      	RTS
+;---------------------------------------;

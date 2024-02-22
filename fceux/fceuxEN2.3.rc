@@ -1,0 +1,3041 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+ADDBP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+ASSEMBLER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+CHEATCONSOLE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GGCONV AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_REPLAYINP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IMPORTBOOKMARKOPTIONDIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+INPUTCONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+MEMVIEWFIND AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+MEMWATCH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+NAMEBOOKMARKDLGDEBUGGER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+NAMEBOOKMARKDLGMEMVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+NTVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+ROMPATCHER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TEXTHOOKER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TIMINGCONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TRACER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+VIDEOCONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+154 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+155 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+156 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+289 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+290 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+303 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+110                     BITMAP                  "bmp110.bmp"
+
+
+163                     BITMAP                  "bmp163.bmp"
+
+
+164                     BITMAP                  "bmp164.bmp"
+
+
+165                     BITMAP                  "bmp165.bmp"
+
+
+166                     BITMAP                  "bmp166.bmp"
+
+
+167                     BITMAP                  "bmp167.bmp"
+
+
+168                     BITMAP                  "bmp168.bmp"
+
+
+169                     BITMAP                  "bmp169.bmp"
+
+
+170                     BITMAP                  "bmp170.bmp"
+
+
+171                     BITMAP                  "bmp171.bmp"
+
+
+172                     BITMAP                  "bmp172.bmp"
+
+
+173                     BITMAP                  "bmp173.bmp"
+
+
+174                     BITMAP                  "bmp174.bmp"
+
+
+175                     BITMAP                  "bmp175.bmp"
+
+
+176                     BITMAP                  "bmp176.bmp"
+
+
+177                     BITMAP                  "bmp177.bmp"
+
+
+178                     BITMAP                  "bmp178.bmp"
+
+
+179                     BITMAP                  "bmp179.bmp"
+
+
+180                     BITMAP                  "bmp180.bmp"
+
+
+181                     BITMAP                  "bmp181.bmp"
+
+
+182                     BITMAP                  "bmp182.bmp"
+
+
+184                     BITMAP                  "bmp184.bmp"
+
+
+205                     BITMAP                  "bmp205.bmp"
+
+
+208                     BITMAP                  "bmp208.bmp"
+
+
+209                     BITMAP                  "bmp209.bmp"
+
+
+210                     BITMAP                  "bmp210.bmp"
+
+
+211                     BITMAP                  "bmp211.bmp"
+
+
+212                     BITMAP                  "bmp212.bmp"
+
+
+213                     BITMAP                  "bmp213.bmp"
+
+
+214                     BITMAP                  "bmp214.bmp"
+
+
+215                     BITMAP                  "bmp215.bmp"
+
+
+216                     BITMAP                  "bmp216.bmp"
+
+
+217                     BITMAP                  "bmp217.bmp"
+
+
+218                     BITMAP                  "bmp218.bmp"
+
+
+219                     BITMAP                  "bmp219.bmp"
+
+
+220                     BITMAP                  "bmp220.bmp"
+
+
+221                     BITMAP                  "bmp221.bmp"
+
+
+222                     BITMAP                  "bmp222.bmp"
+
+
+223                     BITMAP                  "bmp223.bmp"
+
+
+224                     BITMAP                  "bmp224.bmp"
+
+
+225                     BITMAP                  "bmp225.bmp"
+
+
+226                     BITMAP                  "bmp226.bmp"
+
+
+227                     BITMAP                  "bmp227.bmp"
+
+
+228                     BITMAP                  "bmp228.bmp"
+
+
+229                     BITMAP                  "bmp229.bmp"
+
+
+230                     BITMAP                  "bmp230.bmp"
+
+
+231                     BITMAP                  "bmp231.bmp"
+
+
+232                     BITMAP                  "bmp232.bmp"
+
+
+233                     BITMAP                  "bmp233.bmp"
+
+
+234                     BITMAP                  "bmp234.bmp"
+
+
+235                     BITMAP                  "bmp235.bmp"
+
+
+236                     BITMAP                  "bmp236.bmp"
+
+
+237                     BITMAP                  "bmp237.bmp"
+
+
+238                     BITMAP                  "bmp238.bmp"
+
+
+239                     BITMAP                  "bmp239.bmp"
+
+
+240                     BITMAP                  "bmp240.bmp"
+
+
+241                     BITMAP                  "bmp241.bmp"
+
+
+242                     BITMAP                  "bmp242.bmp"
+
+
+243                     BITMAP                  "bmp243.bmp"
+
+
+244                     BITMAP                  "bmp244.bmp"
+
+
+245                     BITMAP                  "bmp245.bmp"
+
+
+246                     BITMAP                  "bmp246.bmp"
+
+
+247                     BITMAP                  "bmp247.bmp"
+
+
+248                     BITMAP                  "bmp248.bmp"
+
+
+249                     BITMAP                  "bmp249.bmp"
+
+
+250                     BITMAP                  "bmp250.bmp"
+
+
+251                     BITMAP                  "bmp251.bmp"
+
+
+252                     BITMAP                  "bmp252.bmp"
+
+
+253                     BITMAP                  "bmp253.bmp"
+
+
+254                     BITMAP                  "bmp254.bmp"
+
+
+255                     BITMAP                  "bmp255.bmp"
+
+
+256                     BITMAP                  "bmp256.bmp"
+
+
+257                     BITMAP                  "bmp257.bmp"
+
+
+258                     BITMAP                  "bmp258.bmp"
+
+
+259                     BITMAP                  "bmp259.bmp"
+
+
+260                     BITMAP                  "bmp260.bmp"
+
+
+261                     BITMAP                  "bmp261.bmp"
+
+
+262                     BITMAP                  "bmp262.bmp"
+
+
+263                     BITMAP                  "bmp263.bmp"
+
+
+264                     BITMAP                  "bmp264.bmp"
+
+
+265                     BITMAP                  "bmp265.bmp"
+
+
+266                     BITMAP                  "bmp266.bmp"
+
+
+267                     BITMAP                  "bmp267.bmp"
+
+
+268                     BITMAP                  "bmp268.bmp"
+
+
+269                     BITMAP                  "bmp269.bmp"
+
+
+270                     BITMAP                  "bmp270.bmp"
+
+
+271                     BITMAP                  "bmp271.bmp"
+
+
+272                     BITMAP                  "bmp272.bmp"
+
+
+273                     BITMAP                  "bmp273.bmp"
+
+
+274                     BITMAP                  "bmp274.bmp"
+
+
+275                     BITMAP                  "bmp275.bmp"
+
+
+276                     BITMAP                  "bmp276.bmp"
+
+
+277                     BITMAP                  "bmp277.bmp"
+
+
+278                     BITMAP                  "bmp278.bmp"
+
+
+279                     BITMAP                  "bmp279.bmp"
+
+
+280                     BITMAP                  "bmp280.bmp"
+
+
+281                     BITMAP                  "bmp281.bmp"
+
+
+282                     BITMAP                  "bmp282.bmp"
+
+
+283                     BITMAP                  "bmp283.bmp"
+
+
+284                     BITMAP                  "bmp284.bmp"
+
+
+285                     BITMAP                  "bmp285.bmp"
+
+
+286                     BITMAP                  "bmp286.bmp"
+
+
+287                     BITMAP                  "bmp287.bmp"
+
+
+288                     BITMAP                  "bmp288.bmp"
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+CHEATCONTEXTMENUS MENU
+BEGIN
+    POPUP "CheatListPopup"
+    BEGIN
+        MENUITEM "Toggle selected Cheats",      117
+        MENUITEM "Poke Cheat Value",            118
+        MENUITEM "Goto in Hex Editor",          119
+        MENUITEM "Delete selected Cheats",      120
+    END
+    POPUP "CheatPossiPopup"
+    BEGIN
+        MENUITEM "Add to Memory Watch",         40600
+        MENUITEM "Add cheat",                   40601
+        MENUITEM "Add to RAM Watch",            40603
+        MENUITEM "Go to in Hex Editor",         40572
+    END
+END
+
+DEBUGCONTEXTMENUS MENU
+BEGIN
+    POPUP "DebugListPopup"
+    BEGIN
+        MENUITEM "Toggle Breakpoint\tDbl-Clk",  132
+    END
+END
+
+DISASMCONTEXTMENUS MENU
+BEGIN
+    POPUP "DisasmPopup"
+    BEGIN
+        MENUITEM "Copy\tCtrl+C",                40598
+        MENUITEM "Select All\tCtrl+A",          40599
+    END
+END
+
+FCEUCONTEXTMENUS MENU
+BEGIN
+    POPUP "NoGame"
+    BEGIN
+        MENUITEM "Open ROM",                    40286
+        MENUITEM "Last ROM used",               40328
+        MENUITEM SEPARATOR
+        MENUITEM "Help...",                     40287
+        MENUITEM SEPARATOR
+        MENUITEM "Use Config > Gui to get zapper right click", 40418
+    END
+    POPUP "Game+NoMovie"
+    BEGIN
+        MENUITEM "Play Movie...",               40282
+        MENUITEM "Record Movie...",             40303
+        MENUITEM "Load Last Movie",             40356
+        MENUITEM SEPARATOR
+        MENUITEM "Undo savestate",              40324
+        MENUITEM "Undo loadstate",              40316
+        MENUITEM "Rewind to last auto-save",    40307
+        MENUITEM "Screenshot",                  40305
+        MENUITEM SEPARATOR
+        MENUITEM "Close ROM",                   40298
+        MENUITEM SEPARATOR
+        MENUITEM "Use Config > Gui to get zapper right click", 40418
+    END
+    POPUP "Game+Movie+Playing+readonly"
+    BEGIN
+        MENUITEM "Toggle to read+write",        40335
+        MENUITEM "Play Movie from Beginning",   40295
+        MENUITEM "Stop Movie Replay",           40296
+        MENUITEM "View comments and subtitles", 40311
+        MENUITEM SEPARATOR
+        MENUITEM "Toggle to Recording",         40360
+        POPUP "Modify Movie"
+        BEGIN
+            MENUITEM "Insert 1 Frame",              40224
+            MENUITEM "Delete 1 Frame",              40226
+            MENUITEM SEPARATOR
+            MENUITEM "Truncate at Current Frame",   40222
+        END
+        POPUP "Record Mode"
+        BEGIN
+            MENUITEM "&Truncate",                   40115
+            MENUITEM "&Overwrite[W]",               40116
+            MENUITEM "&Insert[I]",                  40117
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Undo savestate",              40324
+        MENUITEM "Rewind to last auto-save",    40307
+        MENUITEM SEPARATOR
+        MENUITEM "Help....",                    40281
+        MENUITEM SEPARATOR
+        MENUITEM "Use Config > Gui to get zapper right click", 40418
+    END
+    POPUP "Game+Movie+Playing+readwrite"
+    BEGIN
+        MENUITEM "Toggle to Read-only",         40335
+        MENUITEM "Play Movie From Beginning",   40295
+        MENUITEM "Stop Movie Replay",           40296
+        MENUITEM "View comments and subtitles", 40311
+        MENUITEM "Make backup",                 40320
+        MENUITEM "Save Movie As...",            40358
+        MENUITEM SEPARATOR
+        MENUITEM "Toggle to Recording",         40360
+        POPUP "Modify Movie"
+        BEGIN
+            MENUITEM "Insert 1 Frame",              40224
+            MENUITEM "Delete 1 Frame",              40226
+            MENUITEM SEPARATOR
+            MENUITEM "Truncate at Current Frame",   40222
+        END
+        POPUP "Record Mode"
+        BEGIN
+            MENUITEM "&Truncate",                   40115
+            MENUITEM "&Overwrite[W]",               40116
+            MENUITEM "&Insert[I]",                  40117
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Undo savestate",              40324
+        MENUITEM "Undo loadstate",              40316
+        MENUITEM "Rewind to last auto-save",    40307
+        MENUITEM SEPARATOR
+        MENUITEM "&Mode: Full state-movie loads", 40409
+        MENUITEM SEPARATOR
+        MENUITEM "Help...",                     40281
+        MENUITEM SEPARATOR
+        MENUITEM "Use Config > Gui to get zapper right click", 40418
+    END
+    POPUP "Game+Movie+Recording+readonly"
+    BEGIN
+        MENUITEM "Toggle to read+write",        40335
+        MENUITEM "Play Movie from Beginning",   40295
+        MENUITEM "Stop Movie Recording",        40296
+        MENUITEM "View comments and subtitles", 40311
+        MENUITEM SEPARATOR
+        MENUITEM "Toggle to Playing",           40360
+        POPUP "Modify Movie"
+        BEGIN
+            MENUITEM "Insert 1 Frame",              40224
+            MENUITEM "Delete 1 Frame",              40226
+            MENUITEM SEPARATOR
+            MENUITEM "Truncate at Current Frame",   40222
+        END
+        POPUP "Record Mode"
+        BEGIN
+            MENUITEM "&Truncate",                   40115
+            MENUITEM "&Overwrite[W]",               40116
+            MENUITEM "&Insert[I]",                  40117
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Undo savestate",              40324
+        MENUITEM "Rewind to last auto-save",    40307
+        MENUITEM SEPARATOR
+        MENUITEM "Help....",                    40281
+        MENUITEM SEPARATOR
+        MENUITEM "Use Config > Gui to get zapper right click", 40418
+    END
+    POPUP "Game+Movie+Recording+readwrite"
+    BEGIN
+        MENUITEM "Toggle to Read-only",         40335
+        MENUITEM "Play Movie From Beginning",   40295
+        MENUITEM "Stop Movie Recording",        40296
+        MENUITEM "View comments and subtitles", 40311
+        MENUITEM "Make backup",                 40320
+        MENUITEM "Save Movie As...",            40358
+        MENUITEM SEPARATOR
+        MENUITEM "Toggle to Playing",           40360
+        POPUP "Modify Movie"
+        BEGIN
+            MENUITEM "Insert 1 Frame",              40224
+            MENUITEM "Delete 1 Frame",              40226
+            MENUITEM SEPARATOR
+            MENUITEM "Truncate at Current Frame",   40222
+        END
+        POPUP "Record Mode"
+        BEGIN
+            MENUITEM "&Truncate",                   40115
+            MENUITEM "&Overwrite[W]",               40116
+            MENUITEM "&Insert[I]",                  40117
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Undo savestate",              40324
+        MENUITEM "Undo loadstate",              40316
+        MENUITEM "Rewind to last auto-save",    40307
+        MENUITEM SEPARATOR
+        MENUITEM "&Mode: Full state-movie loads", 40409
+        MENUITEM SEPARATOR
+        MENUITEM "Help...",                     40281
+        MENUITEM SEPARATOR
+        MENUITEM "Use Config > Gui to get zapper right click", 40418
+    END
+END
+
+FCEUMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...",                    100
+        MENUITEM "&Close",                      101
+        MENUITEM "&Recent",                     102
+        MENUITEM SEPARATOR
+        POPUP "&Savestate"
+        BEGIN
+            MENUITEM "&Load State",                 40343
+            MENUITEM "&Save State",                 40344
+            MENUITEM "Load State &From...",         111
+            MENUITEM "Save State &As...",           110
+            MENUITEM SEPARATOR
+            MENUITEM "&Next save slot",             40347
+            MENUITEM "&Previous save slot",         40348
+            MENUITEM "&View save slots",            40350
+        END
+        POPUP "&Movie"
+        BEGIN
+            MENUITEM "Recent",                      40354
+            MENUITEM "&Record Movie...",            141
+            MENUITEM "&Play Movie...",              142
+            MENUITEM "&Stop Movie",                 143
+            MENUITEM "Play from &Beginning",        40274
+            MENUITEM "&Toggle Recording/Playing",   40359
+            POPUP "&Quickly Modify"
+            BEGIN
+                MENUITEM "&Insert 1 Frame",             40223
+                MENUITEM "&Delete 1 Frame",             40225
+                MENUITEM SEPARATOR
+                MENUITEM "&Truncate at Current Frame",  40221
+            END
+            MENUITEM SEPARATOR
+            POPUP "Record &Mode"
+            BEGIN
+                MENUITEM "&Next Record Mode",           40127
+                MENUITEM SEPARATOR
+                MENUITEM "&Truncate",                   40110
+                MENUITEM "&Overwrite[W]",               40111
+                MENUITEM "&Insert[I]",                  40112
+            END
+            MENUITEM "&Read-only",                  40331
+        END
+        POPUP "&AVI/Wav"
+        BEGIN
+            MENUITEM "&Record AVI...",              151
+            MENUITEM "&Stop AVI",                   152
+            MENUITEM "&Record WAV...",              40120
+            MENUITEM "&Stop WAV",                   40121
+            MENUITEM SEPARATOR
+            MENUITEM "Enable HUD recording",        40440
+            MENUITEM "Disable messages recording",  40405
+        END
+        POPUP "&Lua"
+        BEGIN
+            MENUITEM "&Recent",                     40352
+            MENUITEM "&New Lua Script Window...",   40229
+            MENUITEM "&Close All Script Windows",   40230
+        END
+        MENUITEM "&Screenshot",                 40272
+        MENUITEM "Save Screenshot As...",       40411
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",               153
+    END
+    POPUP "&NES"
+    BEGIN
+        MENUITEM "&Reset",                      200
+        MENUITEM "&Power",                      201
+        MENUITEM SEPARATOR
+        MENUITEM "&Eject/Insert Disk",          202
+        MENUITEM "&Switch Disk Side",           203
+        MENUITEM "&Insert Coin",                204
+        MENUITEM "Input &Barcode",              40004
+        MENUITEM SEPARATOR
+        POPUP "E&mulation Speed"
+        BEGIN
+            MENUITEM "&Pause",                      40263
+            MENUITEM "&Turbo",                      40269
+            MENUITEM SEPARATOR
+            MENUITEM "Speed &Up",                   40265
+            MENUITEM "Slow &Down",                  40266
+            MENUITEM "&Slowest Speed",              40270
+            MENUITEM "&Normal Speed",               40268
+            MENUITEM "Set &Custom Speed",           40577
+            MENUITEM SEPARATOR
+            MENUITEM "Set FrameAdvance Delay",      40574
+            MENUITEM "Set custom speed for FrameAdvance", 40576
+        END
+    END
+    POPUP "&Config"
+    BEGIN
+        MENUITEM "&Hide Menu",                  300
+        POPUP "&Enable"
+        BEGIN
+            MENUITEM "&Run in Background",          301
+            MENUITEM "&Background Input",           302
+            MENUITEM "&Auto-savestates",            304
+            MENUITEM "&Frame Adv. - Skip Lag",      40239
+            MENUITEM "Backup Savestates",           40401
+            MENUITEM "Compress Savestates",         40402
+            MENUITEM "&Game Genie ROM",             310
+            MENUITEM "Auto-resume old play session", 40579
+        END
+        POPUP "&Display"
+        BEGIN
+            POPUP "&Input Display"
+            BEGIN
+                MENUITEM "&Off",                        40250
+                MENUITEM "&1 player",                   40251
+                MENUITEM "&2 player",                   40252
+                MENUITEM "&4 player",                   40253
+                MENUITEM SEPARATOR
+                MENUITEM "old style disp.",             40406
+            END
+            MENUITEM "&Lag Counter",                40237
+            MENUITEM "&Frame Counter",              40254
+            MENUITEM "&Rerecord Counter",           40436
+            MENUITEM "&Movie status icon",          40437
+            MENUITEM "FPS",                         40565
+            MENUITEM SEPARATOR
+            MENUITEM "Graphics: &BG",               40147
+            MENUITEM "Graphics: &OBJ",              40148
+        END
+        MENUITEM SEPARATOR
+        POPUP "Region"
+        BEGIN
+            MENUITEM "NTSC",                        330
+            MENUITEM "&PAL",                        331
+            MENUITEM "Dendy",                       332
+        END
+        POPUP "PPU"
+        BEGIN
+            MENUITEM "Old PPU",                     40366
+            MENUITEM "New PPU",                     40365
+        END
+        POPUP "RAM Init"
+        BEGIN
+            MENUITEM "&Default",                    40593
+            MENUITEM "Fill $&FF",                   40594
+            MENUITEM "Fill $&00",                   40595
+            MENUITEM "&Random",                     40596
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Directories...",             320
+        MENUITEM "&GUI...",                     327
+        MENUITEM "&Input...",                   321
+        MENUITEM "&Network Play...",            40040
+        MENUITEM "&Palette...",                 40041
+        MENUITEM "&Sound...",                   40042
+        MENUITEM "&Timing...",                  40043
+        MENUITEM "&Video...",                   40044
+        MENUITEM "&Movie options...",           40322
+        MENUITEM "&Map Hotkeys...",             40045
+        MENUITEM SEPARATOR
+        MENUITEM "Save Config File",            40367
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Cheats...",                  40048
+        MENUITEM "RAM Search...",               40376
+        MENUITEM "RAM Watch...",                40377
+        MENUITEM "&Memory Watch...",            40081
+        MENUITEM "&TAS Editor...",              40524
+        MENUITEM "Convert &FCM...",             40150
+        MENUITEM SEPARATOR
+        POPUP "Autofire &Pattern"
+        BEGIN
+            MENUITEM "1 on, 1 off",                 40050
+            MENUITEM "1 on, 2 off",                 40051
+            MENUITEM "1 on, 3 off",                 40052
+            MENUITEM "1 on, 4 off",                 40053
+            MENUITEM "1 on, 5 off",                 40054
+            MENUITEM "2 on, 1 off",                 40055
+            MENUITEM "2 on, 2 off",                 40056
+            MENUITEM "2 on, 3 off",                 40057
+            MENUITEM "2 on, 4 off",                 40058
+            MENUITEM "3 on, 1 off",                 40059
+            MENUITEM "3 on, 2 off",                 40060
+            MENUITEM "3 on, 3 off",                 40061
+            MENUITEM "4 on, 1 off",                 40062
+            MENUITEM "4 on, 2 off",                 40063
+            MENUITEM "5 on, 1 off",                 40064
+        END
+        POPUP "Autofire &Offset"
+        BEGIN
+            MENUITEM "0 frames",                    40065
+            MENUITEM "1 frame",                     40066
+            MENUITEM "2 frames",                    40067
+            MENUITEM "3 frames",                    40068
+            MENUITEM "4 frames",                    40069
+            MENUITEM "5 frames",                    40070
+        END
+        MENUITEM "&Alternate A and B",          40071
+        MENUITEM SEPARATOR
+        MENUITEM "Te&xt Hooker...",             40158
+    END
+    POPUP "&Debug"
+    BEGIN
+        MENUITEM "&Debugger...",                40080
+        MENUITEM "&PPU Viewer...",              40074
+        MENUITEM "&Name Table Viewer...",       40075
+        MENUITEM "&Hex Editor...",              40076
+        MENUITEM "&Trace Logger...",            40077
+        MENUITEM "&Code/Data Logger...",        40078
+        MENUITEM "&Game Genie Decoder/Encoder...", 40079
+        MENUITEM "&iNES Header Editor...",      40001
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help...",                    40140
+        MENUITEM "&Message Log",                40047
+        MENUITEM SEPARATOR
+        MENUITEM "&About",                      40046
+    END
+END
+
+LUAWINDOW_MENU MENU
+BEGIN
+    POPUP "Console"
+    BEGIN
+        MENUITEM "&Font...",                    1255
+        MENUITEM "Clear",                       1254
+    END
+END
+
+MEMVIEWMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save Rom",                   100
+        MENUITEM "S&ave Rom As...",             101
+        MENUITEM "&Load *.TBL File",            102
+        MENUITEM "&Unload *.TBL file",          103
+        POPUP "&Dump to file"
+        BEGIN
+            MENUITEM "&Ram",                        104
+            MENUITEM "&PPU Memory",                 105
+            MENUITEM "&OAM Memory",                 40592
+            MENUITEM "6502 64K",                    40590
+        END
+        POPUP "Load from &file"
+        BEGIN
+            MENUITEM "&Ram",                        40597
+            MENUITEM "&PPU Memory",                 40598
+            MENUITEM "&OAM Memory",                 40599
+        END
+        MENUITEM "&Goto Address\tCtrl+A",       40219
+        MENUITEM SEPARATOR
+        MENUITEM "&Close\tAlt+F4",              40217
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               200
+        MENUITEM SEPARATOR
+        MENUITEM "&Copy",                       201
+        MENUITEM "&Paste",                      202
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...",                    203
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&NES Memory",                 300
+        MENUITEM "&PPU Memory",                 301
+        MENUITEM "&OAM Memory",                 302
+        MENUITEM "&ROM File",                   303
+    END
+    POPUP "Highlighting"
+    BEGIN
+        MENUITEM "Highlight Activity",          40588
+        MENUITEM "Set fading period...",        40587
+        MENUITEM "Fade when paused",            40586
+    END
+    POPUP "&Bookmarks"
+    BEGIN
+        MENUITEM "&Remove all bookmarks",       400
+        MENUITEM SEPARATOR
+        MENUITEM "&Import...",                  40005
+        MENUITEM "&Export...",                  40008
+        MENUITEM "&Option...",                  40007
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "&Help...",                    40258
+    END
+END
+
+MEMWATCHMENU MENU
+BEGIN
+    POPUP "&File  "
+    BEGIN
+        MENUITEM "&New...\tCtrl+N",             40103
+        MENUITEM "&Open...\tCtrl+O",            40104
+        MENUITEM "&Save\tCtrl+S",               40105
+        MENUITEM "S&ave As..\tCtrl+Shift+S",    40106
+        MENUITEM "&Recent",                     40100
+        MENUITEM SEPARATOR
+        MENUITEM "&Close\tAlt+F4",              40108
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Load on Startup",            40109
+        MENUITEM "Load Last &File on Startup",  40102
+        MENUITEM SEPARATOR
+        MENUITEM "&Collapse to 1 column",       40314
+        MENUITEM SEPARATOR
+        MENUITEM "Bind to Main Window",         40361
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&MemWatch Commands",          40101
+    END
+END
+
+RAMWATCH_MENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "&New list\tCtrl N",           40374
+        MENUITEM "&Open...\tCtrl O",            40372
+        MENUITEM "&Save\tCtrl S",               40370
+        MENUITEM "Sa&ve As...\tCtrl Shift S",   40371
+        MENUITEM "&Append file...",             40373
+        MENUITEM "Recent",                      40375
+        MENUITEM SEPARATOR
+        MENUITEM "Auto-&load",                  40368
+        MENUITEM "Save Window Position",        40369
+        MENUITEM SEPARATOR
+        MENUITEM "&Close\tAlt F4",              2
+    END
+    POPUP "Watches"
+    BEGIN
+        MENUITEM "&New Watch\tN",               1208
+        MENUITEM "&Edit Watch\tE",              1239
+        MENUITEM "&Remove Watch\tR",            1240
+        MENUITEM "Duplicate Watch\tA",          1241
+        MENUITEM "Add &Separator\tS",           1259
+        MENUITEM SEPARATOR
+        MENUITEM "Move Up\tU",                  1243
+        MENUITEM "Move Down\tD",                1244
+    END
+END
+
+TASEDITORCONTEXTMENUS MENU
+BEGIN
+    POPUP "Selected"
+    BEGIN
+        MENUITEM "Set Markers\tDbl-Clk",        40560
+        MENUITEM "Remove Markers",              40561
+        MENUITEM SEPARATOR
+        MENUITEM "Deselect",                    40537
+        MENUITEM "Select between Markers\tCtrl+A", 40458
+        MENUITEM SEPARATOR
+        MENUITEM "Ungreenzone",                 40571
+        MENUITEM SEPARATOR
+        MENUITEM "Clear\tDel",                  40447
+        MENUITEM "Delete\tCtrl+Del",            40205
+        MENUITEM "Clone\tCtrl+Ins",             40463
+        MENUITEM "Insert\tCtrl+Shift+Ins",      40204
+        MENUITEM "Insert # of Frames\tIns",     40425
+        MENUITEM SEPARATOR
+        MENUITEM "Truncate movie",              40200
+    END
+END
+
+TASEDITORMENU MENUEX
+BEGIN
+    POPUP "File",                           65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "New",                         40525,MFT_STRING,MFS_ENABLED
+        MENUITEM "Open",                        40181,MFT_STRING,MFS_ENABLED
+        MENUITEM "Save\tCtrl+S",                40172,MFT_STRING,MFS_ENABLED
+        MENUITEM "Save As",                     40182,MFT_STRING,MFS_ENABLED
+        MENUITEM "Save Compact",                40484,MFT_STRING,MFS_ENABLED
+        MENUITEM "Recent",                      40100,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Import Input",                40178,MFT_STRING,MFS_ENABLED
+        MENUITEM "Export to FM2",               40183,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Close\tAlt+F4",               40517,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Edit",                           65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Undo\tCtrl+Z",                40468,MFT_STRING,MFS_ENABLED
+        MENUITEM "Redo\tCtrl+Y",                40469,MFT_STRING,MFS_ENABLED
+        MENUITEM "Selection Undo\tCtrl+Q",      40481,MFT_STRING,MFS_ENABLED
+        MENUITEM "Selection Redo\tCtrl+W",      40482,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Deselect",                    40536,MFT_STRING,MFS_ENABLED
+        MENUITEM "Select All",                  40214,MFT_STRING,MFS_ENABLED
+        MENUITEM "Select between Markers\tCtrl+A", 40457,MFT_STRING,MFS_ENABLED
+        MENUITEM "Reselect Clipboard\tCtrl+B",  40483,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Copy\tCtrl+C",                40521,MFT_STRING,MFS_ENABLED
+        MENUITEM "Paste\tCtrl+V",               40520,MFT_STRING,MFS_ENABLED
+        MENUITEM "PasteInsert\tCtrl+Shift+V",   40495,MFT_STRING,MFS_ENABLED
+        MENUITEM "Cut\tCtrl+X",                 40522,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Clear\tDel",                  40450,MFT_STRING,MFS_ENABLED
+        MENUITEM "Delete\tCtrl+Del",            40169,MFT_STRING,MFS_ENABLED
+        MENUITEM "Clone\tCtrl+Ins",             40460,MFT_STRING,MFS_ENABLED
+        MENUITEM "Insert\tCtrl+Shift+Ins",      40451,MFT_STRING,MFS_ENABLED
+        MENUITEM "Insert # of Frames\tIns",     40452,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Truncate movie",              40177,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "View",                           65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Find Note window\tCtrl+F",    40515,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Display Branch Screenshots",  40489,MFT_STRING,MFS_ENABLED
+        MENUITEM "Display Branch Descriptions", 40508,MFT_STRING,MFS_ENABLED
+        MENUITEM "Enable Hot Changes",          40488,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Follow Undo context",         40472,MFT_STRING,MFS_ENABLED
+        MENUITEM "Follow Marker Note context",  40507,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Config",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Project file saving options", 40581,MFT_STRING,MFS_ENABLED
+        MENUITEM "Set max Undo levels",         40470,MFT_STRING,MFS_ENABLED
+        MENUITEM "Set Greenzone capacity",      40432,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Enable Greenzoning",          40573,MFT_STRING,MFS_ENABLED
+        MENUITEM "Autofire Pattern skips Lag",  40568,MFT_STRING,MFS_ENABLED
+        MENUITEM "Auto-adjust Input according to Lag", 40567,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Draw Input by dragging",      40539,MFT_STRING,MFS_ENABLED
+        MENUITEM "Combine consecutive Recordings/Draws", 40492,MFT_STRING,MFS_ENABLED
+        MENUITEM "Use 1P keys for all single Recordings", 40491,MFT_STRING,MFS_ENABLED
+        MENUITEM "Use Input keys for Column Set", 40509,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Bind Markers to Input",       40454,MFT_STRING,MFS_ENABLED
+        MENUITEM "Empty new Marker Notes",      40510,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Old control scheme for Branching", 40474,MFT_STRING,MFS_ENABLED
+        MENUITEM "Branches restore entire Movie", 40473,MFT_STRING,MFS_ENABLED
+        MENUITEM "HUD in Branch screenshots",   40475,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Autopause at the end of Movie", 40559,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Help",                           65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Open TAS Editor Manual",      40564,MFT_STRING,MFS_ENABLED
+        MENUITEM "Enable Tooltips",             40527,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "About",                       40485,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Pattern",                        65535,MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "Dummy",                       40534,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ADDBP DIALOGEX 66, 83, 197, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Breakpoint..."
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "&Address:",-1,14,6,30,10
+    CTEXT           "-",65534,78,6,8,8
+    EDITTEXT        200,48,4,30,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        201,87,4,30,12,ES_UPPERCASE | ES_WANTRETURN
+    CONTROL         "&Forbid",109,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,154,6,33,12
+    GROUPBOX        "",112,3,18,185,50,WS_TABSTOP
+    CONTROL         "&Read",102,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,25,35,12
+    CONTROL         "&Write",103,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,49,25,35,12
+    CONTROL         "&Execute",104,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,86,25,40,12
+    GROUPBOX        "Memory",108,9,39,174,24,WS_TABSTOP
+    CONTROL         "&CPU Mem",105,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,49,50,10
+    CONTROL         "&PPU Mem",106,"Button",BS_AUTORADIOBUTTON,68,49,50,10
+    CONTROL         "&Sprite Mem",107,"Button",BS_AUTORADIOBUTTON,124,49,50,10
+    LTEXT           "C&ondition:",65533,7,74,34,8
+    EDITTEXT        202,43,72,136,14,ES_AUTOHSCROLL
+    LTEXT           "&Name:",65532,8,92,20,8
+    EDITTEXT        203,43,89,136,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",1,99,110,42,13
+    PUSHBUTTON      "Cancel",2,147,110,42,13
+END
+
+ARCHIVECHOOSERDIALOG DIALOGEX 0, 0, 265, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose File From Archive"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",1,146,138,50,14
+    PUSHBUTTON      "Cancel",2,208,138,50,14
+    LISTBOX         1130,7,7,251,120,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+END
+
+ASSEMBLER DIALOGEX 0, 0, 202, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Inline Assembler"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        101,23,9,171,12,ES_READONLY
+    COMBOBOX        100,7,25,188,54,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Apply",201,159,114,36,14
+    LTEXT           "PC:",-1,8,11,12,8
+    LTEXT           "Patch:",-1,8,41,22,8
+    PUSHBUTTON      "Save...",202,117,114,36,14
+    PUSHBUTTON      "Undo",203,6,114,36,14
+    DEFPUSHBUTTON   "Define",300,46,114,36,14,NOT WS_VISIBLE
+    LISTBOX         102,7,50,188,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+END
+
+CDLOGGER DIALOGEX 0, 0, 307, 254
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Code Data Logger"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Load...",104,7,122,50,14
+    PUSHBUTTON      "Save",107,249,105,50,14
+    GROUPBOX        "Code/Data Log Status",-1,3,5,300,195,BS_CENTER
+    DEFPUSHBUTTON   "Start",105,127,105,50,14
+    GROUPBOX        "Address Label Logger",65534,3,201,300,49,BS_CENTER
+    PUSHBUTTON      "Load...",111,7,231,50,14,WS_DISABLED
+    PUSHBUTTON      "Start",112,127,231,50,14,WS_DISABLED
+    PUSHBUTTON      "Save...",113,249,231,50,14,WS_DISABLED
+    LTEXT           "4067 - 29.5%",100,34,27,72,11
+    GROUPBOX        "PRG Logged as Code",65533,25,16,84,27
+    GROUPBOX        "PRG Logged as Data",65532,113,16,84,27
+    LTEXT           "7092 - 37.2%",101,122,27,71,9
+    GROUPBOX        "PRG not Logged",65531,201,16,79,27
+    LTEXT           "6072 - 32.7%",102,210,27,66,8
+    LTEXT           "Itsa me, the Code/Data Logger! Press Start to play!",65530,67,78,172,11
+    PUSHBUTTON      "Reset Log",103,7,105,50,14
+    PUSHBUTTON      "Save as...",106,250,122,50,14
+    PUSHBUTTON      "Save Stripped Data...",108,196,155,90,14
+    PUSHBUTTON      "Save Unused Data...",109,196,172,90,14
+    LTEXT           "4067 - 29.5%",110,34,56,72,11
+    GROUPBOX        "CHR Rendered",1283,25,45,84,27
+    GROUPBOX        "CHR Logged as Data",1284,113,45,84,27
+    LTEXT           "7092 - 37.2%",114,122,56,71,9
+    GROUPBOX        "CHR not Logged",1285,201,45,79,27
+    LTEXT           "6072 - 32.7%",115,210,56,66,9
+    LTEXT           "CDL file:",1286,12,92,29,11
+    LTEXT           "",40582,43,92,252,11,SS_PATHELLIPSIS
+    CONTROL         " Auto-resume logging when loading ROMs",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,179,153,11
+    CONTROL         " Auto-save .CDL when closing ROMs",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,153,143,11
+    CONTROL         " Auto-load .CDL when opening this window",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,166,154,11
+    GROUPBOX        "Generate ROM",65529,183,142,116,52
+    GROUPBOX        "Logging workflow options",65528,8,142,171,52
+END
+
+CHEATCONSOLE DIALOGEX 0, 0, 417, 227
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Cheat Search"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Active Cheats",201,5,2,199,219,WS_TABSTOP
+    CONTROL         "Enable",1096,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,12,35,10
+    CONTROL         "Auto load / save with game",1013,"Button",BS_AUTO3STATE | WS_TABSTOP,50,12,102,10
+    CONTROL         "Show GG",1112,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,156,12,42,10
+    CONTROL         "",101,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,11,24,187,133
+    LTEXT           "Name:",-1,12,162,23,8
+    EDITTEXT        104,40,160,158,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "Address:",1313,12,176,30,8
+    EDITTEXT        102,46,174,25,12,ES_UPPERCASE | ES_WANTRETURN
+    LTEXT           "Value:",1314,89,176,22,8
+    EDITTEXT        103,115,174,16,12,ES_UPPERCASE | ES_WANTRETURN
+    LTEXT           "Compare:",1315,145,176,34,8
+    EDITTEXT        111,182,174,16,12,ES_UPPERCASE | ES_WANTRETURN
+    LTEXT           "Cheat Code:",1312,12,190,42,8
+    EDITTEXT        1147,56,188,47,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Game Genie:",1097,107,190,43,8
+    EDITTEXT        1098,151,188,47,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Add",301,10,202,32,16
+    PUSHBUTTON      "Delete",302,43,202,32,16
+    PUSHBUTTON      "Update",303,76,202,32,16
+    PUSHBUTTON      "Import...",311,117,202,40,16
+    PUSHBUTTON      "Export...",1011,157,202,40,16
+    GROUPBOX        "Cheat Search",202,209,2,201,206,WS_TABSTOP
+    PUSHBUTTON      "Reset",304,221,12,55,15
+    PUSHBUTTON      "Known Value:",305,221,36,55,15
+    LTEXT           "0x",1316,246,55,9,8
+    EDITTEXT        105,257,53,18,12,ES_UPPERCASE
+    GROUPBOX        "Previous Compare",204,214,68,69,135
+    PUSHBUTTON      "Equal",306,221,79,55,15,WS_GROUP
+    PUSHBUTTON      "Not Equal",307,221,99,55,15
+    CONTROL         "By:",401,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,233,117,22,10
+    EDITTEXT        108,257,116,18,12,ES_UPPERCASE | ES_WANTRETURN
+    PUSHBUTTON      "Greater Than",308,221,134,55,15
+    CONTROL         "By:",402,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,233,152,22,10
+    EDITTEXT        109,257,151,18,12,ES_UPPERCASE | ES_WANTRETURN
+    PUSHBUTTON      "Less Than",309,221,169,55,15
+    CONTROL         "By:",403,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,233,187,22,10
+    EDITTEXT        110,257,186,18,12,ES_UPPERCASE | ES_WANTRETURN
+    GROUPBOX        "Possibilities",203,287,8,117,195,WS_TABSTOP
+    CONTROL         "",106,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,293,18,106,179
+    CONTROL         "Pause emulation when this window is active",1203,"Button",BS_AUTOCHECKBOX,209,211,157,10
+END
+
+DEBUGGER DIALOGEX 54, 74, 546, 334
+STYLE DS_SETFONT | DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "6502 Debugger"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",300,"RichEdit20A",ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | WS_BORDER | WS_HSCROLL,18,5,316,317
+    SCROLLBAR       301,334,5,11,317,SBS_VERT
+    GROUPBOX        "Status Flags",401,434,140,106,35,WS_TABSTOP
+    CONTROL         "N",200,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,440,149,18,12
+    CONTROL         "V",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,466,149,18,12
+    CONTROL         "U",202,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,491,149,18,12
+    CONTROL         "B",203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,516,149,18,12
+    CONTROL         "D",204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,440,161,18,12
+    CONTROL         "I",205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,466,161,18,12
+    CONTROL         "Z",206,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,491,161,18,12
+    CONTROL         "C",207,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,516,161,18,12
+    GROUPBOX        "Breakpoints",402,434,2,106,138,WS_TABSTOP
+    LISTBOX         302,438,11,98,96,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+    PUSHBUTTON      "Add",101,438,109,31,15
+    PUSHBUTTON      "Delete",102,472,109,31,15,WS_DISABLED
+    PUSHBUTTON      "Edit",103,505,109,31,15,WS_DISABLED
+    PUSHBUTTON      "Run",104,351,5,38,14
+    PUSHBUTTON      "Step Into",105,392,5,39,14
+    PUSHBUTTON      "Step Out",106,351,21,38,14
+    PUSHBUTTON      "Step Over",107,392,21,39,14
+    LTEXT           "A:",-1,351,92,9,8
+    LTEXT           "X:",65534,378,92,9,8
+    LTEXT           "Y:",65533,406,92,9,8
+    LTEXT           "PC:",65532,349,74,13,8
+    EDITTEXT        304,359,90,15,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        305,387,90,15,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        306,415,90,15,12,ES_UPPERCASE | ES_WANTRETURN
+    EDITTEXT        307,361,72,27,12,ES_UPPERCASE | ES_WANTRETURN
+    GROUPBOX        "Stack",403,349,104,81,71,WS_TABSTOP
+    EDITTEXT        308,353,113,73,58,ES_MULTILINE | ES_UPPERCASE | ES_NOHIDESEL | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "Seek PC",108,392,71,39,14
+    PUSHBUTTON      "Seek To:",109,351,54,38,14
+    EDITTEXT        309,392,55,38,12,ES_UPPERCASE | ES_WANTRETURN
+    LTEXT           "PPU:",65531,353,179,17,10
+    LTEXT           "Sprite:",65530,353,191,20,10
+    LTEXT           "Scanline:",-1,353,203,31,8
+    LTEXT           "Pixel:",-1,353,216,17,8
+    EDITTEXT        310,372,179,25,12,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        311,375,191,15,12,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        501,384,203,14,12,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        504,373,216,14,12,ES_UPPERCASE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    GROUPBOX        "",405,349,174,51,53,WS_TABSTOP
+    EDITTEXT        503,443,179,47,12,ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        505,492,179,54,12,ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        506,442,204,47,12,ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        507,491,204,55,12,ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    CONTROL         "",502,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,4,323,341,11
+    CONTROL         "Break on Bad Opcodes",110,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,440,126,94,10
+    CONTROL         "Symbolic debug",208,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,473,261,62,10
+    PUSHBUTTON      "Reload Symbols",111,472,283,64,14
+    GROUPBOX        "Address Bookmarks",45535,349,228,115,88
+    LISTBOX         701,353,238,76,73,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        312,432,238,28,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",112,431,256,30,14
+    PUSHBUTTON      "Delete",113,431,272,30,14
+    PUSHBUTTON      "Rom Patcher",602,472,299,64,14
+    PUSHBUTTON      "Default window size",1191,348,318,68,14
+    PUSHBUTTON      "Run Line",114,351,37,38,14
+    PUSHBUTTON      "128 Lines",115,392,37,39,14
+    CONTROL         ".DEB files",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,463,319,42,13
+    CONTROL         "Auto-open",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,417,319,45,13
+    LTEXT           "CPU cycles:",-1,403,179,39,8
+    PUSHBUTTON      "Reset counters",116,470,229,68,14
+    CONTROL         "Break when exceed",117,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,405,191,78,10
+    EDITTEXT        313,484,190,55,12,ES_UPPERCASE | ES_NOHIDESEL | ES_WANTRETURN | ES_NUMBER
+    LTEXT           "Instructions:",-1,403,204,39,8
+    CONTROL         "Break when exceed",119,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,405,216,78,10
+    EDITTEXT        314,484,215,55,12,ES_UPPERCASE | ES_NOHIDESEL | ES_WANTRETURN | ES_NUMBER
+    GROUPBOX        "",-1,468,241,72,75
+    CONTROL         "ROM offsets",209,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,473,249,62,10
+    PUSHBUTTON      "Edit",118,431,288,30,14
+    EDITTEXT        303,4,5,14,317,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    CONTROL         "Register names",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,473,272,65,10
+    CONTROL         "IDA font",1305,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,506,319,38,13
+END
+
+DIRCONFIG DIALOGEX 63, 7, 305, 255
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Directories Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Base &Directory",-1,10,10,47,8
+    EDITTEXT        113,71,9,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",213,239,8,56,14
+    LTEXT           "&Roms",-1,10,28,19,8
+    EDITTEXT        100,71,27,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",200,239,26,56,14
+    LTEXT           "&Battery Saves",-1,10,46,45,8
+    EDITTEXT        101,71,45,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",201,239,44,56,14
+    LTEXT           "&Save States",-1,10,64,41,9
+    EDITTEXT        102,71,63,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",202,239,62,56,14
+    LTEXT           "&FDS Bios Rom",-1,10,82,47,8
+    EDITTEXT        103,71,81,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",203,239,80,56,14
+    LTEXT           "Screens&hots",-1,10,100,40,8
+    EDITTEXT        104,71,99,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",204,239,98,56,14
+    LTEXT           "Chea&ts",-1,10,118,23,8
+    EDITTEXT        105,71,117,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",205,239,116,56,14
+    LTEXT           "&Movies",-1,10,136,24,8
+    EDITTEXT        106,71,135,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",206,239,134,56,14
+    LTEXT           "Memory &Watch",-1,10,154,52,9
+    EDITTEXT        107,71,153,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",207,239,152,56,14
+    LTEXT           "&Input Presets",-1,10,172,42,8
+    EDITTEXT        110,71,171,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",210,239,170,56,14
+    LTEXT           "&Lua Scripts",-1,10,190,36,8
+    EDITTEXT        111,71,189,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",211,239,188,56,14
+    LTEXT           "A&vi Output",-1,10,208,34,8
+    EDITTEXT        112,71,207,158,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",212,239,206,56,14
+    DEFPUSHBUTTON   "OK",1,175,230,56,14
+    PUSHBUTTON      "Cancel",800,239,230,56,14
+END
+
+DWBDIALOG DIALOG 33, 99, 250, 56
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "DWB!"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Text",100,7,9,237,8
+    PUSHBUTTON      "Clear",200,64,32,50,14
+    PUSHBUTTON      "Close",1,188,33,50,14
+END
+
+DWBDIALOGSIMPLE DIALOGEX 33, 99, 250, 39
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "DWBS!"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Type a key, or press Escape to disable.",65429,53,14,125,8
+END
+
+FKBDIALOG DIALOG 13, 72, 402, 194
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Family Keyboard Configuration"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "Close",1,320,170,56,14
+    LTEXT           "Remember to push the ""Scroll Lock"" key during emulation to enable Family Keyboard input.",65503,18,6,370,12
+    GROUPBOX        "",65502,11,22,380,133,WS_GROUP
+    PUSHBUTTON      "F1",300,22,43,32,12
+    PUSHBUTTON      "1",308,30,59,16,12
+    PUSHBUTTON      "F2",301,60,43,32,12
+    PUSHBUTTON      "F3",302,98,43,32,12
+    PUSHBUTTON      "F4",303,136,43,32,12
+    PUSHBUTTON      "F5",304,174,43,32,12
+    PUSHBUTTON      "F6",305,212,43,32,12
+    PUSHBUTTON      "F7",306,250,43,32,12
+    PUSHBUTTON      "F8",307,288,43,32,12
+    PUSHBUTTON      "2",309,49,59,16,12
+    PUSHBUTTON      "3",310,68,59,16,12
+    PUSHBUTTON      "4",311,87,59,16,12
+    PUSHBUTTON      "5",312,106,59,16,12
+    PUSHBUTTON      "6",313,125,59,16,12
+    PUSHBUTTON      "7",314,144,59,16,12
+    PUSHBUTTON      "8",315,163,59,16,12
+    PUSHBUTTON      "9",316,182,59,16,12
+    PUSHBUTTON      "0",317,201,59,16,12
+    PUSHBUTTON      "-",318,220,59,16,12
+    PUSHBUTTON      "^",319,239,59,16,12
+    PUSHBUTTON      "\\",320,258,59,16,12
+    PUSHBUTTON      "STP",321,277,59,16,12
+    PUSHBUTTON      "ESC",322,22,75,16,12
+    PUSHBUTTON      "Q",323,41,75,16,12
+    PUSHBUTTON      "W",324,60,75,16,12
+    PUSHBUTTON      "E",325,79,75,16,12
+    PUSHBUTTON      "R",326,98,75,16,12
+    PUSHBUTTON      "T",327,117,75,16,12
+    PUSHBUTTON      "Y",328,136,75,16,12
+    PUSHBUTTON      "U",329,155,75,16,12
+    PUSHBUTTON      "I",330,174,75,16,12
+    PUSHBUTTON      "O",331,193,75,16,12
+    PUSHBUTTON      "P",332,212,75,16,12
+    PUSHBUTTON      "@",333,231,75,16,12
+    PUSHBUTTON      "[",334,250,75,16,12
+    PUSHBUTTON      "RETURN",335,272,75,32,12
+    PUSHBUTTON      "CTR",336,26,91,16,12
+    PUSHBUTTON      "A",337,45,91,16,12
+    PUSHBUTTON      "S",338,64,91,16,12
+    PUSHBUTTON      "D",339,83,91,16,12
+    PUSHBUTTON      "F",340,102,91,16,12
+    PUSHBUTTON      "G",341,121,91,16,12
+    PUSHBUTTON      "H",342,140,91,16,12
+    PUSHBUTTON      "J",343,159,91,16,12
+    PUSHBUTTON      "K",344,178,91,16,12
+    PUSHBUTTON      "L",345,197,91,16,12
+    PUSHBUTTON      ";",346,216,91,16,12
+    PUSHBUTTON      ":",347,235,91,16,12
+    PUSHBUTTON      "]",348,254,91,16,12
+    PUSHBUTTON      "KANA",349,273,91,16,12
+    PUSHBUTTON      "Z",351,55,107,16,12
+    PUSHBUTTON      "X",352,74,107,16,12
+    PUSHBUTTON      "C",353,93,107,16,12
+    PUSHBUTTON      "V",354,112,107,16,12
+    PUSHBUTTON      "B",355,131,107,16,12
+    PUSHBUTTON      "N",356,150,107,16,12
+    PUSHBUTTON      "M",357,169,107,16,12
+    PUSHBUTTON      ",",358,188,107,16,12
+    PUSHBUTTON      ".",359,207,107,16,12
+    PUSHBUTTON      "/",360,226,107,16,12
+    PUSHBUTTON      "",361,245,107,16,12
+    PUSHBUTTON      "SHIFT",350,19,107,32,12
+    PUSHBUTTON      "SHIFT",362,265,107,32,12
+    PUSHBUTTON      "GRPH",363,74,123,16,12
+    PUSHBUTTON      "SPACE",364,93,123,149,12
+    PUSHBUTTON      "CLR",365,316,67,16,12
+    PUSHBUTTON      "INS",366,335,67,16,12
+    PUSHBUTTON      "DEL",367,354,67,16,12
+    PUSHBUTTON      "UP",368,327,83,32,12
+    PUSHBUTTON      "LEFT",369,310,99,32,12
+    PUSHBUTTON      "RIGHT",370,346,99,32,12
+    PUSHBUTTON      "DOWN",371,327,115,32,12
+END
+
+GAMEPADDIALOG DIALOGEX 4, 109, 243, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Gamepad Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close",1,173,196,56,14
+    GROUPBOX        "",100,4,8,232,82,WS_GROUP
+    PUSHBUTTON      "Up",304,35,27,24,12
+    PUSHBUTTON      "Left",306,9,45,25,12
+    PUSHBUTTON      "Right",307,60,45,24,12
+    PUSHBUTTON      "Down",305,35,64,24,12
+    PUSHBUTTON      "Select",302,91,45,26,12
+    PUSHBUTTON      "Start",303,126,45,26,12
+    PUSHBUTTON      "B",301,169,45,16,12
+    PUSHBUTTON      "A",300,195,45,16,12
+    PUSHBUTTON      "Turbo B",309,154,29,32,12
+    PUSHBUTTON      "Turbo A",308,195,29,32,12
+    GROUPBOX        "",101,4,101,232,82,WS_GROUP
+    PUSHBUTTON      "Up",316,35,120,24,12
+    PUSHBUTTON      "Left",318,9,138,25,12
+    PUSHBUTTON      "Right",319,60,138,24,12
+    PUSHBUTTON      "Down",317,35,157,24,12
+    PUSHBUTTON      "Select",314,91,138,26,12
+    PUSHBUTTON      "Start",315,126,138,26,12
+    PUSHBUTTON      "B",313,169,138,16,12
+    PUSHBUTTON      "A",312,195,138,16,12
+    PUSHBUTTON      "Turbo B",321,154,122,32,12
+    PUSHBUTTON      "Turbo A",320,195,122,32,12
+END
+
+GGCONV DIALOGEX 84, 67, 186, 146
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Game Genie Encoder/Decoder Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Game Genie Code",-1,107,5,69,42
+    EDITTEXT        1000,115,22,53,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Add To Cheat List",1005,108,58,68,14,WS_DISABLED
+    GROUPBOX        "Address/Compare/Value",65534,9,5,91,75
+    LTEXT           "Address:",65533,18,24,35,8
+    EDITTEXT        1501,50,21,36,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Compare:",65532,17,41,37,8
+    EDITTEXT        1002,64,38,22,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Value:",65531,18,58,32,8
+    EDITTEXT        1003,64,56,22,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    GROUPBOX        "Possible Affected Rom File Addresses",65530,8,83,169,58
+    LISTBOX         1004,67,95,54,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+GUICONFIG DIALOGEX 16, 123, 184, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "GUI Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Load ""File Open"" dialog when FCEUX starts.",102,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,8,168,12
+    CONTROL         "Automatically hide menu on game load.",104,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,23,168,12
+    CONTROL         "Ask confirmation on exit attempt.",110,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,38,168,12
+    CONTROL         "Disable screen saver while game is loaded.",111,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,53,168,12
+    CONTROL         "Enable right-click context menu",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,68,168,12
+    CONTROL         "Switch fullscreen by double-click",1261,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,84,168,12
+    CONTROL         "Partially disable Visual Themes (Requires restart)",1257,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,100,168,12
+    CONTROL         "Single Instance Mode",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,117,167,10
+    DEFPUSHBUTTON   "Close",1,65,136,56,14
+END
+
+IDD_RECORDINP DIALOGEX 0, 0, 276, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Record input"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",65501,3,0,269,60
+    RTEXT           "&File:",65500,28,11,24,10,SS_CENTERIMAGE | NOT WS_GROUP,WS_EX_RIGHT
+    EDITTEXT        200,55,10,189,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",201,249,10,18,14
+    RTEXT           "&Record From:",65498,9,27,43,8,0,WS_EX_RIGHT
+    COMBOBOX        301,55,25,189,154,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "&Author:",65502,18,43,34,10,SS_CENTERIMAGE | NOT WS_GROUP,WS_EX_RIGHT
+    EDITTEXT        1180,55,41,189,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",1,167,66,50,14
+    PUSHBUTTON      "Cancel",2,221,66,50,14
+END
+
+IDD_REPLAYINP DIALOGEX 0, 0, 300, 202
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Play Movie"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",65497,3,0,293,180
+    RTEXT           "File:",65498,8,11,24,10,SS_CENTERIMAGE | NOT WS_GROUP
+    COMBOBOX        200,35,10,257,128,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Length:",64397,10,67,59,8
+    EDITTEXT        300,76,67,59,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Frames:",65496,10,78,59,8
+    EDITTEXT        301,76,78,59,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Record Count:",65495,10,89,59,8
+    EDITTEXT        302,76,89,59,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "ROM Used:",65493,10,111,59,8
+    EDITTEXT        304,76,111,187,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "ROM Checksum:",65492,10,122,59,8
+    EDITTEXT        305,76,122,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Recorded From:",65491,10,100,59,8
+    EDITTEXT        306,76,100,123,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Emulator Used:",65490,10,144,59,8
+    EDITTEXT        307,76,144,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Current ROM Sum:",65489,8,133,61,8
+    EDITTEXT        308,76,133,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "Pause movie at frame",1002,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,49,83,10
+    EDITTEXT        1003,103,47,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Parameters",-1,13,25,278,40
+    PUSHBUTTON      "Metadata...",1132,239,71,50,14
+    CONTROL         "Open &Read-Only",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,36,69,10
+    RTEXT           "Pal:",65494,10,155,59,8
+    EDITTEXT        309,76,155,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "New PPU:",65499,10,166,59,8
+    EDITTEXT        310,76,166,155,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "OK",1,189,183,50,14
+    PUSHBUTTON      "Cancel",2,243,183,50,14
+END
+
+IDD_REPLAY_METADATA DIALOGEX 0, 0, 325, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Movie Metadata"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",2,268,229,50,14
+    CONTROL         "",1130,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,311,214
+END
+
+IMPORTBOOKMARKOPTIONDIALOG DIALOGEX 0, 0, 144, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bookmark Importing Options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "&Merge into my bookmarks",1117,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,6,129,10
+    CONTROL         "&Discard all my bookmarks",1114,"Button",BS_AUTORADIOBUTTON,7,60,126,14
+    GROUPBOX        "Solving conflicts",1125,7,19,130,38
+    LTEXT           "&Bookmark:",1123,14,30,36,8
+    CONTROL         "&Ignore",1116,"Button",BS_AUTORADIOBUTTON | WS_GROUP,53,29,35,10
+    CONTROL         "&Overwrite",1115,"Button",BS_AUTORADIOBUTTON,89,29,45,10
+    LTEXT           "&Shortcut:",1124,14,43,31,8
+    CONTROL         "&Keep",1119,"Button",BS_AUTORADIOBUTTON | WS_GROUP,53,42,34,10
+    CONTROL         "&Re-assign",1118,"Button",BS_AUTORADIOBUTTON,89,42,44,10
+    CONTROL         "&Confirm every time on conflict",1121,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,7,76,130,10
+    DEFPUSHBUTTON   "OK",1,34,89,50,14
+    PUSHBUTTON      "Cancel",2,87,89,50,14
+END
+
+INPUTCONFIG DIALOGEX 122, 105, 349, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Input Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Port 1:",102,20,31,152,50
+    COMBOBOX        104,27,57,74,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Configure",106,109,40,56,14
+    GROUPBOX        "Port 2:",103,176,31,162,50
+    COMBOBOX        105,183,57,84,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Configure",107,275,40,56,14
+    GROUPBOX        "NES-style Input Ports",108,10,8,328,83
+    GROUPBOX        "Famicom Expansion Port:",109,176,93,162,50
+    COMBOBOX        110,183,122,84,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Configure",111,275,105,56,14
+    CONTROL         "",65487,"Static",SS_BLACKFRAME,27,41,74,12
+    CONTROL         "",65486,"Static",SS_BLACKFRAME,183,41,84,12
+    CONTROL         "",65485,"Static",SS_BLACKFRAME,183,106,84,12
+    CTEXT           "",200,30,42,68,10
+    CTEXT           "",201,186,42,78,10
+    CTEXT           "",202,186,107,78,10
+    PUSHBUTTON      "Set",112,19,157,45,13
+    LTEXT           "not assigned",115,71,159,87,8
+    PUSHBUTTON      "Clear",114,19,172,45,13
+    LTEXT           "not assigned",116,71,174,87,8
+    DEFPUSHBUTTON   "Close",1,275,177,56,14
+    GROUPBOX        "Input Presets",113,10,93,162,50
+    CONTROL         "Allow Left+Right / Up+Down",1117,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,183,157,107,10
+    PUSHBUTTON      "Set",1119,34,103,37,11
+    PUSHBUTTON      "Set",1120,34,115,37,11
+    PUSHBUTTON      "Set",1121,34,127,37,11
+    PUSHBUTTON      "Import",1122,84,103,37,11
+    PUSHBUTTON      "Import",1123,84,115,37,11
+    PUSHBUTTON      "Import",1124,84,127,37,11
+    PUSHBUTTON      "Export",1125,123,103,37,11
+    PUSHBUTTON      "Export",1126,123,115,37,11
+    PUSHBUTTON      "Export",1127,123,127,37,11
+    GROUPBOX        "Auto-Hold",118,10,146,162,46
+    GROUPBOX        "Emulation",119,176,146,162,25
+    CTEXT           "1",-1,18,105,8,8
+    CTEXT           "2",-1,18,116,8,8
+    CTEXT           "3",-1,18,128,8,8
+    CONTROL         "Attach four-score (implies four gamepads)",401,"Button",BS_AUTOCHECKBOX,18,18,142,12
+    CONTROL         "Replace Port 2 Start With Microphone",407,"Button",BS_AUTOCHECKBOX,174,18,142,12
+END
+
+LCDCOMPZAPPERDIALOG DIALOGEX 4, 109, 129, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Zapper Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close",1,13,94,56,14
+    GROUPBOX        "Zapper",312,8,7,118,75,WS_GROUP
+    PUSHBUTTON      "Trigger",300,15,38,30,12
+    PUSHBUTTON      "Light Sensor",301,14,19,98,12
+END
+
+MAHJONGDIALOG DIALOG 65510, 106, 340, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "mahjong"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    GROUPBOX        "",321,8,8,324,73,WS_GROUP
+    PUSHBUTTON      "A",300,14,42,16,12
+    PUSHBUTTON      "B",301,36,42,16,12
+    PUSHBUTTON      "C",302,58,42,16,12
+    PUSHBUTTON      "D",303,80,42,16,12
+    PUSHBUTTON      "E",304,102,42,16,12
+    PUSHBUTTON      "F",305,124,42,16,12
+    PUSHBUTTON      "G",306,146,42,16,12
+    PUSHBUTTON      "H",307,168,42,16,12
+    PUSHBUTTON      "I",308,190,42,16,12
+    PUSHBUTTON      "J",309,212,42,16,12
+    PUSHBUTTON      "K",310,234,42,16,12
+    PUSHBUTTON      "L",311,256,42,16,12
+    PUSHBUTTON      "M",312,278,42,16,12
+    PUSHBUTTON      " ",313,302,40,20,15
+    PUSHBUTTON      "SEL",314,124,58,16,12
+    PUSHBUTTON      "ST",315,146,58,16,12
+    PUSHBUTTON      " ",316,168,58,16,12
+    PUSHBUTTON      " ",317,190,58,16,12
+    PUSHBUTTON      " ",318,212,58,16,12
+    PUSHBUTTON      " ",319,234,58,16,12
+    PUSHBUTTON      " ",320,256,58,16,12
+    DEFPUSHBUTTON   "Close",1,277,91,56,14
+END
+
+MAPINPUT DIALOGEX 0, 0, 318, 294
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hotkeys"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",1,261,274,50,14
+    PUSHBUTTON      "Cancel",800,205,274,50,14
+    CONTROL         "List2",1003,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,304,243
+    PUSHBUTTON      "Restore Defaults",200,7,274,75,14
+    RTEXT           "Filter:",65484,6,255,21,12,SS_CENTERIMAGE | NOT WS_GROUP
+    COMBOBOX        300,32,255,279,193,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+MEMVIEWFIND DIALOGEX 0, 0, 282, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Find"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Find &What:",-1,7,9,38,8
+    EDITTEXT        1000,47,7,171,14,ES_AUTOHSCROLL
+    GROUPBOX        "Type",-1,83,29,187,45
+    CONTROL         "&Hex",1001,"Button",BS_AUTORADIOBUTTON | WS_GROUP,93,43,29,10
+    CONTROL         "&Text (Uses Currently Loaded Table as Reference)",1002,
+                    "Button",BS_AUTORADIOBUTTON,93,56,172,10
+    GROUPBOX        "Direction",-1,9,29,65,44
+    CONTROL         "&Up",1003,"Button",BS_AUTORADIOBUTTON | WS_GROUP,18,43,25,10
+    CONTROL         "&Down",1004,"Button",BS_AUTORADIOBUTTON,18,56,35,10
+    DEFPUSHBUTTON   "&Find Next",1005,225,7,50,14
+END
+
+MEMWATCH DIALOGEX 0, 0, 261, 270
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Memory Watch"
+MENU MEMWATCHMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",-1,3,0,126,200
+    GROUPBOX        "",-1,131,0,128,200
+    EDITTEXT        1001,6,17,30,14,ES_UPPERCASE
+    EDITTEXT        1000,41,17,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1004,6,32,30,14,ES_UPPERCASE
+    EDITTEXT        1003,41,32,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1007,6,47,30,14,ES_UPPERCASE
+    EDITTEXT        1006,41,47,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1010,6,62,30,14,ES_UPPERCASE
+    EDITTEXT        1009,41,62,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1013,6,77,30,14,ES_UPPERCASE
+    EDITTEXT        1012,41,77,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1016,6,92,30,14,ES_UPPERCASE
+    EDITTEXT        1015,41,92,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1019,6,107,30,14,ES_UPPERCASE
+    EDITTEXT        1018,41,107,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1022,6,122,30,14,ES_UPPERCASE
+    EDITTEXT        1021,41,122,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1025,6,137,30,14,ES_UPPERCASE
+    EDITTEXT        1024,41,137,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1028,6,152,30,14,ES_UPPERCASE
+    EDITTEXT        1027,41,152,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1031,6,167,30,14,ES_UPPERCASE
+    EDITTEXT        1030,41,167,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1034,6,182,30,14,ES_UPPERCASE
+    EDITTEXT        1033,41,182,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1037,135,17,30,14,ES_UPPERCASE
+    EDITTEXT        1036,171,17,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1040,135,32,30,14,ES_UPPERCASE
+    EDITTEXT        1039,171,32,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1043,135,47,30,14,ES_UPPERCASE
+    EDITTEXT        1042,171,47,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1046,135,62,30,14,ES_UPPERCASE
+    EDITTEXT        1045,171,62,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1049,135,77,30,14,ES_UPPERCASE
+    EDITTEXT        1048,171,77,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1052,135,92,30,14,ES_UPPERCASE
+    EDITTEXT        1051,171,92,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1055,135,107,30,14,ES_UPPERCASE
+    EDITTEXT        1054,171,107,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1058,135,122,30,14,ES_UPPERCASE
+    EDITTEXT        1057,171,122,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1061,135,137,30,14,ES_UPPERCASE
+    EDITTEXT        1060,171,137,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1064,135,152,30,14,ES_UPPERCASE
+    EDITTEXT        1063,171,152,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1067,135,167,30,14,ES_UPPERCASE
+    EDITTEXT        1066,171,167,55,14,ES_AUTOHSCROLL
+    EDITTEXT        1070,135,182,30,14,ES_UPPERCASE
+    EDITTEXT        1069,171,182,55,14,ES_AUTOHSCROLL
+    LTEXT           "Name",-1,41,7,20,8
+    LTEXT           "Address",-1,6,7,26,8
+    LTEXT           "Value",65426,101,7,19,8
+    LTEXT           "Name",-1,171,7,20,8
+    LTEXT           "Address",-1,135,7,26,8
+    LTEXT           "Value",65423,231,7,19,8
+    LTEXT           " ",1193,89,225,26,8
+    GROUPBOX        "Memory Change Monitoring",-1,0,202,129,57,BS_CENTER
+    LTEXT           "Address",-1,6,213,26,8
+    LTEXT           "Count",-1,90,213,20,8
+    LTEXT           "Formula",-1,47,213,26,8
+    LTEXT           " ",1188,7,225,24,8
+    PUSHBUTTON      " ",1184,115,225,11,7
+    LTEXT           "reset",-1,112,213,16,8
+    COMBOBOX        1142,37,223,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1189,7,241,24,8
+    COMBOBOX        1143,37,241,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1194,89,241,25,8
+    PUSHBUTTON      " ",1185,115,241,11,7
+    LTEXT           " ",1195,217,225,26,8
+    LTEXT           "Address",-1,133,213,26,8
+    LTEXT           "Formula",-1,173,213,26,8
+    LTEXT           " ",1190,135,225,24,8
+    PUSHBUTTON      " ",1186,242,225,11,7
+    LTEXT           "reset",-1,239,213,16,8
+    COMBOBOX        1144,165,223,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1191,135,241,24,8
+    COMBOBOX        1145,165,241,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           " ",1196,217,241,28,8
+    PUSHBUTTON      " ",1187,242,241,11,7
+    GROUPBOX        "Memory Change Monitoring",-1,131,202,129,57,BS_CENTER
+    LTEXT           "Count",-1,217,213,20,8
+    PUSHBUTTON      "<",1133,1,259,11,10
+END
+
+MESSAGELOG DIALOGEX 33, 38, 197, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Message Log"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        100,1,1,194,208,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "Clear",40569,94,211,47,14
+    PUSHBUTTON      "Close",40570,146,211,47,14
+END
+
+MONITOR DIALOGEX 0, 0, 316, 343
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RAM Filter"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Rules",-1,7,7,295,182
+    GROUPBOX        "Results",-1,10,193,292,135
+    LTEXT           "1st rule",-1,16,20,40,8
+    LTEXT           "2nd rule",-1,16,36,40,8
+    LTEXT           "3rd rule",-1,16,55,40,8
+    LTEXT           "4th rule",-1,16,71,40,8
+    LTEXT           "5th rule",-1,16,89,40,8
+    COMBOBOX        3000,66,17,135,85,CBS_DROPDOWNLIST | WS_TABSTOP
+    COMBOBOX        3001,66,34,135,90,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        3002,66,50,135,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        3003,66,68,135,101,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        3004,66,84,135,122,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        3010,208,18,26,12,ES_AUTOHSCROLL
+    EDITTEXT        3011,208,34,26,13,ES_AUTOHSCROLL
+    EDITTEXT        3012,208,50,26,12,ES_AUTOHSCROLL
+    EDITTEXT        3013,208,68,26,13,ES_AUTOHSCROLL
+    EDITTEXT        3014,208,84,26,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Apply rule",3021,240,34,50,13
+    PUSHBUTTON      "Apply rule",3022,240,50,50,14
+    PUSHBUTTON      "Apply rule",3023,240,68,50,14
+    PUSHBUTTON      "Apply rule",3024,240,84,50,14
+    LISTBOX         3100,18,206,272,102,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Apply rule",3020,240,17,50,14
+    LTEXT           "6th rule",-1,16,105,40,8
+    COMBOBOX        3005,66,102,135,122,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        3015,208,102,26,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Apply rule",3025,240,102,50,14
+    LTEXT           "7th rule",-1,16,121,40,8
+    COMBOBOX        3006,66,119,135,122,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        3016,208,119,26,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Apply rule",3026,240,119,50,14
+    LTEXT           "9th rule",-1,16,156,40,8
+    COMBOBOX        3008,66,153,135,122,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        3018,208,153,26,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Apply rule",3028,240,153,50,14
+    LTEXT           "8th rule",-1,16,140,40,8
+    COMBOBOX        3007,66,135,135,122,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        3017,208,135,26,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Apply rule",3027,240,135,50,14
+    LTEXT           "10th rule",-1,16,172,40,8
+    COMBOBOX        3009,66,169,135,85,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        3019,208,170,26,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Apply rule",3029,240,169,50,14
+    LTEXT           "Number of results:",-1,19,313,60,8
+    LTEXT           "",3101,90,313,60,8
+END
+
+MOVIEOPTIONS DIALOGEX 65520, 76, 147, 222
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Movie Options"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Pause after playback",1193,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,26,110,10
+    CONTROL         "Bind savestates to movies",1194,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,64,111,10
+    CONTROL         "Display movie subtitles",1196,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,83,102,10
+    CONTROL         "Put movie subtitles in AVI",1197,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,101,102,10
+    CONTROL         "Automatically backup movies",1198,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,122,114,10
+    CONTROL         "Load full savestate-movies:",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,141,110,10
+    LTEXT           "Loading states in record mode",-1,25,153,106,8
+    LTEXT           "will not immediately truncate",-1,25,163,107,8
+    LTEXT           "movie, next frame input will.",-1,25,173,108,8
+    CONTROL         "Close after playback",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,45,89,10
+    CONTROL         "Always suggest Read-Only replay",1201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,8,125,10
+    LTEXT           "(VBA-rr and SNES9x style)",-1,25,184,93,8
+    DEFPUSHBUTTON   "Close",1192,48,200,49,14,BS_CENTER
+END
+
+NAMEBOOKMARKDLGDEBUGGER DIALOGEX 0, 0, 268, 67
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Debugger Bookmark"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&Address:",65533,8,10,30,8
+    EDITTEXT        1001,41,7,48,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&Name:",65532,8,28,23,8
+    EDITTEXT        1000,41,26,220,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",1,82,46,50,14
+    PUSHBUTTON      "Cancel",2,136,46,50,14
+END
+
+NAMEBOOKMARKDLGMEMVIEW DIALOGEX 0, 0, 425, 85
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hex Editor Bookmark"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&View:",1110,11,10,20,8
+    COMBOBOX        1112,34,7,36,30,CBS_DROPDOWNLIST | CBS_SORT | WS_TABSTOP
+    LTEXT           "&Address:",65533,77,10,30,8
+    EDITTEXT        1001,110,7,48,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&Name:",65532,166,10,23,8
+    EDITTEXT        1000,190,7,228,14,ES_AUTOHSCROLL
+    CONTROL         "&Shortcut:",1013,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,27,42,10
+    LTEXT           "Ctrl+",65534,55,27,17,8
+    CONTROL         "&1",1109,"Button",BS_AUTORADIOBUTTON,78,26,28,10
+    CONTROL         "&2",1100,"Button",BS_AUTORADIOBUTTON,112,26,28,10
+    CONTROL         "&3",1101,"Button",BS_AUTORADIOBUTTON,146,26,28,10
+    CONTROL         "&4",1102,"Button",BS_AUTORADIOBUTTON,180,26,28,10
+    CONTROL         "&5",1103,"Button",BS_AUTORADIOBUTTON,214,26,28,10
+    CONTROL         "&6",1104,"Button",BS_AUTORADIOBUTTON,248,26,28,10
+    CONTROL         "&7",1105,"Button",BS_AUTORADIOBUTTON,282,26,28,10
+    CONTROL         "&8",1106,"Button",BS_AUTORADIOBUTTON,316,26,28,10
+    CONTROL         "&9",1107,"Button",BS_AUTORADIOBUTTON,350,26,28,10
+    CONTROL         "&0",1108,"Button",BS_AUTORADIOBUTTON,384,26,28,10
+    EDITTEXT        1016,78,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1017,112,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1018,146,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1025,180,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1023,214,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1022,248,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1020,282,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1019,316,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1024,350,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        1021,384,38,34,21,ES_MULTILINE | ES_UPPERCASE | ES_AUTOVSCROLL | ES_READONLY
+    DEFPUSHBUTTON   "OK",1,160,64,50,14
+    PUSHBUTTON      "Cancel",2,219,64,50,14
+END
+
+NETMOO DIALOGEX 44, 59, 365, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Network Play"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        102,10,137,347,12,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_OEMCONVERT | ES_WANTRETURN
+    EDITTEXT        101,10,8,347,130,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    RTEXT           "Remote Host:",65481,13,167,44,8
+    EDITTEXT        200,60,165,90,12
+    EDITTEXT        201,151,165,27,12
+    GROUPBOX        "Settings",100,10,154,347,47,WS_GROUP
+    DEFPUSHBUTTON   "Connect",250,296,163,56,14
+    EDITTEXT        203,282,182,70,12,ES_AUTOHSCROLL
+    RTEXT           "Local Players:",65480,187,167,46,8
+    RTEXT           "Nickname:",65479,238,184,40,8
+    COMBOBOX        204,238,165,28,51,CBS_DROPDOWNLIST | WS_TABSTOP
+    RTEXT           "Game Key:",65478,127,184,39,8
+    EDITTEXT        205,169,182,67,12
+    RTEXT           "Password:",65477,19,184,37,8
+    EDITTEXT        206,60,182,67,12,ES_PASSWORD
+END
+
+NEWINPUT DIALOGEX 0, 0, 186, 66
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter New Input"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CTEXT           "Press a key",100,31,14,122,20
+    PUSHBUTTON      "Clear",200,95,45,50,14
+    PUSHBUTTON      "OK",201,40,45,50,14
+END
+
+NTVIEW DIALOGEX 44, 38, 352, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Name Table Viewer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Name Tables",101,2,0,347,251,WS_TABSTOP
+    LTEXT           "Refresh:   More",-1,225,254,50,9
+    CONTROL         "",201,"msctls_trackbar32",WS_TABSTOP,275,254,50,11
+    LTEXT           "Less",-1,325,254,18,10
+    LTEXT           "Display on scanline:",65534,249,269,65,9
+    EDITTEXT        102,315,267,27,12,ES_NUMBER
+    CONTROL         "Show Scroll Lines",1008,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,254,69,10
+    CONTROL         "Show Attributes",1009,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,265,69,10
+    CONTROL         "Ignore Palettes",1010,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,276,69,10
+    GROUPBOX        "Current Mirroring",-1,2,289,170,59
+    CONTROL         "Horizontal",1001,"Button",BS_AUTORADIOBUTTON,6,300,47,10
+    CONTROL         "Vertical",1002,"Button",BS_AUTORADIOBUTTON,6,311,39,10
+    CONTROL         "Four Screen",1003,"Button",BS_AUTORADIOBUTTON,6,322,55,10
+    CONTROL         "Single Screen 0",1004,"Button",BS_AUTORADIOBUTTON,85,300,75,10
+    CONTROL         "Single Screen 1",1005,"Button",BS_AUTORADIOBUTTON,85,311,75,10
+    CONTROL         "Single Screen 2",1006,"Button",BS_AUTORADIOBUTTON,85,322,75,10
+    CONTROL         "Single Screen 3",1007,"Button",BS_AUTORADIOBUTTON,85,333,75,10
+    GROUPBOX        "Properties",-1,174,289,175,59
+    LTEXT           "Tile ID:",103,184,300,150,10
+    LTEXT           "X / Y:",104,184,311,150,10
+    LTEXT           "PPU Address:",105,184,322,150,10
+    LTEXT           "Attribute:",106,184,333,150,10
+END
+
+PALCONFIG DIALOGEX 16, 81, 228, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Palette Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "NES Palette",302,10,8,102,81,WS_GROUP
+    DEFPUSHBUTTON   "&Load Palette...",200,18,39,58,14
+    CONTROL         "Enabled",100,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,22,87,12
+    CTEXT           "Tint",65463,123,34,85,8,WS_DISABLED
+    CONTROL         "Tint",500,"msctls_trackbar32",WS_DISABLED | WS_TABSTOP,121,44,91,11
+    GROUPBOX        "NTSC Color Emulation",101,115,8,103,81,WS_GROUP
+    CTEXT           "Hue",64395,124,59,85,8,WS_DISABLED
+    CONTROL         "Hue",501,"msctls_trackbar32",WS_DISABLED | WS_TABSTOP,121,69,91,11
+    CONTROL         "Force Grayscale",102,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,57,85,12
+    CONTROL         "Use Custom Palette",104,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,22,85,12
+    GROUPBOX        "PAL Emulation",-1,10,89,208,66,WS_DISABLED
+    LTEXT           "Saturation:",1294,83,100,58,8,WS_DISABLED
+    CONTROL         "",1291,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,78,110,70,15
+    PUSHBUTTON      "Reset",201,161,132,50,14,WS_DISABLED
+    LTEXT           "Notch:",1296,16,100,46,8,WS_DISABLED
+    CONTROL         "",1295,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,11,110,68,15
+    LTEXT           "Sharpness:",1298,161,99,50,8,WS_DISABLED
+    CONTROL         "",1297,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,156,109,61,15
+    LTEXT           "NTSC Color Emulation overrides Internal default Palette.\nIndividual Game Palette overrides Internal+NTSC Palettes.\nCustom Palette overrides all of the above.\nPAL Emulation overrides other choices when PAL filter is selected",-1,10,159,208,33
+    LTEXT           "Contrast: ",1300,16,126,55,8,WS_DISABLED
+    CONTROL         "",1299,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,11,134,67,15
+    LTEXT           "Brightness: ",1302,83,125,61,8,WS_DISABLED
+    CONTROL         "",1301,"msctls_trackbar32",TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,78,133,70,15
+    CONTROL         "De-emphasis bit swap",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,73,83,10
+    DEFPUSHBUTTON   "Close",1,162,195,56,14
+END
+
+POWERPADDIALOG DIALOG 30, 123, 131, 119
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Power Pad Configuration"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "Close",1,34,95,56,14
+    GROUPBOX        "",312,8,10,114,74,WS_GROUP
+    PUSHBUTTON      "1",300,21,23,16,12
+    PUSHBUTTON      "2",301,43,23,16,12
+    PUSHBUTTON      "3",302,70,23,16,12
+    PUSHBUTTON      "4",303,91,23,16,12
+    PUSHBUTTON      "5",304,21,41,16,12
+    PUSHBUTTON      "6",305,43,41,16,12
+    PUSHBUTTON      "7",306,70,41,16,12
+    PUSHBUTTON      "8",307,91,41,16,12
+    PUSHBUTTON      "9",308,21,59,16,12
+    PUSHBUTTON      "10",309,43,59,16,12
+    PUSHBUTTON      "11",310,70,59,16,12
+    PUSHBUTTON      "12",311,91,59,16,12
+END
+
+PPUVIEW DIALOGEX 44, 38, 353, 234
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "PPU Viewer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Pattern Tables",101,2,-1,348,185,WS_TABSTOP
+    LTEXT           "Tile:",103,6,138,50,9
+    LTEXT           "Tile:",104,178,138,50,9
+    LTEXT           "Refresh:   More",-1,230,151,50,9
+    CONTROL         "",201,"msctls_trackbar32",WS_TABSTOP,280,151,50,11
+    LTEXT           "Less",-1,330,151,18,10
+    LTEXT           "Display on scanline:",-1,253,166,65,9
+    EDITTEXT        102,315,164,27,12,ES_NUMBER
+    CONTROL         "Sprites 8x16 mode",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,151,160,10
+    CONTROL         "Mask unused graphics (Code/Data Logger)",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,162,160,10
+    CONTROL         "Invert the mask (Code/Data Logger)",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,173,160,10
+    GROUPBOX        "Palettes",105,2,185,348,46,WS_TABSTOP
+END
+
+QUIZKINGDIALOG DIALOG 30, 123, 160, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "quiz king"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "Close",1,54,56,56,14
+    GROUPBOX        "Buzzers",312,8,7,144,39,WS_GROUP
+    PUSHBUTTON      "1",300,16,23,16,12
+    PUSHBUTTON      "2",301,38,23,16,12
+    PUSHBUTTON      "3",302,60,23,16,12
+    PUSHBUTTON      "4",303,82,23,16,12
+    PUSHBUTTON      "5",304,104,23,16,12
+    PUSHBUTTON      "6",305,126,23,16,12
+END
+
+ROMPATCHER DIALOGEX 84, 67, 304, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Rom Data Editor"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        105,7,47,282,12,ES_READONLY
+    PUSHBUTTON      "Apply",110,185,92,54,14
+    PUSHBUTTON      "Save Rom File...",111,4,114,65,14,WS_DISABLED
+    EDITTEXT        109,7,93,172,13,ES_AUTOHSCROLL
+    GROUPBOX        "Current Data At Offset",104,3,36,292,43
+    GROUPBOX        "Offset",100,4,4,291,27
+    EDITTEXT        102,83,12,47,14,ES_AUTOHSCROLL
+    CONTROL         ".Nes File Address",101,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,14,71,10
+    PUSHBUTTON      "Edit This Offset",103,135,12,65,14
+    LTEXT           "Disassembled: ",106,7,63,45,12
+    EDITTEXT        107,56,62,234,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Patch Data",108,3,81,292,30
+END
+
+SOUNDCONFIG DIALOGEX 8, 95, 334, 282
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Sound Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close",1,280,260,44,14
+    GROUPBOX        "Output/Output Format:",302,10,9,131,93,WS_GROUP
+    CONTROL         "Sound enabled.",126,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,22,117,12
+    GROUPBOX        "Buffering:",127,150,9,131,93,WS_GROUP
+    CONTROL         "Use Global Focus",124,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,157,22,100,12
+    CTEXT           "Sound Latency",65459,162,50,107,8
+    CONTROL         "",128,"msctls_trackbar32",WS_TABSTOP,162,70,107,13
+    GROUPBOX        "Master",125,19,142,44,93,WS_GROUP
+    CONTROL         "",500,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,27,150,28,83
+    LTEXT           "15 ms",65458,160,87,20,8
+    LTEXT           "200 ms",65457,250,87,25,8
+    LTEXT           "ms",65456,211,60,19,8
+    LTEXT           "Quality:",65455,17,43,27,10
+    COMBOBOX        129,50,40,67,46,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Rate:",65461,17,64,22,10
+    COMBOBOX        200,50,61,53,46,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Hz",65460,108,64,15,9
+    LTEXT           "Depth:",65462,17,85,27,10
+    COMBOBOX        122,50,82,67,45,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Mute frame advance",130,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,110,87,11
+    CONTROL         "Mute Turbo",1179,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,138,111,53,10
+    GROUPBOX        "Triangle",131,70,142,44,93,WS_GROUP
+    CONTROL         "",501,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,78,150,28,83
+    GROUPBOX        "Square1",132,121,142,44,93,WS_GROUP
+    CONTROL         "",502,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,129,150,28,83
+    GROUPBOX        "Square2",133,170,142,44,93,WS_GROUP
+    CONTROL         "",503,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,178,150,28,83
+    GROUPBOX        "Noise",134,221,142,44,93,WS_GROUP
+    CONTROL         "",504,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,229,150,28,83
+    GROUPBOX        "PCM",135,271,142,44,93,WS_GROUP
+    CONTROL         "",505,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | WS_TABSTOP,279,150,28,83
+    GROUPBOX        "Volume Control",1204,10,127,314,127
+    PUSHBUTTON      "Restore defaults",1133,19,238,56,11
+    LTEXT           "",1201,76,135,38,8
+    LTEXT           "",1202,170,133,144,8
+    CONTROL         "Swap Duty Cycles",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,110,74,10
+END
+
+SUBORKBDIALOG DIALOGEX 13, 72, 478, 171
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Subor Keyboard Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close",1,405,151,56,14
+    LTEXT           "Remember to push the ""Scroll Lock"" key during emulation to enable Keyboard input.",-1,18,6,370,12
+    GROUPBOX        "",-1,9,22,461,123,WS_GROUP
+    PUSHBUTTON      "Esc",300,20,36,16,12
+    PUSHBUTTON      "F1",301,58,37,16,12
+    PUSHBUTTON      "F2",302,78,37,16,12
+    PUSHBUTTON      "F3",303,98,37,16,12
+    PUSHBUTTON      "F4",304,118,37,16,12
+    PUSHBUTTON      "F5",305,143,37,16,12
+    PUSHBUTTON      "F6",306,163,37,16,12
+    PUSHBUTTON      "F7",307,183,37,16,12
+    PUSHBUTTON      "F8",308,203,37,16,12
+    PUSHBUTTON      "F9",309,229,37,16,12
+    PUSHBUTTON      "F10",310,249,37,16,12
+    PUSHBUTTON      "F11",311,268,37,16,12
+    PUSHBUTTON      "F12",312,288,37,16,12
+    PUSHBUTTON      "Pause",313,318,36,16,12
+    PUSHBUTTON      "`",314,20,60,16,12
+    PUSHBUTTON      "1",315,39,60,16,12
+    PUSHBUTTON      "2",316,58,60,16,12
+    PUSHBUTTON      "3",317,77,60,16,12
+    PUSHBUTTON      "4",318,96,60,16,12
+    PUSHBUTTON      "5",319,115,60,16,12
+    PUSHBUTTON      "6",320,134,60,16,12
+    PUSHBUTTON      "7",321,153,60,16,12
+    PUSHBUTTON      "8",322,172,60,16,12
+    PUSHBUTTON      "9",323,191,60,16,12
+    PUSHBUTTON      "0",324,210,60,16,12
+    PUSHBUTTON      "-",325,229,60,16,12
+    PUSHBUTTON      "=",326,248,60,16,12
+    PUSHBUTTON      "BS",327,286,60,16,12
+    PUSHBUTTON      "Ins",328,318,59,16,12
+    PUSHBUTTON      "Home",329,337,59,16,12
+    PUSHBUTTON      "NL",330,385,59,16,12
+    PUSHBUTTON      "/",331,405,59,16,12
+    PUSHBUTTON      "*",332,425,59,16,12
+    PUSHBUTTON      "-",333,444,59,16,12
+    PUSHBUTTON      "PUp",334,357,59,16,12
+    PUSHBUTTON      "TAB",335,20,76,24,12
+    PUSHBUTTON      "Q",336,47,76,16,12
+    PUSHBUTTON      "W",337,66,76,16,12
+    PUSHBUTTON      "E",338,85,76,16,12
+    PUSHBUTTON      "R",339,104,76,16,12
+    PUSHBUTTON      "T",340,123,76,16,12
+    PUSHBUTTON      "Y",341,142,76,16,12
+    PUSHBUTTON      "U",342,161,76,16,12
+    PUSHBUTTON      "I",343,180,76,16,12
+    PUSHBUTTON      "O",344,199,76,16,12
+    PUSHBUTTON      "P",345,218,76,16,12
+    PUSHBUTTON      "[",346,237,76,16,12
+    PUSHBUTTON      "]",347,256,76,16,12
+    PUSHBUTTON      "Enter",348,274,76,28,29
+    PUSHBUTTON      "Del",349,318,75,16,12
+    PUSHBUTTON      "End",350,338,75,16,12
+    PUSHBUTTON      "PDn",351,357,75,16,12
+    PUSHBUTTON      "7",352,385,75,16,12
+    PUSHBUTTON      "8",353,405,75,16,12
+    PUSHBUTTON      "9",354,425,75,16,12
+    PUSHBUTTON      "+",355,444,75,16,28
+    PUSHBUTTON      "CL",356,20,92,27,12
+    PUSHBUTTON      "A",357,52,92,16,12
+    PUSHBUTTON      "S",358,71,92,16,12
+    PUSHBUTTON      "D",359,90,92,16,12
+    PUSHBUTTON      "F",360,109,92,16,12
+    PUSHBUTTON      "G",361,128,92,16,12
+    PUSHBUTTON      "H",362,147,92,16,12
+    PUSHBUTTON      "J",363,166,92,16,12
+    PUSHBUTTON      "K",364,185,92,16,12
+    PUSHBUTTON      "L",365,204,92,16,12
+    PUSHBUTTON      ";",366,223,92,16,12
+    PUSHBUTTON      "'",367,242,92,16,12
+    PUSHBUTTON      "4",368,385,91,16,12
+    PUSHBUTTON      "5",369,405,91,16,12
+    PUSHBUTTON      "6",370,425,91,16,12
+    PUSHBUTTON      "SHIFT",371,20,108,37,12
+    PUSHBUTTON      "Z",372,62,108,16,12
+    PUSHBUTTON      "X",373,81,108,16,12
+    PUSHBUTTON      "C",374,100,108,16,12
+    PUSHBUTTON      "V",375,119,108,16,12
+    PUSHBUTTON      "B",376,138,108,16,12
+    PUSHBUTTON      "N",377,157,108,16,12
+    PUSHBUTTON      "M",378,176,108,16,12
+    PUSHBUTTON      ",",379,195,108,16,12
+    PUSHBUTTON      ".",380,214,108,16,12
+    PUSHBUTTON      "/",381,233,108,16,12
+    PUSHBUTTON      "\\",382,267,60,16,12
+    PUSHBUTTON      "Up",383,337,108,16,12
+    PUSHBUTTON      "1",384,385,107,16,12
+    PUSHBUTTON      "2",385,405,107,16,12
+    PUSHBUTTON      "3",386,425,107,16,12
+    PUSHBUTTON      "CTRL",387,20,123,28,12
+    PUSHBUTTON      "ALT",388,66,123,27,12
+    PUSHBUTTON      "SPACE",389,96,123,130,12
+    PUSHBUTTON      "Left",390,318,123,16,12
+    PUSHBUTTON      "Dn",391,337,123,16,12
+    PUSHBUTTON      "Right",392,357,123,16,12
+    PUSHBUTTON      "0",393,386,123,35,12
+    PUSHBUTTON      ".",394,425,123,16,12
+    PUSHBUTTON      "SHIFT",395,254,108,48,12
+    PUSHBUTTON      "ALT",396,229,123,29,12
+    PUSHBUTTON      "CTRL",397,274,123,28,12
+    PUSHBUTTON      "Break",398,337,36,16,12
+    PUSHBUTTON      "Reset",399,357,36,16,12
+    PUSHBUTTON      "Enter",400,444,107,16,28
+END
+
+TASEDITOR DIALOGEX 0, 0, 326, 348
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "TAS Editor"
+MENU TASEDITORMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",1144,"Button",BS_OWNERDRAW,200,36,116,12
+    CONTROL         "",1152,"Button",BS_OWNERDRAW,207,167,104,10
+    CONTROL         "",1130,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER,5,13,187,316
+    GROUPBOX        " Playback ",1275,197,0,123,62,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        " Recorder ",1276,197,63,123,46,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        " Splicer ",1277,197,110,123,30,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        " Lua ",1278,197,141,123,26,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        " Bookmarks ",1264,197,168,123,102,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        " History ",1279,197,271,123,53,BS_CENTER,WS_EX_RIGHT
+    PUSHBUTTON      "<<",1135,201,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      "<",1133,224,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      "||",1137,247,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      ">",1134,270,9,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      ">>",1136,293,9,23,14,NOT WS_TABSTOP
+    CONTROL         "",1262,"msctls_progress32",PBS_SMOOTH | WS_BORDER,201,39,115,6
+    CONTROL         " Follow cursor",1263,"Button",BS_AUTOCHECKBOX,203,25,56,12
+    CONTROL         " Auto-restore last position",1261,"Button",BS_AUTOCHECKBOX,203,48,109,12
+    CONTROL         "",1150,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOSCROLL | LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | NOT WS_VISIBLE | WS_BORDER,202,177,113,89
+    CONTROL         "",1149,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | WS_BORDER,202,280,113,40
+    CONTROL         " All",1139,"Button",BS_AUTORADIOBUTTON,291,71,24,10
+    CONTROL         " 1P",1140,"Button",BS_AUTORADIOBUTTON,203,83,25,10
+    CONTROL         " 2P",1141,"Button",BS_AUTORADIOBUTTON,232,83,25,10
+    CONTROL         " 3P",1142,"Button",BS_AUTORADIOBUTTON,262,83,24,10
+    CONTROL         " 4P",1143,"Button",BS_AUTORADIOBUTTON,291,83,24,10
+    CONTROL         " Superimpose",1203,"Button",BS_AUTO3STATE,203,96,55,10
+    PUSHBUTTON      "<<",1145,202,328,23,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Similar",1146,225,328,34,14,NOT WS_TABSTOP
+    PUSHBUTTON      "More",1148,259,328,34,14,NOT WS_TABSTOP
+    PUSHBUTTON      ">>",1151,292,328,23,14,NOT WS_TABSTOP
+    EDITTEXT        1154,65,0,127,13,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    RTEXT           "Marker 0",1270,3,2,60,10,SS_NOTIFY,WS_EX_RIGHT
+    EDITTEXT        1147,65,329,127,13,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    RTEXT           "Marker 99999",1271,3,331,60,10,SS_NOTIFY,WS_EX_RIGHT
+    CONTROL         "",1265,"Static",SS_OWNERDRAW | SS_NOTIFY | SS_REALSIZEIMAGE | NOT WS_VISIBLE,202,177,113,89
+    CONTROL         " Turbo seek",1266,"Button",BS_AUTOCHECKBOX,263,25,50,12
+    LTEXT           "Selection: 0 rows, 16 columns",1267,204,118,112,10,SS_NOTIFY
+    LTEXT           "Clipboard: 0 rows, 16 columns",1268,203,128,114,10,SS_NOTIFY
+    CONTROL         " Recording",1204,"Button",BS_AUTO3STATE,203,71,81,10
+    PUSHBUTTON      "Run function",1156,202,150,54,14,WS_DISABLED | NOT WS_TABSTOP
+    CONTROL         "Auto function",1205,"Button",BS_AUTOCHECKBOX,261,152,55,10
+    CONTROL         " Use pattern",1206,"Button",BS_AUTOCHECKBOX,262,96,53,10
+END
+
+TEXTHOOKER DIALOGEX 0, 0, 437, 314
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Text Hooker"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Selection Window",1,0,0,183,164,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        102,207,13,216,94,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    GROUPBOX        "Hooked Text",103,200,0,229,131,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "Load Table",104,3,169,60,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "Clear Selection",105,67,169,60,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "Pause",106,67,190,60,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "Snap",107,130,169,60,35,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "Clear Buffer",108,208,111,60,14,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        111,5,249,115,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Save Selection",112,130,249,60,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "Save Table",113,3,190,60,14,0,WS_EX_NOPARENTNOTIFY
+    PUSHBUTTON      "Load Selection",114,130,268,60,14,0,WS_EX_NOPARENTNOTIFY
+    GROUPBOX        "Translated Text",115,200,140,229,117,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        116,207,156,214,95,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Excite.co.jp",117,281,111,60,14,0,WS_EX_NOPARENTNOTIFY
+    LTEXT           "Scanline:",118,5,210,50,8,0,WS_EX_NOPARENTNOTIFY
+    LTEXT           "Update every x frames:",119,68,210,79,8,0,WS_EX_NOPARENTNOTIFY
+    EDITTEXT        120,5,220,52,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    EDITTEXT        121,68,220,52,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_NOPARENTNOTIFY | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Trim",122,351,111,60,14
+    COMBOBOX        109,5,269,115,100,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Japanese:",-1,5,283,47,9
+    EDITTEXT        131,5,292,115,14,ES_AUTOHSCROLL
+    LTEXT           "English:",-1,130,283,47,9
+    EDITTEXT        132,130,292,115,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add Definition",133,253,292,60,14
+    CONTROL         "Selection Window",341,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,261,80,9
+    CONTROL         "Word Substitution",342,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,274,80,9
+    LTEXT           "(han)dakuten mark position:",-1,324,286,92,8
+    CONTROL         "Above",343,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,297,37,10
+    CONTROL         "Right",344,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,363,297,33,10
+    LTEXT           "New Selection Name:",-1,5,240,68,8
+END
+
+TIMINGCONFIG DIALOGEX 23, 157, 203, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Timing Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Disable speed throttling used when sound is disabled.",101,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,8,183,12
+    CONTROL         "Set high-priority thread.",105,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,24,102,12
+    CONTROL         "Overclocking (old PPU only).",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,41,101,10
+    LTEXT           "Post-render scanlines:",1309,21,57,74,8,WS_DISABLED
+    EDITTEXT        1147,104,55,84,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Don't overclock 7-bit samples.",1293,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,10,87,111,10
+    LTEXT           "VBlank scanlines:",1308,21,71,76,8,WS_DISABLED
+    EDITTEXT        1148,104,68,84,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    DEFPUSHBUTTON   "Close",1,137,87,56,14
+END
+
+TRACER DIALOGEX 0, 0, 317, 181
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Trace Logger"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    EDITTEXT        100,3,3,300,44,ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | WS_HSCROLL
+    SCROLLBAR       101,303,3,11,44,SBS_VERT
+    CONTROL         "Log last",103,"Button",BS_AUTORADIOBUTTON | BS_LEFT,9,53,38,10
+    COMBOBOX        105,49,52,46,13,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "lines",106,97,54,20,10
+    DEFPUSHBUTTON   "Start Logging",102,126,51,65,15,BS_CENTER | BS_VCENTER
+    CONTROL         "Log to File",104,"Button",BS_AUTORADIOBUTTON | BS_LEFT,9,70,46,10
+    PUSHBUTTON      "Browse...",112,56,68,39,14,BS_CENTER | BS_VCENTER
+    CONTROL         "Automatically update this window while logging",116,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,70,156,10
+    GROUPBOX        "Log Options",109,3,85,311,65
+    CONTROL         "Log state of registers",110,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,96,99,10
+    CONTROL         "Log Processor status flags",111,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,96,96,10
+    CONTROL         "To the left from disassembly",118,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,211,96,100,10
+    CONTROL         "Log Frames count",119,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,109,98,10
+    CONTROL         "Log Cycles count",120,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,109,94,10
+    CONTROL         "Log Instructions count",121,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,211,109,100,10
+    CONTROL         "Log emulator messages",124,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,122,97,10
+    CONTROL         "Log breakpoint hits",125,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,122,91,10
+    CONTROL         "Symbolic trace",123,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,135,96,10
+    CONTROL         "Use Stack Pointer for code tabbing (nesting visualization)",117,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,135,196,10
+    GROUPBOX        "Extra Log Options that work with the Code/Data Logger",113,3,151,311,26
+    CONTROL         "Only log newly mapped code",114,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,8,162,102,10
+    CONTROL         "Only log code that accesses newly mapped data",115,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,113,162,171,10
+    CONTROL         "Log Bank number",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,121,100,10
+END
+
+VIDEOCONFIG DIALOGEX 65520, 76, 511, 170
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Video Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Full Screen Settings",65453,5,3,171,141,WS_GROUP
+    CONTROL         "Full Screen (Alt + Enter or double-click)",101,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,15,157,12
+    CONTROL         "Enter full screen mode after game is loaded",102,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,29,154,12
+    LTEXT           "Sync method:",65452,11,108,46,10
+    COMBOBOX        105,59,106,105,50,CBS_DROPDOWNLIST | WS_TABSTOP
+    LTEXT           "Mode:",13,11,67,23,9
+    EDITTEXT        200,36,65,27,13,ES_RIGHT | ES_NUMBER
+    LTEXT           "by",12,67,67,11,9
+    EDITTEXT        201,79,65,27,13,ES_RIGHT | ES_NUMBER
+    LTEXT           "@",11,110,67,11,9
+    COMBOBOX        202,122,65,32,12,CBS_DROPDOWNLIST | WS_TABSTOP
+    LTEXT           "bpp",10,157,67,14,9
+    LTEXT           "Special Filter:",65444,11,91,46,9
+    COMBOBOX        304,59,89,105,46,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Windowed Settings",65441,182,3,164,141,WS_GROUP
+    LTEXT           "Size Multiplier:",65440,190,22,50,8
+    CTEXT           "X:",65439,253,10,26,8
+    CTEXT           "Y:",65438,304,10,26,8
+    EDITTEXT        400,244,20,44,12,ES_AUTOHSCROLL
+    EDITTEXT        401,295,20,44,12,ES_AUTOHSCROLL
+    CONTROL         "Force integral scaling factors",402,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,50,136,12
+    CONTROL         "Force aspect ratio correction",403,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,64,136,12
+    LTEXT           "Special Filter:",65429,188,91,46,9
+    COMBOBOX        406,236,89,103,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sync method:",65437,188,108,46,9
+    COMBOBOX        104,236,106,103,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Drawing Area",65494,351,50,154,65,WS_GROUP
+    LTEXT           "First line:",65436,367,68,40,9
+    CTEXT           "NTSC",65434,413,57,27,8
+    EDITTEXT        500,414,66,27,12,ES_RIGHT | ES_NUMBER
+    CTEXT           "PAL/Dendy",65433,455,57,48,8
+    EDITTEXT        502,465,66,27,12,ES_RIGHT | ES_NUMBER
+    LTEXT           "Last line:",65435,367,84,40,9
+    EDITTEXT        501,414,83,27,12,ES_RIGHT | ES_NUMBER
+    EDITTEXT        503,465,83,27,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "Clip left and right sides (8 px on each)",106,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,98,140,12
+    DEFPUSHBUTTON   "Close",1281,449,150,56,14
+    CONTROL         "Allow more than 8 sprites per scanline",600,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,128,138,11
+    GROUPBOX        "Emulation",65430,351,117,154,27,WS_GROUP
+    CONTROL         "Best Fit",107,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,14,41,12
+    CONTROL         "Hide mouse cursor",103,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,43,87,12
+    GROUPBOX        "Aspect ratio",65495,351,3,154,45,WS_GROUP
+    CONTROL         "BG color",108,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,401,14,44,12
+    CONTROL         "TV Aspect",109,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,29,48,12
+    GROUPBOX        "When resizing the window",65431,188,38,152,43,WS_GROUP
+    CONTROL         "Square pixels",110,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,448,14,55,12
+    EDITTEXT        404,407,28,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        405,458,28,41,12,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "/",65442,449,31,8,8,WS_DISABLED
+    LTEXT           "DirectDraw:",65454,11,126,46,10
+    COMBOBOX        111,59,123,105,50,CBS_DROPDOWNLIST | WS_TABSTOP
+    LTEXT           "DirectDraw:",65455,188,125,46,10
+    COMBOBOX        112,236,123,103,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+VIRTUALBOYDIALOG DIALOGEX 4, 109, 243, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Virtual Boy Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close",1,177,97,56,14
+    GROUPBOX        "",100,4,8,232,82,WS_GROUP
+    PUSHBUTTON      "Up",304,40,36,30,12
+    PUSHBUTTON      "Left",306,10,50,30,12
+    PUSHBUTTON      "Right",307,70,50,30,12
+    PUSHBUTTON      "Down",305,40,64,30,12
+    PUSHBUTTON      "Select",302,46,19,32,12
+    PUSHBUTTON      "Start",303,82,19,32,12
+    PUSHBUTTON      "Left",301,140,50,30,12
+    PUSHBUTTON      "Down",300,170,64,30,12
+    PUSHBUTTON      "Right",308,200,50,30,12
+    PUSHBUTTON      "Up",309,170,36,30,12
+    PUSHBUTTON      "L",310,10,19,32,12
+    PUSHBUTTON      "R",311,198,19,32,12
+    PUSHBUTTON      "B",312,126,19,32,12
+    PUSHBUTTON      "A",313,162,19,32,12
+END
+
+154 DIALOGEX 0, 0, 287, 292
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " RAM Search"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",1205,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,9,9,214,151,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Search",1206,226,9,52,16
+    PUSHBUTTON      "&Add Cheat",1207,226,130,52,14,WS_DISABLED
+    PUSHBUTTON      "&Watch",1208,226,114,52,14
+    PUSHBUTTON      "&Reset",1209,226,27,52,16
+    PUSHBUTTON      "&Eliminate",1210,226,98,52,14
+    GROUPBOX        "Comparison Operator",-1,10,166,102,120,0,WS_EX_TRANSPARENT
+    CONTROL         "Less Than",1211,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,14,178,95,11
+    CONTROL         "Greater Than",1212,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,191,95,11
+    CONTROL         "Less Than or Equal To",1213,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,204,95,11
+    CONTROL         "Greater Than or Equal To",1214,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,217,95,11
+    CONTROL         "Equal To",1215,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,230,95,11
+    CONTROL         "Not Equal To",1216,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,243,95,11
+    CONTROL         "Different By:",1217,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,256,52,11
+    CONTROL         "Modulo",1218,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,269,35,11
+    EDITTEXT        1219,69,255,38,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        1220,51,267,38,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Compare To / By",-1,118,166,153,60,0,WS_EX_TRANSPARENT
+    CONTROL         "Previous Value",1221,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,121,176,67,10
+    CONTROL         "Specific Value:",1222,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,188,67,10
+    CONTROL         "Specific Address:",1223,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,200,67,10
+    CONTROL         "Number of Changes:",1224,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,212,76,10
+    EDITTEXT        1225,203,187,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        1226,203,199,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        1227,203,211,63,12,ES_UPPERCASE | ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    GROUPBOX        "Data Type / Display",-1,196,228,75,45,0,WS_EX_TRANSPARENT
+    CONTROL         "Signed",1228,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,200,238,67,9
+    CONTROL         "Unsigned",1229,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,200,249,67,9
+    CONTROL         "Hexadecimal",1230,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,200,260,67,9
+    CONTROL         "Autosearch",1231,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,275,57,11
+    GROUPBOX        "Data Size",-1,117,228,73,58,0,WS_EX_TRANSPARENT
+    CONTROL         "1 byte",1232,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,121,238,61,11
+    CONTROL         "2 bytes",1233,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,249,61,11
+    CONTROL         "4 bytes",1234,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,121,260,61,11
+    CONTROL         "Check Misaligned",1235,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,273,65,8
+    PUSHBUTTON      "&Clear Change Counts",1236,226,45,52,20,BS_MULTILINE
+    PUSHBUTTON      "&Undo",1237,226,67,52,16,WS_DISABLED
+    LTEXT           "Is",-1,92,270,12,8
+    CONTROL         "Search ROM",1258,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,85,54,11
+    PUSHBUTTON      "&Hex Editor",1238,226,146,52,14
+END
+
+155 DIALOGEX 0, 0, 269, 298
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RAM Watch"
+MENU RAMWATCH_MENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",1238,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,9,9,210,279,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Edit",1239,226,66,34,14
+    PUSHBUTTON      "Remove",1240,226,83,34,14
+    PUSHBUTTON      "New",1208,226,100,34,14
+    PUSHBUTTON      "Duplicate",1241,226,117,34,14
+    PUSHBUTTON      "Add Cheat",1207,222,163,42,16,WS_DISABLED
+    GROUPBOX        "Watches",-1,222,6,42,152
+    CONTROL         "",1242,"msctls_updown32",WS_TABSTOP,232,23,19,36
+    PUSHBUTTON      "Separator",1259,225,137,36,14
+END
+
+156 DIALOGEX 0, 0, 177, 115
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " Edit Watch"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "&Address:",1223,15,12,30,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        1226,48,10,65,12,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        1227,48,10,65,12,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    CTEXT           "&Notes:",1245,23,24,22,8
+    EDITTEXT        1247,48,22,119,12,ES_AUTOHSCROLL
+    GROUPBOX        "Data Type",1311,14,37,75,53,0,WS_EX_TRANSPARENT
+    CONTROL         "&Signed",1228,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,18,47,67,9
+    CONTROL         "&Unsigned",1229,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,18,57,67,9
+    CONTROL         "&Hexadecimal",1230,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,18,67,67,9
+    CONTROL         "&Binary",1317,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,18,77,67,9
+    GROUPBOX        "Data Size",1310,94,37,73,52,0,WS_EX_TRANSPARENT
+    CONTROL         "&1 byte",1232,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,98,47,61,11
+    CONTROL         "&2 bytes",1233,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,98,57,61,11
+    CONTROL         "&4 bytes",1234,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,98,67,61,11
+    DEFPUSHBUTTON   "OK",1,66,93,50,14
+    PUSHBUTTON      "Cancel",2,118,93,50,14
+END
+
+159 DIALOGEX 0, 0, 270, 150
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Lua Script"
+MENU LUAWINDOW_MENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Script File:",-1,7,7,36,8
+    EDITTEXT        1251,7,16,256,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse...",1248,7,31,48,16
+    PUSHBUTTON      "Edit",1253,58,31,46,16
+    PUSHBUTTON      "&Stop",1250,160,31,50,16
+    PUSHBUTTON      "&Run",1249,213,31,50,16
+    LTEXT           "Output Console:",-1,7,70,56,8
+    EDITTEXT        1252,7,80,256,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "Arguments:",-1,7,52,40,8
+    EDITTEXT        1256,47,50,216,14,ES_AUTOHSCROLL
+END
+
+195 DIALOGEX 0, 0, 123, 197
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Save Compact"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Save",1,8,176,50,14
+    PUSHBUTTON      "Cancel",2,66,176,50,14
+    CONTROL         " Binary format of Input",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,8,89,10
+    CONTROL         " Markers",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,23,67,10
+    CONTROL         " Bookmarks",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,38,67,10
+    CONTROL         " History",1207,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,53,67,10
+    CONTROL         " Piano Roll",1209,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,68,67,10
+    CONTROL         " Selection",1208,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,83,67,10
+    GROUPBOX        "Greenzone saving options",-1,13,98,97,72
+    CONTROL         " all frames",1138,"Button",BS_AUTORADIOBUTTON,23,109,77,10
+    CONTROL         " every 16th frame",1139,"Button",BS_AUTORADIOBUTTON,23,124,77,10
+    CONTROL         " marked frames",1140,"Button",BS_AUTORADIOBUTTON,23,139,77,10
+    CONTROL         " don't save",1141,"Button",BS_AUTORADIOBUTTON,23,154,77,10
+END
+
+196 DIALOGEX 0, 0, 158, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Export to FM2"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         " 1 player",1269,"Button",BS_AUTORADIOBUTTON | WS_GROUP,8,8,47,10
+    CONTROL         " 2 players",1270,"Button",BS_AUTORADIOBUTTON,8,21,47,10
+    CONTROL         " Fourscore",1271,"Button",BS_AUTORADIOBUTTON,8,35,47,10
+    CONTROL         " Convert Marker Notes to Movie Subtitles",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,50,146,10
+    DEFPUSHBUTTON   "Export",1,7,66,50,14
+    PUSHBUTTON      "Cancel",2,100,66,50,14
+END
+
+198 DIALOGEX 0, 0, 228, 49
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Find Note"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Find next",1,171,5,51,14
+    PUSHBUTTON      "Close",2,171,23,51,14
+    EDITTEXT        1147,6,6,160,12,ES_AUTOHSCROLL
+    CONTROL         " Match case",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,23,53,10
+    GROUPBOX        "Direction",-1,82,20,83,24,BS_CENTER
+    CONTROL         " Up",1138,"Button",BS_AUTORADIOBUTTON | WS_GROUP,90,30,29,10
+    CONTROL         " Down",1273,"Button",BS_AUTORADIOBUTTON,125,30,32,10
+END
+
+199 DIALOGEX 0, 0, 238, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",2,94,55,50,14
+    ICON            201,-1,11,11,20,20
+    LTEXT           "TAS Editor",1280,43,8,84,13
+    LTEXT           "Version 1.01",-1,60,25,45,8
+    LTEXT           "Created by AnS",-1,138,12,58,8
+    LTEXT           "Originated from TASEdit",-1,138,25,85,9,SS_NOPREFIX
+    LTEXT           "made by zeromus & adelikat",-1,138,35,96,9,SS_NOPREFIX
+END
+
+202 DIALOGEX 0, 0, 171, 100
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create New Project"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         " Copy current Input",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,80,14,75,10
+    CONTROL         " 1 player",1269,"Button",BS_AUTORADIOBUTTON,16,14,45,10
+    CONTROL         " 2 players",1270,"Button",BS_AUTORADIOBUTTON,16,27,45,10
+    CONTROL         " Fourscore",1271,"Button",BS_AUTORADIOBUTTON,16,40,45,10
+    CONTROL         " Copy current Markers",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,80,27,83,10
+    GROUPBOX        "Input type",-1,5,3,67,52,BS_CENTER
+    LTEXT           "Author:",-1,8,63,26,9
+    EDITTEXT        1180,36,61,127,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",1,7,80,50,14
+    PUSHBUTTON      "Cancel",2,114,80,50,14
+END
+
+289 DIALOGEX 0, 0, 223, 208
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Project file saving options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",1,109,187,50,14
+    PUSHBUTTON      "Cancel",2,165,187,50,14
+    CONTROL         " Binary format of Input",1203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,17,89,10
+    CONTROL         " Markers",1204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,32,67,10
+    CONTROL         " Bookmarks",1205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,47,67,10
+    CONTROL         " History",1207,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,62,67,10
+    CONTROL         " Piano Roll",1209,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,77,67,10
+    CONTROL         " Selection",1208,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,92,67,10
+    GROUPBOX        "File contents",-1,105,4,111,177
+    GROUPBOX        "Greenzone saving options",-1,112,106,97,69
+    CONTROL         " all frames",1138,"Button",BS_AUTORADIOBUTTON,122,117,77,10
+    CONTROL         " every 16th frame",1139,"Button",BS_AUTORADIOBUTTON,122,131,77,10
+    CONTROL         " marked frames",1140,"Button",BS_AUTORADIOBUTTON,122,145,77,10
+    CONTROL         " don't save",1141,"Button",BS_AUTORADIOBUTTON,122,159,77,10
+    CONTROL         " Autosave project",1282,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,17,81,10
+    CONTROL         " silently",1283,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,47,42,10
+    LTEXT           "every",1306,14,32,21,8
+    EDITTEXT        1147,36,30,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "minutes",1307,64,32,28,8
+    GROUPBOX        "Settings",-1,6,4,91,177
+END
+
+290 DIALOGEX 0, 0, 253, 168
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Symbolic Debug Naming"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&File:",-1,7,7,15,9
+    EDITTEXT        1150,26,6,220,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Address:",1022,13,26,30,10
+    EDITTEXT        1148,45,24,33,13,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "A&rray size: 0x",1013,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,83,25,60,10
+    EDITTEXT        1018,144,23,20,14,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "byte(s)",1027,168,26,24,8,WS_DISABLED
+    LTEXT           "&Init: 0x",1029,199,26,26,8,WS_DISABLED
+    EDITTEXT        1502,226,23,20,14,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "&Name:",1020,20,44,22,10
+    EDITTEXT        1149,45,42,201,13,ES_AUTOHSCROLL
+    CONTROL         "&Overwrite names in array body",1026,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,45,59,117,10
+    LTEXT           "&Comment:",1021,6,75,37,10
+    EDITTEXT        1151,45,75,201,43,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "Co&mment head address only",1023,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,45,122,108,10
+    CONTROL         "O&verwrite comments in array body",1024,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,45,134,129,10
+    CONTROL         "De&lete",1017,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,151,37,10
+    DEFPUSHBUTTON   "OK",1,142,149,50,14
+    PUSHBUTTON      "Cancel",2,195,149,50,14
+END
+
+291 DIALOGEX 4, 109, 243, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Gamepad Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close",1,177,97,56,14
+    GROUPBOX        "",100,4,8,232,82,WS_GROUP
+    PUSHBUTTON      "Up",304,35,36,24,12
+    PUSHBUTTON      "Left",306,9,54,25,12
+    PUSHBUTTON      "Right",307,60,54,24,12
+    PUSHBUTTON      "Down",305,35,73,24,12
+    PUSHBUTTON      "Select",302,91,54,26,12
+    PUSHBUTTON      "Start",303,126,54,26,12
+    PUSHBUTTON      "Y",301,164,53,16,12
+    PUSHBUTTON      "B",300,181,66,16,12
+    PUSHBUTTON      "A",308,199,53,16,12
+    PUSHBUTTON      "X",309,181,40,16,12
+    PUSHBUTTON      "L",310,10,19,32,12
+    PUSHBUTTON      "R",311,198,19,32,12
+END
+
+303 DIALOGEX 0, 0, 331, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "iNES Header Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "NES ROM:",-1,7,9,35,8
+    EDITTEXT        1034,47,6,231,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Restore",1014,282,6,42,14,WS_DISABLED
+    GROUPBOX        "iNES Header",1063,7,22,317,232,WS_DISABLED
+    GROUPBOX        "Version",1074,14,32,79,27,WS_DISABLED
+    CONTROL         "iNES",1071,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP | WS_TABSTOP,20,43,27,10
+    CONTROL         "NES 2.0",1073,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,51,43,38,10
+    GROUPBOX        "Mapper",1075,98,32,217,27,WS_DISABLED
+    LTEXT           "Mapper#:",1049,104,43,33,8,WS_DISABLED
+    COMBOBOX        1026,142,41,115,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sub#:",1050,264,43,24,8,WS_DISABLED
+    EDITTEXT        1027,291,40,15,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    GROUPBOX        "PRG",1078,14,61,301,27,WS_DISABLED
+    LTEXT           "PRG ROM:",1051,20,72,34,8,WS_DISABLED
+    COMBOBOX        1018,57,70,46,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_UPPERCASE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "PRG RAM:",1055,118,72,34,8,WS_DISABLED
+    COMBOBOX        1025,154,70,46,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_UPPERCASE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Battery-backed NVRAM",1076,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,215,71,86,10
+    LTEXT           "PRG NVRAM:",1059,215,72,42,8,WS_DISABLED
+    COMBOBOX        1029,261,70,46,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_UPPERCASE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "CHR",1079,14,90,301,27,WS_DISABLED
+    LTEXT           "CHR ROM:",1053,20,101,35,8,WS_DISABLED
+    COMBOBOX        1019,57,99,46,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_UPPERCASE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "CHR RAM:",1057,118,101,34,8,WS_DISABLED
+    COMBOBOX        1028,154,99,46,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_UPPERCASE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "CHR NVRAM:",1060,214,101,43,8,WS_DISABLED
+    COMBOBOX        1030,261,99,46,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_UPPERCASE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Mirroring",1064,14,121,59,46,WS_DISABLED
+    CONTROL         "Horizontal",1020,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP | WS_TABSTOP,18,131,48,10
+    CONTROL         "Vertical",1021,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,18,142,39,10
+    CONTROL         "Four-screen",1022,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,18,153,53,10
+    GROUPBOX        "Region",1065,80,121,40,58,WS_DISABLED
+    CONTROL         "NTSC",1031,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP | WS_TABSTOP,85,131,32,10
+    CONTROL         "PAL",1032,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,85,142,28,10
+    CONTROL         "Dendy",1037,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,85,153,33,10
+    CONTROL         "Dual",1033,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,85,165,30,10
+    CONTROL         "Trainer",1024,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,14,171,55,10
+    GROUPBOX        "System",1066,127,121,188,109,WS_DISABLED
+    CONTROL         "Normal",1038,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP | WS_TABSTOP,133,133,36,10
+    CONTROL         "VS. Sys",1039,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,173,133,37,10
+    CONTROL         "Playchoice-10",1040,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,214,133,56,10
+    CONTROL         "Extend",1041,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,274,133,35,10
+    GROUPBOX        "VS. System",1067,135,145,172,46,WS_DISABLED
+    LTEXT           "Hardware:",1068,141,157,35,8,WS_DISABLED
+    COMBOBOX        1046,179,155,121,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "PPU:",1069,141,174,16,8,WS_DISABLED
+    COMBOBOX        1047,160,173,140,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Extend System",1089,135,195,172,29,WS_DISABLED
+    LTEXT           "Console:",1090,141,208,29,8,WS_DISABLED
+    COMBOBOX        1043,173,206,127,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "iNES 1.0 Unofficial Properties",1085,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_DISABLED | WS_TABSTOP,14,183,110,10
+    GROUPBOX        "iNES 1.0 Unofficial Properties",1081,14,195,106,35,WS_DISABLED
+    CONTROL         "Dual region",1083,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_DISABLED | WS_TABSTOP,19,205,50,10
+    CONTROL         "PRG RAM exists",1082,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_DISABLED | WS_TABSTOP,73,207,45,17
+    CONTROL         "Bus conflict",1084,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_DISABLED | WS_TABSTOP,19,217,53,10
+    LTEXT           "Input device:",1077,114,237,44,8,WS_DISABLED
+    COMBOBOX        1036,161,235,154,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Misc. ROM(s)",1086,29,237,48,8,WS_DISABLED
+    EDITTEXT        1087,14,234,12,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Hex:",-1,9,262,16,8
+    EDITTEXT        1035,29,260,203,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Save as...",1012,237,260,42,14,WS_DISABLED
+    DEFPUSHBUTTON   "Close",8,282,260,42,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+108 ACCELERATORS
+BEGIN
+    "A",            40455,                  VIRTKEY, CONTROL, NOINVERT
+    "B",            40199,                  VIRTKEY, CONTROL, NOINVERT
+    "C",            40138,                  VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      40197,                  VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        40542,                  VIRTKEY, CONTROL, NOINVERT
+    VK_END,         40551,                  VIRTKEY, CONTROL, NOINVERT
+    "F",            40429,                  VIRTKEY, CONTROL, NOINVERT
+    VK_HOME,        40550,                  VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      40433,                  VIRTKEY, CONTROL, NOINVERT
+    VK_LEFT,        40543,                  VIRTKEY, CONTROL, NOINVERT
+    VK_NEXT,        40503,                  VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       40502,                  VIRTKEY, CONTROL, NOINVERT
+    "Q",            40478,                  VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       40544,                  VIRTKEY, CONTROL, NOINVERT
+    "S",            40134,                  VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      40461,                  VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "V",            40196,                  VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_UP,          40541,                  VIRTKEY, CONTROL, NOINVERT
+    "V",            40195,                  VIRTKEY, CONTROL, NOINVERT
+    "W",            40132,                  VIRTKEY, CONTROL, NOINVERT
+    "X",            40184,                  VIRTKEY, CONTROL, NOINVERT
+    "Y",            40466,                  VIRTKEY, CONTROL, NOINVERT
+    "Z",            40465,                  VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      40443,                  VIRTKEY, NOINVERT
+    VK_END,         40546,                  VIRTKEY, NOINVERT
+    VK_HOME,        40545,                  VIRTKEY, NOINVERT
+    VK_INSERT,      40442,                  VIRTKEY, NOINVERT
+    VK_NEXT,        40548,                  VIRTKEY, NOINVERT
+    VK_PRIOR,       40547,                  VIRTKEY, NOINVERT
+    VK_DOWN,        40555,                  VIRTKEY, SHIFT, NOINVERT
+    VK_END,         40553,                  VIRTKEY, SHIFT, NOINVERT
+    VK_HOME,        40552,                  VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        40556,                  VIRTKEY, SHIFT, NOINVERT
+    VK_NEXT,        40505,                  VIRTKEY, SHIFT, NOINVERT
+    VK_PRIOR,       40504,                  VIRTKEY, SHIFT, NOINVERT
+    VK_RIGHT,       40557,                  VIRTKEY, SHIFT, NOINVERT
+    VK_UP,          40554,                  VIRTKEY, SHIFT, NOINVERT
+END
+
+158 ACCELERATORS
+BEGIN
+    "N",            40374,                  VIRTKEY, CONTROL
+    "O",            40372,                  VIRTKEY, CONTROL
+    "S",            40370,                  VIRTKEY, CONTROL
+    "S",            40371,                  VIRTKEY, SHIFT, CONTROL
+    "A",            1241,                   VIRTKEY 
+    "E",            1239,                   VIRTKEY 
+    "D",            1244,                   VIRTKEY 
+    "U",            1243,                   VIRTKEY 
+    "N",            1208,                   VIRTKEY 
+    "R",            1240,                   VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+197                     ICON                    "ico197.ico"
+
+
+ICON_1                  ICON                    "icon_1.ico"
+
+
+ICON_2                  ICON                    "icon_2.ico"
+
+
+201                     ICON                    "ico201.ico"
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1 RT_MANIFEST 
+BEGIN
+    0xbbef, 0x3cbf, 0x783f, 0x6c6d, 0x7620, 0x7265, 0x6973, 0x6e6f, 0x223d, 
+    0x2e31, 0x2230, 0x6520, 0x636e, 0x646f, 0x6e69, 0x3d67, 0x5522, 0x4654, 
+    0x382d, 0x2022, 0x7473, 0x6e61, 0x6164, 0x6f6c, 0x656e, 0x223d, 0x6579, 
+    0x2273, 0x3e3f, 0x0a0d, 0x613c, 0x7373, 0x6d65, 0x6c62, 0x2079, 0x6d78, 
+    0x6e6c, 0x3d73, 0x7522, 0x6e72, 0x733a, 0x6863, 0x6d65, 0x7361, 0x6d2d, 
+    0x6369, 0x6f72, 0x6f73, 0x7466, 0x632d, 0x6d6f, 0x613a, 0x6d73, 0x762e, 
+    0x2231, 0x6d20, 0x6e61, 0x6669, 0x7365, 0x5674, 0x7265, 0x6973, 0x6e6f, 
+    0x223d, 0x2e31, 0x2230, 0x3c3e, 0x7361, 0x6573, 0x626d, 0x796c, 0x6449, 
+    0x6e65, 0x6974, 0x7974, 0x6e20, 0x6d61, 0x3d65, 0x4622, 0x4543, 0x5855, 
+    0x2022, 0x7270, 0x636f, 0x7365, 0x6f73, 0x4172, 0x6372, 0x6968, 0x6574, 
+    0x7463, 0x7275, 0x3d65, 0x7822, 0x3638, 0x2022, 0x6576, 0x7372, 0x6f69, 
+    0x3d6e, 0x3122, 0x302e, 0x302e, 0x302e, 0x2022, 0x7974, 0x6570, 0x223d, 
+    0x6977, 0x336e, 0x2232, 0x3c3e, 0x612f, 0x7373, 0x6d65, 0x6c62, 0x4979, 
+    0x6564, 0x746e, 0x7469, 0x3e79, 0x643c, 0x7365, 0x7263, 0x7069, 0x6974, 
+    0x6e6f, 0x463e, 0x4543, 0x5855, 0x2f3c, 0x6564, 0x6373, 0x6972, 0x7470, 
+    0x6f69, 0x3e6e, 0x643c, 0x7065, 0x6e65, 0x6564, 0x636e, 0x3e79, 0x643c, 
+    0x7065, 0x6e65, 0x6564, 0x746e, 0x7341, 0x6573, 0x626d, 0x796c, 0x3c3e, 
+    0x7361, 0x6573, 0x626d, 0x796c, 0x6449, 0x6e65, 0x6974, 0x7974, 0x7420, 
+    0x7079, 0x3d65, 0x7722, 0x6e69, 0x3233, 0x2022, 0x616e, 0x656d, 0x223d, 
+    0x694d, 0x7263, 0x736f, 0x666f, 0x2e74, 0x6957, 0x646e, 0x776f, 0x2e73, 
+    0x6f43, 0x6d6d, 0x6e6f, 0x432d, 0x6e6f, 0x7274, 0x6c6f, 0x2273, 0x7620, 
+    0x7265, 0x6973, 0x6e6f, 0x223d, 0x2e36, 0x2e30, 0x2e30, 0x2230, 0x7020, 
+    0x6f72, 0x6563, 0x7373, 0x726f, 0x7241, 0x6863, 0x7469, 0x6365, 0x7574, 
+    0x6572, 0x223d, 0x3878, 0x2236, 0x7020, 0x6275, 0x696c, 0x4b63, 0x7965, 
+    0x6f54, 0x656b, 0x3d6e, 0x3622, 0x3935, 0x6235, 0x3436, 0x3431, 0x6334, 
+    0x6663, 0x6431, 0x2266, 0x6c20, 0x6e61, 0x7567, 0x6761, 0x3d65, 0x2a22, 
+    0x3e22, 0x2f3c, 0x7361, 0x6573, 0x626d, 0x796c, 0x6449, 0x6e65, 0x6974, 
+    0x7974, 0x3c3e, 0x642f, 0x7065, 0x6e65, 0x6564, 0x746e, 0x7341, 0x6573, 
+    0x626d, 0x796c, 0x3c3e, 0x642f, 0x7065, 0x6e65, 0x6564, 0x636e, 0x3e79, 
+    0x643c, 0x7065, 0x6e65, 0x6564, 0x636e, 0x3e79, 0x643c, 0x7065, 0x6e65, 
+    0x6564, 0x746e, 0x7341, 0x6573, 0x626d, 0x796c, 0x3c3e, 0x7361, 0x6573, 
+    0x626d, 0x796c, 0x6449, 0x6e65, 0x6974, 0x7974, 0x7420, 0x7079, 0x3d65, 
+    0x7722, 0x6e69, 0x3233, 0x2022, 0x616e, 0x656d, 0x223d, 0x694d, 0x7263, 
+    0x736f, 0x666f, 0x2e74, 0x6957, 0x646e, 0x776f, 0x2e73, 0x6f43, 0x6d6d, 
+    0x6e6f, 0x432d, 0x6e6f, 0x7274, 0x6c6f, 0x2273, 0x7620, 0x7265, 0x6973, 
+    0x6e6f, 0x223d, 0x2e36, 0x2e30, 0x2e30, 0x2230, 0x7020, 0x6f72, 0x6563, 
+    0x7373, 0x726f, 0x7241, 0x6863, 0x7469, 0x6365, 0x7574, 0x6572, 0x223d, 
+    0x222a, 0x7020, 0x6275, 0x696c, 0x4b63, 0x7965, 0x6f54, 0x656b, 0x3d6e, 
+    0x3622, 0x3935, 0x6235, 0x3436, 0x3431, 0x6334, 0x6663, 0x6431, 0x2266, 
+    0x6c20, 0x6e61, 0x7567, 0x6761, 0x3d65, 0x2a22, 0x3e22, 0x2f3c, 0x7361, 
+    0x6573, 0x626d, 0x796c, 0x6449, 0x6e65, 0x6974, 0x7974, 0x3c3e, 0x642f, 
+    0x7065, 0x6e65, 0x6564, 0x746e, 0x7341, 0x6573, 0x626d, 0x796c, 0x3c3e, 
+    0x642f, 0x7065, 0x6e65, 0x6564, 0x636e, 0x3e79, 0x743c, 0x7572, 0x7473, 
+    0x6e49, 0x6f66, 0x7820, 0x6c6d, 0x736e, 0x223d, 0x7275, 0x3a6e, 0x6373, 
+    0x6568, 0x616d, 0x2d73, 0x696d, 0x7263, 0x736f, 0x666f, 0x2d74, 0x6f63, 
+    0x3a6d, 0x7361, 0x2e6d, 0x3376, 0x3e22, 0x733c, 0x6365, 0x7275, 0x7469, 
+    0x3e79, 0x723c, 0x7165, 0x6575, 0x7473, 0x6465, 0x7250, 0x7669, 0x6c69, 
+    0x6765, 0x7365, 0x3c3e, 0x6572, 0x7571, 0x7365, 0x6574, 0x4564, 0x6578, 
+    0x7563, 0x6974, 0x6e6f, 0x654c, 0x6576, 0x206c, 0x656c, 0x6576, 0x3d6c, 
+    0x6122, 0x4973, 0x766e, 0x6b6f, 0x7265, 0x2022, 0x6975, 0x6341, 0x6563, 
+    0x7373, 0x223d, 0x6166, 0x736c, 0x2265, 0x3c3e, 0x722f, 0x7165, 0x6575, 
+    0x7473, 0x6465, 0x7845, 0x6365, 0x7475, 0x6f69, 0x4c6e, 0x7665, 0x6c65, 
+    0x3c3e, 0x722f, 0x7165, 0x6575, 0x7473, 0x6465, 0x7250, 0x7669, 0x6c69, 
+    0x6765, 0x7365, 0x3c3e, 0x732f, 0x6365, 0x7275, 0x7469, 0x3e79, 0x2f3c, 
+    0x7274, 0x7375, 0x4974, 0x666e, 0x3e6f, 0x2f3c, 0x7361, 0x6573, 0x626d, 
+    0x796c, "\076" 
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
