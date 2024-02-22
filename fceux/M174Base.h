@@ -1,8 +1,8 @@
 /*
-²Â²â
+çŒœæµ‹
 4190 $8000~$9FFF RAM
 41ab RW
-¹âÇı 41ae W 41af RW
+å…‰é©± 41ae W 41af RW
 41B4 $C000~$DFFF ROM
 */
 //#define _RELEASE
@@ -249,7 +249,7 @@ public:
 			free(pCHRROM);
 		pCHRROM = nullptr;
 		memset(RegIO, 0, sizeof(RegIO));
-		//MMC5Hack = 1;//¿ªÁËDOSÎŞ·¨ÏÔÊ¾×Ö·û
+		//MMC5Hack = 1;//å¼€äº†DOSæ— æ³•æ˜¾ç¤ºå­—ç¬¦
 		HookPPU();
 		HookIRQ();
 		mKeyBoard.bUseKeyBoard = true;
@@ -261,7 +261,7 @@ public:
 		//SetWriteHandler(0x2000, 0x2000, Write0x2000);
 		//SetWriteHandler(0x2006, 0x2006, Write0x2006);
 		//SetWriteHandler(0x2007, 0x2007, Write0x2007);
-		//SetWriteHandler(0x4016, 0x4017, Write);//ÆôÓÃ»áÔËĞĞ²»ÆğÀ´
+		//SetWriteHandler(0x4016, 0x4017, Write);//å¯ç”¨ä¼šè¿è¡Œä¸èµ·æ¥
 		//SetReadHandler(0x4016, 0x4017, Read);
 		SetChrRamSize(nChrRamSize);
 
@@ -283,7 +283,7 @@ public:
 		if (!bNMI) {
 			//DEBUGOUTIO("SetVR%sm %dK I=%d N=%d PC=%04X addr=%04X data=%s", chr == 0 ? "o" : "a", nK[b], bIRQ, bNMI, _CPU_PC, 0x4198 + nBanker, mTools.GetBitNumber(data));
 		}
-		if (_CPU_PC == 0x9850 /* ½øDOS *//* || 0x9840 == _CPU_PC  mccdos /u */) {//DOS
+		if (_CPU_PC == 0x9850 /* è¿›DOS *//* || 0x9840 == _CPU_PC  mccdos /u */) {//DOS
 			data = 0x3e;
 		}
 		if (_CPU_PC == 0x9826) {//
@@ -382,7 +382,7 @@ public:
 		}
 		case 0x41AB: {
 			bLog = false;
-			data = bVCD ? 0 : 0x10; //²»·µ»Ø 0x10 Î»Ôò½øÈëVCDÄ£Ê½, ·ñÔò½øÈëÈíÅÌÇı¶¯
+			data = bVCD ? 0 : 0x10; //ä¸è¿”å› 0x10 ä½åˆ™è¿›å…¥VCDæ¨¡å¼, å¦åˆ™è¿›å…¥è½¯ç›˜é©±åŠ¨
 			break;
 		}
 		default:
@@ -486,7 +486,7 @@ public:
 				SetRom8K(7, data & (GetPRGPages(8192) - 1));
 				//DEBUGOUTIO("SetRom8K $%04X 8K I=%d N=%d PC=%04X addr=%04X data=%s", 0x2000 * 7, bIRQ, bNMI, _CPU_PC, addr, mTools.GetBitNumber(data));
 			}
-			else {//±ØĞëÇĞµ½ $C000 16K $4192 ÉÏ´ÎÉèÖÃµÄÖµ
+			else {//å¿…é¡»åˆ‡åˆ° $C000 16K $4192 ä¸Šæ¬¡è®¾ç½®çš„å€¼
 				SetRam16K(6, Reg[0x92] & PRGRamCount[1]);
 				//DEBUGOUTIO("SetRam8K $%04X 8K I=%d N=%d PC=%04X addr=%04X data=%s", 0x2000 * 7, bIRQ, bNMI, _CPU_PC, addr, mTools.GetBitNumber(data));
 			}

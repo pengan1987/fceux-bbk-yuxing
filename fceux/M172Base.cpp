@@ -40,7 +40,7 @@ DWORD PLQCreate::ThreadVoice(LPVOID lParam)
 	memset(dec, 0, sizeof(*dec));
 	mp3dec_ex_open(&dec->mp3d, szUrl.c_str(), MP3D_SEEK_TO_SAMPLE);
 	if (!dec->mp3d.samples) {
-		SetWindowTextA(pTools->mWndTitle, "½âÎöMP3ÎÄ¼şÊ§°Ü,ÇëÖØ¼ÓÔØÆäËüMP3ÎÄ¼ş");
+		SetWindowTextA(pTools->mWndTitle, "è§£æMP3æ–‡ä»¶å¤±è´¥,è¯·é‡åŠ è½½å…¶å®ƒMP3æ–‡ä»¶");
 		CloseHandle(hThreadWav);
 		hThreadWav = NULL;
 		bQuitThreadWav = false;
@@ -69,7 +69,7 @@ DWORD PLQCreate::ThreadVoice(LPVOID lParam)
 	delete dec;
 	dec = nullptr;
 	delete[]buff;
-	SetWindowTextA(pTools->mWndTitle, "²¥·ÅÍê±Ï,ÇëÖØÖÃ»ò¼ÓÔØÆäËüMP3ÎÄ¼ş");
+	SetWindowTextA(pTools->mWndTitle, "æ’­æ”¾å®Œæ¯•,è¯·é‡ç½®æˆ–åŠ è½½å…¶å®ƒMP3æ–‡ä»¶");
 	return 0;
 }
 
@@ -117,7 +117,7 @@ void PLQCreate::Power(void)
 
 void PLQCreate::Reset(bool softReset)
 {
-	//szUrl = "X:\\TEMP\\ÆÕÀïÆæÄ£ÄâÆ÷\\ÆÕÀïÆæÉùÏñ´Å´øÖ®ÖĞÑ§Éú½»¼ÊÓ¢ÓïAÃæ1.mp3";
+	//szUrl = "X:\\TEMP\\æ™®é‡Œå¥‡æ¨¡æ‹Ÿå™¨\\æ™®é‡Œå¥‡å£°åƒç£å¸¦ä¹‹ä¸­å­¦ç”Ÿäº¤é™…è‹±è¯­Aé¢1.mp3";
 	__super::Reset(softReset);
 	if (szUrl != "") {
 		DWORD dwID;

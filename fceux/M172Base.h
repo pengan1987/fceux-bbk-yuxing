@@ -7,7 +7,7 @@
 class PLQCreate : public MapperBase
 {
 public:
-	// 44.1KHz   8.0/324/不容 8.0/330/不容  8.0/320/4   10不能大于440小于400    423<435
+	// 44.1KHz   8.0/324/涓嶅 8.0/330/涓嶅  8.0/320/4   10涓嶈兘澶т簬440灏忎簬400    423<435
 #define CYC_SCALE 10.0f //10
 #define FS_IN_T 410.0f //653.0f //850.0f //415.0f //377
 #define PLQ_BUF_SIZE 16384 * 3

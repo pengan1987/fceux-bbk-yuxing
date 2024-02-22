@@ -1,5 +1,5 @@
 /*
-Î´Ê¹ÓÃµÄMapper ID
+æœªä½¿ç”¨çš„Mapper ID
 161 169 171 179
 20 39 54 55 56 63 81 84 98 100 102 104 109 110 122 124 126 127 128 129 130 131 135 158   182 218 223 224 236 237 239 247 248 251 255
 */
@@ -34,7 +34,7 @@ bool FceuxCheckSum()
 	}
 	if (HeadChksum != Chksum)
 	{
-		MessageBox(NULL, "Ö´ĞĞÎÄ¼ş±»ĞŞ¸Ä.", "¾¯¸æ", MB_OK);
+		MessageBox(NULL, "æ‰§è¡Œæ–‡ä»¶è¢«ä¿®æ”¹.", "è­¦å‘Š", MB_OK);
 	}
 	return true;
 }
@@ -424,15 +424,15 @@ void MapperBase::AddCustomMenu(UINT e) {
 
 	if (e & AddCustomMenu_Joy && -1 == GetMenuState(sub, nIDMenu_Joy, MF_BYCOMMAND)) {
 		nIDMenu_Joy = mTools.NewIDMenu();
-		AppendMenuA(sub, MF_STRING | MF_BYPOSITION, UINT_PTR(nIDMenu_Joy), "FCÊÖ±ú½Ó¿Ú-Á¬½ÓÊÖ±ú");
+		AppendMenuA(sub, MF_STRING | MF_BYPOSITION, UINT_PTR(nIDMenu_Joy), "FCæ‰‹æŸ„æ¥å£-è¿æ¥æ‰‹æŸ„");
 	}
 	if (e & AddCustomMenu_KeyBoard && -1 == GetMenuState(sub, nIDMenu_KeyBoard, MF_BYCOMMAND)) {
 		nIDMenu_KeyBoard = mTools.NewIDMenu();
-		AppendMenuA(sub, MF_STRING | MF_BYPOSITION, UINT_PTR(nIDMenu_KeyBoard), "FCÊÖ±ú½Ó¿Ú-Á¬½Ó¼üÅÌ");
+		AppendMenuA(sub, MF_STRING | MF_BYPOSITION, UINT_PTR(nIDMenu_KeyBoard), "FCæ‰‹æŸ„æ¥å£-è¿æ¥é”®ç›˜");
 	}
 	if (e & AddCustomMenu_Mouse && -1 == GetMenuState(sub, nIDMenu_Mouse, MF_BYCOMMAND)) {
 		nIDMenu_Mouse = mTools.NewIDMenu();
-		AppendMenuA(sub, MF_STRING | MF_BYPOSITION, UINT_PTR(nIDMenu_Mouse), "FCÊÖ±ú½Ó¿Ú-Á¬½ÓÊó±ê");
+		AppendMenuA(sub, MF_STRING | MF_BYPOSITION, UINT_PTR(nIDMenu_Mouse), "FCæ‰‹æŸ„æ¥å£-è¿æ¥é¼ æ ‡");
 	}
 }
 

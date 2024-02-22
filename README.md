@@ -28,4 +28,5 @@ Kewang SC-3000 Video-CD computer is basically a Bang Doctor PC Jr. built-in Vide
 Drag one of the YuXing BIOS ``Yuxing_*.nes`` into FCEUX window, and then drag a disk image,  e.g. ``YuXing_WPS.img`` into FCEUX window. load the disk content using "Fast Disk Load" ("快速调盘" in Chinese) menu option to load software on diskette.
 
 **Note: the BBK and Yuxing software is incompatible to each other**
+
 You might also check the [Chinese Famiclone Home Computer](https://archive.org/details/ChineseFamicloneHomeComputer) bundle on Internet Archive for more software.

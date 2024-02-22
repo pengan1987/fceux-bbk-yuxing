@@ -1,8 +1,8 @@
 /*
-²Â²â
+çŒœæµ‹
 4190 $8000~$9FFF RAM
 41ab RW
-¹âÇı 41ae W 41af RW
+å…‰é©± 41ae W 41af RW
 41B4 $C000~$DFFF ROM
 */
 #include "MapperBase.h"
@@ -151,10 +151,10 @@ public:
 	BYTE FdcReadDataWrite(BYTE data) {
 		DEBUGOUTFLOPPY("FDC FdcReadDataWrite PC=%04X", _CPU_PC);
 		auto &cmd = mFdcData[nFdcDrvSel].bFdcCommands;
-		BYTE CNT = mFdcData[nFdcDrvSel].bFdcCommands[1] + 1;	//¶ÁÈ¡µÄÉÈÇøÊı
-		BYTE C = mFdcData[nFdcDrvSel].bFdcCommands[2];	//´ÅµÀºÅ
-		BYTE H = mFdcData[nFdcDrvSel].bFdcCommands[3];	//´ÅÍ·ºÅ
-		BYTE R = mFdcData[nFdcDrvSel].bFdcCommands[4];	//ÉÈÇøºÅ
+		BYTE CNT = mFdcData[nFdcDrvSel].bFdcCommands[1] + 1;	//è¯»å–çš„æ‰‡åŒºæ•°
+		BYTE C = mFdcData[nFdcDrvSel].bFdcCommands[2];	//ç£é“å·
+		BYTE H = mFdcData[nFdcDrvSel].bFdcCommands[3];	//ç£å¤´å·
+		BYTE R = mFdcData[nFdcDrvSel].bFdcCommands[4];	//æ‰‡åŒºå·
 		BYTE N = mFdcData[nFdcDrvSel].bFdcCommands[5];
 		mFdcData[nFdcDrvSel].nFdcReadSize = 0x200 * 1;// CNT;
 		mFdcData[nFdcDrvSel].nFdcResultsIndex = 0;
@@ -162,7 +162,7 @@ public:
 		INT LBA = H * 18 + C * 36 + (R - 1);
 		DEBUGOUTFLOPPY("FDC SEEK 0=%04X 1=%04X C=%04X H=%04X R=%04X N=%04X 6=%04X", cmd[0], cmd[1], C, H, R, N, cmd[6]);
 		mFdcData[nFdcDrvSel].pFdcDataPtr = mTools.lpFloppy + LBA * 512;
-		mTools.SetTitle("¶ÁÅÌÖĞ...", 1500);
+		mTools.SetTitle("è¯»ç›˜ä¸­...", 1500);
 
 		R++;
 		if (19 == R)
@@ -197,19 +197,19 @@ public:
 			return 0;
 		}
 		if (vByte.size() > 0) {
-			DEBUGOUTFLOPPY("FDC FdcWriteDataWrite ¶ÁÊı¾İÒì³£ PC=%04X", _CPU_PC);
+			DEBUGOUTFLOPPY("FDC FdcWriteDataWrite è¯»æ•°æ®å¼‚å¸¸ PC=%04X", _CPU_PC);
 		}
 		DEBUGOUTFLOPPY("FDC FdcWriteDataWrite PC=%04X", _CPU_PC);
-		BYTE C = mFdcData[nFdcDrvSel].bFdcCommands[2];	//´ÅµÀºÅ
-		BYTE H = mFdcData[nFdcDrvSel].bFdcCommands[3];	//´ÅÍ·ºÅ
-		BYTE R = mFdcData[nFdcDrvSel].bFdcCommands[4];	//ÉÈÇøºÅ
+		BYTE C = mFdcData[nFdcDrvSel].bFdcCommands[2];	//ç£é“å·
+		BYTE H = mFdcData[nFdcDrvSel].bFdcCommands[3];	//ç£å¤´å·
+		BYTE R = mFdcData[nFdcDrvSel].bFdcCommands[4];	//æ‰‡åŒºå·
 		BYTE N = mFdcData[nFdcDrvSel].bFdcCommands[5];
 		mFdcData[nFdcDrvSel].nFdcWrite = mFdcData[nFdcDrvSel].pFdcCmd->bWLength - 1;
 		mFdcData[nFdcDrvSel].nFdcReadSize = 0x200 * 1;// CNT;
 
 		INT LBA = H * 18 + C * 36 + (R - 1);
 		DEBUGOUTFLOPPY("FDC SEEK C=%04X H=%04X R=%04X N=%04X", C, H, R, N);
-		mTools.SetTitle("Ğ´ÅÌÖĞ...", 1500);
+		mTools.SetTitle("å†™ç›˜ä¸­...", 1500);
 		mFdcData[nFdcDrvSel].pFdcDataPtr = mTools.lpFloppy + LBA * 512;
 		R++;
 		if (19 == R)
@@ -255,12 +255,12 @@ public:
 		//bReadFDCStatus4188Log = false;
 		mFdcData[nFdcDrvSel].bFormat = true;
 		vByte.clear();
-		BYTE C = mFdcData[nFdcDrvSel].bFdcCommands[1];	//´ÅµÀºÅ
-		BYTE H = mFdcData[nFdcDrvSel].bFdcCommands[2];	//´ÅÍ·ºÅ
-		BYTE R = mFdcData[nFdcDrvSel].bFdcCommands[3];	//ÉÈÇøºÅ
+		BYTE C = mFdcData[nFdcDrvSel].bFdcCommands[1];	//ç£é“å·
+		BYTE H = mFdcData[nFdcDrvSel].bFdcCommands[2];	//ç£å¤´å·
+		BYTE R = mFdcData[nFdcDrvSel].bFdcCommands[3];	//æ‰‡åŒºå·
 		BYTE N = mFdcData[nFdcDrvSel].bFdcCommands[4];
-		mFdcData[nFdcDrvSel].nFdcMainStatus = FDC_MS_RQM; //¸ñÊ½»¯
-		mFdcData[nFdcDrvSel].nFdcReadSize = 4 * R;// R×éÉÈÇøĞÅÏ¢
+		mFdcData[nFdcDrvSel].nFdcMainStatus = FDC_MS_RQM; //æ ¼å¼åŒ–
+		mFdcData[nFdcDrvSel].nFdcReadSize = 4 * R;// Rç»„æ‰‡åŒºä¿¡æ¯
 		mFdcData[nFdcDrvSel].nFdcResultsIndex = 0;
 		mFdcData[nFdcDrvSel].nFdcWrite = mFdcData[nFdcDrvSel].pFdcCmd->bWLength - 1;
 		INT LBA = H * 18 + C * 36 + (R - 1);
@@ -280,9 +280,9 @@ public:
 		return 0;
 	}
 	BYTE FdcReadIDRead(BYTE data) {
-		//¶Á7×Ö½Ú
+		//è¯»7å­—èŠ‚
 		BYTE d[7] = { 0 };
-		d[1] = 0;// ÆäËü¿ÉÄÜÃ»ÓÃµ½ µÚ1×Ö½Ú·µ»Ø´ÅÅÌ¸ñÊ½(0/1/4/5) 1/4/5¸ñÊ½²»¶Ô
+		d[1] = 0;// å…¶å®ƒå¯èƒ½æ²¡ç”¨åˆ° ç¬¬1å­—èŠ‚è¿”å›ç£ç›˜æ ¼å¼(0/1/4/5) 1/4/5æ ¼å¼ä¸å¯¹
 		data = d[mFdcData[nFdcDrvSel].nFdcRead];
 		DEBUGOUTFLOPPY("FDC FdcReadIDRead PC=%04X data=%02X", _CPU_PC, data);
 		return data;
@@ -300,10 +300,10 @@ public:
 	}
 
 	BYTE FdcSenseIntStatusRead(BYTE data) {
-		//¶Á2×Ö½Ú
+		//è¯»2å­—èŠ‚
 		BYTE d[2] = { 0x20, mFdcData[nFdcDrvSel].bFdcCommands[2] };
 		/*
-		0->326 0~20 0:Çı¶¯Æ÷´íÎó
+		0->326 0~20 0:é©±åŠ¨å™¨é”™è¯¯
 			  D958 STA $0326 = #$FF
 			DAFA LDA $0326 = #$20
 			DAFD AND #$20
@@ -341,7 +341,7 @@ public:
 			mFdcData[nFdcDrvSel].bFdcIrq = true;
 			return;
 		}
-		if (data == 0x1c)//¹Ø±ÕÈíÇı
+		if (data == 0x1c)//å…³é—­è½¯é©±
 		{
 			if (vByte.size() > 0) {
 				mTools.WriteVByte(vByte);
@@ -412,7 +412,7 @@ public:
 			}
 		}
 	}
-	//»ñÈ¡Çı¶¯Æ÷µ±Ç°×´Ì¬
+	//è·å–é©±åŠ¨å™¨å½“å‰çŠ¶æ€
 	BYTE ReadFDCStatus4188(WORD addr) {
 		{
 			bLog = false;
@@ -525,7 +525,7 @@ public:
 		memset(Reg, 0, sizeof(Reg));
 		memset(RegIO, 0, sizeof(RegIO));
 		VideoMode(VideoModeDendy);
-		mTools.bCanSetTitle = false;//Ó²¼şÖØÖÃÊ± SetTitle »á×èÈû
+		mTools.bCanSetTitle = false;//ç¡¬ä»¶é‡ç½®æ—¶ SetTitle ä¼šé˜»å¡
 		mTools.Reset();
 		if (!bVCD) {
 			mTools.FloppyIMGLoad();

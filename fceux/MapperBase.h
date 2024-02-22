@@ -197,9 +197,9 @@ public:
 		info->Power = [] { pMapper->BasePower(); };
 		info->Close = [] { pMapper->BaseClose(); };;
 
-		FCEU_MemNewCHR(pCHRRAM, CHRRAMIndex, GetCHRRamSize());//ÊýÖµ±ØÐëÊÇ 2 µÄÃÝ
-		FCEU_MemNewPRG(pPRGRAM, PRGRAMIndex, GetPRGRamSize());//ÊýÖµ±ØÐëÊÇ 2 µÄÃÝ
-		FCEU_MemNewPRG(pWORKRAM, WORKRAMIndex, GetWorkRamSize());//ÊýÖµ±ØÐëÊÇ 2 µÄÃÝ
+		FCEU_MemNewCHR(pCHRRAM, CHRRAMIndex, GetCHRRamSize());//æ•°å€¼å¿…é¡»æ˜¯ 2 çš„å¹‚
+		FCEU_MemNewPRG(pPRGRAM, PRGRAMIndex, GetPRGRamSize());//æ•°å€¼å¿…é¡»æ˜¯ 2 çš„å¹‚
+		FCEU_MemNewPRG(pWORKRAM, WORKRAMIndex, GetWorkRamSize());//æ•°å€¼å¿…é¡»æ˜¯ 2 çš„å¹‚
 		extern void SetMemViewPRamSize(int nSize);
 		SetMemViewPRamSize(GetPRGRamSize());
 	}

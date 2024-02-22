@@ -2,7 +2,7 @@
 
 bool ScanVCD() {
     std::vector<std::string> vectorPath;
-    pTools->ScanFolder("X:\\TEMP\\¿ÆÍõKW-SC2000Ëæ»úÈíÅÌ\\¿ÆÍõ1-5", vectorPath);
+    pTools->ScanFolder("X:\\TEMP\\ç§‘ç‹KW-SC2000éšæœºè½¯ç›˜\\ç§‘ç‹1-5", vectorPath);
     for (int i = vectorPath.size() - 1; i >= 0; i--) {
         auto strFile = vectorPath[i];
         auto f = fopen(strFile.c_str(), "rb");
@@ -35,7 +35,7 @@ bool ScanVCD() {
         if (buf[0xf] > 0) {
             strcat(szNum, "R");
         }
-        sprintf(szTemp, "X:\\TEMP\\¿ÆÍõKW-SC2000Ëæ»úÈíÅÌ\\ÓÎÏ·\\%s-%s%s", &szNum[12], szNum, ++p);
+        sprintf(szTemp, "X:\\TEMP\\ç§‘ç‹KW-SC2000éšæœºè½¯ç›˜\\æ¸¸æˆ\\%s-%s%s", &szNum[12], szNum, ++p);
         CopyFile(strFile.c_str(), szTemp, FALSE);
     }
     return true;
@@ -195,8 +195,8 @@ enum { CD_SECTOR_SIZE = 2048 };
 #define FIRST_VD_SECTOR             16
 
 bool KW3000() {
-    auto p = L"X:\\TEMP\\¿ÆÍõKW-SC2000Ëæ»úÈíÅÌ\\¿ÆÍõ2000ÓÎÏ·¹âÅÌ3\\BUNGCVCD3.cue";
-    //p = L"O:\\360¼«ËÙä¯ÀÀÆ÷ÏÂÔØ\\OK\\Game\\¿ÆÍõ\\¿ÆÍõµçÄÔVCD²Ù×÷ËµÃ÷¼°ÑİÊ¾.bin";
+    auto p = L"X:\\TEMP\\ç§‘ç‹KW-SC2000éšæœºè½¯ç›˜\\ç§‘ç‹2000æ¸¸æˆå…‰ç›˜3\\BUNGCVCD3.cue";
+    //p = L"O:\\360æé€Ÿæµè§ˆå™¨ä¸‹è½½\\OK\\Game\\ç§‘ç‹\\ç§‘ç‹ç”µè„‘VCDæ“ä½œè¯´æ˜åŠæ¼”ç¤º.bin";
 	auto d = CDImageOpen(p);
 	char buf[40960];
 	char VolumeDescriptor[CD_SECTOR_SIZE];

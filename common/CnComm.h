@@ -1,33 +1,33 @@
-/*! \mainpage CnComm v1.51 ¶àÏß³Ì´®¿ÚÍ¨Ñ¶¿â 
- *	\section About ¹ØÓÚ
+ï»¿/*! \mainpage CnComm v1.51 å¤šçº¿ç¨‹ä¸²å£é€šè®¯åº“ 
+ *	\section About å…³äº
  *  
- *  \n °æ±¾: CnComm v1.51
- *  \n ÓÃÍ¾: WINDOWS/WINCE ¶àÏß³Ì´®¿ÚÍ¨Ñ¶¿â
- *  \n ÓïÑÔ: C++ (ANSI/UNICODE)
- *  \n Æ½Ì¨: WINDOWS(WIN98/NT/2000/XP/2003/Vista); WINCE 5.0 Ä£ÄâÆ÷; Pocket PC 2003 Ä£ÄâÆ÷;
- *  \n Ó²¼ş: PC´®¿Ú; ´®¿Ú·şÎñÆ÷; USB´®¿Ú; ĞéÄâ´®¿Ú;
- *  \n ±àÒë: BC++ 5(free tool); C++ BUILDER 4, 5, 6, X; EVC 4(sp4); G++ 3, 4; Intel C++ 7, 8, 9; VC++ 6(sp6), .NET, 2003, 2005;
- *  \n ×÷Õß: llbird
- *  \n ÓÊÏä: wushaojian@21cn.com
- *  \n ²©¿Í: http://blog.csdn.net/wujian53 http://www.cppblog.com/llbird  
- *  \n Î¬»¤: 2002.10 - 2009.8
+ *  \n ç‰ˆæœ¬: CnComm v1.51
+ *  \n ç”¨é€”: WINDOWS/WINCE å¤šçº¿ç¨‹ä¸²å£é€šè®¯åº“
+ *  \n è¯­è¨€: C++ (ANSI/UNICODE)
+ *  \n å¹³å°: WINDOWS(WIN98/NT/2000/XP/2003/Vista); WINCE 5.0 æ¨¡æ‹Ÿå™¨; Pocket PC 2003 æ¨¡æ‹Ÿå™¨;
+ *  \n ç¡¬ä»¶: PCä¸²å£; ä¸²å£æœåŠ¡å™¨; USBä¸²å£; è™šæ‹Ÿä¸²å£;
+ *  \n ç¼–è¯‘: BC++ 5(free tool); C++ BUILDER 4, 5, 6, X; EVC 4(sp4); G++ 3, 4; Intel C++ 7, 8, 9; VC++ 6(sp6), .NET, 2003, 2005;
+ *  \n ä½œè€…: llbird
+ *  \n é‚®ç®±: wushaojian@21cn.com
+ *  \n åšå®¢: http://blog.csdn.net/wujian53 http://www.cppblog.com/llbird  
+ *  \n ç»´æŠ¤: 2002.10 - 2009.8
  *
- *  \section Announce ËµÃ÷
- *  \n 1) ¿ÉÒÔ×ÔÓÉÊ¹ÓÃ¼°´«²¥, Çë±£ÁôÏà¹ØÉùÃ÷;                                           
- *  \n 2) ²»ÍÆ¼öÖ±½ÓÔÚ±¾´úÂëÉÏĞŞ¸Ä, Ó¦Í¨¹ıC++¼Ì³ĞÀ©Õ¹»úÖÆÀ©Õ¹±¾´úÂë;                          
- *  \n 3) Èç¹ûÄúÖ±½ÓĞŞ¸Ä±¾´úÂë, Çë·¢Ò»·İ¸øÎÒ£¬±ãÓÚÍ¬ÍøÓÑ·ÖÏíÄúÓĞÒæµÄ¸Ä¶¯;                              
- *  \n 4) ²»¼æÈİcnComm1.4ÒÔÏÂ°æ±¾, ÓĞºÜ´ó¸Ä¶¯£¬Í¬Ê±Ò²¸üÃûCnComm;
- *  \n 5) »¹ÊÇÄÇ¾äÀÏ»°, Ë®Æ½ÓĞÏŞ, ´íÎóÔÚËùÄÑÃâ, »¶Ó­À´ĞÅÖ¸Õı, ÊÕÈëÓĞÏŞ, Ê±¼äÓĞÏŞ, ²»Ìá¹©³ıCnCommÄÚ²¿ÎÊÌâÍâµÄ×ÉÑ¯;
+ *  \section Announce è¯´æ˜
+ *  \n 1) å¯ä»¥è‡ªç”±ä½¿ç”¨åŠä¼ æ’­, è¯·ä¿ç•™ç›¸å…³å£°æ˜;                                           
+ *  \n 2) ä¸æ¨èç›´æ¥åœ¨æœ¬ä»£ç ä¸Šä¿®æ”¹, åº”é€šè¿‡C++ç»§æ‰¿æ‰©å±•æœºåˆ¶æ‰©å±•æœ¬ä»£ç ;                          
+ *  \n 3) å¦‚æœæ‚¨ç›´æ¥ä¿®æ”¹æœ¬ä»£ç , è¯·å‘ä¸€ä»½ç»™æˆ‘ï¼Œä¾¿äºåŒç½‘å‹åˆ†äº«æ‚¨æœ‰ç›Šçš„æ”¹åŠ¨;                              
+ *  \n 4) ä¸å…¼å®¹cnComm1.4ä»¥ä¸‹ç‰ˆæœ¬, æœ‰å¾ˆå¤§æ”¹åŠ¨ï¼ŒåŒæ—¶ä¹Ÿæ›´åCnComm;
+ *  \n 5) è¿˜æ˜¯é‚£å¥è€è¯, æ°´å¹³æœ‰é™, é”™è¯¯åœ¨æ‰€éš¾å…, æ¬¢è¿æ¥ä¿¡æŒ‡æ­£, æ”¶å…¥æœ‰é™, æ—¶é—´æœ‰é™, ä¸æä¾›é™¤CnCommå†…éƒ¨é—®é¢˜å¤–çš„å’¨è¯¢;
  *  
- *  \section Log ÈÕÖ¾
- *  \n 2009 v1.51 ĞŞÕı°æ; ¿¼ÂÇµ½½«À´µÄ¹¤×÷ÖĞ¿ÉÄÜ²»»áÔÙºÍ´®¿Ú´ò½»µÀ£¬ÕâºÜ¿ÉÄÜÊÇ×îºóÒ»°æ;
- *  \n 2009 v1.5  Ôö¼ÓÄÚÖÃ·Ö¿éÁ´±í»º³åÇø; Ôö¼Ó¶ÔWINCEµÄÖ§³Ö(Ä£ÄâÆ÷ÏÂ²âÊÔÍ¨¹ı);
- *  \n 2008 v1.4  Ôö¼Ó¶ÔÍ¬²½IOµÄ¶àÏß³ÌÖ§³Ö; Ôö¼ÓC++Òì³£µÄÖ§³Ö; ¸ÄÃûCnComm; Cn == C Next;
- *  \n 2007 v1.3  Ï¸½Ú²¿·ÖĞŞ¶©;
- *  \n 2006 v1.2  Ï¸½Ú²¿·ÖĞŞ¶©;
- *  \n 2005 v1.1  Ï¸½Ú²¿·ÖĞŞ¶©;
- *  \n 2004 v1.0  ²ÉÓÃVCÃüÃû·ç¸ñ(ĞÙÑÀÀû), ÔÚ¶à¸öWINDOWÆ½Ì¨¡¢±àÒëÆ÷²âÊÔÍ¨¹ı, Ê×´Î¹«¿ª·¢²¼cnComm;
- *  \n 2002 v0.1  Òò¹¤×÷ĞèÒª¿ª·¢´®¿ÚÍ¨Ñ¶»ù´¡Àà, ´«Í³C++µÄ¼Ì³Ğ»úÖÆ, ´«Í³CÃüÃû·ç¸ñ;
+ *  \section Log æ—¥å¿—
+ *  \n 2009 v1.51 ä¿®æ­£ç‰ˆ; è€ƒè™‘åˆ°å°†æ¥çš„å·¥ä½œä¸­å¯èƒ½ä¸ä¼šå†å’Œä¸²å£æ‰“äº¤é“ï¼Œè¿™å¾ˆå¯èƒ½æ˜¯æœ€åä¸€ç‰ˆ;
+ *  \n 2009 v1.5  å¢åŠ å†…ç½®åˆ†å—é“¾è¡¨ç¼“å†²åŒº; å¢åŠ å¯¹WINCEçš„æ”¯æŒ(æ¨¡æ‹Ÿå™¨ä¸‹æµ‹è¯•é€šè¿‡);
+ *  \n 2008 v1.4  å¢åŠ å¯¹åŒæ­¥IOçš„å¤šçº¿ç¨‹æ”¯æŒ; å¢åŠ C++å¼‚å¸¸çš„æ”¯æŒ; æ”¹åCnComm; Cn == C Next;
+ *  \n 2007 v1.3  ç»†èŠ‚éƒ¨åˆ†ä¿®è®¢;
+ *  \n 2006 v1.2  ç»†èŠ‚éƒ¨åˆ†ä¿®è®¢;
+ *  \n 2005 v1.1  ç»†èŠ‚éƒ¨åˆ†ä¿®è®¢;
+ *  \n 2004 v1.0  é‡‡ç”¨VCå‘½åé£æ ¼(åŒˆç‰™åˆ©), åœ¨å¤šä¸ªWINDOWå¹³å°ã€ç¼–è¯‘å™¨æµ‹è¯•é€šè¿‡, é¦–æ¬¡å…¬å¼€å‘å¸ƒcnComm;
+ *  \n 2002 v0.1  å› å·¥ä½œéœ€è¦å¼€å‘ä¸²å£é€šè®¯åŸºç¡€ç±», ä¼ ç»ŸC++çš„ç»§æ‰¿æœºåˆ¶, ä¼ ç»ŸCå‘½åé£æ ¼;
  */
 
 #ifndef _CN_COMM_H_
@@ -40,19 +40,19 @@
 #include <tchar.h>
 
 #if defined(UNDER_CE) && !defined(CN_COMM_FOR_CE)
-	#define CN_COMM_FOR_CE		UNDER_CE			//!< ÅäÖÃWINCEµÄÖ§³Ö   
+	#define CN_COMM_FOR_CE		UNDER_CE			//!< é…ç½®WINCEçš„æ”¯æŒ   
 #endif
 
 #ifndef CN_COMM_FOR_CE
 	#include <mcx.h>
-	#include <process.h>							// WINCEÃ»ÓĞprocess.h
+	#include <process.h>							// WINCEæ²¡æœ‰process.h
 #endif
 
 #ifndef ON_COM_MSG_BASE 
-	#define ON_COM_MSG_BASE		WM_USER + 618		//!< ÏûÏ¢±àºÅµÄ»ùµã  
+	#define ON_COM_MSG_BASE		WM_USER + 618		//!< æ¶ˆæ¯ç¼–å·çš„åŸºç‚¹  
 #endif
 
-// ËÍµ½´°¿ÚµÄÏûÏ¢ WPARAM COM¶Ë¿ÚºÅ
+// é€åˆ°çª—å£çš„æ¶ˆæ¯ WPARAM COMç«¯å£å·
 #define ON_COM_RECEIVE			ON_COM_MSG_BASE + 0	//!< EV_RXCHAR 
 #define ON_COM_RXCHAR			ON_COM_MSG_BASE + 0 //!< EV_RXCHAR 
 #define ON_COM_CTS				ON_COM_MSG_BASE + 1 //!< EV_CTS  LPARAM==1 CTS ON 
@@ -71,38 +71,38 @@
 
 #ifndef CN_COMM_WAIT_EVENT
 	#ifdef CN_COMM_FOR_CE
-		#define CN_COMM_WAIT_EVENT	EV_RXCHAR | EV_ERR | EV_CTS | EV_DSR | EV_BREAK | EV_TXEMPTY | EV_RING | EV_RLSD | EV_POWER //!< WINCE Ä¬ÈÏµÄµÈ´ıÊÂ¼ş| EV_RXFLAG 
+		#define CN_COMM_WAIT_EVENT	EV_RXCHAR | EV_ERR | EV_CTS | EV_DSR | EV_BREAK | EV_TXEMPTY | EV_RING | EV_RLSD | EV_POWER //!< WINCE é»˜è®¤çš„ç­‰å¾…äº‹ä»¶| EV_RXFLAG 
 	#else
-		#define CN_COMM_WAIT_EVENT	EV_RXCHAR | EV_ERR | EV_CTS | EV_DSR | EV_BREAK | EV_TXEMPTY | EV_RING | EV_RLSD 			//!< WIN32 Ä¬ÈÏµÄµÈ´ıÊÂ¼ş| EV_RXFLAG
+		#define CN_COMM_WAIT_EVENT	EV_RXCHAR | EV_ERR | EV_CTS | EV_DSR | EV_BREAK | EV_TXEMPTY | EV_RING | EV_RLSD 			//!< WIN32 é»˜è®¤çš„ç­‰å¾…äº‹ä»¶| EV_RXFLAG
 	#endif
 #endif
 
 #ifndef CN_COMM_BUFFER_MIN_BLOCK_SIZE
-	#define CN_COMM_BUFFER_MIN_BLOCK_SIZE 1024		//!< ¶¨Òå»º³åÇø¿éµÄ×îĞ¡Öµ 
+	#define CN_COMM_BUFFER_MIN_BLOCK_SIZE 1024		//!< å®šä¹‰ç¼“å†²åŒºå—çš„æœ€å°å€¼ 
 #endif
 
 #if CN_COMM_BUFFER_MIN_BLOCK_SIZE < 4
-	#error CN_COMM_BUFFER_MIN_BLOCK_SIZE must >= 4	//!< »º³åÇø¿éµÄ×îĞ¡Öµ²»ÔÊĞíĞ¡ÓÚ4 
+	#error CN_COMM_BUFFER_MIN_BLOCK_SIZE must >= 4	//!< ç¼“å†²åŒºå—çš„æœ€å°å€¼ä¸å…è®¸å°äº4 
 #endif
 
 #ifndef CN_ASSERT
-	#define CN_2STR(L)		_T(#L)					//!< ½«±í´ïÊ½L×ª»»³É×Ö·û´®
-	#define CN_LINE(L)		CN_2STR(L)				//!< ½«ĞĞºÅL×ª»»³É×Ö·û´®
-	/*! ÄÚ²¿¶ÏÑÔ ÆôÓÃÒì³£½«Å×³öÒì³£ ·ñÔòµ÷ÊÔ°æ½«ÍË³ö ·¢ĞĞ°æÎ´ÆôÓÃÒì³£½«²»×öÈÎºÎ´¦Àí */
+	#define CN_2STR(L)		_T(#L)					//!< å°†è¡¨è¾¾å¼Lè½¬æ¢æˆå­—ç¬¦ä¸²
+	#define CN_LINE(L)		CN_2STR(L)				//!< å°†è¡Œå·Lè½¬æ¢æˆå­—ç¬¦ä¸²
+	/*! å†…éƒ¨æ–­è¨€ å¯ç”¨å¼‚å¸¸å°†æŠ›å‡ºå¼‚å¸¸ å¦åˆ™è°ƒè¯•ç‰ˆå°†é€€å‡º å‘è¡Œç‰ˆæœªå¯ç”¨å¼‚å¸¸å°†ä¸åšä»»ä½•å¤„ç† */
 	#define CN_ASSERT(E)	((E) ? true : CnComm::Assert(_T("CN_ASSERT(")_T(#E)_T(") failed; CnComm(")CN_LINE(__LINE__)_T("); ")))
 #endif
 
-//CN_COMM_STD_EXCEPTION CN_ASSERT ½«Å×³ö±ê×¼C++Òì³£			
+//CN_COMM_STD_EXCEPTION CN_ASSERT å°†æŠ›å‡ºæ ‡å‡†C++å¼‚å¸¸			
 #ifdef CN_COMM_STD_EXCEPTION
 	#include <stdexcept> //throw runtime_error(msg)
 #endif
 
-//CN_COMM_VCL_EXCEPTION CN_ASSERT ½«Å×³öVCLÒì³£(C++ Builder)	
+//CN_COMM_VCL_EXCEPTION CN_ASSERT å°†æŠ›å‡ºVCLå¼‚å¸¸(C++ Builder)	
 #if defined(CN_COMM_VCL_EXCEPTION) && defined(__BORLANDC__)
 	#include <vcl.h> //throw new Exception(msg)	
 #endif
 
-//CN_COMM_MFC_EXCEPTION CN_ASSERT ½«Å×³öMFCÒì³£(VC++)			
+//CN_COMM_MFC_EXCEPTION CN_ASSERT å°†æŠ›å‡ºMFCå¼‚å¸¸(VC++)			
 #ifdef CN_COMM_MFC_EXCEPTION
 	#include <Afx.h> //throw new MfcException(msg)	
 #endif
@@ -111,45 +111,45 @@
 	\version 1.5 
 	\date 2002.10-2009.4
 	\author llbird(wushaojian@21cn.com http://www.cppblog.com/llbird  http://blog.csdn.net/wujian53) 
-	\brief WIN32/WINCE C++ (ANSI/UNICODE) ¶àÏß³Ì´®¿ÚÍ¨Ñ¶»ù´¡¿â  
-	\example doc_0.cpp Àı×Ó0 \example doc_1.cpp \example doc_2.cpp \example doc_3.cpp \example SerialDlg.cpp
+	\brief WIN32/WINCE C++ (ANSI/UNICODE) å¤šçº¿ç¨‹ä¸²å£é€šè®¯åŸºç¡€åº“  
+	\example doc_0.cpp ä¾‹å­0 \example doc_1.cpp \example doc_2.cpp \example doc_3.cpp \example SerialDlg.cpp
  */
 class CnComm    
 {
 public:
-	//! ÁÙ½çÇø
+	//! ä¸´ç•ŒåŒº
 	struct	InnerLock;
-	//! »º³åÇøÀà
+	//! ç¼“å†²åŒºç±»
 	class	BlockBuffer;	
-	//! MFCÒì³£
+	//! MFCå¼‚å¸¸
 	class	MfcException;				
-	//! ÓÃÓÚÅäÖÃÄ£Ê½µÄÃ¶¾ÙÖµ, 32Î»ÑÚÂë
+	//! ç”¨äºé…ç½®æ¨¡å¼çš„æšä¸¾å€¼, 32ä½æ©ç 
 	enum OptionEnum
 	{
-		EN_THREAD		= 0x00000001,	//!< ÆôÓÃ¼àÊÓÏß³Ì °éËæ´®¿Ú´ò¿ªÆô¶¯ WatchThread
-		EN_OVERLAPPED	= 0x00000002,	//!< ÆôÓÃÒì²½ÖØµşIO·½Ê½ 
-		EN_RX_BUFFER	= 0x00000004,	//!< ÆôÓÃ¶Á»º³å
-		EN_TX_BUFFER	= 0x00000008,	//!< ÆôÓÃĞ´»º³å
-		EN_RX_THREAD	= 0x00000010,	//!< Æô¶¯¶ÁÏß³Ì ÔİÊ±Î´ÓÃ ReadThread
-		EN_TX_THREAD	= 0x00000020,	//!< Æô¶¯Ğ´Ïß³Ì ÓÃÓÚWINCEµÄË«¹¤²Ù×÷ Ó¦Í¬Ê±ÆôÓÃĞ´»º³å °éËæ´®¿Ú´ò¿ªÆô¶¯ WriteThread
-		EN_SUSPEND		= 0x00000040,	//!< Æô¶¯Ïß³ÌÊ±ÔİÍ£ 
-		EN_ABOVE_NORMAL	= 0x00000080,	//!< Æô¶¯Ïß³ÌÓÅÏÈ¼¶¸ßÒ»¸ö¼¶±ğ
-		EN_FLUSH		= 0x00000100,	//!< µ±¹Ø±Õ´®¿ÚÊ±Êä³ö¶ÓÁĞÎ´·¢ËÍÍêµÄÊı¾İ(¶Ë¿Ú»º³åÇø) ²¢×èÈûµÈ´ı                          
-		EN_FLUSH_ALL	= 0x00000200	//!< Í¬ÉÏ(°üÀ¨Ğ´»º³å¼°¶Ë¿Ú¶ÓÁĞ) ÄúÈç¹ûÖØÔØÁËĞ´Ä£¿é¶øÓÖÃ»ÓĞĞ´ºÃ ¿ÉÄÜµ¼ÖÂÏß³Ì¹ÒÆğÎŞ·¨Õı³£¹Ø±Õ 
+		EN_THREAD		= 0x00000001,	//!< å¯ç”¨ç›‘è§†çº¿ç¨‹ ä¼´éšä¸²å£æ‰“å¼€å¯åŠ¨ WatchThread
+		EN_OVERLAPPED	= 0x00000002,	//!< å¯ç”¨å¼‚æ­¥é‡å IOæ–¹å¼ 
+		EN_RX_BUFFER	= 0x00000004,	//!< å¯ç”¨è¯»ç¼“å†²
+		EN_TX_BUFFER	= 0x00000008,	//!< å¯ç”¨å†™ç¼“å†²
+		EN_RX_THREAD	= 0x00000010,	//!< å¯åŠ¨è¯»çº¿ç¨‹ æš‚æ—¶æœªç”¨ ReadThread
+		EN_TX_THREAD	= 0x00000020,	//!< å¯åŠ¨å†™çº¿ç¨‹ ç”¨äºWINCEçš„åŒå·¥æ“ä½œ åº”åŒæ—¶å¯ç”¨å†™ç¼“å†² ä¼´éšä¸²å£æ‰“å¼€å¯åŠ¨ WriteThread
+		EN_SUSPEND		= 0x00000040,	//!< å¯åŠ¨çº¿ç¨‹æ—¶æš‚åœ 
+		EN_ABOVE_NORMAL	= 0x00000080,	//!< å¯åŠ¨çº¿ç¨‹ä¼˜å…ˆçº§é«˜ä¸€ä¸ªçº§åˆ«
+		EN_FLUSH		= 0x00000100,	//!< å½“å…³é—­ä¸²å£æ—¶è¾“å‡ºé˜Ÿåˆ—æœªå‘é€å®Œçš„æ•°æ®(ç«¯å£ç¼“å†²åŒº) å¹¶é˜»å¡ç­‰å¾…                          
+		EN_FLUSH_ALL	= 0x00000200	//!< åŒä¸Š(åŒ…æ‹¬å†™ç¼“å†²åŠç«¯å£é˜Ÿåˆ—) æ‚¨å¦‚æœé‡è½½äº†å†™æ¨¡å—è€Œåˆæ²¡æœ‰å†™å¥½ å¯èƒ½å¯¼è‡´çº¿ç¨‹æŒ‚èµ·æ— æ³•æ­£å¸¸å…³é—­ 
 	};
-	//! ¹¹Ôìº¯Êı ÅäÖÃ¾ßÌåÓ¦ÓÃÄ£Ê½ \param[in] dwOption ¸ù¾İĞèÒªÓÉOptionEnum×éºÏ¶ø³É
+	//! æ„é€ å‡½æ•° é…ç½®å…·ä½“åº”ç”¨æ¨¡å¼ \param[in] dwOption æ ¹æ®éœ€è¦ç”±OptionEnumç»„åˆè€Œæˆ
 #ifdef CN_COMM_FOR_CE
-	//! WINCE:Ä¬ÈÏ´ò¿ª´®¿ÚÊ±Æô¶¯¼àÊÓÏß³Ì ÆôÓÃĞ´¶ÀÁ¢Ïß³Ì ÆôÓÃĞ´»º³å
+	//! WINCE:é»˜è®¤æ‰“å¼€ä¸²å£æ—¶å¯åŠ¨ç›‘è§†çº¿ç¨‹ å¯ç”¨å†™ç‹¬ç«‹çº¿ç¨‹ å¯ç”¨å†™ç¼“å†²
 	CnComm(DWORD dwOption = EN_THREAD ) 
 #else 
-	//! WIN32:Ä¬ÈÏ´ò¿ª´®¿ÚÊ±Æô¶¯¼àÊÓÏß³Ì Òì²½ÖØµş·½Ê½ 
+	//! WIN32:é»˜è®¤æ‰“å¼€ä¸²å£æ—¶å¯åŠ¨ç›‘è§†çº¿ç¨‹ å¼‚æ­¥é‡å æ–¹å¼ 
 	CnComm(DWORD dwOption = EN_THREAD | EN_OVERLAPPED)
 #endif
 	{
 		Init(); 
 		SetOption(dwOption);
 	}
-	//! ÁíÒ»Ä£Ê½¹¹Ôì ¼æÈİcnComm1~1.3 \param[in] bThread Æô¶¯¼àÊÓÏß³Ì \param[in] bOverlapped ÆôÓÃÖØµşI/O
+	//! å¦ä¸€æ¨¡å¼æ„é€  å…¼å®¹cnComm1~1.3 \param[in] bThread å¯åŠ¨ç›‘è§†çº¿ç¨‹ \param[in] bOverlapped å¯ç”¨é‡å I/O
 	CnComm(bool bThread, bool bOverlapped)
 	{
 		DWORD dwOption = 0;
@@ -163,146 +163,146 @@ public:
 		Init(); 
 		SetOption(dwOption);
 	}
-	//! Îö¹¹ ×Ô¶¯¹Ø±Õ´®¿Ú 
+	//! ææ„ è‡ªåŠ¨å…³é—­ä¸²å£ 
 	virtual ~CnComm()
 	{
 		Close(); 
 		Destroy();
 	}
-	//! ÅĞ¶Ï´®¿ÚÊÇ»ò´ò¿ª
+	//! åˆ¤æ–­ä¸²å£æ˜¯æˆ–æ‰“å¼€
 	bool IsOpen()
 	{
 		return hComm_ != INVALID_HANDLE_VALUE;
 	}
-	//! ÅĞ¶Ï´®¿ÚÊÇ»ò´ò¿ª
+	//! åˆ¤æ–­ä¸²å£æ˜¯æˆ–æ‰“å¼€
 	operator bool ()
 	{
 		return hComm_ != INVALID_HANDLE_VALUE;
 	}
-	//! »ñµÃ´®¿Ú¾ä±ş
+	//! è·å¾—ä¸²å£å¥ç‚³
 	HANDLE GetHandle()
 	{
 		return hComm_;
 	}
-	//! »ñµÃ´®¿Ú¾ä±ş
+	//! è·å¾—ä¸²å£å¥ç‚³
 	operator HANDLE()
 	{
 		return hComm_;
 	}
-	//! »ñµÃ´®¿ÚĞòºÅ
+	//! è·å¾—ä¸²å£åºå·
 	DWORD GetPort()
 	{
 		return dwPort_;
 	}
-	//! »ñµÃ´®¿ÚÈ«Ãû
+	//! è·å¾—ä¸²å£å…¨å
 	LPCTSTR GetPortName()
 	{
 		return szName_;
 	}
-	//! »ñµÃCnCommµÄ»ù±¾ÅäÖÃ²ÎÊı ·µ»Ø32Î»ÅäÖÃÑÚÂë
+	//! è·å¾—CnCommçš„åŸºæœ¬é…ç½®å‚æ•° è¿”å›32ä½é…ç½®æ©ç 
 	DWORD GetOption()
 	{
 		return dwOption_;
 	}
-	//! ÉèÖÃCnCommµÄ»ù±¾ÅäÖÃ²ÎÊı ÔÚ´ò¿ª´®¿ÚÇ°ÉèÖÃÓĞÒâÒå \param[in] dwOption 32Î»ÅäÖÃÑÚÂë
+	//! è®¾ç½®CnCommçš„åŸºæœ¬é…ç½®å‚æ•° åœ¨æ‰“å¼€ä¸²å£å‰è®¾ç½®æœ‰æ„ä¹‰ \param[in] dwOption 32ä½é…ç½®æ©ç 
 	void SetOption(DWORD dwOption)
 	{
-		CN_ASSERT(!IsOpen());//! ´ò¿ª×´Ì¬ÏÂ²»¿ÉÒÔÉèÖÃ²ÎÊı
+		CN_ASSERT(!IsOpen());//! æ‰“å¼€çŠ¶æ€ä¸‹ä¸å¯ä»¥è®¾ç½®å‚æ•°
 
 		dwOption_ = dwOption;
 
 	#ifdef CN_COMM_FOR_CE
-		CN_ASSERT(!IsOverlappedMode()); //! WINCE²»ÔÊĞíÊ¹ÓÃÖØµşIO ¼´EN_OVERLAPPEDÑÚÂë
+		CN_ASSERT(!IsOverlappedMode()); //! WINCEä¸å…è®¸ä½¿ç”¨é‡å IO å³EN_OVERLAPPEDæ©ç 
 		dwOption_ &= (~EN_OVERLAPPED);
 	#endif
 	}
-	//! ĞŞ¸ÄCnCommµÄ»ù±¾ÅäÖÃ²ÎÊı ÔÚ´ò¿ª´®¿ÚÇ°ÉèÖÃÓĞÒâÒå \param[in] dwRemove É¾³ıµÄ32Î»ÅäÖÃÑÚÂë \param[in] dwAdd Ìí¼ÓµÄ32Î»ÅäÖÃÑÚÂë
+	//! ä¿®æ”¹CnCommçš„åŸºæœ¬é…ç½®å‚æ•° åœ¨æ‰“å¼€ä¸²å£å‰è®¾ç½®æœ‰æ„ä¹‰ \param[in] dwRemove åˆ é™¤çš„32ä½é…ç½®æ©ç  \param[in] dwAdd æ·»åŠ çš„32ä½é…ç½®æ©ç 
 	void ModifyOption(DWORD dwRemove, DWORD dwAdd)
 	{
-		CN_ASSERT(!IsOpen());//! ´ò¿ª×´Ì¬ÏÂ²»¿ÉÒÔÉèÖÃ²ÎÊı
+		CN_ASSERT(!IsOpen());//! æ‰“å¼€çŠ¶æ€ä¸‹ä¸å¯ä»¥è®¾ç½®å‚æ•°
 
 		dwOption_ &= ~dwRemove;
 		dwOption_ |= dwAdd;
 
 	#ifdef CN_COMM_FOR_CE
-		CN_ASSERT(!IsOverlappedMode()); //! WINCE²»ÔÊĞíÊ¹ÓÃÖØµşIO ¼´EN_OVERLAPPEDÑÚÂë
+		CN_ASSERT(!IsOverlappedMode()); //! WINCEä¸å…è®¸ä½¿ç”¨é‡å IO å³EN_OVERLAPPEDæ©ç 
 		dwOption_ &= (~EN_OVERLAPPED);
 	#endif
 	}
-	//! ÊÇ·ñÖØµşIOÄ£Ê½
+	//! æ˜¯å¦é‡å IOæ¨¡å¼
 	bool IsOverlappedMode()
 	{
 		return dwOption_ & EN_OVERLAPPED ? true : false;
 	}
-	//! ÊÇ·ñÊä³ö»º³åÇøÄ£Ê½
+	//! æ˜¯å¦è¾“å‡ºç¼“å†²åŒºæ¨¡å¼
 	bool IsTxBufferMode()
 	{
 		return dwOption_ & EN_TX_BUFFER ? true : false;
 	}
-	//! ÊÇ·ñÊäÈë»º³åÇøÄ£Ê½
+	//! æ˜¯å¦è¾“å…¥ç¼“å†²åŒºæ¨¡å¼
 	bool IsRxBufferMode()
 	{
 		return dwOption_ & EN_RX_BUFFER ? true : false;
 	}
-	//! ¹ØÁªÏûÏ¢µÄ´°¿Ú¾ä±ú
+	//! å…³è”æ¶ˆæ¯çš„çª—å£å¥æŸ„
 	void SetWnd(HWND hWnd)
 	{
 		CN_ASSERT(::IsWindow(hWnd));
 		hNotifyWnd_ = hWnd;
 	}
-	//! ¹ØÁªÏûÏ¢µÄ´°¿Ú¾ä±ú
+	//! å…³è”æ¶ˆæ¯çš„çª—å£å¥æŸ„
 	HWND GetWnd()
 	{
 		return hNotifyWnd_;
 	}
-	//! ¹ØÁªÏûÏ¢µÄ´°¿Ú¾ä±ú
+	//! å…³è”æ¶ˆæ¯çš„çª—å£å¥æŸ„
 	void SetNotifyThreadId(DWORD dwId)
 	{
 		hNotifyThreadId_ = dwId;
 	}
-	//! ¹ØÁªÏûÏ¢µÄ´°¿Ú¾ä±ú
+	//! å…³è”æ¶ˆæ¯çš„çª—å£å¥æŸ„
 	DWORD GetNotifyThreadId()
 	{
 		return hNotifyThreadId_;
 	}
-	//! Éè¶¨·¢ËÍÍ¨Öª, ½ÓÊÜ×Ö·û×îĞ¡Öµ
+	//! è®¾å®šå‘é€é€šçŸ¥, æ¥å—å­—ç¬¦æœ€å°å€¼
 	void SetNotifyNum(DWORD dwNum)
 	{
 		dwNotifyNum_ = dwNum;
 	}
-	//! »ñµÃÏß³Ì¾ä±ú \param[in] iOption EN_THREAD»ñµÃhWatchThread_ EN_RX_THREAD»ñµÃhReadThread_ EN_TX_THREAD»ñµÃhWriteThread_ \return HANDLE Ïß³Ì¾ä±ú
+	//! è·å¾—çº¿ç¨‹å¥æŸ„ \param[in] iOption EN_THREADè·å¾—hWatchThread_ EN_RX_THREADè·å¾—hReadThread_ EN_TX_THREADè·å¾—hWriteThread_ \return HANDLE çº¿ç¨‹å¥æŸ„
 	HANDLE GetThread(int iOption = EN_THREAD)
 	{
 		return iOption == EN_THREAD ? hWatchThread_ : ((iOption == EN_RX_THREAD) ? hReadThread_ : hWriteThread_);
 	}
-	//! ÉèÖÃÒª¼àÊÓµÄÊÂ¼ş£¬ ´ò¿ªÇ°ÉèÖÃÓĞĞ§
+	//! è®¾ç½®è¦ç›‘è§†çš„äº‹ä»¶ï¼Œ æ‰“å¼€å‰è®¾ç½®æœ‰æ•ˆ
 	void SetWaitEvent(DWORD dwEvent = CN_COMM_WAIT_EVENT)
 	{
-		CN_ASSERT(!IsOpen());///´ò¿ª×´Ì¬ÏÂ²»¿ÉÒÔÉèÖÃ²ÎÊı
+		CN_ASSERT(!IsOpen());///æ‰“å¼€çŠ¶æ€ä¸‹ä¸å¯ä»¥è®¾ç½®å‚æ•°
 
 		dwWaitEvent_ = dwEvent;
 	}
-	//! ÊäÈë»º³åÇø
+	//! è¾“å…¥ç¼“å†²åŒº
 	BlockBuffer& Input()
 	{
 		return I_;
 	}
-	//! Êä³ö»º³åÇø
+	//! è¾“å‡ºç¼“å†²åŒº
 	BlockBuffer& Output()
 	{
 		return O_;
 	}
-	//! »ñµÃÊäÈëÊä³öµÄ¼ÆÊı \param[in] bInput Îªtrue»ñµÃÊäÈë¼ÆÊı,Ä¬ÈÏÎªtrue ÖØµşIOÏÂÊä³öÊÇ²»¾«È·µÄ ÒòÎªÊä³öÓÉÏµÍ³ºóÌ¨¿ØÖÆ ¼ÙÉèÍêÈ«Êä³ö 
+	//! è·å¾—è¾“å…¥è¾“å‡ºçš„è®¡æ•° \param[in] bInput ä¸ºtrueè·å¾—è¾“å…¥è®¡æ•°,é»˜è®¤ä¸ºtrue é‡å IOä¸‹è¾“å‡ºæ˜¯ä¸ç²¾ç¡®çš„ å› ä¸ºè¾“å‡ºç”±ç³»ç»Ÿåå°æ§åˆ¶ å‡è®¾å®Œå…¨è¾“å‡º 
 	DWORD GetCounter(bool bInput = true)
 	{
 		return bInput ? dwInCount_ : dwOutCount_;
 	}
-	//! ÊäÈëÊä³ö¼ÆÊıÆ÷ÇåÁã
+	//! è¾“å…¥è¾“å‡ºè®¡æ•°å™¨æ¸…é›¶
 	void ResetCounter()
 	{
 		dwInCount_ = dwOutCount_ = 0;
 	}
-	//! ´ò¿ª´®¿Ú Çë×¢ÒâÓëcnComm1~1.3µÄÇø±ğ cnComm1~1.3½«Ê¹ÓÃ9600, n, 8, 1ÅäÖÃ¶Ë¿Ú ¶ø1.5½«Ö»´ò¿ª¶Ë¿Ú²»ÅäÖÃ²¨ÌØÂÊµÈ²ÎÊı  \param[in] dwPort ´®¿ÚĞòºÅ 1~1024
+	//! æ‰“å¼€ä¸²å£ è¯·æ³¨æ„ä¸cnComm1~1.3çš„åŒºåˆ« cnComm1~1.3å°†ä½¿ç”¨9600, n, 8, 1é…ç½®ç«¯å£ è€Œ1.5å°†åªæ‰“å¼€ç«¯å£ä¸é…ç½®æ³¢ç‰¹ç‡ç­‰å‚æ•°  \param[in] dwPort ä¸²å£åºå· 1~1024
 	bool Open(DWORD dwPort)
 	{
 		if (!CN_ASSERT(dwPort>=1 && dwPort<=1024))
@@ -321,8 +321,8 @@ public:
 
 		return true;
 	}
-	/*! \param[in] dwPort ´®¿ÚĞòºÅ 1~1024 \param[in] dwBaudRate ²¨ÌØÂÊ \param[in] btParity  ÆæÅ¼Ğ£Ñé \param[in] btByteSize Êı¾İÎ»Êı	\param[in] btStopBits Í£Ö¹Î»Êı	*/
-	//! ´ò¿ª´®¿Ú È±Ê¡ 9600, n, 8, 1 \sa bool Open(DWORD dwPort, LPCTSTR szSetStr)
+	/*! \param[in] dwPort ä¸²å£åºå· 1~1024 \param[in] dwBaudRate æ³¢ç‰¹ç‡ \param[in] btParity  å¥‡å¶æ ¡éªŒ \param[in] btByteSize æ•°æ®ä½æ•°	\param[in] btStopBits åœæ­¢ä½æ•°	*/
+	//! æ‰“å¼€ä¸²å£ ç¼ºçœ 9600, n, 8, 1 \sa bool Open(DWORD dwPort, LPCTSTR szSetStr)
 	bool Open(DWORD dwPort, DWORD dwBaudRate, BYTE btParity = NOPARITY, BYTE btByteSize = 8, BYTE btStopBits = ONESTOPBIT)
 	{
 		if (!CN_ASSERT(dwPort>=1 && dwPort<=1024))
@@ -345,11 +345,11 @@ public:
 		return true;
 	}
 #ifndef CN_COMM_FOR_CE
-	/*! \param[in] dwPort ´®¿ÚĞòºÅ 1~1024 \param[in] szSetStr ×Ö·û´®²ÎÊı "BBBB,P,D,S"  Àı: "9600,N,8,1"  "1200,O,7,2" 
-		 BBBBÎª²¨ÌØÂÊ PÎªÆæÅ¼Ğ£Ñé(E | M | N | O | S) DÎªÊı¾İÎ»Êı(4 ~ 8) SÎªÍ£Ö¹Î»Êı(1 | 1.5 | 2)
-		 \code Open(1, "9600,E,8,2"); \endcode  \b Çë×¢Òâ×Ö·û´®²ÎÊıµÄË³Ğò ²¢¼ì²é·µ»ØÖµ
-		 ²»Ö§³ÖWINCE, Ô­±¾ÎÒ×Ô¼ºĞ´ÁËÒ»¸öÌæ´úº¯Êı, ¿¼ÂÇµ½WINCEÓ²¼şµÄ¸´ÔÓĞÔ, ÒÆÖ²ĞÔ¿ÉÄÜ²»ºÃ, ¹Ê´ÓÕâ¸ö°æ±¾ÖĞÉ¾³ıÁË	*/
-	//! ´ò¿ª´®¿Ú, ×Ö·û´®ÉèÖÃ´®¿Ú
+	/*! \param[in] dwPort ä¸²å£åºå· 1~1024 \param[in] szSetStr å­—ç¬¦ä¸²å‚æ•° "BBBB,P,D,S"  ä¾‹: "9600,N,8,1"  "1200,O,7,2" 
+		 BBBBä¸ºæ³¢ç‰¹ç‡ Pä¸ºå¥‡å¶æ ¡éªŒ(E | M | N | O | S) Dä¸ºæ•°æ®ä½æ•°(4 ~ 8) Sä¸ºåœæ­¢ä½æ•°(1 | 1.5 | 2)
+		 \code Open(1, "9600,E,8,2"); \endcode  \b è¯·æ³¨æ„å­—ç¬¦ä¸²å‚æ•°çš„é¡ºåº å¹¶æ£€æŸ¥è¿”å›å€¼
+		 ä¸æ”¯æŒWINCE, åŸæœ¬æˆ‘è‡ªå·±å†™äº†ä¸€ä¸ªæ›¿ä»£å‡½æ•°, è€ƒè™‘åˆ°WINCEç¡¬ä»¶çš„å¤æ‚æ€§, ç§»æ¤æ€§å¯èƒ½ä¸å¥½, æ•…ä»è¿™ä¸ªç‰ˆæœ¬ä¸­åˆ é™¤äº†	*/
+	//! æ‰“å¼€ä¸²å£, å­—ç¬¦ä¸²è®¾ç½®ä¸²å£
 	bool Open(DWORD dwPort, LPCTSTR szSetStr)
 	{
 		if (!CN_ASSERT(dwPort>=1 && dwPort<=1024))
@@ -372,18 +372,18 @@ public:
 		return true;
 	}
 #endif
-	/*! \param[in] dwPort ´ËÊ±¸Ã²ÎÊıÃ»ÓĞ¾ßÌåÒâÒå£¬½öÓÃÓÚÏûÏ¢Í¨ÖªÖĞ±æ±ğ¶Ë¿ÚºÅ£¬Ó¦×¢Òâ²»ºÍÆäËû¶Ë¿ÚºÅÖØ¸´ 
-		\param[in] szPortName ÎªÖ¸¶¨µÄ¶Ë¿ÚÃû³Æ, ¾ÍÏñWINDOWSÏÂ\\\\.\\COM1»òÕßWINCEÏÂCOM1: , ÓĞĞ©ĞéÄâ´®¿Ú¿ÉÒÔÓĞÌØÊâµÄÃû³Æ
-		\param[in] dwBaudRate ²¨ÌØÂÊ	\param[in] btParity ÆæÅ¼Ğ£Ñé	\param[in] btByteSize Êı¾İÎ»Êı	\param[in] btStopBits Í£Ö¹Î»Êı
+	/*! \param[in] dwPort æ­¤æ—¶è¯¥å‚æ•°æ²¡æœ‰å…·ä½“æ„ä¹‰ï¼Œä»…ç”¨äºæ¶ˆæ¯é€šçŸ¥ä¸­è¾¨åˆ«ç«¯å£å·ï¼Œåº”æ³¨æ„ä¸å’Œå…¶ä»–ç«¯å£å·é‡å¤ 
+		\param[in] szPortName ä¸ºæŒ‡å®šçš„ç«¯å£åç§°, å°±åƒWINDOWSä¸‹\\\\.\\COM1æˆ–è€…WINCEä¸‹COM1: , æœ‰äº›è™šæ‹Ÿä¸²å£å¯ä»¥æœ‰ç‰¹æ®Šçš„åç§°
+		\param[in] dwBaudRate æ³¢ç‰¹ç‡	\param[in] btParity å¥‡å¶æ ¡éªŒ	\param[in] btByteSize æ•°æ®ä½æ•°	\param[in] btStopBits åœæ­¢ä½æ•°
 		\code Open(9999, "COM3:", 2400); \endcode 	\code Open(1028, "COM3:", 9600, N, 7, ONESTOPBIT); \endcode	*/
-	//! Ö¸¶¨µÄ¶Ë¿ÚÃû³Æ´ò¿ª´®¿Ú
+	//! æŒ‡å®šçš„ç«¯å£åç§°æ‰“å¼€ä¸²å£
 	bool Open(DWORD dwPort, LPCTSTR szPortName, DWORD dwBaudRate, BYTE btParity = NOPARITY, BYTE btByteSize = 8, BYTE btStopBits = ONESTOPBIT)
 	{
 		if(!CN_ASSERT(_tcslen(szPortName) < 64 - 1))
 			return false;
 		
 		_tcscpy(szName_, szPortName);
-		dwPort_ = dwPort;//ÓÃÓÚÍ¨ÖªÏûÏ¢
+		dwPort_ = dwPort;//ç”¨äºé€šçŸ¥æ¶ˆæ¯
 		
 		if (!CN_ASSERT(OpenPort()))
 			return false;
@@ -399,7 +399,7 @@ public:
 		
 		return true;
 	}
-	//! Ö±½Ó¶ÁÎïÀí¶Ë¿Ú \param[out] pBuffer Ä¿±ê»º³åÇø \param[in] dwLength ¶ÁÈ¡³¤¶È \param[in] dwWaitTime µÈ´ıÊ±¼ä(Ä¬ÈÏINFINITE) \return ·µ»ØÊµ¼Ê¶ÁÈ¡×Ö½ÚÊı
+	//! ç›´æ¥è¯»ç‰©ç†ç«¯å£ \param[out] pBuffer ç›®æ ‡ç¼“å†²åŒº \param[in] dwLength è¯»å–é•¿åº¦ \param[in] dwWaitTime ç­‰å¾…æ—¶é—´(é»˜è®¤INFINITE) \return è¿”å›å®é™…è¯»å–å­—èŠ‚æ•°
 	DWORD ReadPort(LPVOID pBuffer, DWORD dwLength, DWORD dwWaitTime = INFINITE)
 	{
 		COMSTAT Stat;
@@ -412,12 +412,12 @@ public:
 			::PurgeComm(hComm_, PURGE_RXABORT);
 
 	#ifndef CN_COMM_FOR_CE
-		if (IsOverlappedMode())//! ÖØµşI/OÏÂ dwWaitTime==INFINITE ½«µÈ´ıµ½×ÔÈ»³¬Ê±»òÈÎÎñÍê³É ¾ßÌåÊ±¼äÓÉ³¬Ê±½á¹¹¾ö¶¨ Ä¬ÈÏÉè¶¨0.5Ãë
+		if (IsOverlappedMode())//! é‡å I/Oä¸‹ dwWaitTime==INFINITE å°†ç­‰å¾…åˆ°è‡ªç„¶è¶…æ—¶æˆ–ä»»åŠ¡å®Œæˆ å…·ä½“æ—¶é—´ç”±è¶…æ—¶ç»“æ„å†³å®š é»˜è®¤è®¾å®š0.5ç§’
 		{
-			if (dwWaitTime == INFINITE)//! Èç¹ûÄãÃ»ÓĞÆôÓÃ¶Á·´³å Ö±½Ó¶ÁÈ¡¶Ë¿Ú½«µ¼ÖÂ×èÈû Ïàµ±ÓÚÔ­À´1.3°æ±¾ Read(pBuffer, dwLength, false);
+			if (dwWaitTime == INFINITE)//! å¦‚æœä½ æ²¡æœ‰å¯ç”¨è¯»åå†² ç›´æ¥è¯»å–ç«¯å£å°†å¯¼è‡´é˜»å¡ ç›¸å½“äºåŸæ¥1.3ç‰ˆæœ¬ Read(pBuffer, dwLength, false);
 			{
 				if (!::ReadFile(hComm_, pBuffer, dwLength, &dwReadResult, &RO_))
-				{//! ÔÚ½çÃæÀïÊ¹ÓÃCnCommÍÆ¼öÊ¹ÓÃ¶Á»º³åÇø»òÕßÔÚdwWaitTimeÖ¸¶¨³¬Ê±Ê±¼ä
+				{//! åœ¨ç•Œé¢é‡Œä½¿ç”¨CnCommæ¨èä½¿ç”¨è¯»ç¼“å†²åŒºæˆ–è€…åœ¨dwWaitTimeæŒ‡å®šè¶…æ—¶æ—¶é—´
 					if (CN_ASSERT(::GetLastError() == ERROR_IO_PENDING))
 					{
 						while (!CN_ASSERT(::GetOverlappedResult(hComm_, &RO_, &dwReadResult, TRUE)))
@@ -425,8 +425,8 @@ public:
 					}
 				}
 			}
-			else//! ÖØµşI/OÏÂ dwWaitTime!=INFINITE ½«µÈ´ıµ½³¬Ê±»òÈÎÎñÍê³É ¾ßÌåÊ±¼äÓÉdwWaitTime¾ö¶¨ 
-			{	//! dwWaitTime = 0 Ïàµ±ÓÚÔ­À´1.3°æ±¾µÄ¹¦ÄÜ
+			else//! é‡å I/Oä¸‹ dwWaitTime!=INFINITE å°†ç­‰å¾…åˆ°è¶…æ—¶æˆ–ä»»åŠ¡å®Œæˆ å…·ä½“æ—¶é—´ç”±dwWaitTimeå†³å®š 
+			{	//! dwWaitTime = 0 ç›¸å½“äºåŸæ¥1.3ç‰ˆæœ¬çš„åŠŸèƒ½
 				DWORD dwBegin = GetTickCount(), dwEnd, dwCost, uReadLength, uReadReturn;
 				
 				uReadLength = Stat.cbInQue > dwLength ? dwLength : Stat.cbInQue;
@@ -456,11 +456,11 @@ public:
 			return dwInCount_ += dwReadResult, dwReadResult;
 		}
 	#endif
-		//! ×èÈûI/OºÍWinCEµÄI/OÏÂ dwWaitTimeÎŞÒâÒå ³¬Ê±Ê±¼äÓÉ³¬Ê±½á¹¹¾ö¶¨ Ä¬ÈÏÉè¶¨1/4Ãë
+		//! é˜»å¡I/Oå’ŒWinCEçš„I/Oä¸‹ dwWaitTimeæ— æ„ä¹‰ è¶…æ—¶æ—¶é—´ç”±è¶…æ—¶ç»“æ„å†³å®š é»˜è®¤è®¾å®š1/4ç§’
 		CN_ASSERT(::ReadFile(hComm_, pBuffer, dwLength, &dwReadResult, NULL));
 		return dwInCount_ += dwReadResult, dwReadResult;
 	}
-	//! ¶ÁÈ¡´®¿Ú dwLength¸ö×Ö·ûµ½ pBuffer ·µ»ØÊµ¼Ê¶Áµ½µÄ×Ö·ûÊı  ¿É¶ÁÈÎÒâÊı¾İ
+	//! è¯»å–ä¸²å£ dwLengthä¸ªå­—ç¬¦åˆ° pBuffer è¿”å›å®é™…è¯»åˆ°çš„å­—ç¬¦æ•°  å¯è¯»ä»»æ„æ•°æ®
 	DWORD Read(LPVOID pBuffer, DWORD dwLength, DWORD dwWaitTime = INFINITE)
 	{
 		CN_ASSERT(pBuffer);
@@ -477,21 +477,21 @@ public:
 		return ReadPort(pBuffer, dwLength, dwWaitTime);
 	#endif
 	}
-	//! ¶ÁÈ¡´®¿Ú dwLength - 1 ¸öANSI×Ö·ûµ½ szBuffer ·µ»Ø C Ä£Ê½×Ö·û´®Ö¸Õë ÊÊºÏÒ»°ã×Ö·ûÍ¨Ñ¶
+	//! è¯»å–ä¸²å£ dwLength - 1 ä¸ªANSIå­—ç¬¦åˆ° szBuffer è¿”å› C æ¨¡å¼å­—ç¬¦ä¸²æŒ‡é’ˆ é€‚åˆä¸€èˆ¬å­—ç¬¦é€šè®¯
 	char * ReadString(char *szBuffer, DWORD dwLength, DWORD dwWaitTime = INFINITE)
 	{
 		CN_ASSERT(szBuffer);
 		szBuffer[Read(szBuffer, dwLength - 1, dwWaitTime)] = '\0';
 		return szBuffer;
 	}
-	//! ¶ÁÈ¡´®¿Ú dwLength - 1 ¸öUNICODE×Ö·ûµ½ szBuffer ·µ»Ø C Ä£Ê½×Ö·û´®Ö¸Õë ÊÊºÏÒ»°ã×Ö·ûÍ¨Ñ¶
+	//! è¯»å–ä¸²å£ dwLength - 1 ä¸ªUNICODEå­—ç¬¦åˆ° szBuffer è¿”å› C æ¨¡å¼å­—ç¬¦ä¸²æŒ‡é’ˆ é€‚åˆä¸€èˆ¬å­—ç¬¦é€šè®¯
 	wchar_t * ReadString(wchar_t *szBuffer, DWORD dwLength, DWORD dwWaitTime = INFINITE)
 	{
 		CN_ASSERT(szBuffer);
 		szBuffer[(Read(szBuffer, (dwLength - 1)*sizeof(wchar_t), dwWaitTime) +1)/ sizeof(wchar_t)] = L'\0';
 		return szBuffer;
 	}
-	//! Ö±½ÓĞ´Èë¶Ë¿Ú
+	//! ç›´æ¥å†™å…¥ç«¯å£
 	DWORD WritePort(LPCVOID pBuffer, DWORD dwLength)
 	{
 		if(!CN_ASSERT(IsOpen()) || !dwLength)
@@ -504,8 +504,8 @@ public:
 			::PurgeComm(hComm_, PURGE_TXABORT); 
 
 	#ifndef CN_COMM_FOR_CE
-		if (IsOverlappedMode())//! Ê¹ÓÃÖØµşIOÊÇ·µ»Ø0£¬Ğ´³ö¼ÆÊıÖ±½Ó¼ÓÉÏ´ıĞ´Èë³¤¶È£¬¼´¼ÙÉèĞ´Èë³É¹¦
-		{//! ÖØµşIOÏÂ³¬Ê±ÓÉ³¬Ê±½á¹¹¿ØÖÆ Ä¬ÈÏÎª³¤¶È*1ºÁÃë+10Ãë
+		if (IsOverlappedMode())//! ä½¿ç”¨é‡å IOæ˜¯è¿”å›0ï¼Œå†™å‡ºè®¡æ•°ç›´æ¥åŠ ä¸Šå¾…å†™å…¥é•¿åº¦ï¼Œå³å‡è®¾å†™å…¥æˆåŠŸ
+		{//! é‡å IOä¸‹è¶…æ—¶ç”±è¶…æ—¶ç»“æ„æ§åˆ¶ é»˜è®¤ä¸ºé•¿åº¦*1æ¯«ç§’+10ç§’
 			if(!::WriteFile(hComm_, pBuffer, dwLength, &uWriteLength, &WO_) 
 				&& !CN_ASSERT(::GetLastError() == ERROR_IO_PENDING))
 				uWriteLength = 0;
@@ -513,12 +513,12 @@ public:
 				dwOutCount_ += dwLength;
 		}
 		else
-	#endif //! Ê¹ÓÃ×èÈûIO»òWINCEÏÂÊÇ·µ»ØÊµ¼ÊĞ´Èë³¤¶È£¬Ğ´³ö¼ÆÊıÖ±½Ó¼ÓÉÏÊµ¼ÊĞ´Èë³¤¶È, ³¬Ê±Ä¬ÈÏ1/4Ãë
+	#endif //! ä½¿ç”¨é˜»å¡IOæˆ–WINCEä¸‹æ˜¯è¿”å›å®é™…å†™å…¥é•¿åº¦ï¼Œå†™å‡ºè®¡æ•°ç›´æ¥åŠ ä¸Šå®é™…å†™å…¥é•¿åº¦, è¶…æ—¶é»˜è®¤1/4ç§’
 			::WriteFile(hComm_, pBuffer, dwLength, &uWriteLength, NULL), dwOutCount_ += uWriteLength;
 
 		return uWriteLength;
 	}
-	//! Ğ´ EN_TX_BUFFER ¾ö¶¨Ğ´Èë»º³åÇø»¹ÊÇÖ±½ÓĞ´Èë¶Ë¿Ú
+	//! å†™ EN_TX_BUFFER å†³å®šå†™å…¥ç¼“å†²åŒºè¿˜æ˜¯ç›´æ¥å†™å…¥ç«¯å£
 	DWORD Write(LPCVOID pBuffer, DWORD dwLength)
 	{
 		if (dwLength && (dwOption_&EN_TX_BUFFER))
@@ -549,21 +549,21 @@ public:
 		return WritePort(pBuffer, dwLength);
 	#endif
 	}
-	//! Ğ´´®¿Ú ANSI×Ö·û Ğ´ANSI C Ä£Ê½×Ö·û´®Ö¸Õë 
+	//! å†™ä¸²å£ ANSIå­—ç¬¦ å†™ANSI C æ¨¡å¼å­—ç¬¦ä¸²æŒ‡é’ˆ 
 	DWORD Write(const char *szBuffer)
 	{
 		CN_ASSERT(szBuffer);
 		
 		return Write((LPCVOID)szBuffer, strlen(szBuffer));
 	}
-	//! Ğ´´®¿Ú UNICODE×Ö·û Ğ´ANSI C Ä£Ê½×Ö·û´®Ö¸Õë 
+	//! å†™ä¸²å£ UNICODEå­—ç¬¦ å†™ANSI C æ¨¡å¼å­—ç¬¦ä¸²æŒ‡é’ˆ 
 	DWORD Write(const wchar_t *szBuffer)
 	{
 		CN_ASSERT(szBuffer);
 		
 		return Write((LPCVOID)szBuffer, wcslen(szBuffer)*sizeof(wchar_t));
 	}
-	//! Ğ´´®¿Ú szBuffer ¿ÉÒÔÊä³ö¸ñÊ½×Ö·û´® °üº¬»º³åÇø³¤¶È
+	//! å†™ä¸²å£ szBuffer å¯ä»¥è¾“å‡ºæ ¼å¼å­—ç¬¦ä¸² åŒ…å«ç¼“å†²åŒºé•¿åº¦
 	DWORD Write(char *szBuffer, DWORD dwLength, char * szFormat, ...)
 	{
 		va_list va;
@@ -573,7 +573,7 @@ public:
 		
 		return Write(szBuffer);
 	}
-	//! Ğ´´®¿Ú UNICODE szBuffer ¿ÉÒÔÊä³ö¸ñÊ½×Ö·û´® °üº¬»º³åÇø³¤¶È
+	//! å†™ä¸²å£ UNICODE szBuffer å¯ä»¥è¾“å‡ºæ ¼å¼å­—ç¬¦ä¸² åŒ…å«ç¼“å†²åŒºé•¿åº¦
 	DWORD Write(wchar_t *szBuffer, DWORD dwLength, wchar_t * szFormat, ...)
 	{
 		va_list va;
@@ -583,7 +583,7 @@ public:
 		
 		return Write(szBuffer);
 	}
-	//! Ğ´´®¿Ú szBuffer ¿ÉÒÔÊä³ö¸ñÊ½×Ö·û´® ²»¼ì²é»º³åÇø³¤¶È Ğ¡ĞÄÒç³ö
+	//! å†™ä¸²å£ szBuffer å¯ä»¥è¾“å‡ºæ ¼å¼å­—ç¬¦ä¸² ä¸æ£€æŸ¥ç¼“å†²åŒºé•¿åº¦ å°å¿ƒæº¢å‡º
 	DWORD Write(char *szBuffer, char * szFormat, ...)
 	{
 		va_list va;
@@ -593,7 +593,7 @@ public:
 		
 		return Write(szBuffer);
 	}
-	//! Ğ´´®¿Ú szBuffer ¿ÉÒÔÊä³ö¸ñÊ½×Ö·û´® ²»¼ì²é»º³åÇø³¤¶È Ğ¡ĞÄÒç³ö
+	//! å†™ä¸²å£ szBuffer å¯ä»¥è¾“å‡ºæ ¼å¼å­—ç¬¦ä¸² ä¸æ£€æŸ¥ç¼“å†²åŒºé•¿åº¦ å°å¿ƒæº¢å‡º
 	DWORD Write(wchar_t *szBuffer, wchar_t * szFormat, ...)
 	{
 		va_list va;
@@ -603,13 +603,13 @@ public:
 		
 		return Write(szBuffer);
 	}
-	//! Ç¿ÖÆÊä³ö¶ÓÁĞÄÚÊı¾İ²¢µÈ´ı
+	//! å¼ºåˆ¶è¾“å‡ºé˜Ÿåˆ—å†…æ•°æ®å¹¶ç­‰å¾…
 	void FlushPort()
 	{
 		if(CN_ASSERT(IsOpen()))
 			FlushFileBuffers(hComm_);
 	}
-	//! Ç¿ÖÆÊä³öĞ´»º³åÇø²¢Ç¿ÖÆÊä³ö¶ÓÁĞÄÚÊı¾İ²¢µÈ´ı
+	//! å¼ºåˆ¶è¾“å‡ºå†™ç¼“å†²åŒºå¹¶å¼ºåˆ¶è¾“å‡ºé˜Ÿåˆ—å†…æ•°æ®å¹¶ç­‰å¾…
 	void Flush()
 	{
 		if(CN_ASSERT(IsOpen()))
@@ -623,7 +623,7 @@ public:
 			FlushFileBuffers(hComm_);
 		}
 	}
-	//! ÇÀÏÈÊä³ö×Ö·û 
+	//! æŠ¢å…ˆè¾“å‡ºå­—ç¬¦ 
 	bool TransmitChar(char c)
 	{
 		if (CN_ASSERT(IsOpen()))
@@ -634,17 +634,17 @@ public:
 
 		return false;
 	}
-	//! Æô¶¯¸¨ÖúÏß³Ì¿ØÖÆ 
+	//! å¯åŠ¨è¾…åŠ©çº¿ç¨‹æ§åˆ¶ 
 	bool BeginThread(DWORD dwThreadOption = 0) 
 	{
 		DWORD dwCreationFlags;
 
 		if(CN_ASSERT(!hWatchThread_ && !hReadThread_ && !hWriteThread_)) 
-		{//! ±ØĞëÊÇÃ»ÓĞÏß³ÌÔÚÔËĞĞ×´Ì¬ÏÂ²Å¿ÉÒÔÆô¶¯Ïß³Ì
+		{//! å¿…é¡»æ˜¯æ²¡æœ‰çº¿ç¨‹åœ¨è¿è¡ŒçŠ¶æ€ä¸‹æ‰å¯ä»¥å¯åŠ¨çº¿ç¨‹
 			bContinue_		= true;
 			dwCreationFlags	= dwOption_ & EN_SUSPEND ? CREATE_SUSPENDED : 0;
 
-			if (dwThreadOption)//! ¸ù¾İÅäÖÃ´´½¨¼àÊÓÏß³Ì£¬¶ÀÁ¢¶Á»òĞ´Ïß³Ì
+			if (dwThreadOption)//! æ ¹æ®é…ç½®åˆ›å»ºç›‘è§†çº¿ç¨‹ï¼Œç‹¬ç«‹è¯»æˆ–å†™çº¿ç¨‹
 				dwOption_ |= dwThreadOption;
 			
 		#if defined(_MT) && !defined(CN_COMM_FOR_CE)
@@ -727,23 +727,23 @@ public:
 
 		return false;
 	}
-	//! ÔİÍ£Ïß³Ì
+	//! æš‚åœçº¿ç¨‹
 	bool SuspendThread(int iOption = EN_THREAD)
 	{
 		return ::SuspendThread(GetThread(iOption)) != 0xFFFFFFFF;
 	}
-	//! »Ö¸´Ïß³Ì
+	//! æ¢å¤çº¿ç¨‹
 	bool ResumeThread(int iOption = EN_THREAD)
 	{
 		return ::ResumeThread(GetThread(iOption)) != 0xFFFFFFFF;
 	}
-	//! ÖÕÖ¹Ïß³Ì
+	//! ç»ˆæ­¢çº¿ç¨‹
 	bool EndThread(DWORD dwWaitTime = 500)
 	{
 		if(hWatchThread_ || hReadThread_ || hWriteThread_) 
 		{
 			if ((dwOption_&EN_FLUSH_ALL) && (dwOption_&EN_TX_BUFFER))
-			{//! Èç¹ûÆôÓÃEN_FLUSH_ALL£¬½«Ñ­»·µÈ´ıĞ´»º³åÇøÇå¿Õ£¬Èç¹ûĞ´ÈëÏß³Ì²»ÄÜÕı³£¹¤×÷£¬½«¹ÒÆğ
+			{//! å¦‚æœå¯ç”¨EN_FLUSH_ALLï¼Œå°†å¾ªç¯ç­‰å¾…å†™ç¼“å†²åŒºæ¸…ç©ºï¼Œå¦‚æœå†™å…¥çº¿ç¨‹ä¸èƒ½æ­£å¸¸å·¥ä½œï¼Œå°†æŒ‚èµ·
 				while(O_.Size())
 					Sleep(50);
 			}
@@ -795,12 +795,12 @@ public:
 
 		return false;
 	}
-	//! ¹Ø±Õ´®¿Ú Í¬Ê±Ò²¹Ø±Õ¹ØÁªÏß³Ì
+	//! å…³é—­ä¸²å£ åŒæ—¶ä¹Ÿå…³é—­å…³è”çº¿ç¨‹
 	virtual void Close(DWORD dwWaitTime = 500)
 	{
 		if(IsOpen())  
 		{
-			EndThread(dwWaitTime);//! Í¬²½½áÊøÏß³Ì
+			EndThread(dwWaitTime);//! åŒæ­¥ç»“æŸçº¿ç¨‹
 
 			if (dwOption_&EN_FLUSH || dwOption_&EN_FLUSH_ALL)
 				FlushFileBuffers(hComm_);
@@ -810,42 +810,42 @@ public:
 			hComm_ = INVALID_HANDLE_VALUE;
 		}
 	}
-	//! Ëø¶¨
+	//! é”å®š
 	void Lock()							
 	{	
 		::EnterCriticalSection(&CS_);		
 	}
-	//! ½âËø
+	//! è§£é”
 	void Unlock()						
 	{	
 		::LeaveCriticalSection(&CS_);		
 	}
-	//! ×Ô¶¯Ëø ÓÃÓÚº¯ÊıÄÚ²¿ ÀûÓÃ¶ÔÏóµÄÉúÃüÖÜÆÚÍê³ÉËø¶¨¼°½âËø
+	//! è‡ªåŠ¨é” ç”¨äºå‡½æ•°å†…éƒ¨ åˆ©ç”¨å¯¹è±¡çš„ç”Ÿå‘½å‘¨æœŸå®Œæˆé”å®šåŠè§£é”
 	struct InnerLock
 	{
-		CnComm* ptr;//!< CnComm ¶ÔÏóÖ¸Õë
-		//! Ëø¶¨
+		CnComm* ptr;//!< CnComm å¯¹è±¡æŒ‡é’ˆ
+		//! é”å®š
 		InnerLock(CnComm* p) : ptr(p)	
 		{	
 			ptr->Lock();						
 		}
-		//! ½âËø
+		//! è§£é”
 		~InnerLock()					
 		{	
 			ptr->Unlock();						
 		}
 	};
-	//! »ñµÃ´®¿Ú²ÎÊı DCB
+	//! è·å¾—ä¸²å£å‚æ•° DCB
 	DCB *GetState(DCB *pDcb = NULL)
 	{
 		return CN_ASSERT(IsOpen()) && ::GetCommState(hComm_, pDcb == NULL ? &DCB_ : pDcb) == TRUE ? (pDcb == NULL ? &DCB_ : pDcb) : NULL;
 	}
-	//! ÉèÖÃ´®¿Ú²ÎÊı DCB
+	//! è®¾ç½®ä¸²å£å‚æ•° DCB
 	bool SetState(DCB *pDcb = NULL)
 	{
 		return CN_ASSERT(IsOpen()) ? ::SetCommState(hComm_, pDcb == NULL ? &DCB_ : pDcb) == TRUE : false;
 	}
-	//! ÉèÖÃ´®¿Ú²ÎÊı£º²¨ÌØÂÊ£¬Í£Ö¹Î»£¬µÈ ***
+	//! è®¾ç½®ä¸²å£å‚æ•°ï¼šæ³¢ç‰¹ç‡ï¼Œåœæ­¢ä½ï¼Œç­‰ ***
 	bool SetState(DWORD dwBaudRate, BYTE btParity = NOPARITY, BYTE btByteSize = 8, BYTE btStopBits = ONESTOPBIT)
 	{
 		if(CN_ASSERT(IsOpen()))
@@ -864,7 +864,7 @@ public:
 		return false;
 	}
 #ifndef CN_COMM_FOR_CE
-	//! ÉèÖÃ´®¿Ú²ÎÊı Ö§³ÖÉèÖÃ×Ö·û´® "9600, n, 8, 1"
+	//! è®¾ç½®ä¸²å£å‚æ•° æ”¯æŒè®¾ç½®å­—ç¬¦ä¸² "9600, n, 8, 1"
 	bool SetState(LPCTSTR szSetStr) 
 	{
 		if(CN_ASSERT(IsOpen()))
@@ -882,33 +882,33 @@ public:
 		return false;
 	}
 #endif
-	//! »ñµÃ³¬Ê±½á¹¹
+	//! è·å¾—è¶…æ—¶ç»“æ„
 	LPCOMMTIMEOUTS GetTimeouts(LPCOMMTIMEOUTS lpCO = NULL)
 	{
 		return CN_ASSERT(IsOpen()) && ::GetCommTimeouts(hComm_, lpCO ? lpCO : &CO_) == TRUE  ? (lpCO ? lpCO : &CO_) : NULL;
 	}
-	//! ÉèÖÃ³¬Ê±
+	//! è®¾ç½®è¶…æ—¶
 	bool SetTimeouts(LPCOMMTIMEOUTS lpCO = NULL)
 	{
 		return CN_ASSERT(IsOpen()) ? ::SetCommTimeouts(hComm_, lpCO ? lpCO : &CO_) == TRUE : false;
 	}
-	//! ÉèÖÃ´®¿ÚµÄI/O»º³åÇø´óĞ¡
+	//! è®¾ç½®ä¸²å£çš„I/Oç¼“å†²åŒºå¤§å°
 	bool Setup(DWORD dwInputSize = 4096, DWORD dwOutputSize = 4096)
 	{
 		return CN_ASSERT(IsOpen()) ? ::SetupComm(hComm_, dwInputSize, dwOutputSize) == TRUE : false; 
 	}
-	//! µ÷Õû¶Ë¿Ú¹¦ÄÜ
+	//! è°ƒæ•´ç«¯å£åŠŸèƒ½
 	bool Escape(DWORD dwType)
 	{
 		return CN_ASSERT(IsOpen()) ? EscapeCommFunction(hComm_, dwType) != 0 : false;
 	}
-	//! »ñµÃµ÷ÖÆ½âµ÷Æ÷Ïà¹ØĞÅºÅ×´Ì¬
+	//! è·å¾—è°ƒåˆ¶è§£è°ƒå™¨ç›¸å…³ä¿¡å·çŠ¶æ€
 	DWORD GetModemStatus()
 	{
 		DWORD dwModemStat = 0;
 		return CN_ASSERT(IsOpen()) && GetCommModemStatus(hComm_, &dwModemStat) ? dwModemStat : 0;
 	}
-	//! »ñµÃ¶Ë¿Ú²ÎÊı \param[in] pCP ½á¹¹Ö¸Õë Èç¹ûpCP==NULL, CnComm½«´Ó¶Ñ·ÖÅäÄÚ´æ, ²¢ÓÉCnComm¸ºÔğÊÍ·Å, ÓÃ»§²»ĞèÒª×Ô¼ºÊÍ·ÅÄÚ´æ
+	//! è·å¾—ç«¯å£å‚æ•° \param[in] pCP ç»“æ„æŒ‡é’ˆ å¦‚æœpCP==NULL, CnCommå°†ä»å †åˆ†é…å†…å­˜, å¹¶ç”±CnCommè´Ÿè´£é‡Šæ”¾, ç”¨æˆ·ä¸éœ€è¦è‡ªå·±é‡Šæ”¾å†…å­˜
 	LPCOMMPROP GetProperties(LPCOMMPROP pCP = NULL)	
 	{
 		if (CN_ASSERT(IsOpen()))
@@ -940,24 +940,24 @@ public:
 
 		return pCP && GetCommProperties(hComm_, pCP) ? pCP : NULL;
 	}
-	//! »ñÈ¡ÊÂ¼ş±êÊ¶
+	//! è·å–äº‹ä»¶æ ‡è¯†
 	DWORD GetMask()
 	{
 		DWORD dwMask;
 		return CN_ASSERT(IsOpen()) && GetCommMask(hComm_, &dwMask) ? dwMask : 0;	
 	}
-	//! Çå³ı¶Ë¿Ú»º³åÇø
+	//! æ¸…é™¤ç«¯å£ç¼“å†²åŒº
 	bool Purge(DWORD dwPara = PURGE_TXABORT | PURGE_TXCLEAR | PURGE_RXABORT | PURGE_RXCLEAR)
 	{
 		return CN_ASSERT(IsOpen()) ? ::PurgeComm(hComm_, dwPara)==TRUE : false;
 	}
-	//! »ñµÃ´íÎó´úÂë
+	//! è·å¾—é”™è¯¯ä»£ç 
 	DWORD ClearError()
 	{
 		DWORD dwError;
 		return CN_ASSERT(IsOpen()) && ::ClearCommError(hComm_, &dwError, NULL) ? dwError : 0;
 	}
-	//! »ñµÃ¶ÁÎïÀí»º³åÇøµÄ×Ö·ûÊı
+	//! è·å¾—è¯»ç‰©ç†ç¼“å†²åŒºçš„å­—ç¬¦æ•°
 	DWORD GetQueueCount(bool bInput = true)
 	{
 		COMSTAT Stat;
@@ -965,37 +965,37 @@ public:
 		
 		return CN_ASSERT(IsOpen()) && ::ClearCommError(hComm_, &dwError, &Stat) ? (bInput ? Stat.cbInQue : Stat.cbOutQue) : (DWORD)-1L;
 	}
-	//! µ÷ÖÆ½âµ÷Æ÷ CTS ON
+	//! è°ƒåˆ¶è§£è°ƒå™¨ CTS ON
 	bool CheckCTS()				
 	{	
 		return (GetModemStatus()&MS_CTS_ON) != 0;		
 	}
-	//! µ÷ÖÆ½âµ÷Æ÷ DSR ON
+	//! è°ƒåˆ¶è§£è°ƒå™¨ DSR ON
 	bool CheckDSR()				
 	{	
 		return (GetModemStatus()&MS_DSR_ON) != 0;		
 	}
-	//! µ÷ÖÆ½âµ÷Æ÷ Ring ON
+	//! è°ƒåˆ¶è§£è°ƒå™¨ Ring ON
 	bool CheckRING()				
 	{	
 		return (GetModemStatus()&MS_RING_ON) != 0;		
 	}
-	//! µ÷ÖÆ½âµ÷Æ÷ RLSD ON
+	//! è°ƒåˆ¶è§£è°ƒå™¨ RLSD ON
 	bool CheckRLSD()				
 	{	
 		return (GetModemStatus()&MS_RLSD_ON) != 0;		
 	}
-	//! DTR µçÆ½¿ØÖÆ
+	//! DTR ç”µå¹³æ§åˆ¶
 	bool SetDTR(bool bSetOrClr = true)	
 	{	
 		return Escape(bSetOrClr ? SETDTR : CLRDTR);		
 	}
-	//! RTS µçÆ½¿ØÖÆ
+	//! RTS ç”µå¹³æ§åˆ¶
 	bool SetRTS(bool bSetOrClr = true)	
 	{	
 		return Escape(bSetOrClr ? SETRTS : CLRRTS);		
 	}
-	//! µ÷ÖÆ½âµ÷Æ÷
+	//! è°ƒåˆ¶è§£è°ƒå™¨
 	bool SetBreak(bool bSetOrClr = true)	
 	{	
 		return Escape(bSetOrClr ? SETBREAK : CLRBREAK);	
@@ -1007,80 +1007,80 @@ public:
 		return Escape(bSetOrClr ? SETIR : CLRIR);	
 	}
 #endif
-	//! Á÷¿ØÖÆ SETXON SETXOFF
+	//! æµæ§åˆ¶ SETXON SETXOFF
 	bool SetX(bool bOnOrOff)				
 	{	
 		return Escape(bOnOrOff ? SETXON : SETXOFF);							
 	}
-	//! ¸ù¾İÍ¨Ñ¶ÌØµã¿ª·¢µÄ»º³åÇøÀà µ¥ÏòÁ´±íÄÚ´æ¿é ÓĞÒ»Ğ©À©Õ¹ÒÔÖ§³ÖºÍAPI¹Ò½Ó 
+	//! æ ¹æ®é€šè®¯ç‰¹ç‚¹å¼€å‘çš„ç¼“å†²åŒºç±» å•å‘é“¾è¡¨å†…å­˜å— æœ‰ä¸€äº›æ‰©å±•ä»¥æ”¯æŒå’ŒAPIæŒ‚æ¥ 
 	class BlockBuffer
 	{
 	public:
-		//! »º³åÇøÄÚ´æ¿é
+		//! ç¼“å†²åŒºå†…å­˜å—
 		struct Block
 		{
-			DWORD			B_;		//!< ¿ªÊ¼Æ«ÒÆ
-			DWORD			E_;		//!< ½áÊøÆ«ÒÆ
-			DWORD			S_;		//!< ¿é´óĞ¡ ÄÚ´æ¿é×î´óÖµ²»ÏŞ ÄÚ´æ¿é×îĞ¡ÖµÓÉCN_COMM_BUFFER_MIN_BLOCK_SIZE¾ö¶¨ 
-			Block*			N_;		//!< ÏÂÒ»¸ö¿éÖ¸Õë 
-			BYTE			P_[4];	//!< »º³åÇøÖ¸Õë Êµ¼Ê´óĞ¡ÓÉS_¾ö¶¨ 
+			DWORD			B_;		//!< å¼€å§‹åç§»
+			DWORD			E_;		//!< ç»“æŸåç§»
+			DWORD			S_;		//!< å—å¤§å° å†…å­˜å—æœ€å¤§å€¼ä¸é™ å†…å­˜å—æœ€å°å€¼ç”±CN_COMM_BUFFER_MIN_BLOCK_SIZEå†³å®š 
+			Block*			N_;		//!< ä¸‹ä¸€ä¸ªå—æŒ‡é’ˆ 
+			BYTE			P_[4];	//!< ç¼“å†²åŒºæŒ‡é’ˆ å®é™…å¤§å°ç”±S_å†³å®š 
 		
-			//! ÈİÁ¿
+			//! å®¹é‡
 			DWORD Capacity()		{	return S_;			}
-			//! Êµ¼Ê´óĞ¡
+			//! å®é™…å¤§å°
 			DWORD Size()			{	return E_ - B_;		}
-			//! ¿ªÊ¼»º³åÇøÖ¸Õë
+			//! å¼€å§‹ç¼“å†²åŒºæŒ‡é’ˆ
 			BYTE* Begin()			{	return P_ + B_;		}
-			//! Ä©¶Ë»º³åÇøÖ¸Õë
+			//! æœ«ç«¯ç¼“å†²åŒºæŒ‡é’ˆ
 			BYTE* End()				{	return P_ + E_;		}
-			//! ÏÂÒ»¸ö¿é
+			//! ä¸‹ä¸€ä¸ªå—
 			Block* Next()			{	return N_;			}
-			//! ÊÇ·ñ¿Õ
+			//! æ˜¯å¦ç©º
 			bool IsEmpty()			{	return B_ == E_;	}
-			//! ¿ÕÏĞ´óĞ¡
+			//! ç©ºé—²å¤§å°
 			DWORD FreeSize()		{	return S_ - E_;		}
 		};
 
-		//! ÓÃÓÚ»º³åÇøµ¥Ïòµü´ú×Ó
+		//! ç”¨äºç¼“å†²åŒºå•å‘è¿­ä»£å­
 		struct Iterator
 		{
-			BlockBuffer*	P_;		//!< ¶ÔÏóÖ¸Õë
-			Block*			B_;		//!< µ±Ç°¿éÖ¸Õë
-			DWORD			I_;		//!< µ±Ç°¿éÆ«ÒÆ
-			DWORD			O_;		//!< È«»º³åÇøÆ«ÒÆ
+			BlockBuffer*	P_;		//!< å¯¹è±¡æŒ‡é’ˆ
+			Block*			B_;		//!< å½“å‰å—æŒ‡é’ˆ
+			DWORD			I_;		//!< å½“å‰å—åç§»
+			DWORD			O_;		//!< å…¨ç¼“å†²åŒºåç§»
 
-			//! ¹¹Ôì
+			//! æ„é€ 
 			Iterator(BlockBuffer *P = NULL, Block* B = NULL, DWORD I = 0, DWORD O = 0) 
 				: P_(P), B_(B), I_(I), O_(O)	
 			{										
 			}
-			//! ÊÇ·ñÓĞĞ§
+			//! æ˜¯å¦æœ‰æ•ˆ
 			operator bool()				
 			{	
 				return B_ && I_<B_->E_&&I_>=B_->B_;	
 			}
-			//! ÊÇ·ñ¿ÉĞ´
+			//! æ˜¯å¦å¯å†™
 			bool CanWrite()				
 			{	
 				return B_ && I_ < B_->S_;			
 			}
-			//! È¡ÖµÒıÓÃ
+			//! å–å€¼å¼•ç”¨
 			BYTE& operator *()			
 			{	
 				CN_ASSERT( P_ && B_ && I_<B_->E_&&I_>=B_->B_);
 				return B_->P_[I_];					
 			}
-			//! ÒÆ¶¯µü´ú×Ó ++Iter;
+			//! ç§»åŠ¨è¿­ä»£å­ ++Iter;
 			Iterator& operator ++ ()		
 			{
 				return operator +=(1);			
 			}
-			//! ÒÆ¶¯µü´ú×Ó Iter++;
+			//! ç§»åŠ¨è¿­ä»£å­ Iter++;
 			Iterator& operator ++ (int)	
 			{
 				return operator +=(1);				
 			}
-			//! ÒÆ¶¯µü´ú×Ó  \param dwOffset ÎªÆ«ÒÆÁ¿
+			//! ç§»åŠ¨è¿­ä»£å­  \param dwOffset ä¸ºåç§»é‡
 			Iterator& operator += (DWORD dwOffset)
 			{
 				while (dwOffset) 
@@ -1093,102 +1093,102 @@ public:
 
 				return *this;
 			}
-			//! ±È½Ï
+			//! æ¯”è¾ƒ
 			bool operator == (const Iterator& iter)
 			{
 				return (P_ == iter.P_) && (B_ == iter.B_) && (I_ == iter.I_);
 			}
 		};
-		//! ÓÑÔª
+		//! å‹å…ƒ
 		friend struct Iterator;
-		//! Ëø¶¨
+		//! é”å®š
 		void Lock()							
 		{	
 			::EnterCriticalSection(&C_);			
 		}
-		//! ½âËø
+		//! è§£é”
 		void Unlock()						
 		{	
 			::LeaveCriticalSection(&C_);			
 		}
-		//! ×Ô¶¯Ëø
+		//! è‡ªåŠ¨é”
 		struct InnerLock
 		{
-			BlockBuffer* ptr;//!<¶ÔÏóÖ¸Õë
-			///Ëø¶¨
+			BlockBuffer* ptr;//!<å¯¹è±¡æŒ‡é’ˆ
+			///é”å®š
 			InnerLock(BlockBuffer* p) : ptr(p)	
 			{
 				if (ptr)
 					ptr->Lock();						
 			}
-			///½âËø
+			///è§£é”
 			~InnerLock()					
 			{
 				if (ptr)
 					ptr->Unlock();						
 			}
 		};
-		//! ¹¹Ôì
+		//! æ„é€ 
 		BlockBuffer()
 		{
 			::InitializeCriticalSection(&C_);
 			S_ = 0, F_ = L_ = NULL, M_ = CN_COMM_BUFFER_MIN_BLOCK_SIZE;
 		}
-		//! Îö¹¹×Ô¶¯ÊÍ·Å¿Õ¼ä
+		//! ææ„è‡ªåŠ¨é‡Šæ”¾ç©ºé—´
 		virtual ~BlockBuffer()
 		{
 			Clear();
 			::DeleteCriticalSection(&C_);
 		}
-		//! »ñµÃÆğÊ¼µü´ú×Ó
+		//! è·å¾—èµ·å§‹è¿­ä»£å­
 		Iterator Begin()					
 		{	
 			return Iterator(this, F_, F_? F_->B_ : 0, 0);	
 		}
-		//! ÉèÖÃ¿éµÄ×îĞ¡³¤¶È
+		//! è®¾ç½®å—çš„æœ€å°é•¿åº¦
 		void SetMinBlockSize(DWORD dwMinSize)
 		{
 			M_ = dwMinSize;
 		}
-		//! »ñµÃ¿éµÄ×îĞ¡³¤¶È
+		//! è·å¾—å—çš„æœ€å°é•¿åº¦
 		DWORD GetMinBlockSize()
 		{
 			return M_;
 		}
-		//! »º³åÇøÄÚÊı¾İ×Ö½ÚÊı
+		//! ç¼“å†²åŒºå†…æ•°æ®å­—èŠ‚æ•°
 		DWORD Size()						
 		{	
 			return S_;								
 		}
-		//! »º³åÇø´óĞ¡
+		//! ç¼“å†²åŒºå¤§å°
 		DWORD SafeSize()						
 		{
 			InnerLock lock(this);
 			return S_;								
 		}
-		//! Ğ´ÈëANSI×Ö·û´®»º³åÇø \sa Write(LPCVOID lpBuf, DWORD dwSize)
+		//! å†™å…¥ANSIå­—ç¬¦ä¸²ç¼“å†²åŒº \sa Write(LPCVOID lpBuf, DWORD dwSize)
 		DWORD Write(const char* lpBuf)
 		{
 			return Write(lpBuf, strlen(lpBuf));
 		}
-		//! Ğ´ÈëUNICODE×Ö·û´®»º³åÇø \sa Write(LPCVOID lpBuf, DWORD dwSize)
+		//! å†™å…¥UNICODEå­—ç¬¦ä¸²ç¼“å†²åŒº \sa Write(LPCVOID lpBuf, DWORD dwSize)
 		DWORD Write(const wchar_t* lpBuf)
 		{
 			return Write(lpBuf, wcslen(lpBuf)*sizeof(wchar_t));
 		}
-		//! Ğ´Èë»º³åÇø \param[out] lpBuf Ä¿±ê»º³åÇø \param[in] dwSize Êı¾İ×Ö½ÚÊı \return Êµ¼Ê¸´ÖÆÊı¾İ×Ö½ÚÊı
+		//! å†™å…¥ç¼“å†²åŒº \param[out] lpBuf ç›®æ ‡ç¼“å†²åŒº \param[in] dwSize æ•°æ®å­—èŠ‚æ•° \return å®é™…å¤åˆ¶æ•°æ®å­—èŠ‚æ•°
 		DWORD Write(LPCVOID lpBuf, DWORD dwSize)
 		{
 			DWORD dwTemp = dwSize, dwFree = FreeSize(), dwCopy = 0;
 			
-			if (dwFree)//! Ê×ÏÈ²éÕÒÄ©Î²¿ÕÏĞ£¬²¢Ğ´ÈëÊı¾İ
+			if (dwFree)//! é¦–å…ˆæŸ¥æ‰¾æœ«å°¾ç©ºé—²ï¼Œå¹¶å†™å…¥æ•°æ®
 			{
 				dwCopy = dwFree > dwSize ? dwSize : dwFree;
 				memcpy(L_->P_ + L_->E_, lpBuf, dwCopy);
 				dwTemp -= dwCopy, L_->E_ += dwCopy;
 			}
 
-			if (dwTemp)//! Ê£ÓàµÄÊı¾İ·ÖÅäĞÂµÄ¿Õ¼ä²¢Ğ´Èë
+			if (dwTemp)//! å‰©ä½™çš„æ•°æ®åˆ†é…æ–°çš„ç©ºé—´å¹¶å†™å…¥
 			{
 				memcpy(NewBlock(dwSize)->P_, ((LPBYTE)lpBuf )+ dwCopy, dwTemp);
 				L_->E_ += dwTemp;
@@ -1197,25 +1197,25 @@ public:
 			S_ += dwSize;
 			return dwSize;
 		}
-		//! Ïß³Ì°²È«Ğ´Èë»º³åÇø \sa Write(LPCVOID lpBuf, DWORD dwSize)
+		//! çº¿ç¨‹å®‰å…¨å†™å…¥ç¼“å†²åŒº \sa Write(LPCVOID lpBuf, DWORD dwSize)
 		DWORD SafeWrite(LPCVOID lpBuf, DWORD dwSize)
 		{
 			InnerLock lock(this);
 			return Write(lpBuf, dwSize);
 		}
-		//! Ïß³Ì°²È«Ğ´ÈëANSI×Ö·û´®»º³åÇø \sa Write(LPCVOID lpBuf, DWORD dwSize)
+		//! çº¿ç¨‹å®‰å…¨å†™å…¥ANSIå­—ç¬¦ä¸²ç¼“å†²åŒº \sa Write(LPCVOID lpBuf, DWORD dwSize)
 		DWORD SafeWrite(const char* lpBuf)
 		{
 			InnerLock lock(this);
 			return Write(lpBuf, strlen(lpBuf));
 		}
-		//! Ïß³Ì°²È«Ğ´ÈëUNICODE×Ö·û´®»º³åÇø \sa Write(LPCVOID lpBuf, DWORD dwSize)
+		//! çº¿ç¨‹å®‰å…¨å†™å…¥UNICODEå­—ç¬¦ä¸²ç¼“å†²åŒº \sa Write(LPCVOID lpBuf, DWORD dwSize)
 		DWORD SafeWrite(const wchar_t* lpBuf)
 		{
 			InnerLock lock(this);
 			return Write(lpBuf, wcslen(lpBuf)*sizeof(wchar_t));
 		}
-		//! ¸´ÖÆÊı¾İ \param[out] lpBuf Ä¿±ê»º³åÇø \param[in] dwSize Êı¾İ×Ö½ÚÊı \param[in] dwStart Ô´»º³åÇø¿ªÊ¼Æ«ÒÆÖµ \return Êµ¼Ê¸´ÖÆÊı¾İ×Ö½ÚÊı
+		//! å¤åˆ¶æ•°æ® \param[out] lpBuf ç›®æ ‡ç¼“å†²åŒº \param[in] dwSize æ•°æ®å­—èŠ‚æ•° \param[in] dwStart æºç¼“å†²åŒºå¼€å§‹åç§»å€¼ \return å®é™…å¤åˆ¶æ•°æ®å­—èŠ‚æ•°
 		DWORD Copy(LPVOID lpBuf, DWORD dwSize, DWORD dwStart = 0)
 		{
 			CN_ASSERT(lpBuf);
@@ -1254,14 +1254,14 @@ public:
 
 			return dwTemp;
 		}
-		//! Ïß³Ì°²È«¸´ÖÆÊı¾İ \sa Copy(LPVOID lpBuf, DWORD dwSize, DWORD dwStart=0)
+		//! çº¿ç¨‹å®‰å…¨å¤åˆ¶æ•°æ® \sa Copy(LPVOID lpBuf, DWORD dwSize, DWORD dwStart=0)
 		DWORD SafeCopy(LPVOID lpBuf, DWORD dwSize, DWORD dwStart = 0)
 		{
 			InnerLock lock(this);
 			return Copy(lpBuf, dwSize, dwStart);
 		}
-		/*! \param[out] lpBuf Ä¿±ê»º³åÇø ÎªNULLÊ±½öÉ¾³ı²»¸´ÖÆÊı¾İ  \param[in] dwSize ²Ù×÷Êı¾İ×Ö½ÚÊı \return Êµ¼Ê¸´ÖÆ»òÉ¾³ı×Ö½ÚÊı */
-		//! ¸´ÖÆ²¢É¾³ı»º³åÇøµÄÊı¾İµ½lpBuf
+		/*! \param[out] lpBuf ç›®æ ‡ç¼“å†²åŒº ä¸ºNULLæ—¶ä»…åˆ é™¤ä¸å¤åˆ¶æ•°æ®  \param[in] dwSize æ“ä½œæ•°æ®å­—èŠ‚æ•° \return å®é™…å¤åˆ¶æˆ–åˆ é™¤å­—èŠ‚æ•° */
+		//! å¤åˆ¶å¹¶åˆ é™¤ç¼“å†²åŒºçš„æ•°æ®åˆ°lpBuf
 		DWORD Read(LPVOID lpBuf, DWORD dwSize)
 		{
 			DWORD dwTemp = 0, dwCopy;
@@ -1279,7 +1279,7 @@ public:
 				pNext = pCur->N_, dwTemp += dwCopy;
 
 				if (dwCopy == pCur->E_-pCur->B_)
-				{//! É¾³ı»ØÊÕÍêÈ«¿ÕÏĞ¿é, µ±Ò»°ã±£Áô1¸ö¿é, ÔÚĞ¡ÓÚ4*CN_COMM_BUFFER_MIN_BLOCK_SIZEµÄÇé¿öÏÂ 
+				{//! åˆ é™¤å›æ”¶å®Œå…¨ç©ºé—²å—, å½“ä¸€èˆ¬ä¿ç•™1ä¸ªå—, åœ¨å°äº4*CN_COMM_BUFFER_MIN_BLOCK_SIZEçš„æƒ…å†µä¸‹ 
 					if (pNext || pCur->S_>(M_<<2))
 					{
 						delete[] (BYTE*)pCur;
@@ -1298,37 +1298,37 @@ public:
 
 			return dwTemp;
 		}
-		//! ¶ÁÈëANSI×Ö·û´®»º³åÇø
+		//! è¯»å…¥ANSIå­—ç¬¦ä¸²ç¼“å†²åŒº
 		char* ReadString(char* lpBuf, DWORD dMaxSize)
 		{
 			lpBuf[Read(lpBuf, dMaxSize)] = '\0';
 			return lpBuf;
 		}
-		//! ¶ÁÈëUNICODE×Ö·û´®»º³åÇø
+		//! è¯»å…¥UNICODEå­—ç¬¦ä¸²ç¼“å†²åŒº
 		wchar_t* ReadString(wchar_t* lpBuf, DWORD dMaxSize)
 		{
 			lpBuf[(Read(lpBuf, dMaxSize*sizeof(wchar_t))+1) / sizeof(wchar_t)] = L'\0';
 			return lpBuf;
 		}
-		//! Ïß³Ì°²È«µÄ¶Áº¯Êı
+		//! çº¿ç¨‹å®‰å…¨çš„è¯»å‡½æ•°
 		DWORD SafeRead(LPVOID lpBuf, DWORD dwSize)
 		{
 			InnerLock lock(this);
 			return  Read(lpBuf, dwSize);
 		}
-		//! Ïß³Ì°²È«¶ÁÈëANSI×Ö·û´®»º³åÇø
+		//! çº¿ç¨‹å®‰å…¨è¯»å…¥ANSIå­—ç¬¦ä¸²ç¼“å†²åŒº
 		char* SafeReadString(char* lpBuf, DWORD dMaxSize)
 		{
 			InnerLock lock(this);
 			return ReadString(lpBuf, dMaxSize);
 		}
-		//! Ïß³Ì°²È«¶ÁÈëUNICODE×Ö·û´®»º³åÇø
+		//! çº¿ç¨‹å®‰å…¨è¯»å…¥UNICODEå­—ç¬¦ä¸²ç¼“å†²åŒº
 		wchar_t* SafeReadString(wchar_t* lpBuf, DWORD dMaxSize)
 		{
 			InnerLock lock(this);
 			return ReadString(lpBuf, dMaxSize);
 		}
-		//! Çå³ı \param bDeleteAll ÎªtrueÊ±ÊÍ·ÅËùÓĞÄÚ´æ, ·ñÔò±£ÁôÒ»¸öÄÚ´æ¿éÒÔÌá¸ßĞ§ÂÊ
+		//! æ¸…é™¤ \param bDeleteAll ä¸ºtrueæ—¶é‡Šæ”¾æ‰€æœ‰å†…å­˜, å¦åˆ™ä¿ç•™ä¸€ä¸ªå†…å­˜å—ä»¥æé«˜æ•ˆç‡
 		void Clear(bool bDeleteAll = false)
 		{
 			if (F_ && (F_==L_) && F_->S_>(M_<<2))
@@ -1344,23 +1344,23 @@ public:
 				F_ = L_ = NULL, S_ = 0;
 			}
 		}
-		//! Ïß³Ì°²È«µÄÇå³ıº¯Êı  \sa void Clear(bool bDeleteAll = false)
+		//! çº¿ç¨‹å®‰å…¨çš„æ¸…é™¤å‡½æ•°  \sa void Clear(bool bDeleteAll = false)
 		void SafeClear(bool bDeleteAll = false)
 		{
 			InnerLock lock(this);
 			Clear(bDeleteAll);
 		}
-		//! »ñµÃÄÚ´æ¿éÖ¸Õë \param bFirst ÎªtrueÊ±»ñµÃÁ´±íÍ·²¿Ö¸Õë·ñÔò»ñµÃÁ´±íÎ²²¿Ö¸Õë
+		//! è·å¾—å†…å­˜å—æŒ‡é’ˆ \param bFirst ä¸ºtrueæ—¶è·å¾—é“¾è¡¨å¤´éƒ¨æŒ‡é’ˆå¦åˆ™è·å¾—é“¾è¡¨å°¾éƒ¨æŒ‡é’ˆ
 		Block* GetBlockPtr(bool bFirst = true)	
 		{	
 			return bFirst ? F_ : L_;						
 		}
-		//! »º³åÇøÎ²²¿µÄ¿ÕÏĞ¿Õ¼ä
+		//! ç¼“å†²åŒºå°¾éƒ¨çš„ç©ºé—²ç©ºé—´
 		DWORD FreeSize()					
 		{	
 			return L_ ? L_->S_-L_->E_ : 0 ;			
 		}
-		//! »ñµÃ¹©API²åÈëÊı¾İµÄÖ±Ğ´»º³åÇø ´«ÈëËùĞè´óĞ¡dwSize ¿ÕÏĞ²»×ã·ÖÅäĞÂ¿é ´«Èë0·µ»ØÎ²²¿µÄ¿ÕÏĞÖ¸Õë Î²²¿ÎŞ¿ÕÏĞ·µ»ØNULL 
+		//! è·å¾—ä¾›APIæ’å…¥æ•°æ®çš„ç›´å†™ç¼“å†²åŒº ä¼ å…¥æ‰€éœ€å¤§å°dwSize ç©ºé—²ä¸è¶³åˆ†é…æ–°å— ä¼ å…¥0è¿”å›å°¾éƒ¨çš„ç©ºé—²æŒ‡é’ˆ å°¾éƒ¨æ— ç©ºé—²è¿”å›NULL 
 		LPVOID GetFreePtr(DWORD dwSize = 0)
 		{
 			if (dwSize)
@@ -1368,25 +1368,25 @@ public:
 			else
 				return L_ ? L_->P_ + L_->E_ : NULL;
 		}
-		/*! \param[in] dwSize ´«ÈëÔöÁ¿²¢·ÇÈ«Á¿
-			\code strcpy(GetFreePtr(100), "test"), Release(4); //»ñÈ¡100×Ö½ÚµÄ»º³åÇø ¿½ÈëËÄ¸ö×Ö½Ú µ÷Õû´óĞ¡Ôö¼Ó4¸ö×Ö½Ú \endcode
+		/*! \param[in] dwSize ä¼ å…¥å¢é‡å¹¶éå…¨é‡
+			\code strcpy(GetFreePtr(100), "test"), Release(4); //è·å–100å­—èŠ‚çš„ç¼“å†²åŒº æ‹·å…¥å››ä¸ªå­—èŠ‚ è°ƒæ•´å¤§å°å¢åŠ 4ä¸ªå­—èŠ‚ \endcode
 		*/
-		//! ÀûÓÃAPIÖ±½ÓĞ´ÈëÓÃGetFreePtr()»ñµÃ¿ÕÏĞÖ¸Õë, Í¬²½µ÷Õû»º³åÇø´óĞ¡ 
+		//! åˆ©ç”¨APIç›´æ¥å†™å…¥ç”¨GetFreePtr()è·å¾—ç©ºé—²æŒ‡é’ˆ, åŒæ­¥è°ƒæ•´ç¼“å†²åŒºå¤§å° 
 		DWORD Release(DWORD dwSize)
 		{
 			return (dwSize <= L_->S_) ? (L_->E_ += dwSize, S_ += dwSize, dwSize) : 0;		
 		}
-		//! »ñµÃµÚÒ»¸öÓĞĞ§¿éµÄ»º³åÇøÖ¸Õë
+		//! è·å¾—ç¬¬ä¸€ä¸ªæœ‰æ•ˆå—çš„ç¼“å†²åŒºæŒ‡é’ˆ
 		LPVOID GetPtr()
 		{
 			return F_ ? F_->P_ + F_->B_ : NULL;
 		}
-		//! »ñµÃµÚÒ»¸öÓĞĞ§¿éµÄ»º³åÇøÖ¸ÕëÖ¸ÏòµÄÊı¾İ´óĞ¡
+		//! è·å¾—ç¬¬ä¸€ä¸ªæœ‰æ•ˆå—çš„ç¼“å†²åŒºæŒ‡é’ˆæŒ‡å‘çš„æ•°æ®å¤§å°
 		DWORD GetPtrSize()
 		{
 			return F_ ? F_->E_ - F_->B_ : 0;
 		}
-		//! Êı×é·ÃÎÊ Èç¹û¿éÊı³¬¹ı1 Ğ§ÂÊºÜµÍ ÍÆ¼öÓÃµü´ú×Ó·ÃÎÊ¿ÉÒÔ»ñµÃÀíÏëĞÔÄÜ
+		//! æ•°ç»„è®¿é—® å¦‚æœå—æ•°è¶…è¿‡1 æ•ˆç‡å¾ˆä½ æ¨èç”¨è¿­ä»£å­è®¿é—®å¯ä»¥è·å¾—ç†æƒ³æ€§èƒ½
 		BYTE& operator[](DWORD dwOffset)
 		{
 			CN_ASSERT(F_);
@@ -1407,7 +1407,7 @@ public:
 		
 	protected:
 
-		//! ĞÂ½¨¿é ×Ô¶¯Ìí¼ÓÔÚÎ²²¿
+		//! æ–°å»ºå— è‡ªåŠ¨æ·»åŠ åœ¨å°¾éƒ¨
 		Block* NewBlock(DWORD dwSize)
 		{
 			dwSize = dwSize < M_ ? M_ : dwSize;
@@ -1427,20 +1427,20 @@ public:
 			return pNew;
 		}
 
-		Block*				F_;//!< Í·Ö¸Õë
-		Block*				L_;//!< Î²Ö¸Õë
-		DWORD				S_;//!< ´óĞ¡
-		DWORD				M_;//!< ¿é×îĞ¡³¤¶È
-		CRITICAL_SECTION	C_;//!< Ëø½á¹¹
+		Block*				F_;//!< å¤´æŒ‡é’ˆ
+		Block*				L_;//!< å°¾æŒ‡é’ˆ
+		DWORD				S_;//!< å¤§å°
+		DWORD				M_;//!< å—æœ€å°é•¿åº¦
+		CRITICAL_SECTION	C_;//!< é”ç»“æ„
 	};
 
 #if defined(CN_COMM_MFC_EXCEPTION)
-	/*! ĞèÒª¶¨Òåºê CN_COMM_MFC_EXCEPTION CN_ASSERT \n ½«Ê¹ÓÃthrow new MfcException(msg);Óï¾äÅ×³öMFCÒì³£(VC++) */
-	//! ÓÃÓÚMFCµÄÒì³£  
+	/*! éœ€è¦å®šä¹‰å® CN_COMM_MFC_EXCEPTION CN_ASSERT \n å°†ä½¿ç”¨throw new MfcException(msg);è¯­å¥æŠ›å‡ºMFCå¼‚å¸¸(VC++) */
+	//! ç”¨äºMFCçš„å¼‚å¸¸  
 	class MfcException : public CException
 	{
 	public:
-		//! ¹¹Ôìº¯Êı£¬ÒªÇóCException×Ô¶¯Îö¹¹
+		//! æ„é€ å‡½æ•°ï¼Œè¦æ±‚CExceptionè‡ªåŠ¨ææ„
 		MfcException(LPCTSTR szMsg) : CException(TRUE)
 		{
 			lstrcpy(szMsg_, szMsg);
@@ -1449,7 +1449,7 @@ public:
 			CException::m_bReadyForDelete = TRUE;
 		#endif
 		}
-		//! ´íÎóÌáÊ¾ĞÅÏ¢
+		//! é”™è¯¯æç¤ºä¿¡æ¯
 		BOOL GetErrorMessage( LPTSTR lpszError, UINT nMaxError, PUINT pnHelpContext = NULL )
 		{
 		#ifndef CN_COMM_FOR_CE
@@ -1461,11 +1461,11 @@ public:
 			return TRUE;
 		}
 	protected:
-		TCHAR szMsg_[256]; //!< ´íÎóĞÅÏ¢ ¸ñÊ½£ºCN_ASSERT(±í´ïÊ½) failed; CnComm(ĞĞºÅ); Code(GetLastError()); ´íÎó´úÂëÃèÊö
+		TCHAR szMsg_[256]; //!< é”™è¯¯ä¿¡æ¯ æ ¼å¼ï¼šCN_ASSERT(è¡¨è¾¾å¼) failed; CnComm(è¡Œå·); Code(GetLastError()); é”™è¯¯ä»£ç æè¿°
 	};
 #endif
 
-	//! ÓÃ»§ÆôÓÃÒì³£ ÔòÅ×³öÒì³£; Î´ÆôÓÃÒì³£: DEBUG°æ±¾ ¿ØÖÆÌ¨°æ±¾Êä³ö´íÎóĞÅÏ¢ ²¢ÍË³ö; Release°æ±¾µ¯³öÌáÊ¾¿ò²¢ÏìÓ¦ÓÃ»§ÒªÇó
+	//! ç”¨æˆ·å¯ç”¨å¼‚å¸¸ åˆ™æŠ›å‡ºå¼‚å¸¸; æœªå¯ç”¨å¼‚å¸¸: DEBUGç‰ˆæœ¬ æ§åˆ¶å°ç‰ˆæœ¬è¾“å‡ºé”™è¯¯ä¿¡æ¯ å¹¶é€€å‡º; Releaseç‰ˆæœ¬å¼¹å‡ºæç¤ºæ¡†å¹¶å“åº”ç”¨æˆ·è¦æ±‚
 	static bool Assert(LPCTSTR szMessage)
 	{
 	#if defined(_DEBUG) || defined(CN_COMM_STD_EXCEPTION) || defined(CN_COMM_VCL_EXCEPTION) || defined(CN_COMM_MFC_EXCEPTION)
@@ -1475,7 +1475,7 @@ public:
 		_tcscpy(szMsg, szMessage);
 
 		dwError = GetLastError();
-		if (dwError)//! ´íÎó´úÂë(GetLastError())²»Îª 0 Êä³ö´íÎóÃèÊö  
+		if (dwError)//! é”™è¯¯ä»£ç (GetLastError())ä¸ä¸º 0 è¾“å‡ºé”™è¯¯æè¿°  
 		{
 			dwLength = _tcslen(szMsg);
 			_sntprintf(szMsg + dwLength, 256 - _tcslen(szMsg), _T("Code:%d; "), dwError);
@@ -1485,14 +1485,14 @@ public:
 				FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,
 				NULL,
 				dwError,
-				MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),	//! ´íÎóÃèÊö²ÉÓÃ±¾µØÓïÑÔ
+				MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),	//! é”™è¯¯æè¿°é‡‡ç”¨æœ¬åœ°è¯­è¨€
 				szMsg + dwLength - 1,							
 				256 - dwLength - 1,									
 				NULL
 				);
 		}
 	#else 
-		;// Release°æ±¾ Ê²Ã´¶¼²»×ö  Ô¤Áô
+		;// Releaseç‰ˆæœ¬ ä»€ä¹ˆéƒ½ä¸åš  é¢„ç•™
 	#endif
 
 	#if	defined(CN_COMM_STD_EXCEPTION)
@@ -1517,7 +1517,7 @@ public:
 
 		OutputDebugString(szMsg);
 		#ifdef _CONSOLE
-			// ĞèÒª setlocale(LC_ALL, "chs"); ¿ØÖÆÌ¨²Å¿ÉÒÔÕıÈ·Êä³öUNICODEÖĞÎÄ ÕâÀï×ª»»ANSI ±ÜÃâÕâÑùÎÊÌâ
+			// éœ€è¦ setlocale(LC_ALL, "chs"); æ§åˆ¶å°æ‰å¯ä»¥æ­£ç¡®è¾“å‡ºUNICODEä¸­æ–‡ è¿™é‡Œè½¬æ¢ANSI é¿å…è¿™æ ·é—®é¢˜
 			#ifdef _UNICODE
 				char szTemp[512] = {0};
 				WideCharToMultiByte(CP_ACP, 0, szMsg, -1, szTemp, wcslen(szMsg)*sizeof(wchar_t), NULL, NULL);
@@ -1544,53 +1544,53 @@ public:
 		#endif
 
 	#else 
-		;// Release°æ±¾ Ê²Ã´¶¼²»×ö  Ô¤Áô
+		;// Releaseç‰ˆæœ¬ ä»€ä¹ˆéƒ½ä¸åš  é¢„ç•™
 	#endif
 		return false;
 	}
 
 protected:
 
-	DWORD				dwOption_;			//!< ¹Ø¼üÄ£Ê½ÅäÖÃ ÔÚ¹¹Ôìº¯ÊıÖĞÉè¶¨
-	HANDLE				hComm_;				//!< ´®¿Ú¾ä±ú
-	DWORD				dwPort_;			//!< ´®¿ÚºÅ 0ÎªÌØÊâ´®¿Ú -1ÎªÎŞĞ§ Ö÷ÒªÖÕÓÚÏûÏ¢Í¨ÖªÕç±ğ
-	TCHAR				szName_[64];		//!< ±£´æ´®¿ÚÃû³Æ ÀàËÆCOM1µÄ×Ö·û´®
-	CRITICAL_SECTION	CS_;				//!< ÁÙ½ç»¥³âËø
-	DCB					DCB_;				//!< ²¨ÌØÂÊ£¬Í£Ö¹Î»£¬µÈ   
-	COMMTIMEOUTS		CO_;				//!< ³¬Ê±½á¹¹ 
-	COMMPROP*			pCP_;				//!< ´®¿Ú²ÎÊı
+	DWORD				dwOption_;			//!< å…³é”®æ¨¡å¼é…ç½® åœ¨æ„é€ å‡½æ•°ä¸­è®¾å®š
+	HANDLE				hComm_;				//!< ä¸²å£å¥æŸ„
+	DWORD				dwPort_;			//!< ä¸²å£å· 0ä¸ºç‰¹æ®Šä¸²å£ -1ä¸ºæ— æ•ˆ ä¸»è¦ç»ˆäºæ¶ˆæ¯é€šçŸ¥ç”„åˆ«
+	TCHAR				szName_[64];		//!< ä¿å­˜ä¸²å£åç§° ç±»ä¼¼COM1çš„å­—ç¬¦ä¸²
+	CRITICAL_SECTION	CS_;				//!< ä¸´ç•Œäº’æ–¥é”
+	DCB					DCB_;				//!< æ³¢ç‰¹ç‡ï¼Œåœæ­¢ä½ï¼Œç­‰   
+	COMMTIMEOUTS		CO_;				//!< è¶…æ—¶ç»“æ„ 
+	COMMPROP*			pCP_;				//!< ä¸²å£å‚æ•°
 
-	BlockBuffer			I_;					//!< ¶Á»º³åÇø
-	BlockBuffer			O_;					//!< Ğ´»º³åÇø
-	DWORD				dwInCount_;			//!< ¶Á¼ÆÊı
-	DWORD				dwOutCount_;		//!< Ğ´¼ÆÊı
+	BlockBuffer			I_;					//!< è¯»ç¼“å†²åŒº
+	BlockBuffer			O_;					//!< å†™ç¼“å†²åŒº
+	DWORD				dwInCount_;			//!< è¯»è®¡æ•°
+	DWORD				dwOutCount_;		//!< å†™è®¡æ•°
 
-	bool				bContinue_;			//!< Ïß³Ì¼ÌĞøÔËĞĞÑ­»·±êÖ¾
-	DWORD				dwWaitEvent_;		//!< WaitCommEvent µÄ¼àÊÓÊÂ¼ş
+	bool				bContinue_;			//!< çº¿ç¨‹ç»§ç»­è¿è¡Œå¾ªç¯æ ‡å¿—
+	DWORD				dwWaitEvent_;		//!< WaitCommEvent çš„ç›‘è§†äº‹ä»¶
 
-	HANDLE				hWatchThread_;		//!< ¼àÊÓ¸¨ÖúÏß³Ì
-	DWORD				hWatchThreadId_;	//!< ¼àÊÓ¸¨ÖúÏß³Ì ID
-	HANDLE				hWatchEvent_;		//!< Í¨Öª¼àÊÓÏß³Ì
+	HANDLE				hWatchThread_;		//!< ç›‘è§†è¾…åŠ©çº¿ç¨‹
+	DWORD				hWatchThreadId_;	//!< ç›‘è§†è¾…åŠ©çº¿ç¨‹ ID
+	HANDLE				hWatchEvent_;		//!< é€šçŸ¥ç›‘è§†çº¿ç¨‹
 
-	HANDLE				hReadThread_;		//!< ½ÓÊÕ¸¨ÖúÏß³Ì ÊµÏÖË«¹¤Ìá¸ßĞ§ÂÊ
-	DWORD				hReadThreadId_;		//!< ½ÓÊÕ¸¨ÖúÏß³Ì ID
-	HANDLE				hReadEvent_;		//!< Í¨Öª½ÓÊÕÏß³Ì
+	HANDLE				hReadThread_;		//!< æ¥æ”¶è¾…åŠ©çº¿ç¨‹ å®ç°åŒå·¥æé«˜æ•ˆç‡
+	DWORD				hReadThreadId_;		//!< æ¥æ”¶è¾…åŠ©çº¿ç¨‹ ID
+	HANDLE				hReadEvent_;		//!< é€šçŸ¥æ¥æ”¶çº¿ç¨‹
 
-	HANDLE				hWriteThread_;		//!< ·¢ËÍ¸¨ÖúÏß³Ì ÊµÏÖË«¹¤Ìá¸ßĞ§ÂÊ
-	DWORD				hWriteThreadId_;	//!< ·¢ËÍ¸¨ÖúÏß³Ì ID
-	HANDLE				hWriteEvent_;		//!< Í¨Öª·¢ËÍÏß³Ì
+	HANDLE				hWriteThread_;		//!< å‘é€è¾…åŠ©çº¿ç¨‹ å®ç°åŒå·¥æé«˜æ•ˆç‡
+	DWORD				hWriteThreadId_;	//!< å‘é€è¾…åŠ©çº¿ç¨‹ ID
+	HANDLE				hWriteEvent_;		//!< é€šçŸ¥å‘é€çº¿ç¨‹
 
-	HWND				hNotifyWnd_;		//!< Í¨Öª´°¿Ú
-	DWORD				hNotifyThreadId_;	//!< Í¨ÖªÏß³Ì
-	DWORD				dwNotifyNum_;		//!< ½ÓÊÜ¶àÉÙ×Ö½Ú(>=dwNotifyNum_)·¢ËÍÍ¨ÖªÏûÏ¢
+	HWND				hNotifyWnd_;		//!< é€šçŸ¥çª—å£
+	DWORD				hNotifyThreadId_;	//!< é€šçŸ¥çº¿ç¨‹
+	DWORD				dwNotifyNum_;		//!< æ¥å—å¤šå°‘å­—èŠ‚(>=dwNotifyNum_)å‘é€é€šçŸ¥æ¶ˆæ¯
 
 #ifndef CN_COMM_FOR_CE
-	OVERLAPPED			RO_;				//!< ÖØµşI/O ReadFile
-	OVERLAPPED			WO_;				//!< ÖØµşI/O WriteFile
-	OVERLAPPED			EO_;				//!< ÖØµşI/O WaitCommEvent 
+	OVERLAPPED			RO_;				//!< é‡å I/O ReadFile
+	OVERLAPPED			WO_;				//!< é‡å I/O WriteFile
+	OVERLAPPED			EO_;				//!< é‡å I/O WaitCommEvent 
 #endif
 
-	//! ³õÊ¼»¯
+	//! åˆå§‹åŒ–
 	virtual void Init() 
 	{
 		::InitializeCriticalSection(&CS_);
@@ -1640,7 +1640,7 @@ protected:
 		hWriteEvent_	= ::CreateEvent(NULL, TRUE, FALSE, NULL);
 		CN_ASSERT(hWriteEvent_ != NULL); 
 	} 
-	//! Îö¹¹
+	//! ææ„
 	virtual void Destroy()
 	{
 	#ifndef CN_COMM_FOR_CE
@@ -1668,7 +1668,7 @@ protected:
 
 		::DeleteCriticalSection(&CS_);
 	}
-	//! °ó¶¨´®¿Ú 
+	//! ç»‘å®šä¸²å£ 
 	void BindPort(DWORD dwPort)
 	{
 		dwPort_ = dwPort;
@@ -1679,7 +1679,7 @@ protected:
 		wsprintf(szName_, _T("\\\\.\\COM%d"), dwPort);
 	#endif
 	}
-	//! ´ò¿ª´®¿Ú 
+	//! æ‰“å¼€ä¸²å£ 
 	virtual bool OpenPort()
 	{
 		CN_ASSERT(!IsOpen());
@@ -1699,7 +1699,7 @@ protected:
 		
 		return IsOpen();
 	}
-	//! ÉèÖÃ´®¿Ú 
+	//! è®¾ç½®ä¸²å£ 
 	virtual bool SetupPort()
 	{
 		if(!CN_ASSERT(IsOpen()))
@@ -1708,34 +1708,34 @@ protected:
 		#if defined(CN_COMM_FOR_CE)
 			::SetupComm(hComm_, 4096, 4096);
 		#else
-			if(!CN_ASSERT(::SetupComm(hComm_, 4096, 4096)))//! ÅäÖÃ¶Ë¿Ú·¢ËÍ½ÓÊÕ¶ÓÁĞ´óĞ¡, ¶Á4096×Ö½Ú, Ğ´4096×Ö½Ú, ×èÈûI/OÄ£Ê½·¢ËÍ¶ÓÁĞÎŞÒâÒå
+			if(!CN_ASSERT(::SetupComm(hComm_, 4096, 4096)))//! é…ç½®ç«¯å£å‘é€æ¥æ”¶é˜Ÿåˆ—å¤§å°, è¯»4096å­—èŠ‚, å†™4096å­—èŠ‚, é˜»å¡I/Oæ¨¡å¼å‘é€é˜Ÿåˆ—æ— æ„ä¹‰
 			return false; 
 		#endif
 		
 		if(!CN_ASSERT(::GetCommTimeouts(hComm_, &CO_)))
 			return false;
 
-		CO_.ReadIntervalTimeout			= 100;//! ÅäÖÃ³¬Ê±½á¹¹ ×Ö·û×îĞ¡¼ä¸ô100ms
+		CO_.ReadIntervalTimeout			= 100;//! é…ç½®è¶…æ—¶ç»“æ„ å­—ç¬¦æœ€å°é—´éš”100ms
 		CO_.ReadTotalTimeoutMultiplier	= 0;
-		CO_.ReadTotalTimeoutConstant	= IsOverlappedMode() ? 500 : 250;//! ¶Á³¬Ê± ÖØµşI/OÄ£Ê½ÏÂ500ºÁÃë ×èÈûI/OÄ£Ê½ÏÂ250ºÁÃë
+		CO_.ReadTotalTimeoutConstant	= IsOverlappedMode() ? 500 : 250;//! è¯»è¶…æ—¶ é‡å I/Oæ¨¡å¼ä¸‹500æ¯«ç§’ é˜»å¡I/Oæ¨¡å¼ä¸‹250æ¯«ç§’
 		CO_.WriteTotalTimeoutMultiplier = IsOverlappedMode() ? 1 : 0;
-		CO_.WriteTotalTimeoutConstant	= IsOverlappedMode() ? 10000 : 250;//! Ğ´³¬Ê± ÖØµşI/OÄ£Ê½ÏÂ(10000+1¡Á×Ö½ÚÊı)ºÁÃë ×èÈûI/OÄ£Ê½ÏÂ250ºÁÃë
+		CO_.WriteTotalTimeoutConstant	= IsOverlappedMode() ? 10000 : 250;//! å†™è¶…æ—¶ é‡å I/Oæ¨¡å¼ä¸‹(10000+1Ã—å­—èŠ‚æ•°)æ¯«ç§’ é˜»å¡I/Oæ¨¡å¼ä¸‹250æ¯«ç§’
 
 		if(!CN_ASSERT(::SetCommTimeouts(hComm_, &CO_)))
 			return false; 
 		
-		if(!CN_ASSERT(::PurgeComm(hComm_, PURGE_TXABORT | PURGE_RXABORT | PURGE_TXCLEAR | PURGE_RXCLEAR )))//! Çå³ı¶Ë¿Ú
+		if(!CN_ASSERT(::PurgeComm(hComm_, PURGE_TXABORT | PURGE_RXABORT | PURGE_TXCLEAR | PURGE_RXCLEAR )))//! æ¸…é™¤ç«¯å£
 			return false; 
 		
 		return true;
 	} 
-	//! ½«¶Ë¿ÚÊı¾İ¶ÁÈë»º³åÇøµÄ
+	//! å°†ç«¯å£æ•°æ®è¯»å…¥ç¼“å†²åŒºçš„
 	DWORD PortToBuffer(DWORD dwPortByteNum)
 	{
 		BlockBuffer::InnerLock locker(&I_);
 		return dwPortByteNum ? I_.Release(ReadPort(I_.GetFreePtr(dwPortByteNum), dwPortByteNum)) : 0;
 	}
-	//! ½«»º³åÇøµÄÊı¾İĞ´Èë¶Ë¿Ú 
+	//! å°†ç¼“å†²åŒºçš„æ•°æ®å†™å…¥ç«¯å£ 
 	DWORD BufferToPort(DWORD dwMaxSize = 1024)
 	{
 		if (IsOverlappedMode())
@@ -1764,11 +1764,11 @@ protected:
 			return dwLength;
 		}
 	}
-	/*! \param uMsg ÏûÏ¢ \param lParam ²ÎÊı \param bPostMode ²ÉÓÃPostMessage»òÕßSendMessage·¢ËÍÏûÏ¢*/
-	//! µ±´°¿Ú¾ä±ú»òÏß³ÌIDÓĞĞ§, ËÍ³öÏûÏ¢, ÓÃÓÚÏàÓ¦ÊÂ¼şÍ¨Öª, WPARAMÄ¬ÈÏ°üº¬´®¿Ú±àºÅ 
+	/*! \param uMsg æ¶ˆæ¯ \param lParam å‚æ•° \param bPostMode é‡‡ç”¨PostMessageæˆ–è€…SendMessageå‘é€æ¶ˆæ¯*/
+	//! å½“çª—å£å¥æŸ„æˆ–çº¿ç¨‹IDæœ‰æ•ˆ, é€å‡ºæ¶ˆæ¯, ç”¨äºç›¸åº”äº‹ä»¶é€šçŸ¥, WPARAMé»˜è®¤åŒ…å«ä¸²å£ç¼–å· 
 	virtual void Notify(UINT uMsg, LPARAM lParam = 0, bool bPostMode = true)
 	{
-		if(hNotifyWnd_ && ::IsWindow(hNotifyWnd_))//´°¿Ú¾ä±úÓĞĞ§
+		if(hNotifyWnd_ && ::IsWindow(hNotifyWnd_))//çª—å£å¥æŸ„æœ‰æ•ˆ
 		{
 			if (bPostMode)
 				PostMessage(hNotifyWnd_, uMsg, WPARAM(dwPort_), lParam);
@@ -1776,82 +1776,82 @@ protected:
 				SendMessage(hNotifyWnd_, uMsg, WPARAM(dwPort_), lParam);
 		}
 
-		if (hNotifyThreadId_)//Ïß³ÌIDÓĞĞ§
+		if (hNotifyThreadId_)//çº¿ç¨‹IDæœ‰æ•ˆ
 			PostThreadMessage(hNotifyThreadId_, uMsg, WPARAM(dwPort_), lParam);
 	}
 	//---------------------------------------threads callback-----------------------------------------------------
-	//! ÏìÓ¦EV_RXCHARÊÂ¼ş ÓÉÏß³Ì»Øµ÷, Ğéº¯Êı¿ÉÒÔÔÚ»ù²ãÀàÖĞÀ©Õ¹(ÍÆ¼ö·½Ê½)    
+	//! å“åº”EV_RXCHARäº‹ä»¶ ç”±çº¿ç¨‹å›è°ƒ, è™šå‡½æ•°å¯ä»¥åœ¨åŸºå±‚ç±»ä¸­æ‰©å±•(æ¨èæ–¹å¼)    
 	virtual void OnReceive() 
 	{
 		Notify(ON_COM_RECEIVE);
 	}
-	//! ÏìÓ¦EV_DSRÊÂ¼ş
+	//! å“åº”EV_DSRäº‹ä»¶
 	virtual void OnDSR()
 	{
 		Notify(ON_COM_DSR, CheckDSR() ? 1 : 0);
 	}
-	//! ÏìÓ¦EV_CTSÊÂ¼ş
+	//! å“åº”EV_CTSäº‹ä»¶
 	virtual void OnCTS()
 	{
 		Notify(ON_COM_CTS, CheckCTS() ? 1 : 0);
 	}
-	//! ÏìÓ¦EV_BREAKÊÂ¼ş
+	//! å“åº”EV_BREAKäº‹ä»¶
 	virtual void OnBreak()
 	{
 		ClearCommBreak(hComm_);
 		Notify(ON_COM_BREAK);
 	}
-	//! ÏìÓ¦EV_TXEMPTYÊÂ¼ş
+	//! å“åº”EV_TXEMPTYäº‹ä»¶
 	virtual void OnTxEmpty()
 	{
 		Notify(ON_COM_TXEMPTY);
 	}
-	//! ÏìÓ¦EV_ERRORÊÂ¼ş
+	//! å“åº”EV_ERRORäº‹ä»¶
 	virtual void OnError()
 	{
 		Notify(ON_COM_ERROR, ClearError());
 	}
-	//! ÏìÓ¦EV_RINGÊÂ¼ş
+	//! å“åº”EV_RINGäº‹ä»¶
 	virtual void OnRing()
 	{
 		Notify(ON_COM_RING, CheckRING() ? 1 : 0);
 	}
-	//! ÏìÓ¦EV_RLSDÊÂ¼ş
+	//! å“åº”EV_RLSDäº‹ä»¶
 	virtual void OnRLSD()
 	{
 		Notify(MS_RLSD_ON, CheckRLSD() ? 1 : 0);
 	}
-	//! ÏìÓ¦EV_RXFLAGÊÂ¼ş
+	//! å“åº”EV_RXFLAGäº‹ä»¶
 	virtual void OnRxFlag()
 	{
 		Notify(ON_COM_RXFLAG);
 	}
-	//! ÏìÓ¦EV_POWERÊÂ¼ş
+	//! å“åº”EV_POWERäº‹ä»¶
 	virtual void OnPower()
 	{
 		Notify(ON_COM_POWER);
 	}
-	//! ÏìÓ¦EV_RX80FULLÊÂ¼ş
+	//! å“åº”EV_RX80FULLäº‹ä»¶
 	virtual void OnRx80Full()
 	{
 		Notify(ON_COM_RX80FULL);
 	}
-	//! ÏìÓ¦EV_EVENT1ÊÂ¼ş
+	//! å“åº”EV_EVENT1äº‹ä»¶
 	virtual void OnEvent1()
 	{
 		Notify(ON_COM_EVENT1);
 	}
-	//! ÏìÓ¦EV_EVENT2ÊÂ¼ş
+	//! å“åº”EV_EVENT2äº‹ä»¶
 	virtual void OnEvent2()
 	{
 		Notify(ON_COM_EVENT2);
 	}
-	//! ÏìÓ¦EV_PERRÊÂ¼ş
+	//! å“åº”EV_PERRäº‹ä»¶
 	virtual void OnPrintErr()
 	{
 		Notify(ON_COM_PERR);
 	}
-	//! Í¨ÓÃµÄÊÂ¼ş´¦Àí
+	//! é€šç”¨çš„äº‹ä»¶å¤„ç†
 	virtual void HandleEvent(DWORD dwMask)
 	{
 		if ((dwMask & EV_RXCHAR) && !(dwOption_&EN_RX_THREAD))
@@ -1862,7 +1862,7 @@ protected:
 			{
 				if (dwOption_ & EN_RX_BUFFER)
 				{
-					PortToBuffer((dwLength << 1) + 64);//¶à³öµÄ×Ö½ÚÊı ÓÃÀ´±ÜÃâÊÂ¼ş¼äÏ¶µÄÏİÚå
+					PortToBuffer((dwLength << 1) + 64);//å¤šå‡ºçš„å­—èŠ‚æ•° ç”¨æ¥é¿å…äº‹ä»¶é—´éš™çš„é™·é˜±
 
 					if (I_.Size() >= dwNotifyNum_)
 						OnReceive();
@@ -1911,7 +1911,7 @@ protected:
 	}
 	
 #ifndef CN_COMM_FOR_CE
-	//! ¼àÊÓÏß³ÌÓÃÓÚÖØµşI/OÄ£ĞÍ 
+	//! ç›‘è§†çº¿ç¨‹ç”¨äºé‡å I/Oæ¨¡å‹ 
 	virtual DWORD OverlappedModel()
 	{
 		if(!CN_ASSERT(IsOpen()))
@@ -1922,7 +1922,7 @@ protected:
 
 		for(DWORD dwMask = 0, dwLength; bContinue_ && IsOpen(); dwMask = 0)
 		{
-			if (GetQueueCount(true))//! µÈ´ıÊÂ¼şÇ°»áÏÈÉ¨Ãè¶ÓÁĞÊÇ·ñ»¹ÓĞÎ´´¦ÀíÊı¾İ Èç¹ûÓĞÄ£ÄâÒ»¸öEV_RXCHARÊÂ¼ş ±ÜÃâÊÂ¼şÍ¨ÖªµÄÏİÚå
+			if (GetQueueCount(true))//! ç­‰å¾…äº‹ä»¶å‰ä¼šå…ˆæ‰«æé˜Ÿåˆ—æ˜¯å¦è¿˜æœ‰æœªå¤„ç†æ•°æ® å¦‚æœæœ‰æ¨¡æ‹Ÿä¸€ä¸ªEV_RXCHARäº‹ä»¶ é¿å…äº‹ä»¶é€šçŸ¥çš„é™·é˜±
 				dwMask = EV_RXCHAR, Sleep(10);
 			else
 			{
@@ -1952,7 +1952,7 @@ protected:
 		return 0;
 	}
 #endif
-	//! ¼àÊÓÏß³ÌÓÃÓÚ×èÈûI/OÄ£ĞÍ 
+	//! ç›‘è§†çº¿ç¨‹ç”¨äºé˜»å¡I/Oæ¨¡å‹ 
 	virtual DWORD NonoverlappedModel()
 	{
 		if(!CN_ASSERT(IsOpen()))
@@ -2005,7 +2005,7 @@ protected:
 		return 0;
 	}
 #ifdef CN_COMM_FOR_CE
-	//! ¼àÊÓÏß³ÌÓÃÓÚWINCEµÄI/OÄ£ĞÍ(ÖØµş+×èÈû Ò²²»ÖªÎ¢Èí°ÑËü½ĞÊ²Ã´Ä£Ê½)
+	//! ç›‘è§†çº¿ç¨‹ç”¨äºWINCEçš„I/Oæ¨¡å‹(é‡å +é˜»å¡ ä¹Ÿä¸çŸ¥å¾®è½¯æŠŠå®ƒå«ä»€ä¹ˆæ¨¡å¼)
 	virtual DWORD EmbeddedModel()
 	{
 		if(!CN_ASSERT(IsOpen()))
@@ -2016,7 +2016,7 @@ protected:
 
 		for(DWORD dwMask = 0; bContinue_ && IsOpen(); dwMask = 0)
 		{
-			if (GetQueueCount(true))//! µÈ´ıÊÂ¼şÇ°»áÏÈÉ¨Ãè¶ÓÁĞÊÇ·ñ»¹ÓĞÎ´´¦ÀíÊı¾İ Èç¹ûÓĞÄ£ÄâÒ»¸öEV_RXCHARÊÂ¼ş ±ÜÃâÊÂ¼şÍ¨ÖªµÄÏİÚå
+			if (GetQueueCount(true))//! ç­‰å¾…äº‹ä»¶å‰ä¼šå…ˆæ‰«æé˜Ÿåˆ—æ˜¯å¦è¿˜æœ‰æœªå¤„ç†æ•°æ® å¦‚æœæœ‰æ¨¡æ‹Ÿä¸€ä¸ªEV_RXCHARäº‹ä»¶ é¿å…äº‹ä»¶é€šçŸ¥çš„é™·é˜±
 				dwMask = EV_RXCHAR, Sleep(10);
 			else
 			{
@@ -2039,7 +2039,7 @@ protected:
 		return 0;
 	}
 #endif
-	//! ÓÃÓÚË«¹¤´¦Àíµ±È»Äú¿ÉÒÔ¸Ä±äÓÃÍ¾ 
+	//! ç”¨äºåŒå·¥å¤„ç†å½“ç„¶æ‚¨å¯ä»¥æ”¹å˜ç”¨é€” 
 	virtual DWORD ReadModel()
 	{
 		while(bContinue_)
@@ -2067,7 +2067,7 @@ protected:
 
 		return 0;
 	}
-	//! ÓÃÓÚË«¹¤´¦Àíµ±È»Äú¿ÉÒÔ¸Ä±äÓÃÍ¾ 
+	//! ç”¨äºåŒå·¥å¤„ç†å½“ç„¶æ‚¨å¯ä»¥æ”¹å˜ç”¨é€” 
 	virtual DWORD WriteModel()
 	{
 		CN_ASSERT(dwOption_ & EN_TX_BUFFER);
@@ -2087,16 +2087,16 @@ protected:
 	}
 	
 private:  
-	//! ½ûÖ¹¿½±´¹¹Ôì
+	//! ç¦æ­¢æ‹·è´æ„é€ 
 	CnComm(const CnComm&);
-	//! ½ûÖ¹¸³Öµº¯Êı
+	//! ç¦æ­¢èµ‹å€¼å‡½æ•°
 	CnComm &operator = (const CnComm&);
 
 #if defined(_MT) && !defined(CN_COMM_FOR_CE)
-	//! ¼àÊÓÏß³Ì Watch Thread Íê³É¼àÊÓ ²¢¸ù¾İÅäÖÃ¾ö¶¨ÊÇ·ñÍê³É¶ÁĞ´
+	//! ç›‘è§†çº¿ç¨‹ Watch Thread å®Œæˆç›‘è§† å¹¶æ ¹æ®é…ç½®å†³å®šæ˜¯å¦å®Œæˆè¯»å†™
 	static UINT APIENTRY WatchThreadProc(LPVOID lpPara)
 #else
-	//! ¼àÊÓÏß³Ì Watch Thread Íê³É¼àÊÓ ²¢¸ù¾İÅäÖÃ¾ö¶¨ÊÇ·ñÍê³É¶ÁĞ´
+	//! ç›‘è§†çº¿ç¨‹ Watch Thread å®Œæˆç›‘è§† å¹¶æ ¹æ®é…ç½®å†³å®šæ˜¯å¦å®Œæˆè¯»å†™
 	static DWORD WINAPI WatchThreadProc(LPVOID lpPara)
 #endif
 	{
@@ -2116,10 +2116,10 @@ private:
 	}
 
 #if defined(_MT) && !defined(CN_COMM_FOR_CE)
-	//! Ë«¹¤µÄÏß³Ì ÔİÊ±Î´ÓÃ ¹À¼ÆÓÃ²»×Å
+	//! åŒå·¥çš„çº¿ç¨‹ æš‚æ—¶æœªç”¨ ä¼°è®¡ç”¨ä¸ç€
 	static UINT APIENTRY ReadThreadProc(LPVOID lpPara)
 #else
-	//! Ë«¹¤µÄÏß³Ì ÔİÊ±Î´ÓÃ ¹À¼ÆÓÃ²»×Å
+	//! åŒå·¥çš„çº¿ç¨‹ æš‚æ—¶æœªç”¨ ä¼°è®¡ç”¨ä¸ç€
 	static DWORD WINAPI ReadThreadProc(LPVOID lpPara)
 #endif
 	{
@@ -2133,10 +2133,10 @@ private:
 	}
 
 #if defined(_MT) && !defined(CN_COMM_FOR_CE)
-	//! Ë«¹¤µÄÏß³Ì WINCE¿ÉÒÔ²ÉÓÃ
+	//! åŒå·¥çš„çº¿ç¨‹ WINCEå¯ä»¥é‡‡ç”¨
 	static UINT APIENTRY WriteThreadProc(LPVOID lpPara)
 #else 
-	//! Ë«¹¤µÄÏß³Ì WINCE¿ÉÒÔ²ÉÓÃ
+	//! åŒå·¥çš„çº¿ç¨‹ WINCEå¯ä»¥é‡‡ç”¨
 	static DWORD WINAPI WriteThreadProc(LPVOID lpPara)
 #endif
 	{

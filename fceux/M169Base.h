@@ -8,7 +8,7 @@ public:
 	virtual void PPUhook(WORD scanline, WORD addr) {
 		if ((addr & 0xF000) == 0x2000) {
 			reg[4] = (addr >> 8) & 0x03;
-			PEC586Hack = cmd_4800_8 && !cmd_5500_8;//ppu.cppµÄ¿ª¹Ø,½â¾öÍ¼ÏñÎÊÌâ
+			PEC586Hack = cmd_4800_8 && !cmd_5500_8;//ppu.cppçš„å¼€å…³,è§£å†³å›¾åƒé—®é¢˜
 			if (cmd_4800_8 && cmd_5500_8) {
 				SetVRam8K((reg[4] << 2) + (reg[3] & 0x03));
 				SetVRam4K(0, reg[3] << 1);
@@ -38,7 +38,7 @@ public:
 		SetReadHandler(0x6000, 0xFFFF, CartBR);
 
 		SetWriteHandler(0x4016, 0x4017, Write);
-		SetReadHandler(0x4016, 0x4017, Read);//ÉñÆæ»­°åÕâ¼ú»õÒªÁ½¸ö¶Ë¿ÚÍ¬Ê±¿ªÆô²ÅÄÜ¼ì²âµ½Êó±ê
+		SetReadHandler(0x4016, 0x4017, Read);//ç¥å¥‡ç”»æ¿è¿™è´±è´§è¦ä¸¤ä¸ªç«¯å£åŒæ—¶å¼€å¯æ‰èƒ½æ£€æµ‹åˆ°é¼ æ ‡
 		SetReadHandler(0x4207, 0x4207, Read);
 
 		SetReadHandler(0x4304, 0x4305, Read);
