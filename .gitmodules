@@ -1,0 +1,3 @@
+[submodule "fceux230"]
+	path = fceux230
+	url = https://github.com/TASEmulators/fceux
