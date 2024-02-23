@@ -27,6 +27,15 @@ Kewang SC-3000 Video-CD computer is basically a Bang Doctor PC Jr. built-in Vide
 ### For YuXing
 Drag one of the YuXing BIOS ``Yuxing_*.nes`` into FCEUX window, and then drag a disk image,  e.g. ``YuXing_WPS.img`` into FCEUX window. load the disk content using "Fast Disk Load" ("快速调盘" in Chinese) menu option to load software on diskette.
 
+### For Bridge sound-picture cassette system
+The "Bridge" sound-picture cassette system used to provide audio synchronized slide show with cassette player and Famiclones, it implements Chinese patent [CN2096098U](https://patents.google.com/patent/CN2096098U/en) and [CN1063867C](https://patents.google.com/patent/CN1063867C/en). The left channel used for audio, and right channel used for graphic data.
+
+"Bridge" sound-picture system was sold as dedicated cartidge with line-in cable connected to cassette player, as well as built in function for Batong BT-686.
+
+You can download two sample MP3 files dubbed from Bridge cassettes here: https://9game.oss-us-west-1.aliyuncs.com/bridge-picture-cassette.zip
+
+To emulate it, Drag the ``Bridge_tape.nes`` into FCEUX window, then drag one MP3 file into FCEUX window, waiting for the audio play, and the slides will load and play automatically.
+
 **Note: the BBK and Yuxing software is incompatible to each other**
 
 You might also check the [Chinese Famiclone Home Computer](https://archive.org/details/ChineseFamicloneHomeComputer) bundle on Internet Archive for more software.
