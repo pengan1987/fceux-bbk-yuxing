@@ -21,8 +21,8 @@ https://9game.oss-us-west-1.aliyuncs.com/FCEUXStarterKit.zip
 ### For BBK/BBG
 Drag the BIOS file ``bbk_bios10.rom`` into FCEUX window, and then drag a disk image, e.g. ``001.img`` into FCEUX window. You might need press any key to continue if it paused for waiting a bootable BBGDOS disk image.
 
-### For Kewang / Bang Doctor PC Jr.
-Kewang SC-3000 Video-CD computer is basically a Bang Doctor PC Jr. built-in Video-CD player, it runs SMDOS and also have some compatibility to BBK, for example, BBGDOS can boot on Kewang. To emulate a Kewang SC-3000, drag the ``Kewang_SC3000.nes`` into FCEUX window, and then drag a disk image e.g. ``1.img`` into FCEUX window.
+### For Kewang / Bung Doctor PC Jr.
+Kewang SC-3000 Video-CD computer is basically a Bung Doctor PC Jr. built-in Video-CD player, it runs SMDOS and also have some compatibility to BBK, for example, BBGDOS can boot on Kewang. To emulate a Kewang SC-3000, drag the ``Kewang_SC3000.nes`` into FCEUX window, and then drag a disk image e.g. ``1.img`` into FCEUX window.
 
 ### For YuXing
 Drag one of the YuXing BIOS ``Yuxing_*.nes`` into FCEUX window, and then drag a disk image,  e.g. ``YuXing_WPS.img`` into FCEUX window. load the disk content using "Fast Disk Load" ("快速调盘" in Chinese) menu option to load software on diskette.
